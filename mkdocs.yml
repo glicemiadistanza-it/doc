@@ -1,0 +1,80 @@
+site_name: Diabete, glicemia a distanza e nuove tecnologie
+site_url: https://www.glicemiadistanza.it/
+site_description: Documentazione italiana per il gruppo Facebook Glicemiadistanza
+site_author: Glicemiadistanza Admins
+repo_url: https://github.com/psonnera/glicemiadistanza
+repo_name: psonnera/glicemiadistanza
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: it
+  logo: images/logo.svg
+  favicon: images/favicon.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Passa alla modalità scura
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Passa alla modalità chiara
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/flash-theme.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/nightscout
+      name: Gruppo Facebook Glicemiadistanza
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - meta
+  - tables
+  - toc:
+      permalink: true
+      title: In questa pagina
+
+nav:
+  - Home: index.md
+  - Chi Siamo: chi-siamo.md
+  - Articoli:
+      - "L'evoluzione della terapia insulinica con microinfusore": levoluzione-della-terapia-insulinica-con-microinfusore.md
+      - "La scelta del microinfusore": la-scelta-del-microinfusore.md
+  - Dexcom:
+      - "Condividere le letture con xDrip4iOS": documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah.md
+
+plugins:
+  - search:
+      lang: it

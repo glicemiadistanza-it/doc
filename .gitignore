@@ -1,13 +1,3 @@
-# VitePress build output and dependencies
 node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
-
-# MkDocs build output (legacy — kept for reference)
-site/
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-/vendor
-Gemfile.lock

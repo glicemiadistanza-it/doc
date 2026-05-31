@@ -1,12 +1,12 @@
-#Diabete, glicemia a distanza e nuove tecnologie
+# Diabete, glicemia a distanza e nuove tecnologie
 <div class="flash-image-left">
-  <img src="images/glicemiadistanza_260x260.png" alt="Descrizione immagine">
+  <img src="/images/glicemiadistanza_260x260.png" alt="Descrizione immagine">
     <div class="flash-image-text">
     WeAreNotWaiting
-    </br></br></br>
+    <br><br><br>
     <div class="flash-right">
-    </br></br></br></br>
-    Gruppo Facebook:</br> Diabete, glicemia a distanza e nuove tecnologie</div>
+    <br><br><br><br>
+    Gruppo Facebook:<br> Diabete, glicemia a distanza e nuove tecnologie</div>
   </div>
 </div>
 

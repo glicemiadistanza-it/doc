@@ -44,11 +44,11 @@ Parla con il tuo medico e, prima di fare una scelta definitiva, valuta un period
 
 Le foto sono estratte dal documento: **“Dall’automonitoraggio ai sistemi ibridi” – Daniela Bruttomesso, Azienda Ospedale Università di Padova**
 
-</br>
+
 ![](images/sceltamicro1.png)
-</br>
+
 ![](images/sceltamicro2.png)
-</br>
+
 ![](images/sceltamicro3.png)
-</br>
+
 ![](images/sceltamicro4.png)

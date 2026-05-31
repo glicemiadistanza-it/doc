@@ -1,4 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy VitePress to GitHub Pages
 
 on:
   push:
@@ -16,13 +16,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.x'
+          node-version: '20'
+          cache: npm
 
       - name: Install dependencies
-        run: |
-          pip install mkdocs-material
+        run: npm ci
 
-      - name: Deploy
-        run: mkdocs gh-deploy --force
+      - name: Build
+        run: npm run docs:build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+          cname: www.glicemiadistanza.it

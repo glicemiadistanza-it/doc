@@ -1,0 +1,182 @@
+/* ============================================================
+   Flash Theme for VitePress
+   Colori ispirati al sito glicemiadistanza.it / FreeStyle Libre
+   ============================================================ */
+
+/* --- Palette Flash --- */
+:root {
+  --flash-primary:  #772400;
+  --flash-orange:   #d96004;
+  --flash-amber:    #e8b24d;
+  --flash-cream:    #fcf4e8;
+  --flash-accent:   #FFB300;
+  --flash-white:    #FFFFFF;
+  --flash-grey:     #E0E0E0;
+  --flash-text:     #212121;
+}
+
+/* --- VitePress brand — light mode --- */
+:root {
+  --vp-c-brand-1:    #772400;
+  --vp-c-brand-2:    #a83200;
+  --vp-c-brand-3:    #d96004;
+  --vp-c-brand-soft: rgba(119, 36, 0, 0.10);
+  --vp-nav-bg-color: var(--flash-orange);
+}
+
+/* --- VitePress brand — dark mode --- */
+.dark {
+  --vp-c-brand-1:    #e8b24d;
+  --vp-c-brand-2:    #d96004;
+  --vp-c-brand-3:    #c05000;
+  --vp-c-brand-soft: rgba(232, 178, 77, 0.14);
+}
+
+/* ---- Navigation bar ---- */
+.VPNavBar,
+.VPNavBar .content-body,
+.VPNavBar .curtain {
+  background-color: var(--flash-orange) !important;
+  border-bottom-color: var(--flash-primary) !important;
+}
+
+.VPNavBarTitle .title {
+  color: var(--flash-white) !important;
+  font-weight: 700;
+}
+
+/* Invert the logo SVG to white on the orange background */
+.VPNavBarTitle .logo {
+  filter: brightness(0) invert(1);
+}
+
+.VPNavBarMenu .VPNavBarMenuLink,
+.VPNavBarMenuGroup .text {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink:hover,
+.VPNavBarMenu .VPNavBarMenuLink.active,
+.VPNavBarMenuGroup:hover .text {
+  color: var(--flash-accent) !important;
+}
+
+/* Hamburger icon on mobile */
+.VPNavBarHamburger .top,
+.VPNavBarHamburger .middle,
+.VPNavBarHamburger .bottom {
+  background-color: var(--flash-white) !important;
+}
+
+/* Social / extra icons in nav */
+.VPNavBarExtra .icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ---- Sidebar ---- */
+.VPSidebarItem.is-active > .item .link .text {
+  color: var(--flash-primary) !important;
+  font-weight: 600;
+}
+
+.VPSidebarItem .link:hover .text {
+  color: var(--flash-orange) !important;
+}
+
+/* ---- Local search highlight ---- */
+.VPLocalSearchBox mark {
+  color: var(--flash-primary) !important;
+  background-color: var(--flash-cream);
+}
+
+/* ---- Tables ---- */
+.vp-doc table th {
+  background-color: var(--flash-primary);
+  color: var(--flash-white);
+}
+
+.vp-doc table tr:hover {
+  background-color: var(--flash-cream);
+}
+
+/* ---- Code blocks ---- */
+.vp-doc div[class*='language-'] {
+  border-left: 3px solid var(--flash-amber);
+}
+
+/* ---- Custom block (tip / info) ---- */
+.vp-doc .custom-block.tip {
+  border-color: var(--flash-amber);
+}
+
+.vp-doc .custom-block.tip .custom-block-title {
+  color: var(--flash-primary);
+}
+
+/* ---- Footer ---- */
+.VPFooter {
+  background-color: var(--flash-orange) !important;
+  border-top-color: var(--flash-primary) !important;
+}
+
+.VPFooter .message,
+.VPFooter .copyright {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* ---- H1 breathing room ---- */
+.vp-doc h1 {
+  margin-bottom: 1.25rem;
+}
+
+/* ---- Component: flash-image-left (home page hero layout) ---- */
+.flash-image-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.flash-image-left img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.flash-image-left .flash-image-text {
+  flex: 1;
+  min-width: 240px;
+}
+
+.flash-image-left .flash-image-text .flash-right {
+  text-align: right;
+  display: block;
+}
+
+/* ---- Component: flash-card ---- */
+.flash-card {
+  border: 1px solid var(--flash-grey);
+  border-left: 4px solid var(--flash-primary);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: var(--flash-cream);
+}
+
+.flash-card h3 {
+  color: var(--flash-orange);
+  margin-top: 0;
+}
+
+/* ---- Scrollbar (Webkit) ---- */
+::-webkit-scrollbar-thumb {
+  background-color: var(--flash-amber);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--flash-primary);
+}

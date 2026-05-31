@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'it',
   title: 'Glicemiadistanza',
   description: 'Documentazione italiana per il gruppo Facebook Glicemiadistanza',
-  base: '/',
+  base: '/doc/',
   cleanUrls: true,
 
   head: [

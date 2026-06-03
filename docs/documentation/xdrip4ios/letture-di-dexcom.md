@@ -1,0 +1,83 @@
+# Dex G7/ONE+/Stelo con [xDrip4iOS](https://www.facebook.com/groups/853994615056838/)
+
+Una soluzione fai-da-te per visualizzare la glicemia su Apple Watch con il calendario o una complicazione.
+
+**Il sensore deve essere stato avviato con l’app Dexcom.** Assicurati che funzioni correttamente prima di andare avanti.
+
+## Installa xDrip4iOS
+
+Vedi come fare [qua](./installare-xdrip4ios), e torna in questa guida dopo.
+
+
+## Disabilita l'app Dex
+
+Per evitare problemi con l'app master che "ruba" la connessione Bluetooth da xDrip4iOS, dobbiamo assicurarci che abbia le autorizzazioni Bluetooth disabilitate.
+
+Vai alle Impostazioni del tuo iPhone e scorri verso il basso e cerca l’elenco delle applicazioni. Seleziona l'app Dex e, nelle opzioni, disattiva il Bluetooth. Potrai riattivarlo in seguito, se lo desideri.
+
+![image_025](images/image_025.png)
+
+<a id="abbinare-il-trasmettitore"></a>
+## Abbina il trasmettitore
+
+Accedi alla scheda Bluetooth dell’app xDrip4iOS e fai clic sul pulsante + per aggiungere un nuovo tipo di dispositivo.
+
+![image_011](images/image_011.png)
+
+Seleziona CGM e poi scegli il tuo sistema Dex (G7/ONE+/Stelo) dall'elenco.
+
+![image_001](images/image_001.png)
+
+![Dex G7](images/dex01.png)
+
+Ti verrà richiesto di inserire l'ID del trasmettitore (ad esempio: 80H9W4), inserisci il tuo.
+
+![image_035](images/image_035.png)
+
+Una volta inserito l'ID del trasmettitore, verrà visualizzato un messaggio che ti chiede di mantenere aperto xDrip4iOS mentre viene trovato il trasmettitore e viene stabilita una connessione Bluetooth. Lascia il tuo iPhone sul tavolo e prendi un caffè. NON giocare a Roblox, guardare Netflix o ascoltare Spotify. Metti giù il telefono senza toccarlo e restagli vicino.
+
+![image_027](images/image_027.png)
+
+![image_018](images/image_018.png)
+
+Quando xDrip4iOS trova il tuo trasmettitore, riceverai un messaggio che dice che è stato collegato correttamente. Fai clic su OK.
+
+Una volta connesso, vedrai sempre il suo stato come Scansione poiché comunica solo per un breve periodo di tempo ogni 5 minuti.
+
+![image_005](images/image_005.png)
+
+</br>
+
+Adesso che xDrip4iOS è collegato, puoi anche riabilitare il Bluetooth dell'app Dex.
+
+</br>
+
+## Aiuto non lo trova!
+
+Prima di tutto, verifica che hai disabilitato il Bluetooth dell'app Dex. Se non è disabilitato, xDrip4iOS non troverà mai il dispositivo...
+
+Se xDrip4iOS non trova alcun dispositivo puoi inserirlo manualmente. E generalmente non necessario.
+
+Via nella lista dei dispositivi Bluetooth del tuo iPhone e cerca quello chiamato DXCM...
+
+**Non provare ad abbinarlo in questa schermata**: serve solo il suo nome.
+
+![Dex G7](images/dex02.png)
+
+In xDrip4iOS, tocca la riga Transmitter ID e metti lo stesso nome (attenzione alle minuscole e maiuscole!).
+
+![Dex G7](images/dex03.png)
+
+</br>
+
+Per condividere la glicemia con altri telefoni e utilizzare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear) serve Nightscout [https://www.glicemiadistanza.it/nightscout/](https://www.glicemiadistanza.it/nightscout/) o Gluroo [https://www.glicemiadistanza.it/gluroo/](https://www.glicemiadistanza.it/gluroo/)
+
+</br>
+
+La documentazione originale (link con traduttore automatico): [https://xdrip4ios-readthedocs-io.translate.goog/en/latest/connect/cgm/?_x_tr_sl=auto&_x_tr_tl=it](https://xdrip4ios-readthedocs-io.translate.goog/en/latest/connect/cgm/?_x_tr_sl=auto&_x_tr_tl=it)
+
+![image_041](images/image_041.png)
+
+**L'utilizzo è soggetto all'assunzione di esclusiva responsabilità personale.**
+
+Contatti [Diabete, glicemia a distanza e nuove tecnologie](https://www.facebook.com/groups/nightscout)

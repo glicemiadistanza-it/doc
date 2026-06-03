@@ -1,5 +1,25 @@
 import { defineConfig } from 'vitepress'
 
+// ── Add pages here ──────────────────────────────────────────────────────────
+const articoli = [
+  {
+    text: "L'evoluzione della terapia insulinica con microinfusore",
+    link: '/levoluzione-della-terapia-insulinica-con-microinfusore',
+  },
+  {
+    text: 'La scelta del microinfusore',
+    link: '/la-scelta-del-microinfusore',
+  },
+]
+
+const dexcom = [
+  {
+    text: 'Condividere le letture con xDrip4iOS',
+    link: '/documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah',
+  },
+]
+// ────────────────────────────────────────────────────────────────────────────
+
 export default defineConfig({
   lang: 'it',
   title: 'Glicemiadistanza',
@@ -8,80 +28,20 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/images/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/doc/images/favicon.svg', type: 'image/svg+xml' }],
   ],
 
   themeConfig: {
     logo: '/images/logo.svg',
     siteTitle: 'Glicemiadistanza',
 
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Chi Siamo', link: '/chi-siamo' },
-      {
-        text: 'Articoli',
-        items: [
-          {
-            text: "L'evoluzione della terapia insulinica con microinfusore",
-            link: '/levoluzione-della-terapia-insulinica-con-microinfusore',
-          },
-          {
-            text: 'La scelta del microinfusore',
-            link: '/la-scelta-del-microinfusore',
-          },
-        ],
-      },
-      {
-        text: 'Dexcom',
-        items: [
-          {
-            text: 'Condividere le letture con xDrip4iOS',
-            link: '/documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah',
-          },
-        ],
-      },
+    sidebar: [
+      { text: 'Articoli', items: articoli },
+      { text: 'Dex', items: dexcom },
     ],
 
-    sidebar: {
-      '/documentation/': [
-        {
-          text: 'Dexcom',
-          items: [
-            {
-              text: 'Condividere le letture con xDrip4iOS',
-              link: '/documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah',
-            },
-          ],
-        },
-      ],
-      '/': [
-        {
-          text: 'Articoli',
-          items: [
-            {
-              text: "L'evoluzione della terapia insulinica con microinfusore",
-              link: '/levoluzione-della-terapia-insulinica-con-microinfusore',
-            },
-            {
-              text: 'La scelta del microinfusore',
-              link: '/la-scelta-del-microinfusore',
-            },
-          ],
-        },
-        {
-          text: 'Dexcom',
-          items: [
-            {
-              text: 'Condividere le letture con xDrip4iOS',
-              link: '/documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah',
-            },
-          ],
-        },
-      ],
-    },
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/psonnera/glicemiadistanza' },
+      { icon: 'github', link: 'https://github.com/glicemiadistanza-it/doc' },
       { icon: 'facebook', link: 'https://www.facebook.com/groups/nightscout' },
     ],
 
@@ -113,7 +73,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/psonnera/glicemiadistanza/edit/main/docs/:path',
+      pattern: 'https://github.com/glicemiadistanza-it/doc/edit/main/docs/:path',
       text: 'Modifica su GitHub',
     },
 
@@ -125,6 +85,11 @@ export default defineConfig({
     outline: {
       level: [2, 3],
       label: 'In questa pagina',
+    },
+
+    docFooter: {
+      prev: false,
+      next: false,
     },
 
     returnToTopLabel: 'Torna su',

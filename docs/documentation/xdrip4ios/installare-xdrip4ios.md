@@ -2,6 +2,8 @@
 
 </br></br>
 
+[Documentazione ufficiale](https://xdrip4ios-readthedocs-io.translate.goog/en/latest/?_x_tr_sl=auto&_x_tr_tl=it).
+
 # Installare xDrip4iOS
 
 xDrip4iOS è un app [open source](https://github.com/JohanDegraeve/xdripswift) della comunità #WeAreNotWaiting.
@@ -10,7 +12,7 @@ xDrip4iOS supporta:
 
 - FSL2/2+ collegamento diretto
 - Follower FSL 2/2+/3/3+ Link
-- Dex G7/ONE+/Stelo assieme all'app originale -> Segui [questa guida](letture-di-dexcom) dopo l'installazione.
+- Dex G7/ONE+/Stelo assieme all'app originale -> Segui [questa guida](letture-dexcom) dopo l'installazione.
 - Dex follower
 - Medtrum EasyView Follower
 
@@ -32,4 +34,4 @@ Gli aggiornamenti di Zukka richiedono diversi giorni dopo l'aggiornamento di xDr
 
 </br>
 
-Se vuoi utilizzare xDrip4iOS con un sistema Open Source AID come Loop o Trio, conviene costruire l'app seguendo [queste istruzioni](https://xdrip4ios.readthedocs.io/en/latest/install/build/).
+Se vuoi utilizzare xDrip4iOS con un sistema Open Source AID come Loop o Trio, conviene costruire l'app seguendo [queste istruzioni](https://xdrip4ios-readthedocs-io.translate.goog/en/latest/install/build/?_x_tr_sl=auto&_x_tr_tl=it).

@@ -12,10 +12,28 @@ const articoli = [
   },
 ]
 
-const dexcom = [
+const xdrip = [
   {
-    text: 'Condividere le letture con xDrip4iOS',
-    link: '/documentation/Condividere-le-letture-di-Dexcom-con-xDrip4iOS/condividere-le-letture-di-dexcom-one-g6-con-xdrip4ios-shuggah',
+    text: 'xDrip',
+    link: '/documentation/xdrip/',
+  },
+]
+
+const xdrip4ios = [
+  {
+    text: 'Installare xDrip4iOS',
+    link: '/documentation/xdrip4ios/installare-xdrip4ios',
+  },
+  {
+    text: 'xDrip4iOS con sensori Dex',
+    link: '/documentation/xdrip4ios/letture-dexcom',
+  },
+]
+
+const nightscout = [
+  {
+    text: 'Nightscout',
+    link: '/documentation/nightscout/',
   },
 ]
 // ────────────────────────────────────────────────────────────────────────────
@@ -37,7 +55,9 @@ export default defineConfig({
 
     sidebar: [
       { text: 'Articoli', items: articoli },
-      { text: 'Dex', items: dexcom },
+      { text: 'xDrip+', items: xdrip },
+      { text: 'xDrip4iOS', items: xdrip4ios },
+      { text: 'Nightscout', items: nightscout },
     ],
 
     socialLinks: [
@@ -85,11 +105,6 @@ export default defineConfig({
     outline: {
       level: [2, 3],
       label: 'In questa pagina',
-    },
-
-    docFooter: {
-      prev: false,
-      next: false,
     },
 
     returnToTopLabel: 'Torna su',

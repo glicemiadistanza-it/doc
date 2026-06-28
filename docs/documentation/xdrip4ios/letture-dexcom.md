@@ -2,18 +2,19 @@
 
 Una soluzione fai-da-te per visualizzare la glicemia su Apple Watch con il calendario o una complicazione.
 
-**Il sensore deve essere stato avviato con l’app Dexcom.** Assicurati che funzioni correttamente prima di andare avanti.
+**Il sensore deve essere stato avviato con l’app ufficiale.** Assicurati che funzioni correttamente prima di andare avanti.
 
 ## Installa xDrip4iOS
 
+L'aggiunta di xDrip4iOS sul telefonino master non comporta alcun rischio per il sensore e non impedisce il corretto funzionamento dell'app ufficiale.
 Vedi come fare [qua](./installare-xdrip4ios), e torna in questa guida dopo.
 
 
-## Disabilita l'app Dex
+## Rimuovi i vecchi sensori Dex
 
-Per evitare problemi con l'app master che "ruba" la connessione Bluetooth da xDrip4iOS, dobbiamo assicurarci che abbia le autorizzazioni Bluetooth disabilitate.
+Per evitare di collegarsi a un vecchio sensore (inesistente oppure oltre 10 giorni di età) è consigliato rimuovere i vecchi dispositivi della lista Bluetooth. Conviene prendere l'abitudine di farlo ogni cambio sensore.
 
-Vai alle Impostazioni del tuo iPhone e scorri verso il basso e cerca l’elenco delle applicazioni. Seleziona l'app Dex e, nelle opzioni, disattiva il Bluetooth. Potrai riattivarlo in seguito, se lo desideri.
+Vai alle Impostazioni del tuo iPhone e scorri verso il basso per Bluetooth.
 
 ![image_025](images/image_025.png)
 

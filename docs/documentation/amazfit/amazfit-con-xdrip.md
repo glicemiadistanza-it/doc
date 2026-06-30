@@ -1,6 +1,6 @@
 # Amazfit con xDrip+ (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
 Dispositivi compatibili con questo metodo:
 - Amazfit Band 5
@@ -16,7 +16,7 @@ Progetto originale di Artem (GitHub: @bigdigital).
 
 ## 1. Installa xDrip+
 
-Segui la [guida base di installazione](../../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
 
 ---
 

@@ -239,7 +239,7 @@ Permette di usare anche l'app **Dexcom Follow** su Android e iPhone:
 
 È la soluzione più completa: permette di vedere la glicemia su Android, iPhone, PC, smart TV.
 
-1. Crea il tuo Nightscout seguendo la [guida Nightscout](../../nightscout/nightscoutgooglecloud).
+1. Crea il tuo Nightscout seguendo la [guida Nightscout](../nightscout/nightscoutgooglecloud).
 2. In xDrip+, vai in **Impostazioni → Cloud Upload → API Upload (REST)**.
 
 ![](images/dexcomg5g6-e-xdrip/image_055.png)
@@ -266,7 +266,7 @@ Per visualizzare la glicemia sullo smartwatch senza Nightscout:
 
 - **Amazfit e Xiaomi MiBand:** vedi la [guida WatchDrip+](./xdrip-e-watchdrip)
 - **Android Wear OS 2/3:** vedi la [guida per Wear OS](./dexcom-xdrip-glimp-on-wear-watch)
-- **Fitbit Versa / Ionic:** vedi la [guida Fitbit](../../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Fitbit Versa / Ionic:** vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
 
 ---
 

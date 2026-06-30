@@ -124,5 +124,5 @@ Scansiona con NFC ogni 5 minuti se il collegamento non si stabilisce. Tieni il t
 ## Passi successivi
 
 - **Condividi la glicemia con altri telefoni Android:** vedi la guida sulla condivisione xDrip+ Sync
-- **Condividi con iPhone o altri dispositivi:** usa [Nightscout](../../nightscout/nightscoutgooglecloud)
+- **Condividi con iPhone o altri dispositivi:** usa [Nightscout](../nightscout/nightscoutgooglecloud)
 - **Condividi i dati con il diabetologo:** usa [Tidepool](./condividere-i-dati-di-xdrip-con-tidepool)

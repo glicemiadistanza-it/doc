@@ -121,7 +121,7 @@ Nella configurazione web dell'M5Stack (`http://m5ns.local`):
 
 ![](images/gluroo/image_016.png)
 
-Assicurati di avere il firmware aggiornato (per aggiornarlo, apri `http://m5ns.local` e segui la [guida M5Stack](../../nightscout/monitor-nightscout-m5stack)).
+Assicurati di avere il firmware aggiornato (per aggiornarlo, apri `http://m5ns.local` e segui la [guida M5Stack](../nightscout/monitor-nightscout-m5stack)).
 
 ---
 

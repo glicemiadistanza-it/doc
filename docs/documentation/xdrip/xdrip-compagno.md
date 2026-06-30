@@ -42,9 +42,9 @@ Torna nella schermata principale di xDrip+. Entro 5 minuti le letture di glicemi
 
 Con xDrip+ attivo puoi inviare la glicemia direttamente a diversi smartwatch:
 
-- **Xiaomi Mi Band / Amazfit:** vedi la [guida WatchDrip+](../xdrip-e-watchdrip)
+- **Xiaomi Mi Band / Amazfit:** vedi la [guida WatchDrip+](xdrip-e-watchdrip)
 - **Android Wear OS:** vedi la guida specifica per il tuo orologio
-- **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
 - **Samsung Watch:** cerca la guida "G-Watch per Samsung"
 
 ## 5. Condividi le letture con altri dispositivi (opzionale)

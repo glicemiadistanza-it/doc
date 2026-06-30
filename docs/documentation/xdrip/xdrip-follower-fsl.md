@@ -75,5 +75,5 @@ Il metodo varia da modello a modello.
 xDrip+ può inviare la glicemia direttamente a diversi tipi di smartwatch:
 
 - **Android Wear OS:** vedi la guida per il tuo orologio
-- **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
-- **Xiaomi Mi Band / Amazfit:** vedi la [guida WatchDrip+](../xdrip-e-watchdrip)
+- **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Xiaomi Mi Band / Amazfit:** vedi la [guida WatchDrip+](xdrip-e-watchdrip)

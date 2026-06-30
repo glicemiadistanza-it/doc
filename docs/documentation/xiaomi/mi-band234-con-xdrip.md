@@ -10,7 +10,7 @@ Progetto originale di Artem (GitHub: @bigdigital).
 
 ## 1. Installa xDrip+
 
-Segui la [guida base di installazione](../../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
 
 ---
 

@@ -121,7 +121,7 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 ### Prerequisiti
 
-- PC Windows con [ADB installato](../../android/installare-adb-debug)
+- PC Windows con [ADB installato](../android/installare-adb-debug)
 - Cavo USB per collegare lo smartwatch al PC
 
 ### Abilitare la modalità sviluppatore sullo smartwatch

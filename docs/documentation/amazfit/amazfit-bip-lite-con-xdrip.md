@@ -1,6 +1,6 @@
 # Amazfit Bip / Bip Lite con xDrip+ (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
 Questa guida spiega come visualizzare la glicemia di xDrip+ su un **Amazfit Bip Lite** (dovrebbe funzionare anche con Amazfit Bip S) usando una versione modificata di xDrip+ (v0.4.1.2).
 

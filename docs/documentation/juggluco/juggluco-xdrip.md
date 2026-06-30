@@ -117,7 +117,7 @@ In **Impostazioni**:
 
 ## 5. Configura xDrip+
 
-Se non hai ancora xDrip+, installalo seguendo la [guida base](../../xdrip/installare-xdrip-android).
+Se non hai ancora xDrip+, installalo seguendo la [guida base](../xdrip/installare-xdrip-android).
 
 Nell'app xDrip+, scegli come sorgente dati **App Libre patchata** — questa è l'opzione che riceve i dati da Juggluco.
 

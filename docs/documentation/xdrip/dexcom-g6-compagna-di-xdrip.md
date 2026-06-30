@@ -33,4 +33,4 @@ In xDrip+ vai in **Impostazioni → xDrip+ Sync → Imposta come master**. Così
 
 - **Xiaomi Mi Band / Amazfit:** vedi la [guida WatchDrip+](./xdrip-e-watchdrip)
 - **Android Wear OS:** vedi la [guida per Wear OS](./dexcom-xdrip-glimp-on-wear-watch)
-- **Fitbit:** vedi la [guida Fitbit](../../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Fitbit:** vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)

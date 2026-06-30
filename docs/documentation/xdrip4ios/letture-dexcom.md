@@ -1,4 +1,4 @@
-# Dex G7/ONE+/Stelo con [xDrip4iOS](https://www.facebook.com/groups/853994615056838/)
+# Dex G7/ONE+/Stelo con xDrip4iOS
 
 Una soluzione fai-da-te per visualizzare la glicemia su Apple Watch con il calendario o una complicazione.
 
@@ -57,9 +57,9 @@ Adesso che xDrip4iOS è collegato, puoi anche riabilitare il Bluetooth dell'app 
 
 Prima di tutto, verifica che hai disabilitato il Bluetooth dell'app Dex. Se non è disabilitato, xDrip4iOS non troverà mai il dispositivo...
 
-Se xDrip4iOS non trova alcun dispositivo puoi inserirlo manualmente. E generalmente non necessario.
+Se xDrip4iOS non trova alcun dispositivo puoi inserirlo manualmente. È generalmente non necessario.
 
-Via nella lista dei dispositivi Bluetooth del tuo iPhone e cerca quello chiamato DXCM...
+Vai nella lista dei dispositivi Bluetooth del tuo iPhone e cerca quello chiamato DXCM...
 
 **Non provare ad abbinarlo in questa schermata**: serve solo il suo nome.
 
@@ -80,5 +80,3 @@ La documentazione originale (link con traduttore automatico): [https://xdrip4ios
 ![image_041](images/image_041.png)
 
 **L'utilizzo è soggetto all'assunzione di esclusiva responsabilità personale.**
-
-Contatti [Diabete, glicemia a distanza e nuove tecnologie](https://www.facebook.com/groups/nightscout)

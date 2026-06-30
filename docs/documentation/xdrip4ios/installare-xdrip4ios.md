@@ -6,7 +6,7 @@
 
 # Installare xDrip4iOS
 
-xDrip4iOS è un app [open source](https://github.com/JohanDegraeve/xdripswift) della comunità #WeAreNotWaiting.
+xDrip4iOS è un'app [open source](https://github.com/JohanDegraeve/xdripswift) della comunità #WeAreNotWaiting.
 
 xDrip4iOS supporta:
 

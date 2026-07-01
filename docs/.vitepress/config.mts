@@ -123,6 +123,11 @@ export default defineConfig({
     logo: '/images/logo.svg',
     siteTitle: 'Glicemiadistanza',
 
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Chi siamo', link: '/chi-siamo' },
+    ],
+
     sidebar: [
       { text: 'Articoli', items: articoli },
       { text: 'xDrip+', items: xdrip },

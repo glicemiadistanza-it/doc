@@ -80,7 +80,7 @@ Per visualizzare la password nel pannello Ionos:
 
 ![](images/nightscoutionos/image_020.png)
 
-> ℹ️ Puoi chiedere assistenza remota a una persona di fiducia condividendo solo l'indirizzo IP e la password root.
+> ℹ️ **Nota**: Puoi chiedere assistenza remota a una persona di fiducia condividendo solo l'indirizzo IP e la password root.
 
 ---
 
@@ -120,7 +120,7 @@ Lo script si fermerà per chiederti di creare un **nome utente** (solo minuscole
 
 ![](images/nightscoutionos/image_024.png)
 
-> ⚠️ **Non perdere queste credenziali!**
+> ⚠️ **Attenzione**: Non perdere queste credenziali!
 
 Lo script si fermerà e mostrerà un nuovo comando SSH con il tuo nome utente. Annotalo.
 
@@ -222,7 +222,7 @@ Per abilitare il plugin:
 
 ![](images/nightscoutionos/image_048.png)
 
-> ℹ️ È necessario avere almeno un follower attivo su Dexcom Share per vedere i dati in Nightscout (puoi invitare te stesso).
+> ℹ️ **Nota**: È necessario avere almeno un follower attivo su Dexcom Share per vedere i dati in Nightscout (puoi invitare te stesso).
 
 Se non vedi la glicemia entro 10 minuti, riavvia Nightscout dal menu.
 
@@ -256,4 +256,4 @@ Il nome predefinito del server Ionos è difficile da ricordare. Puoi creare un i
 
 Il tuo sito sarà ora raggiungibile con il nuovo nome.
 
-> ⚠️ Fai login su FreeDNS almeno ogni 6 mesi per mantenere attivo il tuo dominio gratuito (solo il login, nient'altro).
+> ⚠️ **Attenzione**: Fai login su FreeDNS almeno ogni 6 mesi per mantenere attivo il tuo dominio gratuito (solo il login, nient'altro).

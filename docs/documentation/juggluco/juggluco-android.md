@@ -1,10 +1,10 @@
 # Juggluco per Android con FSL 2
 
-Guida base passo passo per l'installazione di Juggluco su Android con un sensore Libre 2.
+Guida base passo passo per l'installazione di Juggluco su Android con un sensore FSL2.
 
 > ⚠️ È necessario un telefono Android dalla versione 4.4 in su, con supporto Bluetooth 4.2 (BLE) e lettore NFC.
 
-> ⚠️ Come qualsiasi app di terza parte, l'uso con un sensore Libre 2 **disabiliterà gli allarmi di LLink definitivamente**, senza possibilità di ripristino. L'abbinamento di un sensore Libre 2 a Juggluco invalida la garanzia e non si può chiedere la sostituzione per problemi di allarmi mancanti.
+> ⚠️ Come qualsiasi app di terza parte, l'uso con un sensore FSL2 **disabiliterà gli allarmi di LLink definitivamente**, senza possibilità di ripristino. L'abbinamento di un sensore Libre 2 a Juggluco invalida la garanzia e non si può chiedere la sostituzione per problemi di allarmi mancanti.
 
 > ⚠️ Se vuoi installare Juggluco sul telefonino di un bambino, Play Protect va disabilitato temporaneamente.
 

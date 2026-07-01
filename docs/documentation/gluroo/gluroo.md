@@ -6,7 +6,7 @@ Sorgenti dati compatibili: Dexcom Share, FSL 2, FSL 3 (tramite LView), Nightscou
 
 Documento originale di Didier Frétigné.
 
-> ⚠️ L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
 ![](images/gluroo/image_001.png)
 
@@ -38,7 +38,7 @@ Puoi inserire Gluroo come follower dell'app Dexcom, senza usare altre app.
 2. Inserisci la **password** corrispondente.
 3. Se usi server europei, abilita l'opzione per server non USA.
 
-> ℹ️ Per usare Dexcom Share serve almeno un follower attivo. Puoi aggiungere te stesso come follower, verificare che funzioni e poi disinstallare l'app follower. La condivisione deve rimanere attiva nell'app master.
+> ℹ️ **Nota**: Per usare Dexcom Share serve almeno un follower attivo. Puoi aggiungere te stesso come follower, verificare che funzioni e poi disinstallare l'app follower. La condivisione deve rimanere attiva nell'app master.
 
 4. Clicca **Verifica accesso**. A breve dovresti vedere la glicemia in Gluroo.
 
@@ -61,11 +61,11 @@ Puoi inserire Gluroo come follower di LView.
 Questa modalità crea un endpoint compatibile con Nightscout: puoi usare l'indirizzo Gluroo come se fosse il tuo sito Nightscout.
 
 - **Indirizzo Nightscout:** il tuo indirizzo Gluroo (formato: `https://xxxx.xx.gluroo.com:porta`)
-- **API_SECRET:** la password mostrata nell'app
+- `API_SECRET`: la password mostrata nell'app
 
 ![](images/gluroo/image_008.png)
 
-> ℹ️ Usa l'icona di copia per mandare questi valori a te stesso via SMS o email, così puoi inserirli facilmente sugli altri dispositivi.
+> ℹ️ **Nota**: Usa l'icona di copia per mandare questi valori a te stesso via SMS o email, così puoi inserirli facilmente sugli altri dispositivi.
 
 **Compatibilità (verificata a settembre 2023):**
 
@@ -82,7 +82,7 @@ Questa modalità crea un endpoint compatibile con Nightscout: puoi usare l'indir
 | Samsung Watch (G-Watch) | — | ✓ |
 | FitBit | — | ✗ |
 
-> ℹ️ Se usi Dexcom Share o LView come sorgente, non hai bisogno di un master separato.
+> ℹ️ **Nota**: Se usi Dexcom Share o LView come sorgente, non hai bisogno di un master separato.
 
 Per vedere la glicemia in una pagina web, usa **Gluroo Web**: c'è anche una modalità semplificata con solo il valore corrente.
 
@@ -115,7 +115,7 @@ Inserisci l'indirizzo così: `https://xxxx.xx.gluroo.com:porta?token=API_SECRET`
 
 Nella configurazione web dell'M5Stack (`http://m5ns.local`):
 - **Nightscout URL:** il tuo indirizzo Gluroo
-- **API_SECRET:** la password corrispondente
+- `API_SECRET`: la password corrispondente
 
 ![](images/gluroo/image_015.png)
 

@@ -6,9 +6,9 @@ Tidepool è un'organizzazione no profit che offre software open source e servizi
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_001.png)
 
-## Capitolo 1 – Creare un'utenza Tidepool
+## 1. Creare un'utenza Tidepool
 
-1. Vai su <https://www.tidepool.org/> e clicca **Sign Up**.
+1. Vai su `https://www.tidepool.org/` e clicca **Sign Up**.
 2. Seleziona un'utenza privata e clicca **Continue**.
 3. Compila il nome completo, l'email e la password (annotala: servirà dopo per xDrip+).
 4. Clicca **Create Personal Account** per proseguire.
@@ -44,7 +44,7 @@ Ora crea una base dati per il paziente:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_011.png)
 
-## Capitolo 2 – Configurare xDrip+
+## 2. Configurare xDrip+
 
 Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip+. Puoi farlo dal master o da un xDrip+ Sync Follower, ma conviene abilitarlo su un solo dispositivo.
 
@@ -73,7 +73,7 @@ Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip+.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_020.png)
 
-## Capitolo 3 – Condividere con il diabetologo
+## 3. Condividere con il diabetologo
 
 1. Torna in Tidepool dal tuo browser.
 2. Clicca su **Share**.
@@ -89,13 +89,13 @@ Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip+.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_023.png)
 
-## Capitolo 4 – Caricare altri dati in Tidepool
+## 4. Caricare altri dati in Tidepool
 
 Tidepool si interfaccia con moltissimi microinfusori e sensori. Puoi aggiungere dati dal tuo computer usando il **Tidepool Uploader**. Se il tuo diabetologo conosce Tidepool, lo farà probabilmente durante la visita diabetologica.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_024.png)
 
-> ⚠️ Con versioni di xDrip+ precedenti al 7 febbraio 2020: se inserisci boli e CHO (carboidrati) sia in xDrip+ sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione per non inviare i dati doppi a Tidepool.
+> ⚠️ **Attenzione**: Con versioni di xDrip+ precedenti al 7 febbraio 2020: se inserisci boli e CHO (carboidrati) sia in xDrip+ sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione per non inviare i dati doppi a Tidepool.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_025.png)
 

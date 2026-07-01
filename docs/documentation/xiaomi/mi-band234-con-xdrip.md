@@ -85,7 +85,7 @@ L'app modificata crea automaticamente un file di testo con le credenziali. Trova
 
 ![](images/mi-band234-con-xdrip/image_023.png)
 
-> ⚠️ Se il file non esiste, xDrip+ non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ **Attenzione**: Se il file non esiste, xDrip+ non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
 ---
 
@@ -137,7 +137,7 @@ Osserva lo stato in fondo alla schermata: prima comparirà "Smartband rilevata",
 
 **Se il quadrante non appare (sequenza di ripristino):**
 
-> ℹ️ Le MiBand 4 richiedono che la batteria sia sopra il 10% per mostrare il quadrante personalizzato.
+> ℹ️ **Nota**: Le MiBand 4 richiedono che la batteria sia sopra il 10% per mostrare il quadrante personalizzato.
 
 ![](images/mi-band234-con-xdrip/image_038.png)
 
@@ -183,7 +183,7 @@ Con **Invia Allarmi** attivo, quando scatta un allarme xDrip+ riceverai una "chi
 
 ![](images/mi-band234-con-xdrip/image_053.png)
 
-> ℹ️ Se hai problemi con le notifiche delle altre app, installa **Notify for Mi Band** dal Play Store e concedi le autorizzazioni richieste.
+> ℹ️ **Nota**: Se hai problemi con le notifiche delle altre app, installa **Notify for Mi Band** dal Play Store e concedi le autorizzazioni richieste.
 
 ---
 

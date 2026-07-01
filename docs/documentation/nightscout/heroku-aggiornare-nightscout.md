@@ -104,7 +104,7 @@ Per vedere la versione attuale del tuo Nightscout, clicca sul menu in alto a des
 
 ![](images/heroku-aggiornare-nightscout/image_026.png)
 
-> ⚠️ **Non uscire dalla pagina** e non cliccare niente fino al completamento del deploy. Potrebbe richiedere più di 10 minuti.
+> ⚠️ **Attenzione**: Non uscire dalla pagina e non cliccare niente fino al completamento del deploy. Potrebbe richiedere più di 10 minuti.
 
 ![](images/heroku-aggiornare-nightscout/image_027.png)
 

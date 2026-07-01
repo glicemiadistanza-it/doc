@@ -2,7 +2,7 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- Round badge -->
-  <circle cx="128" cy="128" r="120" fill="white" stroke="#E02020" stroke-width="4"/>
+  <circle cx="128" cy="128" r="120" fill="transparent" stroke="#E02020" stroke-width="4"/>
 
   <!-- Original blood drop (unchanged) -->
   <path d="M128 40

@@ -2,7 +2,7 @@
 
 Questa guida offre spunti di riflessione sulla calibrazione del FSL (sensore di glucosio a scansione) con xDrip+. Il sensore FSL non è concepito per essere calibrato dall'utente: le informazioni riportate non possono quindi essere utilizzate a fini medici. L'utilizzo è soggetto all'assunzione di esclusiva responsabilità personale.
 
-> ⚠️ xDrip+ **NON DEVE ESSERE UTILIZZATO PER PRENDERE DECISIONI MEDICHE**. È solo uno strumento di ricerca, fornito "così com'è" senza garanzie di alcun tipo. Qualsiasi parte del sistema può fallire in qualsiasi momento. Chiedi sempre il parere di un operatore sanitario qualificato. L'intero rischio riguardo alla qualità e alle prestazioni del programma è a carico dell'utente.
+> ⚠️ **Attenzione**: xDrip+ **NON DEVE ESSERE UTILIZZATO PER PRENDERE DECISIONI MEDICHE**. È solo uno strumento di ricerca, fornito "così com'è" senza garanzie di alcun tipo. Qualsiasi parte del sistema può fallire in qualsiasi momento. Chiedi sempre il parere di un operatore sanitario qualificato. L'intero rischio riguardo alla qualità e alle prestazioni del programma è a carico dell'utente.
 
 ## 1. Cosa consiglia un fornitore di sensori
 
@@ -21,7 +21,7 @@ Alcune situazioni possono interferire con le letture: sanguinamento durante l'ap
 
 Prima di cominciare, ricorda quello di importante che hai accettato all'installazione di xDrip+. Alcuni hanno utilizzato xDrip+ senza aver capito come calibrare — non hanno mai verificato con una misura capillare la loro glicemia reale, sono finiti in pronto soccorso e la FDA ha emesso avvertimenti contro l'uso fai-da-te. Questo sarebbe probabilmente accaduto anche con un Dexcom, un Guardian o qualsiasi altro sistema.
 
-> ⚠️ **Avvertimento legale**
+> ⚠️ **Attenzione**: Avvertimento legale
 >
 > NON utilizzare o fare affidamento su questo software per scopi o decisioni mediche. NON fare affidamento su questo sistema per allarmi in tempo reale o dati critici. NON usarlo come sostituto del giudizio sanitario professionale. Tutti i software e i materiali sono forniti a scopo informativo soltanto come prova di concetto. Qualsiasi parte del sistema può fallire in qualsiasi momento. Segui sempre le istruzioni del produttore del sensore. Questo software non è associato né approvato da alcun produttore di apparecchiature. L'utilizzo è interamente a proprio rischio. Utilizzando questo software, l'utente accetta di avere più di 18 anni e di aver letto, compreso e accettato tutto quanto sopra.
 
@@ -58,7 +58,7 @@ Purtroppo non ci sono molte soluzioni per evitare di calibrare il FSL 1 con xDri
 Con FSL 2, il plugin OOP2 permette di generare un valore simile al lettore senza calibrare, selezionando l'opzione **No calibration**. Questa soluzione è consigliata a chi non riesce a calibrare. È comunque possibile usare OOP2 come per un FSL 1 selezionando **Calibrate based on raw**, oppure ritoccare la calibrazione automatica con **Calibrate based on glucose**. Con FSL 2 non è necessario calibrare e in alcune configurazioni non è nemmeno possibile farlo.
 
 Segui questa guida per installare e configurare un algoritmo OOP con xDrip+:
-<https://www.glicemiadistanza.it/usare-un-algoritmo-esterno-con-xdrip/>
+`https://www.glicemiadistanza.it/usare-un-algoritmo-esterno-con-xdrip/`
 
 ## 5. Parametri di controllo di xDrip+
 
@@ -142,11 +142,11 @@ Cosa significa pendenza fissa? Significa che con una buona calibrazione (glicemi
 
 ![](images/calibrare-fsl-xdrip/image_025.png)
 
-> ⚠️ È fondamentale essere accurati nelle ipoglicemie: un allarme corretto può salvarti la vita. In caso di iperglicemia, esegui sempre un pungidito per correggere.
+> ⚠️ **Attenzione**: È fondamentale essere accurati nelle ipoglicemie: un allarme corretto può salvarti la vita. In caso di iperglicemia, esegui sempre un pungidito per correggere.
 
 ## 7. Metodo 2 – Calibrazione avanzata
 
-> ⚠️ Questo metodo non è disponibile con FSL 2 e l'app patchata.
+> ⚠️ **Attenzione**: Questo metodo non è disponibile con FSL 2 e l'app patchata.
 
 Verifica che sia abilitata la **pendenza variabile** in **Impostazioni** → **Impostazioni Meno Usate** → **Calibrazione avanzata**.
 
@@ -185,7 +185,7 @@ Il FSL fornisce risultati migliori nel range. L'accuratezza si riduce man mano c
 
 Calibra tra 80 e 180 mg/dL. Sopra 200 mg/dL non è una buona idea.
 
-> ⚠️ `HIGH` e `LO` non sono valori numerici: non calibrare mai quando il sensore mostra questi valori. Non calibrare mai quando la glicemia è completamente piatta da troppo tempo: potrebbe indicare un sensore bloccato.
+> ⚠️ **Attenzione**: `HIGH` e `LO` non sono valori numerici: non calibrare mai quando il sensore mostra questi valori. Non calibrare mai quando la glicemia è completamente piatta da troppo tempo: potrebbe indicare un sensore bloccato.
 
 A dover scegliere tra glicemia nel range e stabilità, meglio la misura a glicemia stabile.
 
@@ -312,7 +312,7 @@ Un secondo caso identico ha riguardato un paziente ricoverato in chetoacidosi co
 
 ![](images/calibrare-fsl-xdrip/image_064.png)
 
-> ⚠️ **NON FIDARTI MAI CIECAMENTE.** Verifica almeno una volta al giorno con una capillare. Queste persone sono rimaste per ore in glicemia bassa o alta senza mai fare una capillare. Se la glicemia sembra troppo bella o troppo piatta, deve essere un segnale di allarme.
+> ⚠️ **Attenzione**: **NON FIDARTI MAI CIECAMENTE.** Verifica almeno una volta al giorno con una capillare. Queste persone sono rimaste per ore in glicemia bassa o alta senza mai fare una capillare. Se la glicemia sembra troppo bella o troppo piatta, deve essere un segnale di allarme.
 
 ![](images/calibrare-fsl-xdrip/image_065.png)
 

@@ -69,7 +69,7 @@ Vai nelle impostazioni Bluetooth del dispositivo Garmin (consulta il manuale del
 
 Nell'app Garmin Connect, apri il menu in alto a sinistra (tre linee) e seleziona **Store Connect IQ**.
 
-> ℹ️ In Connect IQ puoi trovare sia **widget** sia **applicazioni**:
+> ℹ️ **Nota**: In Connect IQ puoi trovare sia **widget** sia **applicazioni**:
 > - I **widget** sono disponibili nel menu rapido dell'orologio e si chiudono automaticamente dopo qualche secondo.
 > - Le **applicazioni** rimangono attive sullo schermo più a lungo.
 

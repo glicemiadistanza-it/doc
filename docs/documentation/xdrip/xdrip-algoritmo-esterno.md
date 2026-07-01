@@ -5,13 +5,13 @@ Questa guida spiega come installare e configurare l'app **OOPAlgorithm** (Out Of
 ## Quando usarlo
 
 Usa l'algoritmo esterno solo se:
-- Usi **OOP1** e funziona bene sul tuo telefono (utile per FSL 1)
-- Usi un **FSL 2 con MiaoMiao o Bubble** e vuoi usare **OOP2**
+- Usi **OOP1** e funziona bene sul tuo telefono (utile per FSL1)
+- Usi un **FSL2 con MiaoMiao o Bubble** e vuoi usare **OOP2**
 
 | Versione | Compatibilità | Uso consigliato |
 |---|---|---|
-| **OOP1** | Android 9 e inferiori | FSL 1 con calibrazione automatica |
-| **OOP2** | Android 10 e superiori | FSL 2 con MiaoMiao/Bubble |
+| **OOP1** | Android 9 e inferiori | FSL1 con calibrazione automatica |
+| **OOP2** | Android 10 e superiori | FSL2 con MiaoMiao/Bubble |
 
 > ⚠️ OOP1 e OOP2 non possono essere usati contemporaneamente. Disinstalla quello che non serve.
 
@@ -54,9 +54,9 @@ Controlla la versione del firmware in xDrip+: **Menu → Stato del sistema**.
 
 ## 1. Scarica l'algoritmo
 
-- **OOP1** (FSL 1, Android 9 e inferiori):
+- **OOP1** (FSL1, Android 9 e inferiori):
   `https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM`
-- **OOP2** (FSL 2, Android 10 e superiori):
+- **OOP2** (FSL2, Android 10 e superiori):
   `https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view`
 
 ## 2. Installa l'algoritmo
@@ -97,16 +97,16 @@ xDrip+ potrebbe rilevare automaticamente l'algoritmo e chiederti di abilitarlo. 
 
 ## 4. Funzionamento
 
-### Con OOP1 (FSL 1)
+### Con OOP1 (FSL1)
 
 Le calibrazioni manuali non sono più necessarie né possibili. Il valore visualizzato sarà comparabile a quello del lettore FSL ufficiale. Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
-### Con OOP2 (FSL 2)
+### Con OOP2 (FSL2)
 
 Hai tre opzioni di calibrazione (sceglile in **Impostazioni meno usate**):
 
-1. **Nessuna calibrazione** — usa OOP2 per ottenere risultati simili al lettore FSL 2 (consigliato per le prime prove)
-2. **Calibra i dati grezzi** — come con FSL 1 e MiaoMiao/Bubble/Blucon
+1. **Nessuna calibrazione** — usa OOP2 per ottenere risultati simili al lettore FSL2 (consigliato per le prime prove)
+2. **Calibra i dati grezzi** — come con FSL1 e MiaoMiao/Bubble/Blucon
 3. **Aggiusta senza calibrazione** — aggiungi una calibrazione solo se necessario
 
 ![](images/xdrip-algoritmo-esterno/image_016.png)
@@ -150,12 +150,12 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 4. Collega lo smartwatch al PC tramite cavo USB.
 5. Apri il **Prompt dei comandi** (cerca "prompt dei comandi" nella barra di ricerca Windows).
 6. Naviga nella cartella ADB:
-   ```
+   ```bash
    cd..   (ripeti finché arrivi a C:\>)
    cd adb
    ```
 7. Lancia il comando:
-   ```
+   ```bash
    adb install -r OOP2.apk
    ```
 8. Sullo smartwatch, autorizza il debug dal PC scegliendo **Consenti sempre**.

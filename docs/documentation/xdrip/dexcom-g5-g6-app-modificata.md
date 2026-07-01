@@ -8,7 +8,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 - Non controlla se il telefono è nella lista dei dispositivi compatibili ufficiali.
 - Invia (broadcast) la glicemia internamente al telefono, in modo che xDrip+ possa riceverla.
 
-> ⚠️ L'app modificata non è autorizzata da Dexcom. Usandola, potresti perdere il diritto al supporto e alla garanzia per problemi di trasmettitore e sensore. Se disponibile, basa sempre le segnalazioni di problemi sul ricevitore Dexcom ufficiale. L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'app modificata non è autorizzata da Dexcom. Usandola, potresti perdere il diritto al supporto e alla garanzia per problemi di trasmettitore e sensore. Se disponibile, basa sempre le segnalazioni di problemi sul ricevitore Dexcom ufficiale. L'utilizzo è a esclusiva responsabilità personale.
 
 ## Perché installarla?
 
@@ -20,7 +20,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 
 ## 1. Disinstalla l'app Dexcom ufficiale
 
-> ⚠️ **NON fare Stop sensore** se non vuoi cambiare il sensore adesso.
+> ⚠️ **Attenzione**: **NON fare Stop sensore** se non vuoi cambiare il sensore adesso.
 
 Prima di disinstallare:
 - Annota il **codice del trasmettitore** (lo troverai nell'app).
@@ -123,7 +123,7 @@ Per disinstallare senza interagire con il sensore:
 ![](images/dexcom-g5-g6-app-modificata/image_028.png)
 
 6. Accedi a **Clarity** con il tuo nome utente e password abituali.
-   > ⚠️ Se ti registri per la prima volta, usa solo **lettere minuscole** nel nome utente.
+   > ⚠️ **Attenzione**: Se ti registri per la prima volta, usa solo **lettere minuscole** nel nome utente.
 
 ![](images/dexcom-g5-g6-app-modificata/image_029.png)
 
@@ -177,7 +177,7 @@ Per disinstallare senza interagire con il sensore:
 
 ![](images/dexcom-g5-g6-app-modificata/image_050.png)
 
-> ⚠️ Solo **un telefono alla volta** può essere collegato al sensore. Se un altro telefono è già collegato, spegnilo e aspetta 15 minuti prima di avviare quello nuovo.
+> ⚠️ **Attenzione**: Solo **un telefono alla volta** può essere collegato al sensore. Se un altro telefono è già collegato, spegnilo e aspetta 15 minuti prima di avviare quello nuovo.
 
 ![](images/dexcom-g5-g6-app-modificata/image_051.png)
 

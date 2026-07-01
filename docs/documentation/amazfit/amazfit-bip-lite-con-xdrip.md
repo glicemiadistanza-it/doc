@@ -17,7 +17,7 @@ Progetto originale di Artem (GitHub: @bigdigital). Documentazione: `https://bigd
 Se hai già xDrip+ in versione ufficiale (non quella modificata di Artem), devi disinstallarlo — ma prima salva i dati:
 
 1. Dal menù di xDrip+, vai in **Importa/Esporta → Esporta database**. Autorizza l'accesso alla memoria. Verifica che il file sia stato salvato con data e ora correnti.
-2. Salva le impostazioni con **Condividi impostazioni → Codice QR**: fai uno screenshot del QR e mandatelo su un altro dispositivo.
+2. Salva le impostazioni con **Condividi impostazioni → Codice QR**: fai uno screenshot del QR e mandalo su un altro dispositivo.
 3. Disinstalla xDrip+.
 
 ---

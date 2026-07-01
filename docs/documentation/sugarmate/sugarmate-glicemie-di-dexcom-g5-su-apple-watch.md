@@ -2,7 +2,7 @@
 
 **Sugarmate** è un'app che usa il calendario di Apple per portare le glicemie di Dexcom G5 sull'Apple Watch del follower, in tempo reale (ritardo di circa 10 secondi).
 
-> ℹ️ Questa guida è dedicata ai **follower** di Dexcom G5. L'app Dexcom G5 Mobile ufficiale mostra la glicemia sullo smartwatch solo sul dispositivo master (quello che legge il sensore), non sui follower. Sugarmate risolve questa limitazione condividendo la glicemia tramite il calendario di iCloud.
+> ℹ️ **Nota**: Questa guida è dedicata ai **follower** di Dexcom G5. L'app Dexcom G5 Mobile ufficiale mostra la glicemia sullo smartwatch solo sul dispositivo master (quello che legge il sensore), non sui follower. Sugarmate risolve questa limitazione condividendo la glicemia tramite il calendario di iCloud.
 
 Tutta la procedura si esegue sull'**iPhone del follower**, tranne i passaggi in cui è necessario il dispositivo master con l'app Dexcom Mobile.
 
@@ -153,7 +153,7 @@ Clicca **ADD A CALENDAR** e seleziona il calendario condiviso al passo 3.
 
 Sugarmate riceverà le glicemie come follower e le inserirà nel calendario condiviso. Dopo circa 5 minuti inizieranno ad apparire notifiche sull'iPhone con il valore glicemico e la freccia di tendenza.
 
-> ℹ️ Se non vuoi le notifiche sull'iPhone: vai in **Impostazioni → Notifiche → Calendario** e disabilita **Consenti notifiche**.
+> ℹ️ **Nota**: Se non vuoi le notifiche sull'iPhone: vai in **Impostazioni → Notifiche → Calendario** e disabilita **Consenti notifiche**.
 
 ---
 
@@ -189,7 +189,7 @@ Inizialmente comparirà "Nessun evento". Dopo qualche minuto il calendario si ag
 
 ---
 
-## Allarme per ipoglicemia (opzionale)
+## 8. Allarme per ipoglicemia (opzionale)
 
 Sugarmate può chiamarti in caso di ipoglicemia grave, anche se il telefono è in silenzioso.
 
@@ -221,4 +221,4 @@ Sugarmate può chiamarti in caso di ipoglicemia grave, anche se il telefono è i
 
 ![](images/sugarmate-glicemie-di-dexcom-g5-su-apple-watch/image_045.png)
 
-> ℹ️ La funzione **Emergency Contacts** (localizzazione GPS in caso di ipo grave) potrebbe non essere disponibile in Italia. Per attivarla, contatta lo sviluppatore.
+> ℹ️ **Nota**: La funzione **Emergency Contacts** (localizzazione GPS in caso di ipo grave) potrebbe non essere disponibile in Italia. Per attivarla, contatta lo sviluppatore.

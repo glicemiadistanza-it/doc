@@ -1,10 +1,10 @@
-# Ricevere le letture dal FSL 2 con xDrip+ (collegamento diretto)
+# Ricevere le letture dal FSL2 con xDrip+ (collegamento diretto)
 
 Questa guida spiega come collegare il sensore FSL2 direttamente a xDrip+ tramite Bluetooth, senza usare MiaoMiao, Bubble o Blucon.
 
 > ℹ️ L'app ufficiale del fornitore permette già la lettura continua senza scansionare. Usa xDrip+ con questa modalità solo se hai bisogno di funzioni aggiuntive (smartwatch, allarmi, Nightscout). xDrip+ non invia dati ai server del fornitore.
 
-> ⚠️ Collegare il FSL 2 direttamente a xDrip+ disabilita gli allarmi Bluetooth sull'app ufficiale e sul lettore 2. **Non richiedere la sostituzione di sensori che smettono di mandare allarmi Bluetooth dopo aver usato xDrip+ in collegamento diretto.** Puoi comunque continuare a scansionare il sensore con l'app del fornitore o con il lettore.
+> ⚠️ Collegare il FSL2 direttamente a xDrip+ disabilita gli allarmi Bluetooth sull'app ufficiale e sul lettore 2. **Non richiedere la sostituzione di sensori che smettono di mandare allarmi Bluetooth dopo aver usato xDrip+ in collegamento diretto.** Puoi comunque continuare a scansionare il sensore con l'app del fornitore o con il lettore.
 
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
@@ -39,7 +39,7 @@ Dopo l'installazione, imposta la **sorgente dati**:
 
 ## 2. Installa l'app OOP2
 
-OOP2 (Out Of Process Algorithm versione 2) decodifica i dati del FSL 2. Senza questa app xDrip+ non riesce a leggere il sensore.
+OOP2 (Out Of Process Algorithm versione 2) decodifica i dati del FSL2. Senza questa app xDrip+ non riesce a leggere il sensore.
 
 Segui la [guida per installare OOP2](./xdrip-algoritmo-esterno).
 
@@ -74,11 +74,11 @@ Segui la [guida per installare OOP2](./xdrip-algoritmo-esterno).
 1. Se hai l'app del fornitore installata, è consigliato disinstallarla per evitare conflitti NFC. Puoi comunque scansionare il sensore con il lettore fisico.
 2. Esci da xDrip+ prima di scansionare (la scansione funziona meglio così).
 3. Avvicina il telefono al sensore come faresti con l'app ufficiale. La scansione con xDrip+ dura più a lungo: non muovere il telefono e riprova se non riesce al primo tentativo.
-4. Dopo la scansione, seleziona **Connettiti a questo sensore FSL 2** e abilita **Non chiedermelo più**.
+4. Dopo la scansione, seleziona **Connettiti a questo sensore FSL2** e abilita **Non chiedermelo più**.
 
 ![](images/l2-xdrip-collegamento-diretto/image_015.png)
 
-5. In **Funzionalità Scansione NFC**, verifica che il parametro Bluetooth sia impostato su **Connettiti sempre ai sensori FSL 2**.
+5. In **Funzionalità Scansione NFC**, verifica che il parametro Bluetooth sia impostato su **Connettiti sempre ai sensori FSL2**.
 
 ![](images/l2-xdrip-collegamento-diretto/image_016.png)
 

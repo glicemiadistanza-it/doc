@@ -80,7 +80,7 @@ Per saperne di più su Nightscout: `https://nightscout.github.io/`
 
 ![](images/nightscoutzehnbe/image_018.png)
 
-**Se usi un FSL 3 tramite LView:**
+**Se usi un FSL3 tramite LView:**
 - Inserisci le credenziali di un follower LLink (non quelle dell'account LView).
 - Seleziona il server corretto per il tuo paese o `EU`.
 

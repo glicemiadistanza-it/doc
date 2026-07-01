@@ -37,7 +37,7 @@ Accendi lo smartwatch e aspetta la schermata **"Tap to begin"**. Tocca lo scherm
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_011.png)
 
-> ℹ️ La **posizione** è necessaria per xDrip+ e Glimp se vuoi usare lo smartwatch in modalità standalone (senza telefono) con MiaoMiao, Bubble o Blucon.
+> ℹ️ **Nota**: La **posizione** è necessaria per xDrip+ e Glimp se vuoi usare lo smartwatch in modalità standalone (senza telefono) con MiaoMiao, Bubble o Blucon.
 
 3. Wear OS cerca lo smartwatch: selezionalo quando viene trovato e autorizza l'abbinamento.
 
@@ -213,4 +213,4 @@ Se il tuo smartwatch lo supporta, puoi aggiungere la glicemia come complicazione
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_064.png)
 
-> ℹ️ Non tutte le app supportano le complicazioni Wear OS.
+> ℹ️ **Nota**: Non tutte le app supportano le complicazioni Wear OS.

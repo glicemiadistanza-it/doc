@@ -14,9 +14,9 @@ Verifica la compatibilità del tuo telefono con il tuo Fitbit: `https://www.fitb
 
 Installa l'app **Fitbit** (disponibile per Android e iPhone) e abbina il tuo Versa o Ionic seguendo le istruzioni dell'app.
 
-> ⚠️ **Se usi xDrip+**: esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: `https://fitbit.it.aptoide.com/versions`. Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
+> ⚠️ **Attenzione**: Se usi xDrip+, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: `https://fitbit.it.aptoide.com/versions`. Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
 
-> ℹ️ **Se usi l'app Dexcom Mobile**: devi avere almeno un follower attivo nell'app per poter inviare i dati al Fitbit.
+> ℹ️ **Nota**: Se usi l'app Dexcom Mobile, devi avere almeno un follower attivo nell'app per poter inviare i dati al Fitbit.
 
 ---
 

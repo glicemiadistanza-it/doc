@@ -14,13 +14,13 @@ Usa un computer (non uno smartphone) durante tutta la procedura. Non cambiare br
 
 Per maggiori informazioni su Nightscout: `https://nightscout.github.io/`
 
-> ℹ️ Azure richiede una carta di credito, ma il piano gratuito non comporta addebiti per Nightscout. MongoDB Atlas è gratuito per database di piccole dimensioni.
+> ℹ️ **Nota**: Azure richiede una carta di credito, ma il piano gratuito non comporta addebiti per Nightscout. MongoDB Atlas è gratuito per database di piccole dimensioni.
 
 ---
 
 ## 1. Crea il database Atlas
 
-> ℹ️ Se stai migrando da Heroku e hai già un database Atlas, vai direttamente all'**Appendice A**.
+> ℹ️ **Nota**: Se stai migrando da Heroku e hai già un database Atlas, vai direttamente all'**Appendice A**.
 
 1. Vai su `https://www.mongodb.com/cloud/atlas` e clicca **Get started now**.
 
@@ -47,7 +47,7 @@ Per maggiori informazioni su Nightscout: `https://nightscout.github.io/`
 
 ![](images/nightscoutazureatlas/image_010.png)
 
-> ⚠️ Se vedi una richiesta di dati di fatturazione, hai selezionato il tipo sbagliato di cluster. Torna indietro e scegli il cluster gratuito.
+> ⚠️ **Attenzione**: Se vedi una richiesta di dati di fatturazione, hai selezionato il tipo sbagliato di cluster. Torna indietro e scegli il cluster gratuito.
 
 ![](images/nightscoutazureatlas/image_011.png)
 
@@ -121,7 +121,7 @@ Conserva questa stringa: si chiama **MONGODB_URI**.
 
 ![](images/nightscoutazureatlas/image_028.png)
 
-> ℹ️ Se hai già un account gratuito Azure e non puoi crearne un secondo, puoi iscriverti a un piano **a consumo** (pay-as-you-go) — Nightscout usa solo risorse gratuite, quindi il costo è zero.
+> ℹ️ **Nota**: Se hai già un account gratuito Azure e non puoi crearne un secondo, puoi iscriverti a un piano **a consumo** (pay-as-you-go) — Nightscout usa solo risorse gratuite, quindi il costo è zero.
 
 ![](images/nightscoutazureatlas/image_029.png)
 
@@ -215,7 +215,7 @@ dbsize pump iob cob basal careportal sage cage bage bridge
 
 ![](images/nightscoutazureatlas/image_049.png)
 
-> ℹ️ Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi Appendice A) e incollale qui.
+> ℹ️ **Nota**: Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi Appendice A) e incollale qui.
 
 ![](images/nightscoutazureatlas/image_050.png)
 
@@ -267,7 +267,7 @@ Per **xDrip+ master** (Cloud Upload), l'URL diventa:
 https://nomedeltuosito.azurewebsites.net/api/v1
 ```
 
-> ℹ️ Il sito Azure mostrerà i dati anche con il vecchio indirizzo Heroku (il database è condiviso), ma il sito Heroku si è fermato: devi aggiornare tutti i dispositivi per continuare a ricevere dati.
+> ℹ️ **Nota**: Il sito Azure mostrerà i dati anche con il vecchio indirizzo Heroku (il database è condiviso), ma il sito Heroku si è fermato: devi aggiornare tutti i dispositivi per continuare a ricevere dati.
 
 ![](images/nightscoutazureatlas/image_060.png)
 

@@ -9,13 +9,13 @@ Questo metodo permette di aggiungere a xDrip+ le funzioni che mancano all'app uf
 - Smartwatch (senza dipendere dai server del fornitore)
 - Follower aggiuntivi via xDrip+ Sync, indipendenti dai server Dexcom o CareLink
 
-> ⚠️ Con **Dexcom ONE** funziona soltanto se ricevi le notifiche di glicemia ogni 5 minuti sul telefono.
+> ⚠️ **Attenzione**: Con **Dexcom ONE** funziona soltanto se ricevi le notifiche di glicemia ogni 5 minuti sul telefono.
 
 ## 1. Installa xDrip+
 
 Segui la [guida base di installazione](./installare-xdrip-android).
 
-> ⚠️ **Non** provare a collegare xDrip+ direttamente al sensore: come sorgente dati userai l'app ufficiale.
+> ⚠️ **Attenzione**: **Non** provare a collegare xDrip+ direttamente al sensore: come sorgente dati userai l'app ufficiale.
 
 ## 2. Configura xDrip+ come compagno
 

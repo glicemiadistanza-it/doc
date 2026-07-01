@@ -1,14 +1,14 @@
-# xDrip+ follower FSL 2 e 3
+# xDrip+ follower FSL2 e 3
 
-Le app ufficiali del FSL (FSL 2 e FSL 3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip+ risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
+Le app ufficiali del FSL (FSL2 e FSL3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip+ risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
 
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
 ## Prerequisiti
 
 Devi già avere un **account follower FSL** attivo e funzionante:
-- FSL 2: crea un account follower nell'app LLink
-- FSL 3: segui le istruzioni del fornitore per aggiungere un follower
+- FSL2: crea un account follower nell'app LLink
+- FSL3: segui le istruzioni del fornitore per aggiungere un follower
 
 Assicurati che le letture arrivino correttamente nell'app del follower **prima** di proseguire. Annota l'**email** e la **password** dell'account follower: ti serviranno tra poco.
 

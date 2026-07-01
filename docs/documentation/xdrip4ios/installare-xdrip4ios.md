@@ -11,7 +11,7 @@ xDrip4iOS è un'app [open source](https://github.com/JohanDegraeve/xdripswift) d
 xDrip4iOS supporta:
 
 - FSL2/2+ collegamento diretto
-- Follower FSL 2/2+/3/3+ Link
+- Follower FSL2/2+/3/3+ LLink
 - Dex G7/ONE+/Stelo assieme all'app originale -> Segui [questa guida](letture-dexcom) dopo l'installazione.
 - Dex follower
 - Medtrum EasyView Follower
@@ -28,7 +28,7 @@ Oppure:
 
 <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/52/37/4a5237ef-68b4-98f7-5c4f-b48d5d858190/Placeholder.mill/400x400bb-75.webp" alt="Zukka" style="zoom:33%;" />
 
-Puoi installare l’app equivalente dall’Apple Store, si chiama **Zukka** https://apps.apple.com/it/app/zukka/id6743448282
+Puoi installare l’app equivalente dall’Apple Store, si chiama **Zukka** `https://apps.apple.com/it/app/zukka/id6743448282`
 
 Gli aggiornamenti di Zukka richiedono diversi giorni dopo l'aggiornamento di xDrip4iOS.
 

@@ -8,7 +8,7 @@ Sito ufficiale: `https://www.sugarmate.io/`
 
 ![](images/sugarmate-follower-di-dexcom-nightscout-gluroo/image_001.png)
 
-> ⚠️ L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
 ---
 

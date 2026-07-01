@@ -66,6 +66,6 @@ Puoi richiamare la glicemia in tre modi:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_012.png)
 
-> ℹ️ Puoi anche aggiungere la scorciatoia al **menu Widget** dell'iPhone (premi **Modifica** in basso nel menu di sinistra) così che appaia subito senza aprire l'app.
+> ℹ️ **Nota**: Puoi anche aggiungere la scorciatoia al **menu Widget** dell'iPhone (premi **Modifica** in basso nel menu di sinistra) così che appaia subito senza aprire l'app.
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_013.png)

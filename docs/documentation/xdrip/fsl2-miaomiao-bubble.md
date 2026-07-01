@@ -7,17 +7,17 @@ Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 - Il segnale Bluetooth è più stabile rispetto alla connessione diretta sensore-telefono.
 - Puoi scegliere di non calibrare oppure di calibrare con diverse strategie.
 
-> ℹ️ In alternativa, puoi collegare xDrip+ direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare Diabox o Juggluco per leggere il sensore e poi inviare la glicemia a xDrip+.
+> ℹ️ **Nota**: In alternativa, puoi collegare xDrip+ direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare Diabox o Juggluco per leggere il sensore e poi inviare la glicemia a xDrip+.
 
-> ⚠️ **Il FSL 2 non può essere usato collegato direttamente a uno smartwatch Android Wear.**
+> ⚠️ **Attenzione**: **Il FSL 2 non può essere usato collegato direttamente a uno smartwatch Android Wear.**
 
-> ⚠️ L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
 ---
 
 ## 1. Aggiorna xDrip+
 
-> ⚠️ **Non disinstallare xDrip+:** aggiorna senza disinstallare per mantenere tutte le impostazioni e il collegamento con il dispositivo ponte.
+> ⚠️ **Attenzione**: **Non disinstallare xDrip+:** aggiorna senza disinstallare per mantenere tutte le impostazioni e il collegamento con il dispositivo ponte.
 
 1. Vai alla pagina delle release di xDrip+:
    `https://github.com/NightscoutFoundation/xDrip/releases`
@@ -30,7 +30,7 @@ Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 
 L'aggiornamento non cambia nessuna impostazione, non ferma il sensore in corso e non interrompe il collegamento con MiaoMiao o Bubble.
 
-> ℹ️ Se non riesci ad aggiornare, probabilmente hai una versione non ufficiale: segui prima la [guida di installazione da zero](./installare-xdrip-android).
+> ℹ️ **Nota**: Se non riesci ad aggiornare, probabilmente hai una versione non ufficiale: segui prima la [guida di installazione da zero](./installare-xdrip-android).
 
 ---
 
@@ -57,7 +57,7 @@ Verifica che la versione sia almeno quella minima per il FSL 2:
 | Bubble Mini | 2.6 |
 | Blucon | 4.2 |
 
-> ⚠️ **Blucon:** non è possibile aggiornarne il firmware. I modelli Blucon più recenti non sono più compatibili con xDrip+.
+> ⚠️ **Attenzione**: **Blucon:** non è possibile aggiornarne il firmware. I modelli Blucon più recenti non sono più compatibili con xDrip+.
 
 Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
@@ -65,9 +65,9 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 ## 3. Aggiorna il firmware di MiaoMiao
 
-> ℹ️ Se hai un Bubble, salta al passo 4.
+> ℹ️ **Nota**: Se hai un Bubble, salta al passo 4.
 
-> ℹ️ Se hai un MiaoMiao 3 (che è abbastanza recente), il firmware dovrebbe essere già compatibile. Verifica comunque al passo 2 prima di procedere.
+> ℹ️ **Nota**: Se hai un MiaoMiao 3 (che è abbastanza recente), il firmware dovrebbe essere già compatibile. Verifica comunque al passo 2 prima di procedere.
 
 1. Dal **Menu di xDrip+ → Stato del sistema**, scegli **Dimentica questo dispositivo** (lascia MiaoMiao attaccato al sensore).
 
@@ -115,7 +115,7 @@ Poi procedi al **passo 5**.
 
 ## 4. Aggiorna il firmware di Bubble
 
-> ℹ️ Lo strumento di aggiornamento disponibile su GitHub non funziona più. Per aggiornare il Bubble è necessario usare temporaneamente Diabox.
+> ℹ️ **Nota**: Lo strumento di aggiornamento disponibile su GitHub non funziona più. Per aggiornare il Bubble è necessario usare temporaneamente Diabox.
 
 1. Dal **Menu di xDrip+ → Stato del sistema**, scegli **Dimentica questo dispositivo**.
 

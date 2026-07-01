@@ -6,11 +6,11 @@ Questa guida spiega come configurare il dispositivo **Ulanzi TC001** come displa
 
 Il progetto si chiama **Nightscout Clock**, sviluppato da Artiom Kenibasov. Documentazione ufficiale: `https://github.com/ktomy/nightscout-clock`
 
-> ℹ️ Funziona **solo con Nightscout** — non è compatibile con Dexcom Share diretto o altri servizi.
+> ℹ️ **Nota**: Funziona **solo con Nightscout** — non è compatibile con Dexcom Share diretto o altri servizi.
 
 **Requisiti:** computer con Windows e porta USB disponibile.
 
-> ⚠️ L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
 ---
 
@@ -107,4 +107,4 @@ Clicca **Validate, save and restart**: il dispositivo si riavvierà e la glicemi
 - Se il dispositivo non riesce a collegarsi, tieni premuto il tasto sinistro e premi contemporaneamente il tasto rosso sul lato per riavviare. Tieni premuto il tasto sinistro finché il dispositivo si ferma sulla schermata iniziale, poi ricomincia dalla configurazione Wi-Fi.
 - Per la diagnostica avanzata: lascia il cavo USB collegato dopo l'installazione per vedere i messaggi di debug tramite una console seriale.
 
-> ℹ️ Al momento non ci sono quadranti aggiuntivi e non è possibile impostare allarmi o regolare la luminosità direttamente dal dispositivo. Lo sviluppatore sta lavorando a nuove funzionalità.
+> ℹ️ **Nota**: Al momento non ci sono quadranti aggiuntivi e non è possibile impostare allarmi o regolare la luminosità direttamente dal dispositivo. Lo sviluppatore sta lavorando a nuove funzionalità.

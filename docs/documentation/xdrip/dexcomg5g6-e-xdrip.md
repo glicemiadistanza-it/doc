@@ -2,11 +2,11 @@
 
 Questa guida spiega come installare e configurare xDrip+ per leggere i dati da un sensore Dexcom G5 o G6 (o ONE) direttamente con Android, senza passare dall'app ufficiale.
 
-> ⚠️ Usando xDrip+ con il sensore collegato direttamente non è possibile caricare i dati su Clarity. Se hai bisogno di Clarity, usa il lettore Dexcom fisico e carica i dati manualmente da computer, oppure usa Nightscout o Tidepool.
+> ⚠️ **Attenzione**: Usando xDrip+ con il sensore collegato direttamente non è possibile caricare i dati su Clarity. Se hai bisogno di Clarity, usa il lettore Dexcom fisico e carica i dati manualmente da computer, oppure usa Nightscout o Tidepool.
 
 **Requisiti:** telefono Android 5 o successivo con Bluetooth 4.2 (BLE).
 
-> ℹ️ Per usare **contemporaneamente** sia l'app Dexcom ufficiale che xDrip+ sullo stesso telefono, la soluzione più semplice è usare xDrip+ in modalità [compagno (Companion)](./dexcom-g6-compagna-di-xdrip), oppure collegarlo al secondo slot del trasmettitore (descritta in questa guida, ma non disponibile con microinfusori Tandem collegati).
+> ℹ️ **Nota**: Per usare **contemporaneamente** sia l'app Dexcom ufficiale che xDrip+ sullo stesso telefono, la soluzione più semplice è usare xDrip+ in modalità [compagno (Companion)](./dexcom-g6-compagna-di-xdrip), oppure collegarlo al secondo slot del trasmettitore (descritta in questa guida, ma non disponibile con microinfusori Tandem collegati).
 
 ---
 
@@ -50,7 +50,7 @@ Inserisci il numero di serie del trasmettitore (lo trovi sulla confezione o sull
 
 ## 2. Configura i parametri Dexcom
 
-> ⚠️ **Non avviare ancora il sensore.** Prima sistema i parametri.
+> ⚠️ **Attenzione**: **Non avviare ancora il sensore.** Prima sistema i parametri.
 
 ![](images/dexcomg5g6-e-xdrip/image_012.png)
 
@@ -80,7 +80,7 @@ Le impostazioni evidenziate in arancione nell'app permettono di abilitare il ria
 
 Serve solo se vuoi collegare il sensore contemporaneamente a xDrip+ **e** all'app Dexcom ufficiale o a un secondo telefono.
 
-> ℹ️ Non è possibile usare questa modalità con un microinfusore Tandem già collegato.
+> ℹ️ **Nota**: Non è possibile usare questa modalità con un microinfusore Tandem già collegato.
 
 ### Attivare la modalità Engineering
 
@@ -97,7 +97,7 @@ Serve solo se vuoi collegare il sensore contemporaneamente a xDrip+ **e** all'ap
 
 ![](images/dexcomg5g6-e-xdrip/image_021.png)
 
-> ⚠️ La modalità Engineering si disattiva automaticamente a ogni riavvio del telefono.
+> ⚠️ **Attenzione**: La modalità Engineering si disattiva automaticamente a ogni riavvio del telefono.
 
 ### Cambiare lo slot del trasmettitore
 
@@ -140,7 +140,7 @@ Quando il collegamento è stabilito, puoi procedere ad avviare il sensore.
 
 ## 5. Avvia il sensore
 
-> ℹ️ È sicuro avviare in xDrip+ un sensore già in uso con il ricevitore Dexcom o l'app ufficiale. Al contrario, **non fermare mai un sensore funzionante** a meno che tu non voglia davvero sostituirlo.
+> ℹ️ **Nota**: È sicuro avviare in xDrip+ un sensore già in uso con il ricevitore Dexcom o l'app ufficiale. Al contrario, **non fermare mai un sensore funzionante** a meno che tu non voglia davvero sostituirlo.
 
 1. Dal menu principale, scegli **Inizializza Sensore** → **Inizializza sensor**.
 
@@ -305,7 +305,7 @@ Per **sostituire** il sensore:
 
 ## 10. Cambio trasmettitore
 
-> ⚠️ Il sensore deve essere stato fermato prima di cambiare il trasmettitore.
+> ⚠️ **Attenzione**: Il sensore deve essere stato fermato prima di cambiare il trasmettitore.
 
 1. In **Menu → Stato del sistema → G5/G6 Status**, premi **Forget Device**.
 
@@ -333,4 +333,4 @@ La schermata **Stato del sistema** mostra:
 
 ![](images/dexcomg5g6-e-xdrip/image_066.png)
 
-> ℹ️ Premi **Aggiorna** per ricaricare le informazioni.
+> ℹ️ **Nota**: Premi **Aggiorna** per ricaricare le informazioni.

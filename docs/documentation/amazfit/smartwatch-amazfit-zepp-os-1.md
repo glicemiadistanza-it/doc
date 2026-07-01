@@ -53,7 +53,7 @@ Nell'app Zepp, usa la funzione **Scan** per scansionare il codice QR dell'app Wa
 
 L'app è universale per tutti i dispositivi Amazfit Zepp OS. Il codice QR si trova nel sito del progetto WatchDrip+.
 
-Per l'installazione è richiesta la versione **Zepp app v7.7.0 o successive**.
+Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zepp.
 
 ---
 

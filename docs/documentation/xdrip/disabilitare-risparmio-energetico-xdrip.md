@@ -14,7 +14,7 @@ Se usi uno smartwatch Android Wear, verifica le stesse impostazioni anche per l'
 
 ## 2. Impostazioni di Android
 
-> ⚠️ I passaggi variano da telefono a telefono. Usa i nomi delle voci come riferimento.
+> ⚠️ **Attenzione**: I passaggi variano da telefono a telefono. Usa i nomi delle voci come riferimento.
 
 xDrip+ **non deve essere ottimizzato** dalla batteria di Android. Stessa cosa vale per tutte le app collegate (ad esempio, l'app del follower).
 
@@ -29,4 +29,4 @@ xDrip+ **non deve essere ottimizzato** dalla batteria di Android. Stessa cosa va
 
 Verifica anche le impostazioni **Bluetooth**: su alcuni telefoni l'ottimizzazione interrompe le scansioni Bluetooth in background.
 
-> ℹ️ Se usi xDrip+ come follower (ricevi le letture da un altro telefono via internet), controlla anche le impostazioni di rete in background, che non vengano bloccate quando lo schermo è spento.
+> ℹ️ **Nota**: Se usi xDrip+ come follower (ricevi le letture da un altro telefono via internet), controlla anche le impostazioni di rete in background, che non vengano bloccate quando lo schermo è spento.

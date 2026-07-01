@@ -5,7 +5,7 @@
 
 ![](images/sentinel-pro-userguide1/image_001.png)
 
-## Caratteristiche
+## 1. Caratteristiche
 
 **Sorgenti dati supportate:** Nightscout, Dexcom Share, xDrip+, Diabox
 
@@ -36,7 +36,7 @@
 
 ![](images/sentinel-pro-userguide1/image_005.png)
 
-## Visualizzazione del quadrante
+## 2. Visualizzazione del quadrante
 
 Gli elementi principali del quadrante sono:
 
@@ -70,7 +70,7 @@ Gli elementi principali del quadrante sono:
 
 ![](images/sentinel-pro-userguide1/image_011.png)
 
-## Funzioni principali
+## 3. Funzioni principali
 
 ![](images/sentinel-pro-userguide1/image_012.png)
 
@@ -102,7 +102,7 @@ Gli elementi principali del quadrante sono:
 
 ![](images/sentinel-pro-userguide1/image_023.png)
 
-## Indicatori — Connessione e comunicazione
+## 4. Indicatori — Connessione e comunicazione
 
 ![](images/sentinel-pro-userguide1/image_024.png)
 
@@ -149,7 +149,7 @@ Gli elementi principali del quadrante sono:
 
 ![](images/sentinel-pro-userguide1/image_036.png)
 
-## Careportal
+## 5. Careportal
 
 - Prima imposta tutto, poi abilita **Activate**.
 
@@ -215,11 +215,11 @@ Gli elementi principali del quadrante sono:
 
 Il quadrante Sentinel per il Fitbit è stato creato da Ryan Chen, papà di due bambini con diabete di tipo 1 (Ethan e Owen). Il progetto è ancora in sviluppo. Per domande o commenti, pubblica nella pagina Facebook del gruppo Sentinel:
 
-https://www.facebook.com/groups/3185325128159614/
+`https://www.facebook.com/groups/3185325128159614/`
 
 > ⚠️ *Questo quadrante è solo per supporto e non deve essere usato per prendere decisioni mediche.*
 
-Siate pronti a errori di connessione che si verificheranno di tanto in tanto. Per risolvere i problemi più comuni:
+Preparati a eventuali errori di connessione che si verificheranno di tanto in tanto. Per risolvere i problemi più comuni:
 1. Cambia quadrante e poi torna al quadrante Sentinel.
 2. Se il problema persiste, riavvia l'app del telefono o il telefono stesso.
 
@@ -229,4 +229,4 @@ Siate pronti a errori di connessione che si verificheranno di tanto in tanto. Pe
 
 ![](images/sentinel-pro-userguide1/image_060.png)
 
-Sentinel è gratuito per tutti. Per supportare il progetto: https://paypal.me/ryanwchen
+Sentinel è gratuito per tutti. Per supportare il progetto: `https://paypal.me/ryanwchen`

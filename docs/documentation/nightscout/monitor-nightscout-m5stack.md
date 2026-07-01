@@ -6,11 +6,11 @@ Questa guida spiega come configurare un **M5Stack** come display da tavolo per l
 
 Documentazione ufficiale: `https://github.com/mlukasek/M5_NightscoutMon/wiki`
 
-> ℹ️ Funziona anche con Gluroo, direttamente da Dexcom Share e LLink.
+> ℹ️ **Nota**: Funziona anche con Gluroo, direttamente da Dexcom Share e LLink.
 
 **Requisiti:** computer Windows (necessario per la programmazione del dispositivo).
 
-> ⚠️ L'utilizzo è a esclusiva responsabilità personale.
+> ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
 ---
 
@@ -63,7 +63,7 @@ Per installare le batterie supplementari, apri delicatamente la parte anteriore 
 
 ![](images/monitor-nightscout-m5stack/image_014.png)
 
-> ℹ️ Se hai già versioni precedenti del driver USB SiLabs, rimuovile prima per evitare conflitti.
+> ℹ️ **Nota**: Se hai già versioni precedenti del driver USB SiLabs, rimuovile prima per evitare conflitti.
 
 ---
 
@@ -83,7 +83,7 @@ Per installare le batterie supplementari, apri delicatamente la parte anteriore 
 
 ![](images/monitor-nightscout-m5stack/image_018.png)
 
-> ⚠️ Non scambiare i file: il firmware sbagliato non funzionerà.
+> ⚠️ **Attenzione**: Non scambiare i file: il firmware sbagliato non funzionerà.
 
 3. Nella cartella Download, fai clic destro sul file `.zip` → **Estrai tutto** → imposta come destinazione `C:\` → **Estrai**.
 
@@ -175,7 +175,7 @@ Se la pagina non si apre, premi il tasto destro dell'M5Stack fino alla quarta pa
 
 ![](images/monitor-nightscout-m5stack/image_039.png)
 
-> ℹ️ La pagina di configurazione funziona solo se:
+> ℹ️ **Nota**: La pagina di configurazione funziona solo se:
 > - il nome del dispositivo è rimasto `M5NS` (non cambiato in `M5NS.ini`)
 > - il server web è abilitato (`disable_web_server = 0`)
 > - il computer/telefono è sulla stessa rete Wi-Fi

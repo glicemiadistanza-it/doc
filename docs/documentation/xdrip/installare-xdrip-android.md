@@ -41,7 +41,7 @@ xDrip+ è un'app Android gratuita e open source che permette di ricevere le lett
 
 ![](images/installare-xdrip-android/image_011.png)
 
-2. Per conservare anche le impostazioni, vai in **Impostazioni** → **Impostazioni xDrip+** → **Backup** → salva il codice QR (fai uno screenshot e mandatelo a te stesso via WhatsApp o email).
+2. Per conservare anche le impostazioni, vai in **Impostazioni** → **Impostazioni xDrip+** → **Backup** → salva il codice QR (fai uno screenshot e mandalo a te stesso via WhatsApp o email).
 
 ![](images/installare-xdrip-android/image_012.png)
 
@@ -182,8 +182,8 @@ Una volta installato xDrip+, devi indicare da dove arriveranno i valori di glice
 | Situazione | Sorgente da scegliere |
 |---|---|
 | FSL con MiaoMiao, Bubble o Blucon | **Bluetooth Bridge** |
-| FSL 2 collegamento diretto | **Bluetooth Bridge** |
-| FSL 2 app patchata / Juggluco | **640G** o come indicato nell'app |
+| FSL2 collegamento diretto | **Bluetooth Bridge** |
+| FSL2 app patchata / Juggluco | **640G** o come indicato nell'app |
 | Dexcom G5/G6 diretto (solo esperti) | **G5/G6** |
 | Follower Dexcom Share | **Dex Share Follower** |
 | Follower Nightscout | **Nightscout Follower** + URL del sito |

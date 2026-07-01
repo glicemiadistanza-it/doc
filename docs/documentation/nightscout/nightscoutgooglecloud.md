@@ -4,7 +4,7 @@ Questa guida spiega come creare un sito Nightscout gratuito usando **Google Clou
 
 Documentazione ufficiale (in italiano): `https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html`
 
-> ℹ️ **Gratuito\***: richiede una carta di credito per creare l'account Google Cloud. Il servizio rimane gratuito entro i limiti previsti; possono capitare addebiti minimi (1–2 centesimi) causati da traffico automatico sul sito.
+> ℹ️ **Nota**: Gratuito\*: richiede una carta di credito per creare l'account Google Cloud. Il servizio rimane gratuito entro i limiti previsti; possono capitare addebiti minimi (1–2 centesimi) causati da traffico automatico sul sito.
 
 ---
 
@@ -101,7 +101,7 @@ Usa un computer (non uno smartphone). Non cambiare browser o utente durante la p
 
 ### Configurazione della VM
 
-> ⚠️ Segui esattamente le istruzioni qui sotto. Errori nella configurazione potrebbero portare a costi imprevisti.
+> ⚠️ **Attenzione**: Segui esattamente le istruzioni qui sotto. Errori nella configurazione potrebbero portare a costi imprevisti.
 
 - **Nome**: non importante
 - **Regione**: scegli SOLO una di queste tre (le uniche gratuite):
@@ -217,7 +217,7 @@ Il tuo sito Nightscout avrà ora un indirizzo come `mionightscout.mooo.com`.
 
 ![](images/nightscoutgooglecloud/image_055.png)
 
-> ⚠️ La fase 1 dura circa 15 minuti. Non chiudere il terminale e non lasciarlo aperto senza proseguire (scadrà per timeout).
+> ⚠️ **Attenzione**: La fase 1 dura circa 15 minuti. Non chiudere il terminale e non lasciarlo aperto senza proseguire (scadrà per timeout).
 
 9. Quando la fase 1 termina, torna al menu → **Google Cloud setup** → **2 – Install Nightscout phase 2**.
 
@@ -304,7 +304,7 @@ Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip+, Spike,
 ![](images/nightscoutgooglecloud/image_079.png)
 
 - **Dexcom Share come sorgente:** apri il terminale SSH → menu **4 – Nightscout setup** → **1 – Edit variables** → aggiungi le variabili:
-  ```
+  ```bash
   export BRIDGE_USER_NAME='tuo_utente_dexcom'
   export BRIDGE_PASSWORD='tua_password_dexcom'
   export BRIDGE_SERVER='EU'
@@ -331,7 +331,7 @@ Per modificare o aggiungere variabili di Nightscout:
 ![](images/nightscoutgooglecloud/image_084.png)
 
 3. Il formato delle variabili è:
-   ```
+   ```bash
    export NOMEVARIABILE='valore'
    ```
 4. Variabili utili:

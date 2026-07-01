@@ -1,6 +1,6 @@
 # Xiaomi MiBand 4, 5 e 6 con xDrip+ (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Attenzione**: Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022. Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
 Questa guida spiega come visualizzare la glicemia di xDrip+ su una smartband **Xiaomi MiBand 4, 5 o 6** usando il metodo legacy (app Mi Fit modificata + integrazione diretta xDrip+).
 
@@ -41,7 +41,7 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 
 L'app modificata crea automaticamente un file di testo con le credenziali. Trovalo nella **memoria interna** o sulla **scheda SD**, nella cartella `freemyband`.
 
-> ⚠️ Se il file non esiste, xDrip+ non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ **Attenzione**: Se il file non esiste, xDrip+ non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
 ---
 
@@ -69,11 +69,11 @@ Osserva lo stato in fondo alla schermata: prima comparirà "Smartband rilevata",
 
 Se ancora non funziona, abilita **Disable high MTU** nelle impostazioni MiBand.
 
-> ℹ️ Le MiBand 4 e 5 richiedono che la batteria sia sopra il 10% per mostrare il quadrante personalizzato.
+> ℹ️ **Nota**: Le MiBand 4 e 5 richiedono che la batteria sia sopra il 10% per mostrare il quadrante personalizzato.
 
 Con **Invia Allarmi** attivo, quando scatta un allarme xDrip+ riceverai una "chiamata" sulla smartband: il numero del chiamante corrisponde al valore della glicemia.
 
-> ℹ️ Se hai problemi con le notifiche delle altre app, installa **Notify for Mi Band** dal Play Store e concedi le autorizzazioni richieste.
+> ℹ️ **Nota**: Se hai problemi con le notifiche delle altre app, installa **Notify for Mi Band** dal Play Store e concedi le autorizzazioni richieste.
 
 ---
 

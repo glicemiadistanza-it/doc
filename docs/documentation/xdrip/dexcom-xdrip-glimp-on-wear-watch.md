@@ -1,10 +1,10 @@
 # Glicemia al polso con smartwatch Android Wear OS
 
-Questa guida spiega come configurare uno smartwatch **Android Wear OS** (versioni 2 e 3) per visualizzare la glicemia ricevuta dall'app Dexcom (ufficiale o modificata), da xDrip+ o da Glimp.
+Questa guida spiega come configurare uno smartwatch **Android Wear OS** (versioni 2 e 3) per visualizzare la glicemia ricevuta dall'app Dexcom (ufficiale o modificata), da xDrip o da Glimp.
 
 La guida è stata realizzata con un Huawei Watch 2 LTE, ma i passaggi sono simili per qualsiasi smartwatch Wear OS (i nomi dei menu possono variare leggermente).
 
-**Prerequisito:** sul telefono deve essere già installata e funzionante una di queste app: app Dexcom master (ufficiale o modificata), xDrip+, o Glimp.
+**Prerequisito:** sul telefono deve essere già installata e funzionante una di queste app: app Dexcom master (ufficiale o modificata), xDrip, o Glimp.
 
 ---
 
@@ -37,7 +37,7 @@ Accendi lo smartwatch e aspetta la schermata **"Tap to begin"**. Tocca lo scherm
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_011.png)
 
-> ℹ️ **Nota**: La **posizione** è necessaria per xDrip+ e Glimp se vuoi usare lo smartwatch in modalità standalone (senza telefono) con MiaoMiao, Bubble o Blucon.
+> ℹ️ **Nota**: La **posizione** è necessaria per xDrip e Glimp se vuoi usare lo smartwatch in modalità standalone (senza telefono) con MiaoMiao, Bubble o Blucon.
 
 3. Wear OS cerca lo smartwatch: selezionalo quando viene trovato e autorizza l'abbinamento.
 
@@ -100,7 +100,7 @@ Accendi lo smartwatch e aspetta la schermata **"Tap to begin"**. Tocca lo scherm
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_032.png)
 
-3. Se la vedi, cerca l'app che ti interessa (xDrip+, Dexcom, Glimp) e premi l'icona di download.
+3. Se la vedi, cerca l'app che ti interessa (xDrip, Dexcom, Glimp) e premi l'icona di download.
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_033.png)
 
@@ -193,7 +193,7 @@ Se preferisci non seguire questa procedura, usa il Metodo 2.
 
 - Tieni premuto il quadrante attuale dello smartwatch.
 - Scorri in fondo alla lista e scegli **Scopri altri quadranti** (oppure imposta il quadrante dall'app Wear OS sul telefono).
-- Seleziona il quadrante dell'app installata (Dexcom, xDrip+, Glimp, AAPS).
+- Seleziona il quadrante dell'app installata (Dexcom, xDrip, Glimp, AAPS).
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_059.png)
 
@@ -209,7 +209,7 @@ Se preferisci non seguire questa procedura, usa il Metodo 2.
 Se il tuo smartwatch lo supporta, puoi aggiungere la glicemia come complicazione su un quadrante personalizzabile:
 1. Scegli un quadrante con elementi personalizzabili.
 2. Premi a lungo il quadrante → **Personalizza**.
-3. Tocca l'elemento da cambiare e seleziona l'app sorgente (Dexcom, xDrip+, …).
+3. Tocca l'elemento da cambiare e seleziona l'app sorgente (Dexcom, xDrip, …).
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_064.png)
 

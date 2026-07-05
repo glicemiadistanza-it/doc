@@ -61,7 +61,7 @@ Ci sono 4 menu raggiungibili con un tocco in 4 diverse zone dello schermo.
 - **WearOS** permette di configurare il quadrante Juggluco su uno smartwatch Android Wear. Puoi installare Juggluco dal Google Play Store dello smartwatch abbinato al telefono (cerca "Juggluco"). Con i vecchi smartwatch, puoi installarlo anche dalle app presenti sul telefono.
 - Nel menu **WearOS Config** fai **Init watch app** (non usare *Direct sensor-watch connection*). Lo smartwatch dovrebbe ricevere la glicemia dal telefono tramite Bluetooth.
   - *Nota: questo metodo potrebbe non funzionare con tutti i dispositivi.*
-- **xDrip webserver** permette di collegare smartwatch Fitbit e Samsung usando xDrip+ come sorgente dati.
+- **xDrip webserver** permette di collegare smartwatch Fitbit e Samsung usando xDrip come sorgente dati.
 - **Kerfstok** è un quadrante per Garmin: `https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260`
 
 **Sensor:** mostra informazioni sul sensore e lo stato del collegamento.
@@ -77,7 +77,7 @@ Ci sono 4 menu raggiungibili con un tocco in 4 diverse zone dello schermo.
 - **Scala verticale**: manuale (seleziona **Glucose** e inserisci i valori in **Graph range**) o automatica. Puoi anche fissare la scala automatica a un intervallo di tempo (deseleziona **Time**).
 - **Range** target (visibile in bianco o nero sul grafico).
 - Numeri della scala di glicemia a sinistra.
-- **Trasmissione delle letture a xDrip+**: per questa opzione, configura xDrip+ con sorgente dati "app Libre patchata".
+- **Trasmissione delle letture a xDrip**: per questa opzione, configura xDrip con sorgente dati "app Libre patchata".
 - **Scanning starts app**: fa aprire Juggluco quando si scansiona il sensore; puoi abilitare anche un suono alla scansione NFC.
 - **Invert screen**: passa in modalità scura.
 - **Sensor via Bluetooth**: obbligatorio per il collegamento diretto con il Libre 2; opzionale se usi Juggluco solo per scansionare il sensore.

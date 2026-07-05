@@ -1,6 +1,6 @@
-# Xiaomi MiBand 2, 3 e 4 con xDrip+
+# Xiaomi MiBand 2, 3 e 4 con xDrip
 
-Questa guida spiega come visualizzare la glicemia di xDrip+ su una smartband **Xiaomi MiBand 2, 3 o 4**.
+Questa guida spiega come visualizzare la glicemia di xDrip su una smartband **Xiaomi MiBand 2, 3 o 4**.
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
@@ -8,9 +8,9 @@ Progetto originale di Artem (GitHub: @bigdigital).
 
 ---
 
-## 1. Installa xDrip+
+## 1. Installa xDrip
 
-Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
 ---
 
@@ -85,11 +85,11 @@ L'app modificata crea automaticamente un file di testo con le credenziali. Trova
 
 ![](images/mi-band234-con-xdrip/image_023.png)
 
-> ⚠️ **Attenzione**: Se il file non esiste, xDrip+ non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ **Attenzione**: Se il file non esiste, xDrip non riuscirà a comunicare con la smartband. Se disaccoppi o reimposti la smartband, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
 ---
 
-## 5. Configura xDrip+ per MiBand
+## 5. Configura xDrip per MiBand
 
 1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand**.
 
@@ -143,7 +143,7 @@ Osserva lo stato in fondo alla schermata: prima comparirà "Smartband rilevata",
 
 ![](images/mi-band234-con-xdrip/image_039.png)
 
-1. Disabilita MiBand in xDrip+.
+1. Disabilita MiBand in xDrip.
 
 ![](images/mi-band234-con-xdrip/image_043.png)
 
@@ -151,7 +151,7 @@ Osserva lo stato in fondo alla schermata: prima comparirà "Smartband rilevata",
 
 ![](images/mi-band234-con-xdrip/image_044.png)
 
-3. Riabilita MiBand in xDrip+.
+3. Riabilita MiBand in xDrip.
 
 ![](images/mi-band234-con-xdrip/image_045.png)
 
@@ -179,7 +179,7 @@ Se ancora non funziona, abilita **Disable high MTU** nelle impostazioni MiBand.
 
 ![](images/mi-band234-con-xdrip/image_052.png)
 
-Con **Invia Allarmi** attivo, quando scatta un allarme xDrip+ riceverai una "chiamata" sulla smartband: il numero del chiamante corrisponde al valore della glicemia.
+Con **Invia Allarmi** attivo, quando scatta un allarme xDrip riceverai una "chiamata" sulla smartband: il numero del chiamante corrisponde al valore della glicemia.
 
 ![](images/mi-band234-con-xdrip/image_053.png)
 

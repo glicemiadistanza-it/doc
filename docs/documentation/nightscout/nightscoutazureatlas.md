@@ -250,7 +250,7 @@ dbsize pump iob cob basal careportal sage cage bage bridge
 
 ![](images/nightscoutazureatlas/image_058.png)
 
-Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip+, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app.
+Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app.
 
 ![](images/nightscoutazureatlas/image_059.png)
 
@@ -262,7 +262,7 @@ Devi aggiornare l'indirizzo Nightscout su tutti i tuoi dispositivi:
 - **Prima (Heroku):** `https://nomedeltuosito.heroku.com`
 - **Ora (Azure):** `https://nomedeltuosito.azurewebsites.net`
 
-Per **xDrip+ master** (Cloud Upload), l'URL diventa:
+Per **xDrip master** (Cloud Upload), l'URL diventa:
 ```
 https://nomedeltuosito.azurewebsites.net/api/v1
 ```

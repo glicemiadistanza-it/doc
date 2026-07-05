@@ -1,6 +1,6 @@
-# CareLink follower con xDrip+
+# CareLink follower con xDrip
 
-Questa guida passo passo spiega come visualizzare la glicemia di CareLink (la piattaforma cloud Medtronic per la gestione del diabete) con xDrip+.
+Questa guida passo passo spiega come visualizzare la glicemia di CareLink (la piattaforma cloud Medtronic per la gestione del diabete) con xDrip.
 
 Funziona con i seguenti dispositivi quando la glicemia è disponibile in CareLink (richiede un telefono master che la invia su internet):
 
@@ -11,9 +11,9 @@ Ringraziamo Bence Szász per questo lavoro. È necessario un telefono Android co
 
 > ⚠️ **Attenzione**: Potrebbe non funzionare se hai abilitato l'autenticazione a due fattori (2FA) in CareLink.
 
-## 1. Installare xDrip+
+## 1. Installare xDrip
 
-Segui la guida base per installare xDrip+, selezionando l'ultimo pre-release:
+Segui la guida base per installare xDrip, selezionando l'ultimo pre-release:
 `https://www.glicemiadistanza.it/installare-lapp-xdrip-per-android/`
 
 ## 2. Configurare il follower CareLink
@@ -44,7 +44,7 @@ Segui la guida base per installare xDrip+, selezionando l'ultimo pre-release:
 
 > ⚠️ **Attenzione**: Dovrai effettuare nuovamente il login ogni volta che spegni il telefono.
 
-Per eventuali modifiche, sono disponibili diverse opzioni nel menu di xDrip+. Non ridurre i valori di **Grace Period** né di **Missed data poll interval**.
+Per eventuali modifiche, sono disponibili diverse opzioni nel menu di xDrip. Non ridurre i valori di **Grace Period** né di **Missed data poll interval**.
 
 ![](images/carelink-con-xdrip/image_021.png)
 
@@ -60,9 +60,9 @@ Se non arrivano dati e le credenziali sono corrette, disabilita il follower Care
 
 ![](images/carelink-con-xdrip/image_025.png)
 
-## 3. Come vedere le glicemie dall'orologio direttamente con xDrip+
+## 3. Come vedere le glicemie dall'orologio direttamente con xDrip
 
-Usando xDrip+ puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip+ come follower.
+Usando xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
 
 - **Android Wear OS:** `https://www.glicemiadistanza.it/android-wear-os-come-impostare-un-quadrante-con-lapp-dexcom-master-xdrip-glimp-o-aaps/`
 - **Fitbit Versa e Ionic:** `https://www.glicemiadistanza.it/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwatch-versa-e-ionic/`

@@ -1,6 +1,6 @@
-# Amazfit con xDrip+ (metodo legacy)
+# Amazfit con xDrip (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip+ successive all'11 luglio 2022.** Se hai una versione recente di xDrip+, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Questa guida è obsoleta per versioni di xDrip successive all'11 luglio 2022.** Se hai una versione recente di xDrip, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
 Dispositivi compatibili con questo metodo:
 - Amazfit Band 5
@@ -14,9 +14,9 @@ Progetto originale di Artem (GitHub: @bigdigital).
 
 ---
 
-## 1. Installa xDrip+
+## 1. Installa xDrip
 
-Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
 ---
 
@@ -43,13 +43,13 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 
 L'app modificata crea automaticamente un file di testo con le credenziali. Trovalo nella **memoria interna** o sulla **scheda SD**, nella cartella `freemyband`.
 
-> ⚠️ Se il file non esiste, xDrip+ non riuscirà a comunicare con lo smartwatch. Se disaccoppi o reimposti il dispositivo, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ Se il file non esiste, xDrip non riuscirà a comunicare con lo smartwatch. Se disaccoppi o reimposti il dispositivo, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
-> ℹ️ **Amazfit GTS2 mini:** per permettere a xDrip+ di installare il suo quadrante, devi cancellare tutti i quadranti personalizzati: **Impostazioni → Quadranti** e rimuovi tutto quello che puoi.
+> ℹ️ **Amazfit GTS2 mini:** per permettere a xDrip di installare il suo quadrante, devi cancellare tutti i quadranti personalizzati: **Impostazioni → Quadranti** e rimuovi tutto quello che puoi.
 
 ---
 
-## 5. Configura xDrip+ per il dispositivo Amazfit
+## 5. Configura xDrip per il dispositivo Amazfit
 
 1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand**.
 2. Autorizza l'accesso a file, geolocalizzazione e posizione.
@@ -66,14 +66,14 @@ Osserva lo stato in fondo alla schermata: prima comparirà "Smartwatch rilevata"
 **Se compare "Errore di autenticazione":** torna al passo 3 e rigenera la chiave.
 
 **Se il quadrante non appare (sequenza di ripristino):**
-1. Disabilita MiBand in xDrip+.
+1. Disabilita MiBand in xDrip.
 2. Apri Zepp e scorri verso il basso per forzare la sincronizzazione.
-3. Riabilita MiBand in xDrip+.
+3. Riabilita MiBand in xDrip.
 4. Forza l'invio di una lettura allo smartwatch dal menù.
 
 Se ancora non funziona, abilita **Disable high MTU** nelle impostazioni MiBand.
 
-Con **Invia Allarmi** attivo, quando scatta un allarme xDrip+ riceverai una "chiamata" sullo smartwatch: il numero del chiamante corrisponde al valore della glicemia.
+Con **Invia Allarmi** attivo, quando scatta un allarme xDrip riceverai una "chiamata" sullo smartwatch: il numero del chiamante corrisponde al valore della glicemia.
 
 ---
 

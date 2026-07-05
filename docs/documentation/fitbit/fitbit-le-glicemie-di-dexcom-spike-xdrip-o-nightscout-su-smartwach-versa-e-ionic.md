@@ -2,7 +2,7 @@
 
 Questa guida spiega come visualizzare la glicemia su uno smartwatch **Fitbit Versa** o **Ionic** abbinato a un telefono Android o iPhone.
 
-Sorgenti compatibili: Dexcom, xDrip+, Diabox, Spike, Nightscout.
+Sorgenti compatibili: Dexcom, xDrip, Diabox, Spike, Nightscout.
 
 Verifica la compatibilità del tuo telefono con il tuo Fitbit: `https://www.fitbit.com/it/devices`
 
@@ -14,7 +14,7 @@ Verifica la compatibilità del tuo telefono con il tuo Fitbit: `https://www.fitb
 
 Installa l'app **Fitbit** (disponibile per Android e iPhone) e abbina il tuo Versa o Ionic seguendo le istruzioni dell'app.
 
-> ⚠️ **Attenzione**: Se usi xDrip+, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: `https://fitbit.it.aptoide.com/versions`. Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
+> ⚠️ **Attenzione**: Se usi xDrip, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: `https://fitbit.it.aptoide.com/versions`. Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
 
 > ℹ️ **Nota**: Se usi l'app Dexcom Mobile, devi avere almeno un follower attivo nell'app per poter inviare i dati al Fitbit.
 
@@ -27,12 +27,12 @@ Configura l'app che gestisce la glicemia sul telefono:
 **Se usi Spike:**
 - Apri Spike → **Settings → Integration** → abilita **Internal HTTP Server**.
 
-**Se usi xDrip+:**
+**Se usi xDrip:**
 - Vai in **Impostazioni → Impostazioni Inter-app** → abilita **xDrip Web Service**.
 
 **Se usi Diabox:**
 - Nel menu integrazione, abilita la condivisione dati con gli smartwatch.
-- Se usi Diabox insieme a xDrip+: **disabilita** il web service di xDrip+ (altrimenti ci sono conflitti).
+- Se usi Diabox insieme a xDrip: **disabilita** il web service di xDrip (altrimenti ci sono conflitti).
 
 ![](images/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic/image_002.png)
 
@@ -80,7 +80,7 @@ Apri le impostazioni del quadrante dall'app Fitbit e seleziona la sorgente dei d
 | **Dexcom** | Inserisci le credenziali Dexcom Share |
 | **Nightscout** | Inserisci l'URL del sito (mantieni lo `/` finale) |
 | **Spike** | Seleziona Spike come sorgente |
-| **xDrip+ / Diabox** | Seleziona xDrip+ come sorgente |
+| **xDrip / Diabox** | Seleziona xDrip come sorgente |
 
 ![](images/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic/image_013.png)
 

@@ -81,13 +81,13 @@ Per abilitare la condivisione delle glicemie:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_021.png)
 
-2. Abilita **Trasmissione dati a xDrip+**.
+2. Abilita **Trasmissione dati a xDrip**.
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_022.png)
 
 3. Chiudi l'app.
 
-Dopo qualche istante dovresti vedere le glicemie arrivare su xDrip+.
+Dopo qualche istante dovresti vedere le glicemie arrivare su xDrip.
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_023.png)
 
@@ -146,9 +146,9 @@ Per visualizzare i dati, accedi alla tua pagina Nightscout: `https://nomesito.he
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_032.png)
 
-## 5. Come vedere le glicemie da orologio con xDrip+
+## 5. Come vedere le glicemie da orologio con xDrip
 
-Usando l'app xDrip+ puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip+ come follower.
+Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
 
 - **Android Wear 2**: `https://www.glicemiadistanza.it/huawei-watch-2-e-xdrip/`
 - **Sony Smartwatch 3 (SWR50)**: `https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/`
@@ -159,7 +159,7 @@ Usando l'app xDrip+ puoi visualizzare le glicemie direttamente su alcuni smartwa
 
 ### Allarmi e widget
 
-xDrip+ include un widget che mostra il valore glicemico e il grafico sulla home del telefono e sulla schermata di blocco. Gli allarmi sono personalizzabili per fascia oraria e giorno della settimana. Puoi impostarli dal menu **Impostazioni → Allarmi e avvisi**.
+xDrip include un widget che mostra il valore glicemico e il grafico sulla home del telefono e sulla schermata di blocco. Gli allarmi sono personalizzabili per fascia oraria e giorno della settimana. Puoi impostarli dal menu **Impostazioni → Allarmi e avvisi**.
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_033.png)
 

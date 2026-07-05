@@ -1,6 +1,6 @@
-# xDrip+ follower FSL2 e 3
+# xDrip follower FSL2 e 3
 
-Le app ufficiali del FSL (FSL2 e FSL3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip+ risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
+Le app ufficiali del FSL (FSL2 e FSL3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
 
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
@@ -14,13 +14,13 @@ Assicurati che le letture arrivino correttamente nell'app del follower **prima**
 
 ![](images/xdrip-follower-fsl/image_004.png)
 
-## 1. Installa xDrip+
+## 1. Installa xDrip
 
 Segui la [guida base di installazione](./installare-xdrip-android).
 
 ## 2. Configura la sorgente dati
 
-1. Dal menu principale di xDrip+: **Menu → Impostazioni → Dati hardware di origine**.
+1. Dal menu principale di xDrip: **Menu → Impostazioni → Dati hardware di origine**.
 2. Seleziona **Web Follower**.
 
 > ⚠️ Non selezionare altre opzioni FSL: usa solo **Web Follower** per il collegamento tramite cloud.
@@ -48,13 +48,13 @@ Se le credenziali del follower non funzionano, prova con quelle dell'app master 
 
 ## 3. Verifica il funzionamento
 
-Dopo qualche istante le letture di glicemia compaiono su xDrip+. Il valore appare anche nelle notifiche del telefono, anche a schermo bloccato (se autorizzato nelle impostazioni Android).
+Dopo qualche istante le letture di glicemia compaiono su xDrip. Il valore appare anche nelle notifiche del telefono, anche a schermo bloccato (se autorizzato nelle impostazioni Android).
 
 ![](images/xdrip-follower-fsl/image_011.png)
 
 ## 4. Aggiungi il widget (opzionale)
 
-xDrip+ ha un widget che mostra il valore glicemico e il grafico sulla schermata principale e di blocco.
+xDrip ha un widget che mostra il valore glicemico e il grafico sulla schermata principale e di blocco.
 
 **Esempio su Samsung Galaxy S7:**
 1. Tieni premuto uno spazio vuoto nella schermata principale.
@@ -72,7 +72,7 @@ Il metodo varia da modello a modello.
 
 ## 5. Visualizza le glicemie sullo smartwatch (opzionale)
 
-xDrip+ può inviare la glicemia direttamente a diversi tipi di smartwatch:
+xDrip può inviare la glicemia direttamente a diversi tipi di smartwatch:
 
 - **Android Wear OS:** vedi la guida per il tuo orologio
 - **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)

@@ -1,6 +1,6 @@
 # Creare un sito Nightscout gratuito su Google Cloud
 
-Questa guida spiega come creare un sito Nightscout gratuito usando **Google Cloud** e uno script di installazione automatica creato dalla squadra di xDrip+ (Jon/@jamorham, Tzachi Dar e Navid Fo).
+Questa guida spiega come creare un sito Nightscout gratuito usando **Google Cloud** e uno script di installazione automatica creato dalla squadra di xDrip (Jon/@jamorham, Tzachi Dar e Navid Fo).
 
 Documentazione ufficiale (in italiano): `https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html`
 
@@ -276,13 +276,13 @@ Il tuo sito Nightscout avrà ora un indirizzo come `mionightscout.mooo.com`.
 
 ![](images/nightscoutgooglecloud/image_071.png)
 
-Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip+, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app.
+Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app.
 
 ![](images/nightscoutgooglecloud/image_072.png)
 
 **Connettere l'uploader:**
 
-- **xDrip+ master:** vai in **Impostazioni → Cloud Upload → API Upload (REST)** e inserisci:
+- **xDrip master:** vai in **Impostazioni → Cloud Upload → API Upload (REST)** e inserisci:
   ```
   https://tuaAPISecret@tuonome.mooo.com/api/v1
   ```

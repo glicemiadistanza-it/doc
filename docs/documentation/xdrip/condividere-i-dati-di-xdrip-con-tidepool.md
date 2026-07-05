@@ -1,4 +1,4 @@
-# Condividere i dati di xDrip+ con Tidepool
+# Condividere i dati di xDrip con Tidepool
 
 Nel gruppo preferiamo Nightscout, ma non tutti i centri diabetologici lo accettano per condividere le statistiche del paziente.
 
@@ -10,7 +10,7 @@ Tidepool è un'organizzazione no profit che offre software open source e servizi
 
 1. Vai su `https://www.tidepool.org/` e clicca **Sign Up**.
 2. Seleziona un'utenza privata e clicca **Continue**.
-3. Compila il nome completo, l'email e la password (annotala: servirà dopo per xDrip+).
+3. Compila il nome completo, l'email e la password (annotala: servirà dopo per xDrip).
 4. Clicca **Create Personal Account** per proseguire.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_002.png)
@@ -44,9 +44,9 @@ Ora crea una base dati per il paziente:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_011.png)
 
-## 2. Configurare xDrip+
+## 2. Configurare xDrip
 
-Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip+. Puoi farlo dal master o da un xDrip+ Sync Follower, ma conviene abilitarlo su un solo dispositivo.
+Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip. Puoi farlo dal master o da un xDrip Sync Follower, ma conviene abilitarlo su un solo dispositivo.
 
 1. Vai in **Menu principale** → **Impostazioni** → **Cloud Upload** → **Tidepool**.
 
@@ -95,7 +95,7 @@ Tidepool si interfaccia con moltissimi microinfusori e sensori. Puoi aggiungere 
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_024.png)
 
-> ⚠️ **Attenzione**: Con versioni di xDrip+ precedenti al 7 febbraio 2020: se inserisci boli e CHO (carboidrati) sia in xDrip+ sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione per non inviare i dati doppi a Tidepool.
+> ⚠️ **Attenzione**: Con versioni di xDrip precedenti al 7 febbraio 2020: se inserisci boli e CHO (carboidrati) sia in xDrip sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione per non inviare i dati doppi a Tidepool.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_025.png)
 

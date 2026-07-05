@@ -100,6 +100,6 @@ Il tuo sito è pronto.
 
 ![](images/nightscoutpro/image_020.png)
 
-Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip+, xDrip4iOS, Spike, ecc.: inserisci l'indirizzo del tuo sito e l'`API_SECRET` nell'app.
+Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, xDrip4iOS, Spike, ecc.: inserisci l'indirizzo del tuo sito e l'`API_SECRET` nell'app.
 
 ![](images/nightscoutpro/image_021.png)

@@ -13,24 +13,24 @@ const articoli = [
 ]
 
 const xdrip = [
-  { text: 'Calibrare il FSL con xDrip+', link: '/documentation/xdrip/calibrare-fsl-xdrip' },
-  { text: 'CareLink follower con xDrip+', link: '/documentation/xdrip/carelink-con-xdrip' },
-  { text: 'Condividere i dati di xDrip+ con Tidepool', link: '/documentation/xdrip/condividere-i-dati-di-xdrip-con-tidepool' },
+  { text: 'Calibrare il FSL con xDrip', link: '/documentation/xdrip/calibrare-fsl-xdrip' },
+  { text: 'CareLink follower con xDrip', link: '/documentation/xdrip/carelink-con-xdrip' },
+  { text: 'Condividere i dati di xDrip con Tidepool', link: '/documentation/xdrip/condividere-i-dati-di-xdrip-con-tidepool' },
   { text: 'App Dexcom modificata – Installazione e funzionalità', link: '/documentation/xdrip/dexcom-g5-g6-app-modificata' },
-  { text: 'App Dexcom, Minimed o CamAPS come compagna di xDrip+', link: '/documentation/xdrip/dexcom-g6-compagna-di-xdrip' },
-  { text: 'Glicemia al polso con app Dexcom master, xDrip+, Glimp', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
-  { text: 'Dexcom G5 / G6 / ONE con xDrip+', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
-  { text: 'Disabilitare il risparmio energetico per xDrip+', link: '/documentation/xdrip/disabilitare-risparmio-energetico-xdrip' },
+  { text: 'App Dexcom, Minimed o CamAPS come compagna di xDrip', link: '/documentation/xdrip/dexcom-g6-compagna-di-xdrip' },
+  { text: 'Glicemia al polso con app Dexcom master, xDrip, Glimp', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
+  { text: 'Dexcom G5 / G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
+  { text: 'Disabilitare il risparmio energetico per xDrip', link: '/documentation/xdrip/disabilitare-risparmio-energetico-xdrip' },
   { text: 'Passare da FSL 1 a FSL 2 con Miaomiao o Bubble', link: '/documentation/xdrip/fsl2-miaomiao-bubble' },
-  { text: 'Installare xDrip+ per Android', link: '/documentation/xdrip/installare-xdrip-android' },
-  { text: 'Ricevere le letture dal FSL 2 con xDrip+', link: '/documentation/xdrip/l2-xdrip-collegamento-diretto' },
-  { text: 'Master/Follower con xDrip+', link: '/documentation/xdrip/masterfollower' },
-  { text: 'Utilizzo di un algoritmo esterno con xDrip+', link: '/documentation/xdrip/xdrip-algoritmo-esterno' },
-  { text: 'xDrip+ come compagno dell\'app MASTER', link: '/documentation/xdrip/xdrip-compagno' },
-  { text: 'Smartband Xiaomi e smartwatch Amazfit con xDrip+', link: '/documentation/xdrip/xdrip-e-watchdrip' },
-  { text: 'xDrip+ come follower di Dexcom G5 e G6', link: '/documentation/xdrip/xdrip-follower-dexcom' },
-  { text: 'xDrip+ follower FSL 2 e 3', link: '/documentation/xdrip/xdrip-follower-fsl' },
-  { text: 'Usare le predizioni con xDrip+', link: '/documentation/xdrip/xdrip-predizioni' },
+  { text: 'Installare xDrip per Android', link: '/documentation/xdrip/installare-xdrip-android' },
+  { text: 'Ricevere le letture dal FSL 2 con xDrip', link: '/documentation/xdrip/l2-xdrip-collegamento-diretto' },
+  { text: 'Master/Follower con xDrip', link: '/documentation/xdrip/masterfollower' },
+  { text: 'Utilizzo di un algoritmo esterno con xDrip', link: '/documentation/xdrip/xdrip-algoritmo-esterno' },
+  { text: 'xDrip come compagno dell\'app MASTER', link: '/documentation/xdrip/xdrip-compagno' },
+  { text: 'Smartband Xiaomi e smartwatch Amazfit con xDrip', link: '/documentation/xdrip/xdrip-e-watchdrip' },
+  { text: 'xDrip come follower di Dexcom G5 e G6', link: '/documentation/xdrip/xdrip-follower-dexcom' },
+  { text: 'xDrip follower FSL 2 e 3', link: '/documentation/xdrip/xdrip-follower-fsl' },
+  { text: 'Usare le predizioni con xDrip', link: '/documentation/xdrip/xdrip-predizioni' },
 ]
 
 const xdrip4ios = [
@@ -51,13 +51,13 @@ const nightscout = [
 ]
 
 const amazfit = [
-  { text: 'Amazfit Bip Lite con xDrip+', link: '/documentation/amazfit/amazfit-bip-lite-con-xdrip' },
-  { text: 'Amazfit con xDrip+', link: '/documentation/amazfit/amazfit-con-xdrip' },
+  { text: 'Amazfit Bip Lite con xDrip', link: '/documentation/amazfit/amazfit-bip-lite-con-xdrip' },
+  { text: 'Amazfit con xDrip', link: '/documentation/amazfit/amazfit-con-xdrip' },
   { text: 'Smartwatch Amazfit con sistema operativo ZEPP OS', link: '/documentation/amazfit/smartwatch-amazfit-zepp-os-1' },
 ]
 
 const fitbit = [
-  { text: 'Fitbit: Le glicemie di Dexcom, xDrip+ o Nightscout', link: '/documentation/fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic' },
+  { text: 'Fitbit: Le glicemie di Dexcom, xDrip o Nightscout', link: '/documentation/fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic' },
 ]
 
 const garmin = [
@@ -65,13 +65,13 @@ const garmin = [
 ]
 
 const xiaomi = [
-  { text: 'Xiaomi MiBand 2, 3 e 4 con xDrip+', link: '/documentation/xiaomi/mi-band234-con-xdrip' },
-  { text: 'Xiaomi MiBand 4, 5 e 6 con xDrip+', link: '/documentation/xiaomi/xiaomi-miband-con-xdrip' },
+  { text: 'Xiaomi MiBand 2, 3 e 4 con xDrip', link: '/documentation/xiaomi/mi-band234-con-xdrip' },
+  { text: 'Xiaomi MiBand 4, 5 e 6 con xDrip', link: '/documentation/xiaomi/xiaomi-miband-con-xdrip' },
 ]
 
 const juggluco = [
   { text: 'Juggluco per Android con FSL 2', link: '/documentation/juggluco/juggluco-android' },
-  { text: 'Juggluco per Android con FSL 2 e xDrip+', link: '/documentation/juggluco/juggluco-xdrip' },
+  { text: 'Juggluco per Android con FSL 2 e xDrip', link: '/documentation/juggluco/juggluco-xdrip' },
 ]
 
 const gluroo = [
@@ -93,7 +93,7 @@ const medtronic = [
 ]
 
 const alexa_siri = [
-  { text: 'Alexa con app Dexcom G5 o xDrip+', link: '/documentation/alexa-siri/alexa-con-app-dexcom-g5-o-xdrip' },
+  { text: 'Alexa con app Dexcom G5 o xDrip', link: '/documentation/alexa-siri/alexa-con-app-dexcom-g5-o-xdrip' },
   { text: 'Alexa e Nightscout in italiano', link: '/documentation/alexa-siri/alexa-e-nightscout-in-italiano' },
   { text: 'Collegare Siri a Nightscout – iPhone e Apple Watch', link: '/documentation/alexa-siri/collegare-siri-a-nightscout-iphone-e-apple-watch' },
 ]
@@ -130,7 +130,7 @@ export default defineConfig({
 
     sidebar: [
       { text: 'Articoli', items: articoli },
-      { text: 'xDrip+', items: xdrip },
+      { text: 'xDrip', items: xdrip },
       { text: 'xDrip4iOS', items: xdrip4ios },
       { text: 'Nightscout', items: nightscout },
       { text: 'Amazfit', items: amazfit },

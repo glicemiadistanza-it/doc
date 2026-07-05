@@ -1,6 +1,6 @@
-# Utilizzo di un algoritmo esterno con xDrip+
+# Utilizzo di un algoritmo esterno con xDrip
 
-Questa guida spiega come installare e configurare l'app **OOPAlgorithm** (Out Of Process Algorithm), un'applicazione supplementare che lavora con xDrip+ per migliorare la lettura del sensore FSL.
+Questa guida spiega come installare e configurare l'app **OOPAlgorithm** (Out Of Process Algorithm), un'applicazione supplementare che lavora con xDrip per migliorare la lettura del sensore FSL.
 
 ## Quando usarlo
 
@@ -17,9 +17,9 @@ Usa l'algoritmo esterno solo se:
 
 ## Come funziona
 
-Senza algoritmo esterno, xDrip+ calcola internamente il valore di glicemia dal valore grezzo del sensore tramite calibrazioni manuali.
+Senza algoritmo esterno, xDrip calcola internamente il valore di glicemia dal valore grezzo del sensore tramite calibrazioni manuali.
 
-Con OOP1/OOP2, un'app separata riceve il valore grezzo dal sensore e lo converte prima di passarlo a xDrip+. Questo permette di ottenere valori senza calibrazione manuale (simili a quelli del lettore FSL ufficiale).
+Con OOP1/OOP2, un'app separata riceve il valore grezzo dal sensore e lo converte prima di passarlo a xDrip. Questo permette di ottenere valori senza calibrazione manuale (simili a quelli del lettore FSL ufficiale).
 
 ![](images/xdrip-algoritmo-esterno/image_001.png)
 
@@ -46,7 +46,7 @@ Prima di procedere, verifica che il firmware del tuo trasmettitore sia aggiornat
 | Bubble | 1.38 |
 | Blucon | 4.2 |
 
-Controlla la versione del firmware in xDrip+: **Menu → Stato del sistema**.
+Controlla la versione del firmware in xDrip: **Menu → Stato del sistema**.
 
 ![](images/xdrip-algoritmo-esterno/image_008.png)
 
@@ -77,11 +77,11 @@ Controlla la versione del firmware in xDrip+: **Menu → Stato del sistema**.
 
 Quando l'algoritmo è attivo, compare un'icona supplementare nella barra delle notifiche.
 
-## 3. Configura xDrip+
+## 3. Configura xDrip
 
-xDrip+ potrebbe rilevare automaticamente l'algoritmo e chiederti di abilitarlo. **Non accettare il prompt automatico.** Segui invece questi passi manuali:
+xDrip potrebbe rilevare automaticamente l'algoritmo e chiederti di abilitarlo. **Non accettare il prompt automatico.** Segui invece questi passi manuali:
 
-1. In xDrip+: **Menu → Impostazioni → Impostazioni meno usate**.
+1. In xDrip: **Menu → Impostazioni → Impostazioni meno usate**.
 
 ![](images/xdrip-algoritmo-esterno/image_012.png)
 

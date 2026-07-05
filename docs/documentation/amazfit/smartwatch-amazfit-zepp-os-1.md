@@ -1,6 +1,6 @@
-# Amazfit con Zepp OS e xDrip+ tramite WatchDrip+
+# Amazfit con Zepp OS e xDrip tramite WatchDrip+
 
-Questa guida spiega come visualizzare la glicemia di xDrip+ su smartwatch **Amazfit con sistema operativo Zepp OS**, usando WatchDrip+.
+Questa guida spiega come visualizzare la glicemia di xDrip su smartwatch **Amazfit con sistema operativo Zepp OS**, usando WatchDrip+.
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
@@ -15,11 +15,11 @@ Dispositivi compatibili:
 
 ---
 
-## 1. Installa e configura xDrip+
+## 1. Installa e configura xDrip
 
-Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
-Assicurati di avere una versione di xDrip+ non precedente al 10 luglio 2022. Per aggiornare, vai su `https://github.com/NightscoutFoundation/xDrip/releases`.
+Assicurati di avere una versione di xDrip non precedente al 10 luglio 2022. Per aggiornare, vai su `https://github.com/NightscoutFoundation/xDrip/releases`.
 
 Poi:
 1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (la vecchia integrazione diretta non funziona con i dispositivi Zepp OS).
@@ -65,7 +65,7 @@ Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zep
 
 > ℹ️ Se non esiste un watchface specifico per il tuo modello, puoi visualizzare il valore della glicemia direttamente nell'app WatchDrip Watch sull'orologio.
 
-Una volta collegato, aspetta la prossima lettura di xDrip+: il valore comparirà sia in WatchDrip+ che sullo smartwatch.
+Una volta collegato, aspetta la prossima lettura di xDrip: il valore comparirà sia in WatchDrip+ che sullo smartwatch.
 
 ---
 

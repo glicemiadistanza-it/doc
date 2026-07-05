@@ -1,13 +1,13 @@
 # Passare da FSL 1 a FSL 2 con MiaoMiao o Bubble
 
-Questa guida spiega come continuare a usare xDrip+ con un dispositivo ponte (MiaoMiao o Bubble) dopo aver cambiato sensore da FSL 1 a FSL 2.
+Questa guida spiega come continuare a usare xDrip con un dispositivo ponte (MiaoMiao o Bubble) dopo aver cambiato sensore da FSL 1 a FSL 2.
 
 Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 - Non interferisce con l'app ufficiale del fornitore.
 - Il segnale Bluetooth è più stabile rispetto alla connessione diretta sensore-telefono.
 - Puoi scegliere di non calibrare oppure di calibrare con diverse strategie.
 
-> ℹ️ **Nota**: In alternativa, puoi collegare xDrip+ direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare Diabox o Juggluco per leggere il sensore e poi inviare la glicemia a xDrip+.
+> ℹ️ **Nota**: In alternativa, puoi collegare xDrip direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare Diabox o Juggluco per leggere il sensore e poi inviare la glicemia a xDrip.
 
 > ⚠️ **Attenzione**: **Il FSL 2 non può essere usato collegato direttamente a uno smartwatch Android Wear.**
 
@@ -15,11 +15,11 @@ Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 
 ---
 
-## 1. Aggiorna xDrip+
+## 1. Aggiorna xDrip
 
-> ⚠️ **Attenzione**: **Non disinstallare xDrip+:** aggiorna senza disinstallare per mantenere tutte le impostazioni e il collegamento con il dispositivo ponte.
+> ⚠️ **Attenzione**: **Non disinstallare xDrip:** aggiorna senza disinstallare per mantenere tutte le impostazioni e il collegamento con il dispositivo ponte.
 
-1. Vai alla pagina delle release di xDrip+:
+1. Vai alla pagina delle release di xDrip:
    `https://github.com/NightscoutFoundation/xDrip/releases`
 2. Scarica l'ultima versione **Pre-release** espandendo la sezione **Assets**.
 3. Se non riesci a scaricare toccando il link, tieni premuto e scegli **Apri in una nuova scheda** oppure **Scarica link**.
@@ -36,7 +36,7 @@ L'aggiornamento non cambia nessuna impostazione, non ferma il sensore in corso e
 
 ## 2. Verifica il firmware del dispositivo ponte
 
-Dal **Menu di xDrip+ → Stato del sistema** scorri fino alla pagina **BT device** per controllare la versione firmware attuale.
+Dal **Menu di xDrip → Stato del sistema** scorri fino alla pagina **BT device** per controllare la versione firmware attuale.
 
 ![](images/fsl2-miaomiao-bubble/image_004.png)
 
@@ -57,7 +57,7 @@ Verifica che la versione sia almeno quella minima per il FSL 2:
 | Bubble Mini | 2.6 |
 | Blucon | 4.2 |
 
-> ⚠️ **Attenzione**: **Blucon:** non è possibile aggiornarne il firmware. I modelli Blucon più recenti non sono più compatibili con xDrip+.
+> ⚠️ **Attenzione**: **Blucon:** non è possibile aggiornarne il firmware. I modelli Blucon più recenti non sono più compatibili con xDrip.
 
 Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
@@ -69,7 +69,7 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 > ℹ️ **Nota**: Se hai un MiaoMiao 3 (che è abbastanza recente), il firmware dovrebbe essere già compatibile. Verifica comunque al passo 2 prima di procedere.
 
-1. Dal **Menu di xDrip+ → Stato del sistema**, scegli **Dimentica questo dispositivo** (lascia MiaoMiao attaccato al sensore).
+1. Dal **Menu di xDrip → Stato del sistema**, scegli **Dimentica questo dispositivo** (lascia MiaoMiao attaccato al sensore).
 
 ![](images/fsl2-miaomiao-bubble/image_008.png)
 
@@ -97,14 +97,14 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 ![](images/fsl2-miaomiao-bubble/image_013.png)
 
-7. Al termine, disinstalla usapp. Dal **Menu principale di xDrip+**, fai **Scansione Bluetooth** per ripristinare il collegamento a MiaoMiao e verifica la versione nello stato del sistema.
+7. Al termine, disinstalla usapp. Dal **Menu principale di xDrip**, fai **Scansione Bluetooth** per ripristinare il collegamento a MiaoMiao e verifica la versione nello stato del sistema.
 
 **Problemi durante l'aggiornamento:**
 
 Se usapp non funziona, prova questo metodo alternativo:
 1. Installa temporaneamente l'app **Tomato** (richiede autenticazione Facebook o Google — usa Facebook e ricordati di revocare l'accesso dopo).
 2. Resetta MiaoMiao: Tomato eseguirà l'aggiornamento firmware in automatico.
-3. Disinstalla Tomato, resetta MiaoMiao e torna in xDrip+.
+3. Disinstalla Tomato, resetta MiaoMiao e torna in xDrip.
 4. Esegui **Scansione Bluetooth** per riconnettere.
 
 ![](images/fsl2-miaomiao-bubble/image_014.png)
@@ -117,7 +117,7 @@ Poi procedi al **passo 5**.
 
 > ℹ️ **Nota**: Lo strumento di aggiornamento disponibile su GitHub non funziona più. Per aggiornare il Bubble è necessario usare temporaneamente Diabox.
 
-1. Dal **Menu di xDrip+ → Stato del sistema**, scegli **Dimentica questo dispositivo**.
+1. Dal **Menu di xDrip → Stato del sistema**, scegli **Dimentica questo dispositivo**.
 
 ![](images/fsl2-miaomiao-bubble/image_008.png)
 
@@ -133,16 +133,16 @@ Poi procedi al **passo 5**.
 
 3. Lascia che Diabox aggiorni il firmware, poi disinstalla Diabox.
 
-4. Torna in xDrip+ e fai **Scansione Bluetooth** dal menu principale. Verifica la versione firmware aggiornata in **Stato del sistema → BT device**.
+4. Torna in xDrip e fai **Scansione Bluetooth** dal menu principale. Verifica la versione firmware aggiornata in **Stato del sistema → BT device**.
 
 ---
 
 ## 5. Installa e configura OOP2
 
-OOP2 (Out Of Process Algorithm 2) è il plugin che permette a xDrip+ di decodificare correttamente i dati del FSL 2. Senza OOP2, xDrip+ non riesce a calcolare la glicemia dal sensore.
+OOP2 (Out Of Process Algorithm 2) è il plugin che permette a xDrip di decodificare correttamente i dati del FSL 2. Senza OOP2, xDrip non riesce a calcolare la glicemia dal sensore.
 
 Segui la [guida all'installazione di OOP2](./xdrip-algoritmo-esterno).
 
 ---
 
-Una volta completata la configurazione, potrai usare il FSL 2 con xDrip+ esattamente come facevi con il FSL 1 — anzi, con risultati ancora migliori grazie all'algoritmo OOP2.
+Una volta completata la configurazione, potrai usare il FSL 2 con xDrip esattamente come facevi con il FSL 1 — anzi, con risultati ancora migliori grazie all'algoritmo OOP2.

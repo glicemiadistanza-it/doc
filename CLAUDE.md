@@ -6,7 +6,7 @@ This is a VitePress documentation site in Italian for the Facebook group "Diabet
 
 - **Language**: Italian, informal **"tu"** address. No formal "Lei" register.
 - **Audience**: Non-technical patients. Keep explanations simple; step-by-step is always preferred.
-- **Technical terms**: Diabetes and device terminology (CGM, Nightscout, xDrip+, bolus, etc.) may remain as-is.
+- **Technical terms**: Diabetes and device terminology (CGM, Nightscout, xDrip, bolus, etc.) may remain as-is.
 - **Structure**: Numbered lists for sequential steps; bullet lists for options or configuration fields.
 - **Headings**:
   - `#` — page title only
@@ -16,7 +16,7 @@ This is a VitePress documentation site in Italian for the Facebook group "Diabet
   - `> ⚠️ **Attenzione**: ...`
   - `> ℹ️ **Nota**: ...`
 - **UI labels and button names**: **bold** — e.g. **Impostazioni**, **CREA**, **Salva**
-- **App and product names**: plain text, standard capitalization — xDrip+, Nightscout, Dexcom, Juggluco, Sugarmate
+- **App and product names**: plain text, standard capitalization — xDrip, Nightscout, Dexcom, Juggluco, Sugarmate
 - **URLs**: inline code — e.g. `https://example.com`
 - **Technical values, parameters, version strings**: inline code — e.g. `e2-micro`, `2023.09.17`, `.apk`
 - **Terminal/shell commands**: fenced code block with language tag ` ```bash `

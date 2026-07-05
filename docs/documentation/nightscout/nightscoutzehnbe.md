@@ -146,6 +146,6 @@ Il server è creato ma non ancora attivo: devi inserire un metodo di pagamento.
 
 ![](images/nightscoutzehnbe/image_034.png)
 
-Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip+, xDrip4iOS, Spike, ecc.: inserisci l'indirizzo del tuo sito e l'API secret nell'app.
+Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, xDrip4iOS, Spike, ecc.: inserisci l'indirizzo del tuo sito e l'API secret nell'app.
 
 ![](images/nightscoutzehnbe/image_035.png)

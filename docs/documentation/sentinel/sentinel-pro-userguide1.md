@@ -7,7 +7,7 @@
 
 ## 1. Caratteristiche
 
-**Sorgenti dati supportate:** Nightscout, Dexcom Share, xDrip+, Diabox
+**Sorgenti dati supportate:** Nightscout, Dexcom Share, xDrip, Diabox
 
 **Orologi supportati:** Versa, Versa 2, Versa Lite, Ionic
 

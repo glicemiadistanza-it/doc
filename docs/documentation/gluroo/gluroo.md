@@ -71,7 +71,7 @@ Questa modalità crea un endpoint compatibile con Nightscout: puoi usare l'indir
 
 | App / Dispositivo | Come master | Come follower |
 |---|---|---|
-| xDrip+ | ✓ | ✓ |
+| xDrip | ✓ | ✓ |
 | xDrip4iOS (Shuggah) | ✓ | ✓ |
 | Loop | ✓ | ✓ |
 | Diabox | ✓ | ✓ |
@@ -92,9 +92,9 @@ Per vedere la glicemia in una pagina web, usa **Gluroo Web**: c'è anche una mod
 
 ---
 
-## 3. Configura xDrip+ con Gluroo
+## 3. Configura xDrip con Gluroo
 
-Con xDrip+ usa questi formati di URL:
+Con xDrip usa questi formati di URL:
 
 - **Master:** `https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1`
 - **Follower:** `https://API_SECRET@xxxx.xx.gluroo.com:porta`

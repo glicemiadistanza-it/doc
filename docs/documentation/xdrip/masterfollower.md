@@ -1,4 +1,4 @@
-# Configurazione Master/Follower con xDrip+ e MiaoMiao
+# Configurazione Master/Follower con xDrip e MiaoMiao
 
 Questa guida spiega come trasferire il collegamento MiaoMiao (il lettore Bluetooth per il FSL) da un telefono all'altro, impostando un telefono come **master** (quello che legge il sensore) e l'altro come **follower** (quello che riceve le letture a distanza).
 
@@ -8,7 +8,7 @@ Metti questo telefono in **modalità aereo**. In questo modo, se qualcosa va sto
 
 ## 2. Configura il secondo telefono
 
-Sul telefono che non è ancora collegato a MiaoMiao, apri xDrip+ e scansiona il codice QR del primo telefono per copiare le impostazioni.
+Sul telefono che non è ancora collegato a MiaoMiao, apri xDrip e scansiona il codice QR del primo telefono per copiare le impostazioni.
 
 ![](images/masterfollower/image_009.png)
 
@@ -20,7 +20,7 @@ Sul telefono che non è ancora collegato a MiaoMiao, apri xDrip+ e scansiona il 
 
 ![](images/masterfollower/image_013.png)
 
-Ora hai due telefoni con xDrip+ identici. Scegli quale sarà il **master** (collegato a MiaoMiao) e quale sarà il **follower** (che riceve le letture).
+Ora hai due telefoni con xDrip identici. Scegli quale sarà il **master** (collegato a MiaoMiao) e quale sarà il **follower** (che riceve le letture).
 
 ## 3. Configura il master
 

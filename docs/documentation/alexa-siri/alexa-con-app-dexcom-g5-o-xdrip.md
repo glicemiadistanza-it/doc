@@ -1,8 +1,8 @@
-# Glicemia su Alexa con Dexcom G5 o xDrip+
+# Glicemia su Alexa con Dexcom G5 o xDrip
 
-Questa guida spiega come far leggere ad **Alexa** (lo speaker Amazon) il valore di glicemia in tempo reale, partendo dall'app **Dexcom G5 Mobile** o da **xDrip+**.
+Questa guida spiega come far leggere ad **Alexa** (lo speaker Amazon) il valore di glicemia in tempo reale, partendo dall'app **Dexcom G5 Mobile** o da **xDrip**.
 
-La comunicazione funziona tramite **Sugarmate**, che riceve i dati da Dexcom Share. Serve quindi un account Dexcom anche se usi xDrip+ con un sensore FSL.
+La comunicazione funziona tramite **Sugarmate**, che riceve i dati da Dexcom Share. Serve quindi un account Dexcom anche se usi xDrip con un sensore FSL.
 
 ![](images/alexa-con-app-dexcom-g5-o-xdrip/image_001.png)
 
@@ -10,7 +10,7 @@ La comunicazione funziona tramite **Sugarmate**, che riceve i dati da Dexcom Sha
 
 ## 1. Crea un account Dexcom (solo se non ne hai uno)
 
-Se usi xDrip+ e non hai un account Dexcom, creane uno su `http://www.dexcom.eu/`: seleziona **Italia**, poi **Crea Account**. Inserisci la tua email e segui le istruzioni.
+Se usi xDrip e non hai un account Dexcom, creane uno su `http://www.dexcom.eu/`: seleziona **Italia**, poi **Crea Account**. Inserisci la tua email e segui le istruzioni.
 
 Salva con cura username e password (rispettando maiuscole e caratteri speciali): ti serviranno in seguito.
 
@@ -38,9 +38,9 @@ Accedi al tuo account su `https://uam2.dexcom.com/`, clicca **Profile**, scorri 
 
 ---
 
-## 3. Configura xDrip+ per inviare a Dexcom Share
+## 3. Configura xDrip per inviare a Dexcom Share
 
-Se usi xDrip+, vai in **Impostazioni → Cloud Upload → Upload in Dexcom Share Server** e:
+Se usi xDrip, vai in **Impostazioni → Cloud Upload → Upload in Dexcom Share Server** e:
 - Abilita la prima opzione (caricamento su Dexcom Share).
 - **Disabilita** la seconda opzione.
 - Inserisci il tuo **username** e **password** Dexcom.
@@ -67,7 +67,7 @@ Se usi xDrip+, vai in **Impostazioni → Cloud Upload → Upload in Dexcom Share
 
 ## 5. Aggiungi Sugarmate come follower Dexcom
 
-**Se usi xDrip+:** vai in **Impostazioni → Cloud Upload → Dexcom Share Server → Gestire Follower**. Clicca **Invite a follower**, inserisci come nome `Sugarmate`, come tuo nome e l'email di Sugarmate copiata prima. Clicca **Send Invite**.
+**Se usi xDrip:** vai in **Impostazioni → Cloud Upload → Dexcom Share Server → Gestire Follower**. Clicca **Invite a follower**, inserisci come nome `Sugarmate`, come tuo nome e l'email di Sugarmate copiata prima. Clicca **Send Invite**.
 
 ![](images/alexa-con-app-dexcom-g5-o-xdrip/image_015.png)
 

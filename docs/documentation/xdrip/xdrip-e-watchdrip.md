@@ -1,8 +1,8 @@
-# Smartband Xiaomi e smartwatch Amazfit con xDrip+ tramite WatchDrip+
+# Smartband Xiaomi e smartwatch Amazfit con xDrip tramite WatchDrip+
 
-> ⚠️ Questa guida richiede una versione di xDrip+ rilasciata dopo l'11 luglio 2022.
+> ⚠️ Questa guida richiede una versione di xDrip rilasciata dopo l'11 luglio 2022.
 
-Questa guida spiega come visualizzare la glicemia di xDrip+ su:
+Questa guida spiega come visualizzare la glicemia di xDrip su:
 - **Xiaomi MiBand** 2, 3, 4, 5, 6 e Amazfit Band 5
 - **Amazfit** GTR 42/47mm, GTR2/GTR2e, GTS2/GTS2e/GTS2 Mini, T-Rex Pro, Bip/Bip Lite/Bip S/Bip S Lite
 
@@ -12,18 +12,18 @@ La soluzione si chiama **WatchDrip+**, sviluppata da Artem (@bigdigital su GitHu
 
 ## Panoramica dei passaggi
 
-1. Installa e configura xDrip+ con la glicemia visibile
+1. Installa e configura xDrip con la glicemia visibile
 2. Disinstalla le app ufficiali MiFit / Zepp se presenti
 3. Installa la versione modificata di MiFit o Zepp per ottenere la chiave di autenticazione
-4. Configura xDrip+ per WatchDrip+
+4. Configura xDrip per WatchDrip+
 5. Installa e configura WatchDrip+
 6. (Opzionale) Reinstalla le app ufficiali
 
 ---
 
-## 1. Installa xDrip+
+## 1. Installa xDrip
 
-Segui la [guida base di installazione](./installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip+.**
+Segui la [guida base di installazione](./installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
 ---
 
@@ -151,9 +151,9 @@ Dopo l'abbinamento, l'app modificata crea automaticamente un file di testo con l
 
 ---
 
-## 4. Configura xDrip+
+## 4. Configura xDrip
 
-1. **Disabilita MiBand in xDrip+:** vai in **Menu → Impostazioni → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (questa è la vecchia integrazione, non serve più con WatchDrip+).
+1. **Disabilita MiBand in xDrip:** vai in **Menu → Impostazioni → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (questa è la vecchia integrazione, non serve più con WatchDrip+).
 
 ![](images/xdrip-e-watchdrip/image_041.png)
 
@@ -214,7 +214,7 @@ WatchDrip+ dovrebbe rilevare automaticamente il dispositivo con l'indirizzo MAC 
 
 ### Verifica il funzionamento
 
-Una volta connesso, aspetta la prossima lettura di xDrip+: il valore dovrà comparire anche in WatchDrip+ e sullo smartband/smartwatch.
+Una volta connesso, aspetta la prossima lettura di xDrip: il valore dovrà comparire anche in WatchDrip+ e sullo smartband/smartwatch.
 
 ![](images/xdrip-e-watchdrip/image_056.png)
 
@@ -236,7 +236,7 @@ Una volta connesso, aspetta la prossima lettura di xDrip+: il valore dovrà comp
 |---|---|
 | Mostra glicemia | **Abilitato** (necessario) |
 | Vibra a ogni lettura | A scelta |
-| Allarmi xDrip+ come notifiche | A scelta |
+| Allarmi xDrip come notifiche | A scelta |
 | Quadrante personalizzato | Solo se ne hai creato uno |
 | Compatibilità Xiaomi | Abilita in caso di problemi con MiBand |
 | Compatibilità Amazfit | Lascia disabilitato |

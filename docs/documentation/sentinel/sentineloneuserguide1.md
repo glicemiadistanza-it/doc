@@ -86,7 +86,7 @@ Sentinel One è stato creato pensando ai bambini con diabete. Offre:
 
 ## 3. Installazione
 
-> ⚠️ **Nota per gli utenti di xDrip+:** un aggiornamento recente dell'app Fitbit blocca i dati da xDrip+. Devi installare la versione `3.58` e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da `https://fitbit.it.aptoide.com/versions`. Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
+> ⚠️ **Nota per gli utenti di xDrip:** un aggiornamento recente dell'app Fitbit blocca i dati da xDrip. Devi installare la versione `3.58` e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da `https://fitbit.it.aptoide.com/versions`. Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
 
 Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio per installare il quadrante:
 
@@ -241,7 +241,7 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 
 ![](images/sentineloneuserguide1/image_092.png)
 
-### xDrip+ / Diabox
+### xDrip / Diabox
 
 **Sorgente dati:** `Local Web Server`
 
@@ -263,7 +263,7 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 
 ![](images/sentineloneuserguide1/image_100.png)
 
-### xDrip+ con Nightscout (xDrip+ & NS)
+### xDrip con Nightscout (xDrip & NS)
 
 **Sorgente dati:** `Uploader to NS`
 

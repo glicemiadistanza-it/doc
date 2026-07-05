@@ -1,12 +1,12 @@
 # App Dexcom modificata – Installazione e funzionalità
 
-Questa guida spiega come creare e installare la versione modificata dell'app Dexcom sul telefono collegato al sensore G5 o G6 (master). Incluso anche come collegarla a xDrip+ per usare diversi smartwatch.
+Questa guida spiega come creare e installare la versione modificata dell'app Dexcom sul telefono collegato al sensore G5 o G6 (master). Incluso anche come collegarla a xDrip per usare diversi smartwatch.
 
 ## Che cos'è l'app Dexcom modificata?
 
 È l'app Dexcom ufficiale con due piccole modifiche:
 - Non controlla se il telefono è nella lista dei dispositivi compatibili ufficiali.
-- Invia (broadcast) la glicemia internamente al telefono, in modo che xDrip+ possa riceverla.
+- Invia (broadcast) la glicemia internamente al telefono, in modo che xDrip possa riceverla.
 
 > ⚠️ **Attenzione**: L'app modificata non è autorizzata da Dexcom. Usandola, potresti perdere il diritto al supporto e alla garanzia per problemi di trasmettitore e sensore. Se disponibile, basa sempre le segnalazioni di problemi sul ricevitore Dexcom ufficiale. L'utilizzo è a esclusiva responsabilità personale.
 
@@ -14,7 +14,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 
 - Il telefono non è compatibile con l'app ufficiale (ricorda che la compatibilità non è garantita neanche con l'app modificata).
 - Per ricevere la glicemia sullo smartwatch senza dipendere da internet o dai server Dexcom.
-- Per continuare a ricevere letture su xDrip+ quando i server Dexcom non funzionano.
+- Per continuare a ricevere letture su xDrip quando i server Dexcom non funzionano.
 
 ---
 
@@ -74,7 +74,7 @@ Per disinstallare senza interagire con il sensore:
 | Suona in modalità silenziosa | **Yes** |
 | Silenzia allarme scorrendo la notifica | **No** (default) |
 | Riduci tempo di avviamento | **No** (sconsigliato) |
-| Broadcast a xDrip+ (solo G6) | **Yes, broadcast to xDrip** |
+| Broadcast a xDrip (solo G6) | **Yes, broadcast to xDrip** |
 
 ![](images/dexcom-g5-g6-app-modificata/image_012.png)
 
@@ -183,11 +183,11 @@ Per disinstallare senza interagire con il sensore:
 
 ---
 
-## 4. Collega xDrip+ (opzionale)
+## 4. Collega xDrip (opzionale)
 
-Se vuoi ricevere la glicemia anche in xDrip+ (ad esempio per un smartwatch):
+Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 
-1. Segui la [guida base di installazione di xDrip+](./installare-xdrip-android).
+1. Segui la [guida base di installazione di xDrip](./installare-xdrip-android).
 2. Come sorgente dati, scegli **640G / Eversense** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share.
 
 ![](images/dexcom-g5-g6-app-modificata/image_052.png)
@@ -202,7 +202,7 @@ Se vuoi ricevere la glicemia anche in xDrip+ (ad esempio per un smartwatch):
 
 ![](images/dexcom-g5-g6-app-modificata/image_057.png)
 
-3. Quando xDrip+ chiede di inizializzare il sensore, scegli **Non oggi** (non è necessaria una vera inizializzazione con questa sorgente).
+3. Quando xDrip chiede di inizializzare il sensore, scegli **Non oggi** (non è necessaria una vera inizializzazione con questa sorgente).
 
 ![](images/dexcom-g5-g6-app-modificata/image_058.png)
 
@@ -210,7 +210,7 @@ Se vuoi ricevere la glicemia anche in xDrip+ (ad esempio per un smartwatch):
 
 ![](images/dexcom-g5-g6-app-modificata/image_060.png)
 
-4. In xDrip+, imposta questo telefono come **master** — così potrai usare un altro telefono come follower senza dipendere dai server Dexcom.
+4. In xDrip, imposta questo telefono come **master** — così potrai usare un altro telefono come follower senza dipendere dai server Dexcom.
 
 ![](images/dexcom-g5-g6-app-modificata/image_061.png)
 

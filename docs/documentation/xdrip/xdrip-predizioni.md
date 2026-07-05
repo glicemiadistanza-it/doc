@@ -1,6 +1,6 @@
-# Usare le predizioni con xDrip+
+# Usare le predizioni con xDrip
 
-xDrip+ include una funzione di simulazione che calcola l'evoluzione prevista della glicemia in base all'insulina attiva, ai carboidrati ingeriti e alla sensibilità individuale.
+xDrip include una funzione di simulazione che calcola l'evoluzione prevista della glicemia in base all'insulina attiva, ai carboidrati ingeriti e alla sensibilità individuale.
 
 > ⚠️ **Questo sistema non è un dispositivo medico.** Non usare le predizioni per prendere decisioni terapeutiche. Consulta sempre il tuo diabetologo. L'utilizzo è a esclusiva responsabilità personale.
 
@@ -13,7 +13,7 @@ Se non conosci questi valori o non sei abituato a calcolarli autonomamente, l'us
 
 ## 1. Abilita le simulazioni
 
-Dal menu principale di xDrip+: **Menu → Impostazioni** → scorri verso il basso fino a **xDrip+ Impostazioni di Simulazione** → attiva **Abilita simulazioni**.
+Dal menu principale di xDrip: **Menu → Impostazioni** → scorri verso il basso fino a **xDrip Impostazioni di Simulazione** → attiva **Abilita simulazioni**.
 
 ![](images/xdrip-predizioni/image_004.png)
 
@@ -64,7 +64,7 @@ L'ultimo parametro è il tasso di assorbimento dei CHO all'ora. Per calcolarlo, 
 Ogni volta che mangi o fai insulina:
 - Tocca l'icona **posate** per inserire i carboidrati
 - Tocca l'icona **siringa** per inserire le unità di insulina
-- Puoi specificare un orario preciso (tasto orologio) o programmare un inserimento futuro: xDrip+ creerà un promemoria
+- Puoi specificare un orario preciso (tasto orologio) o programmare un inserimento futuro: xDrip creerà un promemoria
 
 ![](images/xdrip-predizioni/image_015.png)
 

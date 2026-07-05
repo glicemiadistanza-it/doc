@@ -1,22 +1,22 @@
-# Dexcom G5 / G6 / ONE con xDrip+
+# Dexcom G5 / G6 / ONE con xDrip
 
-Questa guida spiega come installare e configurare xDrip+ per leggere i dati da un sensore Dexcom G5 o G6 (o ONE) direttamente con Android, senza passare dall'app ufficiale.
+Questa guida spiega come installare e configurare xDrip per leggere i dati da un sensore Dexcom G5 o G6 (o ONE) direttamente con Android, senza passare dall'app ufficiale.
 
-> ⚠️ **Attenzione**: Usando xDrip+ con il sensore collegato direttamente non è possibile caricare i dati su Clarity. Se hai bisogno di Clarity, usa il lettore Dexcom fisico e carica i dati manualmente da computer, oppure usa Nightscout o Tidepool.
+> ⚠️ **Attenzione**: Usando xDrip con il sensore collegato direttamente non è possibile caricare i dati su Clarity. Se hai bisogno di Clarity, usa il lettore Dexcom fisico e carica i dati manualmente da computer, oppure usa Nightscout o Tidepool.
 
 **Requisiti:** telefono Android 5 o successivo con Bluetooth 4.2 (BLE).
 
-> ℹ️ **Nota**: Per usare **contemporaneamente** sia l'app Dexcom ufficiale che xDrip+ sullo stesso telefono, la soluzione più semplice è usare xDrip+ in modalità [compagno (Companion)](./dexcom-g6-compagna-di-xdrip), oppure collegarlo al secondo slot del trasmettitore (descritta in questa guida, ma non disponibile con microinfusori Tandem collegati).
+> ℹ️ **Nota**: Per usare **contemporaneamente** sia l'app Dexcom ufficiale che xDrip sullo stesso telefono, la soluzione più semplice è usare xDrip in modalità [compagno (Companion)](./dexcom-g6-compagna-di-xdrip), oppure collegarlo al secondo slot del trasmettitore (descritta in questa guida, ma non disponibile con microinfusori Tandem collegati).
 
 ---
 
-## 1. Installa xDrip+
+## 1. Installa xDrip
 
 Segui la [guida base di installazione](./installare-xdrip-android).
 
 ### Selezione della sorgente dati
 
-Quando xDrip+ chiede la sorgente dati, scegli **Dexcom G5/G6/G7** e poi il tuo sensore specifico. Conferma cliccando su **Yes**.
+Quando xDrip chiede la sorgente dati, scegli **Dexcom G5/G6/G7** e poi il tuo sensore specifico. Conferma cliccando su **Yes**.
 
 ![](images/dexcomg5g6-e-xdrip/image_001.png)
 
@@ -70,7 +70,7 @@ Le impostazioni evidenziate in arancione nell'app permettono di abilitare il ria
 
 - Le impostazioni in rosso non devono essere **mai** abilitate per i trasmettitori Firefly (serie 8G e più recenti).
 - Usa sempre l'**algoritmo nativo** (quello Dexcom): è l'unica opzione supportata dai trasmettitori Firefly. L'algoritmo grezzo ("raw data") non funziona con i trasmettitori moderni.
-- Se xDrip+ chiede troppo spesso il riabbinamento al sensore, disabilita **Allow OB1 unbonding**.
+- Se xDrip chiede troppo spesso il riabbinamento al sensore, disabilita **Allow OB1 unbonding**.
 
 ![](images/dexcomg5g6-e-xdrip/image_017.png)
 
@@ -78,13 +78,13 @@ Le impostazioni evidenziate in arancione nell'app permettono di abilitare il ria
 
 ## 3. Modalità doppia connessione (opzionale)
 
-Serve solo se vuoi collegare il sensore contemporaneamente a xDrip+ **e** all'app Dexcom ufficiale o a un secondo telefono.
+Serve solo se vuoi collegare il sensore contemporaneamente a xDrip **e** all'app Dexcom ufficiale o a un secondo telefono.
 
 > ℹ️ **Nota**: Non è possibile usare questa modalità con un microinfusore Tandem già collegato.
 
 ### Attivare la modalità Engineering
 
-1. Nella schermata principale di xDrip+, tocca l'icona **Trattamento** (siringa, a destra).
+1. Nella schermata principale di xDrip, tocca l'icona **Trattamento** (siringa, a destra).
 2. Tieni premuto il **microfono** (in basso a destra).
 3. Nel campo di testo, digita: `enable engineering mode`
 4. Premi **Fine**: sullo schermo comparirà il testo digitato come conferma.
@@ -112,7 +112,7 @@ Dopo aver abilitato la modalità Engineering:
 
 ![](images/dexcomg5g6-e-xdrip/image_024.png)
 
-xDrip+ si collegherà al secondo slot del trasmettitore, lasciando libero quello dell'app Dexcom o del secondo telefono.
+xDrip si collegherà al secondo slot del trasmettitore, lasciando libero quello dell'app Dexcom o del secondo telefono.
 
 ---
 
@@ -140,7 +140,7 @@ Quando il collegamento è stabilito, puoi procedere ad avviare il sensore.
 
 ## 5. Avvia il sensore
 
-> ℹ️ **Nota**: È sicuro avviare in xDrip+ un sensore già in uso con il ricevitore Dexcom o l'app ufficiale. Al contrario, **non fermare mai un sensore funzionante** a meno che tu non voglia davvero sostituirlo.
+> ℹ️ **Nota**: È sicuro avviare in xDrip un sensore già in uso con il ricevitore Dexcom o l'app ufficiale. Al contrario, **non fermare mai un sensore funzionante** a meno che tu non voglia davvero sostituirlo.
 
 1. Dal menu principale, scegli **Inizializza Sensore** → **Inizializza sensor**.
 
@@ -176,10 +176,10 @@ Se il sensore è stato avviato da meno di due ore, dovrai aspettare prima di ric
 
 Per condividere le letture con follower o altri dispositivi, hai tre opzioni:
 
-### Opzione A – xDrip+ Sync (follower Android)
+### Opzione A – xDrip Sync (follower Android)
 
 Sul **telefono master** (quello collegato al sensore):
-1. Vai in **Impostazioni → xDrip+ Sync**.
+1. Vai in **Impostazioni → xDrip Sync**.
 2. Abilita le opzioni per il telefono primario e annota la chiave di sincronizzazione (**Handset Group Security Sync Key**).
 
 ![](images/dexcomg5g6-e-xdrip/image_037.png)
@@ -191,8 +191,8 @@ Sul **telefono master** (quello collegato al sensore):
 ![](images/dexcomg5g6-e-xdrip/image_040.png)
 
 Sul **telefono follower** (quello che vuole ricevere la glicemia):
-1. Installa xDrip+.
-2. Come sorgente dati, scegli **xDrip+ Sync Follower**.
+1. Installa xDrip.
+2. Come sorgente dati, scegli **xDrip Sync Follower**.
 
 ![](images/dexcomg5g6-e-xdrip/image_041.png)
 
@@ -200,7 +200,7 @@ Sul **telefono follower** (quello che vuole ricevere la glicemia):
 
 ![](images/dexcomg5g6-e-xdrip/image_043.png)
 
-3. Vai in **Impostazioni → xDrip+ Sync → Handset Group Security Sync Key** e inserisci la stessa chiave del master.
+3. Vai in **Impostazioni → xDrip Sync → Handset Group Security Sync Key** e inserisci la stessa chiave del master.
 
 ![](images/dexcomg5g6-e-xdrip/image_044.png)
 
@@ -210,14 +210,14 @@ Sul **telefono follower** (quello che vuole ricevere la glicemia):
 
 ![](images/dexcomg5g6-e-xdrip/image_047.png)
 
-In alternativa, puoi eseguire la configurazione in automatico con il **codice QR** in xDrip+.
+In alternativa, puoi eseguire la configurazione in automatico con il **codice QR** in xDrip.
 
 ![](images/dexcomg5g6-e-xdrip/image_048.png)
 
 ### Opzione B – Dexcom Share (follower con app Dexcom)
 
 Permette di usare anche l'app **Dexcom Follow** su Android e iPhone:
-1. In xDrip+, vai in **Impostazioni → Dexcom Share**.
+1. In xDrip, vai in **Impostazioni → Dexcom Share**.
 
 ![](images/dexcomg5g6-e-xdrip/image_049.png)
 
@@ -240,7 +240,7 @@ Permette di usare anche l'app **Dexcom Follow** su Android e iPhone:
 È la soluzione più completa: permette di vedere la glicemia su Android, iPhone, PC, smart TV.
 
 1. Crea il tuo Nightscout seguendo la [guida Nightscout](../nightscout/nightscoutgooglecloud).
-2. In xDrip+, vai in **Impostazioni → Cloud Upload → API Upload (REST)**.
+2. In xDrip, vai in **Impostazioni → Cloud Upload → API Upload (REST)**.
 
 ![](images/dexcomg5g6-e-xdrip/image_055.png)
 
@@ -272,7 +272,7 @@ Per visualizzare la glicemia sullo smartwatch senza Nightscout:
 
 ## 8. Allarmi e widget
 
-xDrip+ offre:
+xDrip offre:
 - **Widget** per la schermata principale e la schermata di blocco del telefono.
 - **Allarmi personalizzabili** per ipoglicemia e iperglicemia, con possibilità di impostare orari e giorni della settimana diversi.
 

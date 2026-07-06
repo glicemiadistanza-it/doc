@@ -37,17 +37,13 @@ xDrip è un'app Android gratuita e open source che permette di ricevere le lettu
 
 ![](images/installare-xdrip-android/image_009.png)
 
-![](images/installare-xdrip-android/image_010.png)
-
-![](images/installare-xdrip-android/image_011.png)
-
 2. Per conservare anche le impostazioni, vai in **Impostazioni** → **Impostazioni xDrip** → **Backup** → salva il codice QR (fai uno screenshot e mandalo a te stesso via WhatsApp o email).
+
+![](images/installare-xdrip-android/image_014.png)
 
 ![](images/installare-xdrip-android/image_012.png)
 
 ![](images/installare-xdrip-android/image_013.png)
-
-![](images/installare-xdrip-android/image_014.png)
 
 ![](images/installare-xdrip-android/image_015.png)
 
@@ -86,6 +82,8 @@ xDrip non è sul Play Store ma è open source e sicuro se scaricato dalla pagina
 
 ![](images/installare-xdrip-android/image_021.png)
 
+![](images/installare-xdrip-android/image_022.png)
+
 ![](images/installare-xdrip-android/image_046.png)
 
 ![](images/installare-xdrip-android/image_047.png)
@@ -123,7 +121,7 @@ Al primo avvio accetta le condizioni d'uso (obbligatorio per procedere). Concedi
 
 ![](images/installare-xdrip-android/image_023.png)
 
-![](images/installare-xdrip-android/image_022.png)
+![](images/installare-xdrip-android/image_024.png)
 
 ![](images/installare-xdrip-android/image_026.png)
 
@@ -132,8 +130,6 @@ Al primo avvio accetta le condizioni d'uso (obbligatorio per procedere). Concedi
 ![](images/installare-xdrip-android/image_028.png)
 
 > ℹ️ Se ti viene chiesto di ignorare le ottimizzazioni della batteria, premi **Sì**. Se questa richiesta si ripresenta in futuro, vai in **Impostazioni Android → App → xDrip** e disabilita l'ottimizzazione della batteria.
-
-![](images/installare-xdrip-android/image_024.png)
 
 ![](images/installare-xdrip-android/image_025.png)
 
@@ -159,11 +155,11 @@ Se hai già xDrip installato e stai solo aggiornando, l'app si aprirà normalmen
 
 - Per ripristinare le **impostazioni**: menu tre punti → **Importa impostazioni** → scansiona il codice QR salvato in precedenza.
 
+![](images/installare-xdrip-android/image_014.png)
+
 ![](images/installare-xdrip-android/image_012.png)
 
 ![](images/installare-xdrip-android/image_013.png)
-
-![](images/installare-xdrip-android/image_014.png)
 
 > ⚠️ Se questo è un telefono **master** (collegato direttamente al sensore), verifica o ricrea gli allarmi dopo il ripristino.
 

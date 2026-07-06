@@ -191,6 +191,8 @@ Con **Invia Allarmi** attivo, quando scatta un allarme xDrip riceverai una "chia
 
 Installa Mi Fit dal Play Store e accedi con **le stesse credenziali** dell'app modificata. Abbina nuovamente la smartband e abilita la visibilità se disponibile.
 
+![](images/mi-band234-con-xdrip/image_055.png)
+
 ![](images/mi-band234-con-xdrip/image_011.png)
 
 ![](images/mi-band234-con-xdrip/image_012.png)
@@ -199,7 +201,7 @@ Installa Mi Fit dal Play Store e accedi con **le stesse credenziali** dell'app m
 
 ![](images/mi-band234-con-xdrip/image_054.png)
 
-![](images/mi-band234-con-xdrip/image_055.png)
+![](images/mi-band234-con-xdrip/image_056.png)
 
 ![](images/mi-band234-con-xdrip/image_015.png)
 
@@ -210,7 +212,5 @@ Installa Mi Fit dal Play Store e accedi con **le stesse credenziali** dell'app m
 ![](images/mi-band234-con-xdrip/image_018.png)
 
 ![](images/mi-band234-con-xdrip/image_019.png)
-
-![](images/mi-band234-con-xdrip/image_056.png)
 
 Se l'app ufficiale dà problemi, torna a quella modificata: ha le stesse funzionalità (notifiche SMS, WhatsApp, email, ecc.).

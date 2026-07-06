@@ -93,7 +93,7 @@ const medtronic = [
 ]
 
 const alexa_siri = [
-  { text: 'Alexa con app Dexcom G5 o xDrip', link: '/documentation/alexa-siri/alexa-con-app-dexcom-g5-o-xdrip' },
+  { text: 'Alexa con app Dexcom o xDrip', link: '/documentation/alexa-siri/alexa-con-app-dexcom-o-xdrip' },
   { text: 'Alexa e Nightscout in italiano', link: '/documentation/alexa-siri/alexa-e-nightscout-in-italiano' },
   { text: 'Collegare Siri a Nightscout – iPhone e Apple Watch', link: '/documentation/alexa-siri/collegare-siri-a-nightscout-iphone-e-apple-watch' },
 ]

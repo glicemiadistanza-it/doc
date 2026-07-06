@@ -68,6 +68,12 @@ Entro un minuto dovresti vedere i valori in tempo reale (scorri il grafico verso
 
 ![](images/juggluco-xdrip/image_013.png)
 
+Juggluco mostra il valore anche in una notifica persistente e nella barra di stato del telefono.
+
+![](images/juggluco-xdrip/image_014.png)
+
+![](images/juggluco-xdrip/image_015.png)
+
 Se dopo qualche minuto non hai dati:
 1. Verifica che LLink sia disabilitata o disinstallata.
 2. Prova a scansionare di nuovo il sensore.
@@ -104,6 +110,10 @@ In **Impostazioni**:
 ![](images/juggluco-xdrip/image_021.png)
 
 ![](images/juggluco-xdrip/image_022.png)
+
+Se preferisci inviare i dati direttamente a Nightscout senza passare da xDrip, nella stessa sezione **Impostazioni** trovi anche i campi per l'indirizzo Nightscout e l'`api_secret`.
+
+![](images/juggluco-xdrip/image_023.png)
 
 > ℹ️ Nel menu **Orologio** trovi WatchDrip+ per la compatibilità con Amazfit/MiBand, Kerfstok per Garmin, e GlucoDataHandler per Wear OS e Samsung Gear.
 

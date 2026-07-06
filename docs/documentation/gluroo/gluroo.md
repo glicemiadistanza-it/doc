@@ -103,6 +103,22 @@ Con xDrip usa questi formati di URL:
 
 ![](images/gluroo/image_012.png)
 
+### xDrip4iOS (Shuggah)
+
+Anche con xDrip4iOS (Shuggah) puoi collegarti a Gluroo come master o come follower, dalle impostazioni dell'app.
+
+Per usarlo come master, vai su **Settings** e nella sezione **Nightscout** inserisci l'indirizzo Gluroo come URL e la password come `API_SECRET`.
+
+![](images/gluroo/image_017.png)
+
+Nella sezione **CGM Data Source**, seleziona **Master**.
+
+![](images/gluroo/image_018.png)
+
+Per usarlo invece come follower, seleziona **Follower** e imposta **Nightscout** come origine dati.
+
+![](images/gluroo/image_019.png)
+
 ### Nightguard e Nightwatch
 
 Inserisci l'indirizzo così: `https://xxxx.xx.gluroo.com:porta?token=API_SECRET`

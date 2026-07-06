@@ -7,19 +7,15 @@ Basata sulla documentazione ufficiale: `https://github.com/nightscout/cgm-remote
 **Requisiti:**
 - Account Amazon
 - Dispositivo Alexa registrato sull'account
-- Sito Nightscout aggiornato alla versione 0.10.3 o superiore (verifica aprendo il sito → menu in alto a destra → scorri in basso)
-
-![](images/alexa-e-nightscout-in-italiano/image_001.png)
+- Sito Nightscout
 
 ---
 
 ## 1. Abilita il plugin Alexa su Nightscout
 
-Accedi a Heroku, clicca sul nome della tua app, vai in **Settings → Reveal Config Vars** e aggiungi `alexa` alla variabile **ENABLE**. Salva.
+Aggiungi `alexa` alla variabile **ENABLE** del tuo Nightscout. 
 
-![](images/alexa-e-nightscout-in-italiano/image_002.png)
-
-![](images/alexa-e-nightscout-in-italiano/image_003.png)
+Segui le [istruzioni](https://nightscout-github-io.translate.goog/nightscout/setup_variables/?_x_tr_sl=auto&_x_tr_tl=it) se usi un sito fai-da-te, oppure contatta il tuo [fornitore](https://nightscout-github-io.translate.goog/?_x_tr_sl=auto&_x_tr_tl=it#nightscout-as-a-service) per un sito a pagamento.
 
 ---
 

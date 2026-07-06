@@ -123,8 +123,6 @@ Gli elementi principali del quadrante sono:
 
 1. Vai alla tua pagina Nightscout e clicca su **NS-DatiMongo**. Copia il token generato.
 
-![](images/sentinel-pro-userguide1/image_027.png)
-
 ![](images/sentinel-pro-userguide1/image_028.png)
 
 2. Incolla il token nelle impostazioni del quadrante del telefono, nel campo **NS Careportal Token**, e salva.
@@ -136,6 +134,8 @@ Gli elementi principali del quadrante sono:
 ![](images/sentinel-pro-userguide1/image_031.png)
 
 3. Premi **Aggiungi nuovo soggetto**, scrivi il nome e nel campo **ruoli** scrivi `admin`.
+
+![](images/sentinel-pro-userguide1/image_027.png)
 
 ![](images/sentinel-pro-userguide1/image_032.png)
 

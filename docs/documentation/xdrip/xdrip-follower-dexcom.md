@@ -2,6 +2,8 @@
 
 Chi usa l'app Dexcom Follow per ricevere le letture a distanza non può impostare un quadrante su un orologio Wear OS né aggiungere un widget alla schermata del telefono. xDrip risolve entrambi i problemi: si affianca all'app Dexcom Follow e aggiunge le funzioni mancanti.
 
+![](images/xdrip-follower-dexcom/image_001.png)
+
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
 ## 1. Installa xDrip

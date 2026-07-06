@@ -2,6 +2,8 @@
 
 Le app ufficiali del FSL (FSL2 e FSL3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
 
+![](images/xdrip-follower-fsl/image_003.png)
+
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
 ## Prerequisiti
@@ -67,6 +69,12 @@ xDrip ha un widget che mostra il valore glicemico e il grafico sulla schermata p
 ![](images/xdrip-follower-fsl/image_013.png)
 
 ![](images/xdrip-follower-fsl/image_014.png)
+
+Una volta aggiunto, il widget mostra la glicemia anche sulla schermata di blocco:
+
+![](images/xdrip-follower-fsl/image_001.png)
+
+![](images/xdrip-follower-fsl/image_002.png)
 
 Il metodo varia da modello a modello.
 

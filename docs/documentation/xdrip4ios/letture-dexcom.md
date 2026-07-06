@@ -16,36 +16,36 @@ Per evitare di collegarsi a un vecchio sensore (inesistente oppure oltre 10 gior
 
 Vai alle **Impostazioni** del tuo iPhone e scorri verso il basso per **Bluetooth**.
 
-![](images/image_025.png)
+![](images/letture-dexcom/image_001.png)
 
 <a id="abbinare-il-trasmettitore"></a>
 ## 3. Abbina il trasmettitore
 
 Accedi alla scheda **Bluetooth** dell’app xDrip4iOS e fai clic sul pulsante **+** per aggiungere un nuovo tipo di dispositivo.
 
-![](images/image_011.png)
+![](images/letture-dexcom/image_002.png)
 
 Seleziona **CGM** e poi scegli il tuo sistema Dex (G7/ONE+/Stelo) dall'elenco.
 
-![](images/image_001.png)
+![](images/letture-dexcom/image_003.png)
 
-![](images/dex01.png)
+![](images/letture-dexcom/image_004.png)
 
 Ti verrà richiesto di inserire l'ID del trasmettitore (ad esempio: 80H9W4), inserisci il tuo.
 
-![](images/image_035.png)
+![](images/letture-dexcom/image_005.png)
 
 Una volta inserito l'ID del trasmettitore, verrà visualizzato un messaggio che ti chiede di mantenere aperto xDrip4iOS mentre viene trovato il trasmettitore e viene stabilita una connessione Bluetooth. Lascia il tuo iPhone sul tavolo e prendi un caffè. NON giocare a Roblox, guardare Netflix o ascoltare Spotify. Metti giù il telefono senza toccarlo e restagli vicino.
 
-![](images/image_027.png)
+![](images/letture-dexcom/image_006.png)
 
-![](images/image_018.png)
+![](images/letture-dexcom/image_007.png)
 
 Quando xDrip4iOS trova il tuo trasmettitore, riceverai un messaggio che dice che è stato collegato correttamente. Fai clic su **OK**.
 
 Una volta connesso, vedrai sempre il suo stato come Scansione poiché comunica solo per un breve periodo di tempo ogni 5 minuti.
 
-![](images/image_005.png)
+![](images/letture-dexcom/image_008.png)
 
 </br>
 
@@ -63,11 +63,11 @@ Vai nella lista dei dispositivi Bluetooth del tuo iPhone e cerca quello chiamato
 
 **Non provare ad abbinarlo in questa schermata**: serve solo il suo nome.
 
-![](images/dex02.png)
+![](images/letture-dexcom/image_009.png)
 
 In xDrip4iOS, tocca la riga **Transmitter ID** e metti lo stesso nome (attenzione alle minuscole e maiuscole!).
 
-![](images/dex03.png)
+![](images/letture-dexcom/image_010.png)
 
 </br>
 
@@ -77,6 +77,6 @@ Per condividere la glicemia con altri telefoni e utilizzare smartwatch diversi d
 
 La documentazione originale (link con traduttore automatico): `https://xdrip4ios-readthedocs-io.translate.goog/en/latest/connect/cgm/?_x_tr_sl=auto&_x_tr_tl=it`
 
-![](images/image_041.png)
+![](images/letture-dexcom/image_011.png)
 
 **L'utilizzo è soggetto all'assunzione di esclusiva responsabilità personale.**

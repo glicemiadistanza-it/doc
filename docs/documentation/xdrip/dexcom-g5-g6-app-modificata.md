@@ -2,6 +2,8 @@
 
 Questa guida spiega come creare e installare la versione modificata dell'app Dexcom sul telefono collegato al sensore G5 o G6 (master). Incluso anche come collegarla a xDrip per usare diversi smartwatch.
 
+![](images/dexcom-g5-g6-app-modificata/image_001.png)
+
 ## Che cos'è l'app Dexcom modificata?
 
 È l'app Dexcom ufficiale con due piccole modifiche:
@@ -89,6 +91,8 @@ Per disinstallare senza interagire con il sensore:
 ![](images/dexcom-g5-g6-app-modificata/image_018.png)
 
 ![](images/dexcom-g5-g6-app-modificata/image_019.png)
+
+![](images/dexcom-g5-g6-app-modificata/image_020.png)
 
 8. Premi **Submit** e aspetta la mail. Se non arriva entro 10 minuti, controlla la cartella Spam.
 

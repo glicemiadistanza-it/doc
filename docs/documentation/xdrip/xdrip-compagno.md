@@ -18,15 +18,17 @@ Segui la [guida base di installazione](./installare-xdrip-android) e installa l'
 ## 2. Seleziona la sorgente dati "Companion App"
 
 1. Dal menu di xDrip: **Impostazioni → Dati hardware di origine**.
-2. Seleziona **Companion App**.
+2. Seleziona **Companion App**, poi il sistema che usi (ad esempio **G4, G5 & G6**).
 
 ![](images/xdrip-compagno/image_003.png)
 
+![](images/xdrip-compagno/image_002.png)
+
 ![](images/xdrip-compagno/image_004.png)
 
-![](images/xdrip-compagno/image_005.png)
-
 3. xDrip richiede l'autorizzazione per accedere a tutte le notifiche del telefono. Concedila: xDrip usa questa autorizzazione **solo** per leggere le notifiche delle app CGM elencate sopra. Il codice sorgente è aperto e verificabile.
+
+![](images/xdrip-compagno/image_005.png)
 
 ![](images/xdrip-compagno/image_006.png)
 
@@ -34,11 +36,29 @@ Segui la [guida base di installazione](./installare-xdrip-android) e installa l'
 
 ![](images/xdrip-compagno/image_008.png)
 
-## 3. Verifica il funzionamento
+## 3. Inizializza il sensore in xDrip (se richiesto)
+
+Anche in modalità Companion App, xDrip potrebbe chiederti di indicare quando il sensore è stato inserito, per calcolare correttamente la durata e mostrare gli avvisi di scadenza.
+
+1. Dal menu di xDrip: **Inizializza Sensore**.
+
+![](images/xdrip-compagno/image_009.png)
+
+2. Tocca **INIZIALIZZA SENSORE**.
+
+![](images/xdrip-compagno/image_010.png)
+
+3. Indica se il sensore è stato inserito oggi:
+   - **Oggi:** seleziona **Sì, oggi**
+   - **Prima di oggi:** seleziona **Non oggi** e inserisci l'orario esatto
+
+![](images/xdrip-compagno/image_011.png)
+
+## 4. Verifica il funzionamento
 
 Torna nella schermata principale di xDrip. Entro 5 minuti le letture di glicemia dovrebbero comparire automaticamente.
 
-## 4. Collega lo smartwatch (opzionale)
+## 5. Collega lo smartwatch (opzionale)
 
 Con xDrip attivo puoi inviare la glicemia direttamente a diversi smartwatch:
 
@@ -47,7 +67,7 @@ Con xDrip attivo puoi inviare la glicemia direttamente a diversi smartwatch:
 - **Fitbit** Versa / Ionic: vedi la [guida Fitbit](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
 - **Samsung Watch:** cerca la guida "G-Watch per Samsung"
 
-## 5. Condividi le letture con altri dispositivi (opzionale)
+## 6. Condividi le letture con altri dispositivi (opzionale)
 
 Puoi condividere la glicemia con altri telefoni senza passare dai server del fornitore:
 - **xDrip Sync:** condivisione diretta tra telefoni Android

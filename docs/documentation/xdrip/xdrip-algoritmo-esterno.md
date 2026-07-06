@@ -141,6 +141,58 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 4. Premi **Indietro** due volte per uscire.
 
+### Alternativa senza PC: installa con l'app Wear Installer
+
+Se non hai un PC Windows disponibile, puoi installare OOP2 sullo smartwatch direttamente dal telefono, tramite Wi-Fi, usando l'app **Wear Installer 2**. Usa lo stesso file `OOP2.apk` scaricato al punto 1 di questa guida (nella cartella Download del telefono).
+
+1. Installa **Wear Installer 2** sul **telefono** (non sullo smartwatch) dal Play Store.
+
+![](images/xdrip-algoritmo-esterno/image_017.png)
+
+![](images/xdrip-algoritmo-esterno/image_018.png)
+
+2. Apri l'app e concedi il permesso di accesso a foto e file quando richiesto.
+
+![](images/xdrip-algoritmo-esterno/image_019.png)
+
+3. Alla prima apertura, l'app mostra le istruzioni per collegare lo smartwatch: oltre alla modalità sviluppatore e al **Debug ADB** già abilitati al passo precedente, abilita anche **Esegui il debug tramite Wi-Fi**.
+
+![](images/xdrip-algoritmo-esterno/image_020.png)
+
+4. Sullo smartwatch, nelle **Opzioni sviluppatore**, verifica che **Debug ADB** ed **Esegui il debug tramite Wi-Fi** siano entrambi attivi, e annota l'indirizzo IP mostrato.
+
+![](images/xdrip-algoritmo-esterno/image_025.png)
+
+![](images/xdrip-algoritmo-esterno/image_027.png)
+
+5. Torna sul telefono, inserisci l'indirizzo IP dello smartwatch nel campo dell'app Wear Installer e tocca **DONE**.
+
+![](images/xdrip-algoritmo-esterno/image_030.png)
+
+6. L'app si collega allo smartwatch:
+
+![](images/xdrip-algoritmo-esterno/image_037.png)
+
+Sullo smartwatch, conferma la richiesta di debug toccando **OK**, poi seleziona **Consenti sempre da questo computer**.
+
+![](images/xdrip-algoritmo-esterno/image_035.png)
+
+![](images/xdrip-algoritmo-esterno/image_036.png)
+
+7. Nella schermata principale di Wear Installer, passa alla scheda **Downloads** e seleziona il file `OOP2.apk`.
+
+![](images/xdrip-algoritmo-esterno/image_031.png)
+
+> ℹ️ Se compare l'avviso "This apk file is NOT for WearOS", ignoralo e tocca **CONTINUE**: è normale, l'app funziona comunque.
+
+![](images/xdrip-algoritmo-esterno/image_033.png)
+
+8. Tocca **INSTALL** e attendi il messaggio di conferma.
+
+![](images/xdrip-algoritmo-esterno/image_040.png)
+
+![](images/xdrip-algoritmo-esterno/image_041.png)
+
 ### Installare OOP sullo smartwatch
 
 1. Scarica il file di installazione assistita per Windows:

@@ -100,6 +100,8 @@ Per vedere la versione attuale del tuo Nightscout, clicca sul menu in alto a des
 
 ![](images/heroku-aggiornare-nightscout/image_024.png)
 
+![](images/heroku-aggiornare-nightscout/image_025.png)
+
 7. Scorri giù fino a **Manual deploy**, seleziona il ramo `master` e clicca **Deploy Branch**.
 
 ![](images/heroku-aggiornare-nightscout/image_026.png)

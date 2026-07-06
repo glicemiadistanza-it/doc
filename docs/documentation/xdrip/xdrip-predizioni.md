@@ -2,7 +2,15 @@
 
 xDrip include una funzione di simulazione che calcola l'evoluzione prevista della glicemia in base all'insulina attiva, ai carboidrati ingeriti e alla sensibilità individuale.
 
+![](images/xdrip-predizioni/image_001.png)
+
 > ⚠️ **Questo sistema non è un dispositivo medico.** Non usare le predizioni per prendere decisioni terapeutiche. Consulta sempre il tuo diabetologo. L'utilizzo è a esclusiva responsabilità personale.
+
+xDrip stesso mostra questo avviso nelle impostazioni:
+
+![](images/xdrip-predizioni/image_003.png)
+
+![](images/xdrip-predizioni/image_002.png)
 
 Per usare le predizioni è necessario conoscere:
 - La **sensibilità insulinica** (ISF): di quanti mg/dL si abbassa la glicemia per 1 unità di insulina

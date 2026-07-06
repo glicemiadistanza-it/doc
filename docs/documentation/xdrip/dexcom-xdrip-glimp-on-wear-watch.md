@@ -6,6 +6,8 @@ La guida è stata realizzata con un Huawei Watch 2 LTE, ma i passaggi sono simil
 
 **Prerequisito:** sul telefono deve essere già installata e funzionante una di queste app: app Dexcom master (ufficiale o modificata), xDrip, o Glimp.
 
+![](images/dexcom-xdrip-glimp-on-wear-watch/image_001.png)
+
 ---
 
 ## 1. Avvia lo smartwatch

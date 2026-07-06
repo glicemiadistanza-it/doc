@@ -141,6 +141,10 @@ Inserisci i seguenti parametri:
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_030.png)
 
+![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_031.png)
+
+![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_032.png)
+
 ### Configurazione CGM Widget (di Andreas-May)
 
 Inserisci la stringa completa comprensiva di dominio (es. `https://birillo.herokuapp.com`). Puoi anche configurare l'unità di misura e i limiti del range target.

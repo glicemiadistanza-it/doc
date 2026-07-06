@@ -16,9 +16,9 @@ Questa guida spiega come aprire il sito Nightscout direttamente sull'**Apple Wat
 
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_002.png)
 
-![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_003.png)
-
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_004.png)
+
+![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_003.png)
 
 ---
 
@@ -29,11 +29,11 @@ Per accedere rapidamente a Nightscout senza riaprire ogni volta l'email:
 1. Nell'app **Apple Watch** sull'iPhone, vai in **Generale → Attiva schermo** e imposta **Mostra ultima app con schermo attivo**.
 2. Vai in **Dock → Preferiti** e aggiungi l'app **Mail** ai preferiti.
 
-![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_005.png)
+![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_007.png)
 
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_006.png)
 
-![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_007.png)
+![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_005.png)
 
 In questo modo, ruotando il polso riappare l'ultima app aperta. Se la pagina Nightscout si è chiusa, premi il **tasto laterale** dell'Apple Watch per richiamare le app nel dock.
 

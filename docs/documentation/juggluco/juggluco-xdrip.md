@@ -10,7 +10,7 @@ Questa guida spiega come usare **Juggluco** per leggere un sensore **FSL 2** e i
 
 **Requisiti:** telefono Android 4.4 o superiore, con Bluetooth 4.2 (BLE) e lettore NFC.
 
-Documentazione originale: `http://jkaltes.byethost16.com/Juggluco/`
+Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jkaltes.byethost16.com/Juggluco/)
 
 ![](images/juggluco-xdrip/image_001.png)
 
@@ -24,9 +24,7 @@ Disinstalla l'app LLink (o disabilitala togliendole l'accesso alla geolocalizzaz
 
 ## 2. Installa Juggluco
 
-Juggluco non è disponibile nel Google Play Store. Scaricala dal sito ufficiale:
-
-`https://www.juggluco.nl/Juggluco/download.html`
+Juggluco non è disponibile nel Google Play Store. Scaricala dal [sito ufficiale](https://www.juggluco.nl/Juggluco/download.html).
 
 ![](images/juggluco-xdrip/image_002.png)
 

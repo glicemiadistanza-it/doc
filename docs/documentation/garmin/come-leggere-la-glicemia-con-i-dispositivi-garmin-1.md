@@ -2,7 +2,7 @@
 
 Questa guida spiega come visualizzare i valori di glicemia trasmessi da Nightscout sui modelli Garmin compatibili, tramite le app disponibili su **Connect IQ** (lo store ufficiale di Garmin).
 
-Traduzione e integrazione della guida originale di Paweł Babańczyk: `http://nightscout.pl/smartwatch/garmin/`
+Traduzione e integrazione della guida originale di Paweł Babańczyk: [`http://nightscout.pl/smartwatch/garmin/`](http://nightscout.pl/smartwatch/garmin/)
 
 Autore: Gianluca Curci.
 
@@ -147,7 +147,7 @@ Inserisci i seguenti parametri:
 
 ### Configurazione CGM Widget (di Andreas-May)
 
-Inserisci la stringa completa comprensiva di dominio (es. `https://birillo.herokuapp.com`). Puoi anche configurare l'unità di misura e i limiti del range target.
+Inserisci la stringa completa comprensiva di dominio (es. [`https://birillo.herokuapp.com`](https://birillo.herokuapp.com)). Puoi anche configurare l'unità di misura e i limiti del range target.
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_033.png)
 

@@ -170,7 +170,7 @@ Dopo l'abbinamento, l'app modificata crea automaticamente un file di testo con l
 ## 5. Installa e configura WatchDrip+
 
 1. Scarica l'ultima versione di WatchDrip+ dal sito del progetto:
-   `https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`
+   [`https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog)
    Cerca la sezione **Download link** per l'ultima versione.
 2. Installa il file `.apk` scaricato.
 

@@ -10,13 +10,13 @@ Il vantaggio principale è la semplicità: non devi costruire o mantenere nulla.
 
 ![](images/nightscoutpro/image_003.png)
 
-Per saperne di più su Nightscout: `https://nightscout.github.io/`
+Per saperne di più su Nightscout: [`https://nightscout.github.io/`](https://nightscout.github.io/)
 
 ---
 
 ## 1. Crea un account
 
-1. Vai su `https://nightscout.pro/` e clicca **START MY CLOUD**.
+1. Vai su [`https://nightscout.pro/`](https://nightscout.pro/) e clicca **START MY CLOUD**.
 
 ![](images/nightscoutpro/image_004.png)
 
@@ -24,7 +24,7 @@ Per saperne di più su Nightscout: `https://nightscout.github.io/`
 
 ![](images/nightscoutpro/image_005.png)
 
-3. Da questo momento puoi accedere a `https://my.nightscoutpro.com/` con queste credenziali.
+3. Da questo momento puoi accedere a [`https://my.nightscoutpro.com/`](https://my.nightscoutpro.com/) con queste credenziali.
 
 ---
 

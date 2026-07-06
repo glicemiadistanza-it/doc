@@ -14,7 +14,7 @@ Documento originale di Didier Frétigné.
 
 ## 1. Installa Gluroo
 
-Cerca **Gluroo** nel Google Play Store o nell'Apple App Store. Se i link non sono aggiornati, vai su `https://gluroo.com`.
+Cerca **Gluroo** nel Google Play Store o nell'Apple App Store. Se i link non sono aggiornati, vai su [`https://gluroo.com`](https://gluroo.com).
 
 ![](images/gluroo/image_002.png)
 
@@ -60,7 +60,7 @@ Puoi inserire Gluroo come follower di LView.
 
 Questa modalità crea un endpoint compatibile con Nightscout: puoi usare l'indirizzo Gluroo come se fosse il tuo sito Nightscout.
 
-- **Indirizzo Nightscout:** il tuo indirizzo Gluroo (formato: `https://xxxx.xx.gluroo.com:porta`)
+- **Indirizzo Nightscout:** il tuo indirizzo Gluroo (formato: [`https://xxxx.xx.gluroo.com:porta`](https://xxxx.xx.gluroo.com:porta))
 - `API_SECRET`: la password mostrata nell'app
 
 ![](images/gluroo/image_008.png)
@@ -96,8 +96,8 @@ Per vedere la glicemia in una pagina web, usa **Gluroo Web**: c'è anche una mod
 
 Con xDrip usa questi formati di URL:
 
-- **Master:** `https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1`
-- **Follower:** `https://API_SECRET@xxxx.xx.gluroo.com:porta`
+- **Master:** [`https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1`](https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1)
+- **Follower:** [`https://API_SECRET@xxxx.xx.gluroo.com:porta`](https://API_SECRET@xxxx.xx.gluroo.com:porta)
 
 ![](images/gluroo/image_011.png)
 
@@ -121,7 +121,7 @@ Per usarlo invece come follower, seleziona **Follower** e imposta **Nightscout**
 
 ### Nightguard e Nightwatch
 
-Inserisci l'indirizzo così: `https://xxxx.xx.gluroo.com:porta?token=API_SECRET`
+Inserisci l'indirizzo così: [`https://xxxx.xx.gluroo.com:porta?token=API_SECRET`](https://xxxx.xx.gluroo.com:porta?token=API_SECRET)
 
 ![](images/gluroo/image_013.png)
 
@@ -129,7 +129,7 @@ Inserisci l'indirizzo così: `https://xxxx.xx.gluroo.com:porta?token=API_SECRET`
 
 ### M5Stack NightscoutMon
 
-Nella configurazione web dell'M5Stack (`http://m5ns.local`):
+Nella configurazione web dell'M5Stack ([`http://m5ns.local`](http://m5ns.local)):
 - **Nightscout URL:** il tuo indirizzo Gluroo
 - `API_SECRET`: la password corrispondente
 
@@ -137,11 +137,11 @@ Nella configurazione web dell'M5Stack (`http://m5ns.local`):
 
 ![](images/gluroo/image_016.png)
 
-Assicurati di avere il firmware aggiornato (per aggiornarlo, apri `http://m5ns.local` e segui la [guida M5Stack](../nightscout/monitor-nightscout-m5stack)).
+Assicurati di avere il firmware aggiornato (per aggiornarlo, apri [`http://m5ns.local`](http://m5ns.local) e segui la [guida M5Stack](../nightscout/monitor-nightscout-m5stack)).
 
 ---
 
 ## Maggiori informazioni
 
-- Gruppo Facebook di Gluroo: `https://www.facebook.com/groups/1326762991077589`
-- Blog ufficiale: `https://www.gluroo.com/blog/nightscout_heroku_alternative_free/index.html`
+- Gruppo Facebook di Gluroo: [`https://www.facebook.com/groups/1326762991077589`](https://www.facebook.com/groups/1326762991077589)
+- Blog ufficiale: [`https://www.gluroo.com/blog/nightscout_heroku_alternative_free/index.html`](https://www.gluroo.com/blog/nightscout_heroku_alternative_free/index.html)

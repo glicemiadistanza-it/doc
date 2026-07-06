@@ -14,7 +14,7 @@ Nightscout nasce per essere distribuito su Linux. Questa soluzione usa uno scrip
 
 ## 1. Crea il server virtuale
 
-1. Vai su `https://www.ionos.it/server/vps` e scegli il piano **VPS XS** (1€/mese +IVA).
+1. Vai su [`https://www.ionos.it/server/vps`](https://www.ionos.it/server/vps) e scegli il piano **VPS XS** (1€/mese +IVA).
 
 ![](images/nightscoutionos/image_003.png)
 
@@ -234,7 +234,7 @@ Se non vedi la glicemia entro 10 minuti, riavvia Nightscout dal menu.
 
 Il nome predefinito del server Ionos è difficile da ricordare. Puoi creare un indirizzo più semplice con FreeDNS (gratuito).
 
-1. Vai su `https://freedns.afraid.org/` → **Sign up Free**.
+1. Vai su [`https://freedns.afraid.org/`](https://freedns.afraid.org/) → **Sign up Free**.
 2. Compila nome utente, password (non perderla!) e email. Risolvi il captcha e clicca **Send activation email**.
 
 ![](images/nightscoutionos/image_050.png)

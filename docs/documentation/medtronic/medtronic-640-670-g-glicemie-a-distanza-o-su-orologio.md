@@ -2,13 +2,13 @@
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_001.png)
 
-Questa guida aiuta nella configurazione del dispositivo Medtronic 640/670G collegato con il sensore Enlite. Non è una guida completa e non sostituisce la documentazione originale disponibile qui: `https://github.com/pazaan/640gAndroidUploader/wiki/Getting-Started:-Installation`
+Questa guida aiuta nella configurazione del dispositivo Medtronic 640/670G collegato con il sensore Enlite. Non è una guida completa e non sostituisce la documentazione originale disponibile qui: [`https://github.com/pazaan/640gAndroidUploader/wiki/Getting-Started:-Installation`](https://github.com/pazaan/640gAndroidUploader/wiki/Getting-Started:-Installation)
 
 In caso di incongruenze tra questa guida e quella originale, fa fede quella originale. Medtronic non è collegata a questo progetto in alcun modo.
 
 ## 1. Cosa occorre per cominciare?
 
-- **Smartphone Android** `4.0.3` o superiore con supporto OTG (funzionalità che permette di collegare un dispositivo USB al telefono). Consulta la lista dei telefoni testati: `https://docs.google.com/document/d/13OeqBaq01rpzcfsA1quDZgCJ3saJVgFob0IEqA4MCv8/edit`
+- **Smartphone Android** `4.0.3` o superiore con supporto OTG (funzionalità che permette di collegare un dispositivo USB al telefono). Consulta la lista dei telefoni testati: [`https://docs.google.com/document/d/13OeqBaq01rpzcfsA1quDZgCJ3saJVgFob0IEqA4MCv8/edit`](https://docs.google.com/document/d/13OeqBaq01rpzcfsA1quDZgCJ3saJVgFob0IEqA4MCv8/edit)
 - **Cavo OTG** micro-USB maschio a USB femmina.
 - **Glucometro Contour Next Link 2.4 USB.** Si raccomanda vivamente di usarne uno di ricambio per il caricamento dei dati dal 640/670G, e non quello principale. Il glucometro deve essere registrato sul sito CareLink e deve essere stato usato almeno una volta per il caricamento dati.
 - **Microinfusore Medtronic 640/670G.** Anche se l'app Android legge solo le informazioni dal glucometro, per sicurezza si consiglia di disattivare la funzione di bolo remoto seguendo questi passaggi:
@@ -23,7 +23,7 @@ L'uploader è un'app per smartphone Android che, collegando il glucometro Bayer 
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_002.png)
 
-1. Apri il browser dello smartphone e vai a: `https://github.com/pazaan/640gAndroidUploader/releases`
+1. Apri il browser dello smartphone e vai a: [`https://github.com/pazaan/640gAndroidUploader/releases`](https://github.com/pazaan/640gAndroidUploader/releases)
    (La versione usata in questa guida è la `0.7.3`.)
 2. Seleziona **assets** e poi il file `.apk` più recente: partirà il download.
 
@@ -95,15 +95,15 @@ Dopo qualche istante dovresti vedere le glicemie arrivare su xDrip.
 
 ## 3. Come condividere le glicemie con un altro telefono Android
 
-Segui questa guida: `https://www.glicemiadistanza.it/condivisione-della-glicemia-tra-telefonini-android-con-xdrip/`
+Segui questa [guida Master/Follower](../xdrip/masterfollower).
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_025.png)
 
 ## 4. Condivisione universale con Nightscout
 
-Segui la guida base: `https://www.glicemiadistanza.it/nighscout-con-heroku-e-mongodb-atlas-nuova-guida/`
+Segui la guida base: [`https://www.glicemiadistanza.it/nighscout-con-heroku-e-mongodb-atlas-nuova-guida/`](https://www.glicemiadistanza.it/nighscout-con-heroku-e-mongodb-atlas-nuova-guida/)
 
-Al termine della procedura, vai alla videata principale di Heroku: `https://dashboard.heroku.com/apps`
+Al termine della procedura, vai alla videata principale di Heroku: [`https://dashboard.heroku.com/apps`](https://dashboard.heroku.com/apps)
 
 1. Clicca sul nome della tua app.
 
@@ -129,7 +129,7 @@ Al termine della procedura, vai alla videata principale di Heroku: `https://dash
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_029.png)
 
-6. Nel campo **Nightscout URL** inserisci l'indirizzo della tua pagina Nightscout, ad esempio: `https://nomesito.herokuapp.com`
+6. Nel campo **Nightscout URL** inserisci l'indirizzo della tua pagina Nightscout, ad esempio: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
 7. Nel campo **API secret** inserisci il codice API creato su Heroku, ad esempio: `ThisisMyCode`
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_030.png)
@@ -140,7 +140,7 @@ In questa versione non è richiesto l'accesso a CareLink. Collegato il ContourNe
 
 Il tempo della lettura si riferisce alla lettura del sensore da parte del microinfusore (anch'essa ogni 5 minuti). Oltre alla glicemia vengono riportati: lo stato del microinfusore (es. sospensione basale), boli e carboidrati somministrati con l'insulina residua (bolo semplice o prolungato), data di cambio sensore, set e insulina, profilo basale.
 
-Per visualizzare i dati, accedi alla tua pagina Nightscout: `https://nomesito.herokuapp.com`
+Per visualizzare i dati, accedi alla tua pagina Nightscout: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_031.png)
 
@@ -150,12 +150,12 @@ Per visualizzare i dati, accedi alla tua pagina Nightscout: `https://nomesito.he
 
 Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
 
-- **Android Wear 2**: `https://www.glicemiadistanza.it/huawei-watch-2-e-xdrip/`
-- **Sony Smartwatch 3 (SWR50)**: `https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/`
-- **Fitbit Versa e Ionic** (anche per Nightscout): `https://www.glicemiadistanza.it/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwatch-versa-e-ionic/`
-- **Samsung Watch** (anche per Nightscout): `https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`
-- **MiBand**: `https://www.glicemiadistanza.it/miband-con-xdrip/`
-- **Amazfit**: `https://www.glicemiadistanza.it/amazfit-band-5-con-xdrip/` — `https://www.glicemiadistanza.it/amazfit-bip-lite-con-xdrip/`
+- **Android Wear 2**: [guida per Android Wear OS](../xdrip/dexcom-xdrip-glimp-on-wear-watch)
+- **Sony Smartwatch 3 (SWR50)**: [`https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/`](https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/)
+- **Fitbit Versa e Ionic** (anche per Nightscout): [guida Fitbit Versa e Ionic](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Samsung Watch** (anche per Nightscout): [`https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`](https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/)
+- **MiBand**: [guida Xiaomi MiBand con xDrip](../xiaomi/xiaomi-miband-con-xdrip)
+- **Amazfit**: [guida Amazfit con xDrip](../amazfit/amazfit-con-xdrip) — [guida Amazfit Bip/Bip Lite](../amazfit/amazfit-bip-lite-con-xdrip)
 
 ### Allarmi e widget
 

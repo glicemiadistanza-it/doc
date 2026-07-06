@@ -4,7 +4,7 @@ ADB (Android Debug Bridge, strumento che permette di comunicare con un dispositi
 
 ## 1. Installare i driver universali
 
-1. Scarica il pacchetto di driver per Windows da `https://adb.clockworkmod.com/`
+1. Scarica il pacchetto di driver per Windows da [`https://adb.clockworkmod.com/`](https://adb.clockworkmod.com/)
 2. Nella cartella Download, fai clic con il tasto destro su `UniversalAdbDriverSetup.msi` e seleziona **Esegui come amministratore**. Conferma.
 3. Clicca **Next** più volte senza modificare i valori predefiniti, fino al completamento.
 
@@ -23,7 +23,7 @@ ADB (Android Debug Bridge, strumento che permette di comunicare con un dispositi
 
 ## 4. Installare ADB
 
-1. Scarica ADB da `https://developer.android.com/studio/releases/platform-tools#download`
+1. Scarica ADB da [`https://developer.android.com/studio/releases/platform-tools#download`](https://developer.android.com/studio/releases/platform-tools#download)
 2. Crea una cartella nella radice del disco C: e chiamala `ADB`, ovvero `C:\ADB`.
 3. Copia il contenuto della cartella `platform-tools` del file scaricato in `C:\ADB`.
 

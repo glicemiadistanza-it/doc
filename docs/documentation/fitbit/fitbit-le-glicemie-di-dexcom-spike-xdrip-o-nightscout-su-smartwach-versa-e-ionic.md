@@ -4,7 +4,7 @@ Questa guida spiega come visualizzare la glicemia su uno smartwatch **Fitbit Ver
 
 Sorgenti compatibili: Dexcom, xDrip, Diabox, Spike, Nightscout.
 
-Verifica la compatibilità del tuo telefono con il tuo Fitbit: `https://www.fitbit.com/it/devices`
+Verifica la compatibilità del tuo telefono con il tuo Fitbit: [`https://www.fitbit.com/it/devices`](https://www.fitbit.com/it/devices)
 
 ![](images/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic/image_001.png)
 
@@ -14,7 +14,7 @@ Verifica la compatibilità del tuo telefono con il tuo Fitbit: `https://www.fitb
 
 Installa l'app **Fitbit** (disponibile per Android e iPhone) e abbina il tuo Versa o Ionic seguendo le istruzioni dell'app.
 
-> ⚠️ **Attenzione**: Se usi xDrip, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: `https://fitbit.it.aptoide.com/versions`. Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
+> ⚠️ **Attenzione**: Se usi xDrip, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
 
 > ℹ️ **Nota**: Se usi l'app Dexcom Mobile, devi avere almeno un follower attivo nell'app per poter inviare i dati al Fitbit.
 
@@ -59,7 +59,7 @@ Dall'app Fitbit, cerca il quadrante **Glance**, installalo e concedi tutti i per
 ### Fitbit Versa, Versa 2, Versa Lite e Ionic
 
 Installa il quadrante da:
-`https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c`
+[`https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c`](https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c)
 
 ![](images/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic/image_009.png)
 

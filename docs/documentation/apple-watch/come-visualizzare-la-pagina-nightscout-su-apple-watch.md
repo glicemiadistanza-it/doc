@@ -10,7 +10,7 @@ Questa guida spiega come aprire il sito Nightscout direttamente sull'**Apple Wat
 
 ## 1. Come aprire Nightscout sull'Apple Watch
 
-1. Sull'iPhone, apri l'app **Mail** e inviati un'email con l'URL del tuo sito Nightscout (es. `https://miosito.azurewebsites.net`).
+1. Sull'iPhone, apri l'app **Mail** e inviati un'email con l'URL del tuo sito Nightscout (es. [`https://miosito.azurewebsites.net`](https://miosito.azurewebsites.net)).
 2. Sull'Apple Watch, apri l'app **Mail**, trova l'email che ti sei inviato e tocca l'URL.
 3. Il Watch aprirà il browser e mostrerà la pagina Nightscout come su un computer.
 

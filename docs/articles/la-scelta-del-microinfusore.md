@@ -20,7 +20,7 @@ E anche qui si apre un mondo, perché spesso la scelta del microinfusore è vinc
 
 ## **Il ruolo del paziente e del medico**
 
-La parte seguente è già stata riportata in un altro post, ma è ancora valida: [https://www.glicemiadistanza.it/levoluzione-della-terapia-insulinica-con-microinfusore/](https://www.glicemiadistanza.it/levoluzione-della-terapia-insulinica-con-microinfusore/?utm_source=copilot.com)
+La parte seguente è già stata riportata in un altro post, ma è ancora valida: vedi [Evoluzione della terapia insulinica con microinfusore](./levoluzione-della-terapia-insulinica-con-microinfusore).
 
 Come ribadito anche dalla posizione dell’ADA, il componente più importante del sistema resta il paziente: la tecnologia scelta deve essere appropriata per la persona che si ha di fronte.
 

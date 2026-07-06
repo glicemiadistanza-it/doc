@@ -55,9 +55,9 @@ Controlla la versione del firmware in xDrip: **Menu → Stato del sistema**.
 ## 1. Scarica l'algoritmo
 
 - **OOP1** (FSL1, Android 9 e inferiori):
-  `https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM`
+  [`https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM`](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM)
 - **OOP2** (FSL2, Android 10 e superiori):
-  `https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view`
+  [`https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view`](https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view)
 
 ## 2. Installa l'algoritmo
 
@@ -196,7 +196,7 @@ Sullo smartwatch, conferma la richiesta di debug toccando **OK**, poi seleziona 
 ### Installare OOP sullo smartwatch
 
 1. Scarica il file di installazione assistita per Windows:
-   `https://drive.google.com/file/d/1XZIdBfUpTpJxjUK19e9BQkeGGGvWiW3R/view`
+   [`https://drive.google.com/file/d/1XZIdBfUpTpJxjUK19e9BQkeGGGvWiW3R/view`](https://drive.google.com/file/d/1XZIdBfUpTpJxjUK19e9BQkeGGGvWiW3R/view)
 2. Esegui il file scaricato. Rispondi `Y` e premi **Invio** alle tre domande che compaiono, poi segui l'installazione guidata.
 3. Copia il file `OOP2.apk` nella cartella `C:\adb\`.
 4. Collega lo smartwatch al PC tramite cavo USB.

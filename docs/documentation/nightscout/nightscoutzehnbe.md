@@ -8,13 +8,13 @@ NS10BE è un servizio di hosting Nightscout creato da Martin Schiftan. Nasce com
 
 Usare NS10BE significa avere Nightscout funzionante senza costruirlo da zero: aggiornamenti automatici, database da 2 GB (non si riempie facilmente), nessuna migrazione da una piattaforma all'altra.
 
-Per saperne di più su Nightscout: `https://nightscout.github.io/`
+Per saperne di più su Nightscout: [`https://nightscout.github.io/`](https://nightscout.github.io/)
 
 ---
 
 ## 1. Crea un account
 
-1. Vai su `https://ns.10be.de/en/index.html` e clicca **Create an account**.
+1. Vai su [`https://ns.10be.de/en/index.html`](https://ns.10be.de/en/index.html) e clicca **Create an account**.
 
 ![](images/nightscoutzehnbe/image_003.png)
 

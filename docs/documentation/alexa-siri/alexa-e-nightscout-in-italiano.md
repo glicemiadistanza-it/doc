@@ -2,7 +2,7 @@
 
 Questa guida spiega come far leggere ad **Alexa** (lo speaker Amazon) le glicemie di Nightscout in italiano.
 
-Basata sulla documentazione ufficiale: `https://github.com/nightscout/cgm-remote-monitor/blob/master/lib/plugins/alexa-plugin.md`
+Basata sulla documentazione ufficiale: [`https://github.com/nightscout/cgm-remote-monitor/blob/master/lib/plugins/alexa-plugin.md`](https://github.com/nightscout/cgm-remote-monitor/blob/master/lib/plugins/alexa-plugin.md)
 
 **Requisiti:**
 - Account Amazon
@@ -21,7 +21,7 @@ Segui le [istruzioni](https://nightscout-github-io.translate.goog/nightscout/set
 
 ## 2. Crea un account sviluppatore Amazon
 
-Vai su `https://developer.amazon.com/it/` e registrati con i dati del tuo account Amazon. Accetta le condizioni di utilizzo.
+Vai su [`https://developer.amazon.com/it/`](https://developer.amazon.com/it/) e registrati con i dati del tuo account Amazon. Accetta le condizioni di utilizzo.
 
 ![](images/alexa-e-nightscout-in-italiano/image_004.png)
 
@@ -29,7 +29,7 @@ Vai su `https://developer.amazon.com/it/` e registrati con i dati del tuo accoun
 
 ## 3. Registra il tuo Alexa sull'account sviluppatore
 
-Accedi ad Alexa con lo stesso account sviluppatore su `https://alexa.amazon.it`.
+Accedi ad Alexa con lo stesso account sviluppatore su [`https://alexa.amazon.it`](https://alexa.amazon.it).
 
 ![](images/alexa-e-nightscout-in-italiano/image_005.png)
 
@@ -37,7 +37,7 @@ Accedi ad Alexa con lo stesso account sviluppatore su `https://alexa.amazon.it`.
 
 ## 4. Crea una nuova Alexa Skill
 
-1. Vai al portale sviluppatori Alexa: `https://developer.amazon.com/it/alexa`
+1. Vai al portale sviluppatori Alexa: [`https://developer.amazon.com/it/alexa`](https://developer.amazon.com/it/alexa)
 2. Seleziona **Alexa Skills Kit**.
 3. Clicca **Crea una Skill** in fondo alla pagina, poi **Crea un'abilità** nella console.
 4. Assegna il nome **Nightscout** e imposta la lingua su italiano. Clicca **Crea abilità**.
@@ -101,7 +101,7 @@ Clicca **Salva modello**, poi **Costruisci modello** e attendi il completamento.
 
 1. Nel menu a sinistra, clicca **Endpoint**.
 2. Seleziona **HTTPS** e inserisci l'URL del tuo Nightscout in questo formato:
-   `https://nomesito.herokuapp.com/api/v1/alexa`
+   [`https://nomesito.herokuapp.com/api/v1/alexa`](https://nomesito.herokuapp.com/api/v1/alexa)
 3. Seleziona la seconda opzione nel menu a discesa sotto l'URL.
 4. Clicca **Salva**.
 

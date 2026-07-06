@@ -53,7 +53,7 @@ Per disinstallare senza interagire con il sensore:
 ## 2. Crea la tua app Dexcom modificata
 
 1. Vai sul modulo di richiesta:
-   `https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform`
+   [`https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform`](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform)
 
 ![](images/dexcom-g5-g6-app-modificata/image_009.png)
 

@@ -12,7 +12,7 @@ La comunicazione funziona tramite **Sugarmate**, che riceve i dati da Dexcom Sha
 
 ## 1. Abilita la condivisione dati Dexcom
 
-Accedi al tuo account su `https://uam2.dexcom.com/`, clicca **Profile**, scorri fino a **Data Share** e accetta la condivisione.
+Accedi al tuo account su [`https://uam2.dexcom.com/`](https://uam2.dexcom.com/), clicca **Profile**, scorri fino a **Data Share** e accetta la condivisione.
 
 ![](images/alexa-con-app-dexcom-o-xdrip/image_002.png)
 
@@ -37,7 +37,7 @@ Se usi xDrip, vai in **Impostazioni → Cloud Upload → Upload in Dexcom Share 
 
 ## 3. Crea un account Sugarmate
 
-1. Vai su `https://sugarmate.io/` e clicca **Sign in** in alto a sinistra.
+1. Vai su [`https://sugarmate.io/`](https://sugarmate.io/) e clicca **Sign in** in alto a sinistra.
 2. Clicca **Iscriviti**, accetta le condizioni e prosegui.
 3. Verrà mostrato un indirizzo email generato da Sugarmate: **copialo**, ti servirà nel passo successivo.
 

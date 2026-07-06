@@ -4,7 +4,7 @@
 
 Sorgenti dati supportate: Dexcom Share, Nightscout, Gluroo.
 
-Sito ufficiale: `https://www.sugarmate.io/`
+Sito ufficiale: [`https://www.sugarmate.io/`](https://www.sugarmate.io/)
 
 ![](images/sugarmate-follower-di-dexcom-nightscout-gluroo/image_001.png)
 
@@ -14,7 +14,7 @@ Sito ufficiale: `https://www.sugarmate.io/`
 
 ## 1. Crea un account Sugarmate
 
-1. Vai su `https://www.sugarmate.io/` e clicca **Registrati**.
+1. Vai su [`https://www.sugarmate.io/`](https://www.sugarmate.io/) e clicca **Registrati**.
 
 ![](images/sugarmate-follower-di-dexcom-nightscout-gluroo/image_002.png)
 

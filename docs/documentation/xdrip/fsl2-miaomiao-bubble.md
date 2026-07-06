@@ -20,7 +20,7 @@ Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 > ⚠️ **Attenzione**: **Non disinstallare xDrip:** aggiorna senza disinstallare per mantenere tutte le impostazioni e il collegamento con il dispositivo ponte.
 
 1. Vai alla pagina delle release di xDrip:
-   `https://github.com/NightscoutFoundation/xDrip/releases`
+   [`https://github.com/NightscoutFoundation/xDrip/releases`](https://github.com/NightscoutFoundation/xDrip/releases)
 2. Scarica l'ultima versione **Pre-release** espandendo la sezione **Assets**.
 3. Se non riesci a scaricare toccando il link, tieni premuto e scegli **Apri in una nuova scheda** oppure **Scarica link**.
 
@@ -74,7 +74,7 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 ![](images/fsl2-miaomiao-bubble/image_008.png)
 
 2. Scarica l'utilità di aggiornamento **usapp** da:
-   `https://drive.google.com/open?id=1tZ6z1G7bjZ5qd1hEEOx79mt-kzLUbJwS`
+   [`https://drive.google.com/open?id=1tZ6z1G7bjZ5qd1hEEOx79mt-kzLUbJwS`](https://drive.google.com/open?id=1tZ6z1G7bjZ5qd1hEEOx79mt-kzLUbJwS)
 
 ![](images/fsl2-miaomiao-bubble/image_009.png)
 

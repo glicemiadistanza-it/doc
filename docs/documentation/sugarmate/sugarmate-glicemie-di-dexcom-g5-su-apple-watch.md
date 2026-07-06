@@ -49,7 +49,7 @@ Dopo l'attivazione, torna alle impostazioni iCloud e assicurati che la **voce Ca
 
 Sugarmate non è un'app Apple, quindi non può accedere al tuo account iCloud con la tua password normale. Devi generare una password dedicata.
 
-1. Da un browser, vai su `https://appleid.apple.com/` e accedi con il tuo ID Apple.
+1. Da un browser, vai su [`https://appleid.apple.com/`](https://appleid.apple.com/) e accedi con il tuo ID Apple.
 
 ![](images/sugarmate-glicemie-di-dexcom-g5-su-apple-watch/image_011.png)
 
@@ -104,7 +104,7 @@ Sugarmate non è un'app Apple, quindi non può accedere al tuo account iCloud co
 
 ## 4. Installa e configura Sugarmate
 
-Scarica Sugarmate dall'App Store: `https://itunes.apple.com/us/app/sugarmate/id1111093108?mt=8`
+Scarica Sugarmate dall'App Store: [`https://itunes.apple.com/us/app/sugarmate/id1111093108?mt=8`](https://itunes.apple.com/us/app/sugarmate/id1111093108?mt=8)
 
 Apri l'app. **Copia l'indirizzo email** che apparirà nella schermata iniziale — ti servirà nel passo successivo.
 

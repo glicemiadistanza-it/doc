@@ -17,8 +17,7 @@ Ringraziamo Bence Szász per questo lavoro. È necessario un telefono Android co
 
 ## 1. Installare xDrip
 
-Segui la guida base per installare xDrip, selezionando l'ultimo pre-release:
-`https://www.glicemiadistanza.it/installare-lapp-xdrip-per-android/`
+Segui la [guida base per installare xDrip](../xdrip/installare-xdrip-android), selezionando l'ultimo pre-release.
 
 ## 2. Creare un account CareLink Care Partner
 
@@ -106,10 +105,10 @@ Se non arrivano dati e le credenziali sono corrette, disabilita il follower Care
 
 Usando xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
 
-- **Android Wear OS:** `https://www.glicemiadistanza.it/android-wear-os-come-impostare-un-quadrante-con-lapp-dexcom-master-xdrip-glimp-o-aaps/`
-- **Fitbit Versa e Ionic:** `https://www.glicemiadistanza.it/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwatch-versa-e-ionic/`
-- **Samsung Watch:** `https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`
-- **Xiaomi MiBand e Amazfit:** `https://www.glicemiadistanza.it/smartwatch-e-smartband-xiaomi-e-amazfit-collegato-a-xdrip-con-watchdrip/`
+- **Android Wear OS:** [guida per Android Wear OS](../xdrip/dexcom-xdrip-glimp-on-wear-watch)
+- **Fitbit Versa e Ionic:** [guida Fitbit Versa e Ionic](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
+- **Samsung Watch:** [`https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`](https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/)
+- **Xiaomi MiBand e Amazfit:** [guida WatchDrip+](../xdrip/xdrip-e-watchdrip)
 
 ## Contatti
 

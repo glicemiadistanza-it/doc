@@ -86,16 +86,16 @@ Sentinel One è stato creato pensando ai bambini con diabete. Offre:
 
 ## 3. Installazione
 
-> ⚠️ **Nota per gli utenti di xDrip:** un aggiornamento recente dell'app Fitbit blocca i dati da xDrip. Devi installare la versione `3.58` e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da `https://fitbit.it.aptoide.com/versions`. Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
+> ⚠️ **Nota per gli utenti di xDrip:** un aggiornamento recente dell'app Fitbit blocca i dati da xDrip. Devi installare la versione `3.58` e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
 
 Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio per installare il quadrante:
 
-- **Sentinel PRO** (Versa 2 e precedenti): `https://gallery.fitbit.com/details/22b3679c-3bed-4408-985b-0a9f35102207`
-- **Sentinel ELITE** (Sense & Versa 3): `https://gallery.fitbit.com/details/cf8b889b-b193-4893-abf8-90031d85fe3b`
-- **Sentinel ESSENTIAL** (Versa 2, Versa, Ionic, Versa Lite): `https://gallery.fitbit.com/details/fcd215cc-913f-4345-8d4b-a50e4bf26e0a`
-- **Sentinel X**: `https://gallery.fitbit.com/details/9d579c8f-57e8-434b-9494-d0213c8064af`
-- **Sentinel Basic X**: `https://gallery.fitbit.com/details/690a4c2a-7f9d-4aa7-9b9a-9b92dd4dbf6a`
-- **Sentinel One X**: `https://gallery.fitbit.com/details/0ce56270-984f-4c55-b495-649b3071ec36`
+- **Sentinel PRO** (Versa 2 e precedenti): [`https://gallery.fitbit.com/details/22b3679c-3bed-4408-985b-0a9f35102207`](https://gallery.fitbit.com/details/22b3679c-3bed-4408-985b-0a9f35102207)
+- **Sentinel ELITE** (Sense & Versa 3): [`https://gallery.fitbit.com/details/cf8b889b-b193-4893-abf8-90031d85fe3b`](https://gallery.fitbit.com/details/cf8b889b-b193-4893-abf8-90031d85fe3b)
+- **Sentinel ESSENTIAL** (Versa 2, Versa, Ionic, Versa Lite): [`https://gallery.fitbit.com/details/fcd215cc-913f-4345-8d4b-a50e4bf26e0a`](https://gallery.fitbit.com/details/fcd215cc-913f-4345-8d4b-a50e4bf26e0a)
+- **Sentinel X**: [`https://gallery.fitbit.com/details/9d579c8f-57e8-434b-9494-d0213c8064af`](https://gallery.fitbit.com/details/9d579c8f-57e8-434b-9494-d0213c8064af)
+- **Sentinel Basic X**: [`https://gallery.fitbit.com/details/690a4c2a-7f9d-4aa7-9b9a-9b92dd4dbf6a`](https://gallery.fitbit.com/details/690a4c2a-7f9d-4aa7-9b9a-9b92dd4dbf6a)
+- **Sentinel One X**: [`https://gallery.fitbit.com/details/0ce56270-984f-4c55-b495-649b3071ec36`](https://gallery.fitbit.com/details/0ce56270-984f-4c55-b495-649b3071ec36)
 
 ![](images/sentineloneuserguide1/image_036.png)
 
@@ -151,7 +151,7 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 
 ![](images/sentineloneuserguide1/image_059.png)
 
-2. Inserisci l'indirizzo Nightscout (es. `https://tuonome.herokuapp.com`).
+2. Inserisci l'indirizzo Nightscout (es. [`https://tuonome.herokuapp.com`](https://tuonome.herokuapp.com)).
 
 ![](images/sentineloneuserguide1/image_060.png)
 
@@ -549,7 +549,7 @@ Una volta inviato un trattamento, Nightscout mostrerà la conferma **MEAL ENTRY 
 
 ## Avviso legale
 
-> ⚠️ *Sentinel One è a solo scopo informativo. Non usarlo per prendere decisioni mediche. L'uso è a proprio rischio. Questo quadrante è ancora in sviluppo. Per aggiornamenti e supporto, unisciti al gruppo Facebook Sentinel: `https://www.facebook.com/groups/3185325128159614`*
+> ⚠️ *Sentinel One è a solo scopo informativo. Non usarlo per prendere decisioni mediche. L'uso è a proprio rischio. Questo quadrante è ancora in sviluppo. Per aggiornamenti e supporto, unisciti al gruppo Facebook Sentinel: [`https://www.facebook.com/groups/3185325128159614`](https://www.facebook.com/groups/3185325128159614)*
 
 ![](images/sentineloneuserguide1/image_213.png)
 

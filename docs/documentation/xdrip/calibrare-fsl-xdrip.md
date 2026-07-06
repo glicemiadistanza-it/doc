@@ -57,8 +57,7 @@ Purtroppo non ci sono molte soluzioni per evitare di calibrare il FSL 1 con xDri
 
 Con FSL 2, il plugin OOP2 permette di generare un valore simile al lettore senza calibrare, selezionando l'opzione **No calibration**. Questa soluzione è consigliata a chi non riesce a calibrare. È comunque possibile usare OOP2 come per un FSL 1 selezionando **Calibrate based on raw**, oppure ritoccare la calibrazione automatica con **Calibrate based on glucose**. Con FSL 2 non è necessario calibrare e in alcune configurazioni non è nemmeno possibile farlo.
 
-Segui questa guida per installare e configurare un algoritmo OOP con xDrip:
-`https://www.glicemiadistanza.it/usare-un-algoritmo-esterno-con-xdrip/`
+Segui la [guida per installare e configurare un algoritmo OOP con xDrip](./xdrip-algoritmo-esterno).
 
 ## 5. Parametri di controllo di xDrip
 

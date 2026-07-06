@@ -8,19 +8,19 @@ Guida base passo passo per l'installazione di Juggluco su Android con un sensore
 
 > ⚠️ Se vuoi installare Juggluco sul telefonino di un bambino, Play Protect va disabilitato temporaneamente.
 
-Documentazione originale: `http://jkaltes.byethost16.com/Juggluco/`
+Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jkaltes.byethost16.com/Juggluco/)
 
 ## Contenuto della guida
 
-1. [Installare Juggluco](#1-installare-juggluco)
-2. [Collegare il sensore](#2-collegare-il-sensore)
-3. [Configurare Juggluco](#3-configurare-juggluco)
+1. [Installare Juggluco](#_1-installare-juggluco)
+2. [Collegare il sensore](#_2-collegare-il-sensore)
+3. [Configurare Juggluco](#_3-configurare-juggluco)
 
 ## 1. Installare Juggluco
 
 Juggluco è disponibile nel Google Play Store. Aprilo e cerca "juggluco" oppure segui questo link:
 
-`https://play.google.com/store/apps/details?id=tk.glucodata`
+[`https://play.google.com/store/apps/details?id=tk.glucodata`](https://play.google.com/store/apps/details?id=tk.glucodata)
 
 Installa e apri Juggluco. Autorizza il collegamento e l'accesso alla posizione, e autorizza Juggluco a non essere ottimizzata dalla batteria.
 
@@ -62,7 +62,7 @@ Ci sono 4 menu raggiungibili con un tocco in 4 diverse zone dello schermo.
 - Nel menu **WearOS Config** fai **Init watch app** (non usare *Direct sensor-watch connection*). Lo smartwatch dovrebbe ricevere la glicemia dal telefono tramite Bluetooth.
   - *Nota: questo metodo potrebbe non funzionare con tutti i dispositivi.*
 - **xDrip webserver** permette di collegare smartwatch Fitbit e Samsung usando xDrip come sorgente dati.
-- **Kerfstok** è un quadrante per Garmin: `https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260`
+- **Kerfstok** è un quadrante per Garmin: [`https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260`](https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260)
 
 **Sensor:** mostra informazioni sul sensore e lo stato del collegamento.
 

@@ -4,7 +4,7 @@
 
 Questa guida spiega come configurare il dispositivo **Ulanzi TC001** come display della glicemia tramite Nightscout.
 
-Il progetto si chiama **Nightscout Clock**, sviluppato da Artiom Kenibasov. Documentazione ufficiale: `https://github.com/ktomy/nightscout-clock`
+Il progetto si chiama **Nightscout Clock**, sviluppato da Artiom Kenibasov. Documentazione ufficiale: [`https://github.com/ktomy/nightscout-clock`](https://github.com/ktomy/nightscout-clock)
 
 > ℹ️ **Nota**: Funziona **solo con Nightscout** — non è compatibile con Dexcom Share diretto o altri servizi.
 
@@ -16,7 +16,7 @@ Il progetto si chiama **Nightscout Clock**, sviluppato da Artiom Kenibasov. Docu
 
 ## 1. Materiale occorrente
 
-Serve un orologio **Ulanzi TC001**. Lo trovi su AliExpress o sul sito del produttore: `https://www.ulanzi.com`
+Serve un orologio **Ulanzi TC001**. Lo trovi su AliExpress o sul sito del produttore: [`https://www.ulanzi.com`](https://www.ulanzi.com)
 
 ![](images/nightscoutclock/image_002.png)
 
@@ -69,7 +69,7 @@ Serve un orologio **Ulanzi TC001**. Lo trovi su AliExpress o sul sito del produt
 
 ![](images/nightscoutclock/image_014.png)
 
-2. Apri un browser e vai all'indirizzo mostrato sullo schermo (di solito `http://192.168.1.X` dove `X` è indicato sul display).
+2. Apri un browser e vai all'indirizzo mostrato sullo schermo (di solito [`http://192.168.1.X`](http://192.168.1.X) dove `X` è indicato sul display).
 3. Inserisci la password della tua rete Wi-Fi di casa e conferma.
 
 ![](images/nightscoutclock/image_015.png)
@@ -82,7 +82,7 @@ Serve un orologio **Ulanzi TC001**. Lo trovi su AliExpress o sul sito del produt
 
 ## 4. Configura il sito Nightscout
 
-Dopo la connessione Wi-Fi, si aprirà la pagina di configurazione del dispositivo (oppure vai all'indirizzo IP mostrato sullo schermo del TC001, oppure naviga a `http://nsclock.local` se sei sulla stessa rete Wi-Fi).
+Dopo la connessione Wi-Fi, si aprirà la pagina di configurazione del dispositivo (oppure vai all'indirizzo IP mostrato sullo schermo del TC001, oppure naviga a [`http://nsclock.local`](http://nsclock.local) se sei sulla stessa rete Wi-Fi).
 
 ![](images/nightscoutclock/image_017.png)
 
@@ -91,7 +91,7 @@ Dopo la connessione Wi-Fi, si aprirà la pagina di configurazione del dispositiv
 ![](images/nightscoutclock/image_019.png)
 
 Compila i campi richiesti:
-- **URL Nightscout** (il tuo indirizzo, es. `https://tuonightscout.azurewebsites.net`)
+- **URL Nightscout** (il tuo indirizzo, es. [`https://tuonightscout.azurewebsites.net`](https://tuonightscout.azurewebsites.net))
 - **Valori TIR** (target range)
 - **Unità di misura** (mg/dL)
 

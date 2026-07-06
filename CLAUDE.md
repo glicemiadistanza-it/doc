@@ -17,7 +17,7 @@ This is a VitePress documentation site in Italian for the Facebook group "Diabet
   - `> ℹ️ **Nota**: ...`
 - **UI labels and button names**: **bold** — e.g. **Impostazioni**, **CREA**, **Salva**
 - **App and product names**: plain text, standard capitalization — xDrip, Nightscout, Dexcom, Juggluco, Sugarmate
-- **URLs**: inline code — e.g. `https://example.com`
+- **URLs**: must be clickable. Write as a markdown link whose label is inline code, e.g. `` [`https://example.com`](https://example.com) `` — never bare backticks alone, since VitePress does not render inline code as a link. Bare/backtick URLs inside fenced code blocks (commands, API templates) are exempt. If the URL points to a page that exists locally in this repo, link to it with a relative path instead of the external URL.
 - **Technical values, parameters, version strings**: inline code — e.g. `e2-micro`, `2023.09.17`, `.apk`
 - **Terminal/shell commands**: fenced code block with language tag ` ```bash `
 - **Images**: `![](images/<doc-basename>/image_NNN.png)` — no alt text; one blank line before and after each image

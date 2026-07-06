@@ -8,7 +8,7 @@ Questa guida spiega come aggiornare un sito Nightscout ospitato su Heroku. Usa q
 
 Adattato dalla [guida ufficiale Nightscout](https://nightscout.github.io/update/update/).
 
-Per sapere qual è l'ultima versione disponibile: `https://github.com/nightscout/cgm-remote-monitor/releases`
+Per sapere qual è l'ultima versione disponibile: [`https://github.com/nightscout/cgm-remote-monitor/releases`](https://github.com/nightscout/cgm-remote-monitor/releases)
 
 **Prima di iniziare:**
 - Usa un computer (non uno smartphone).
@@ -23,7 +23,7 @@ Per vedere la versione attuale del tuo Nightscout, clicca sul menu in alto a des
 
 ## 1. Aggiorna GitHub
 
-1. Vai su `https://github.com/` e accedi con la tua email e password GitHub.
+1. Vai su [`https://github.com/`](https://github.com/) e accedi con la tua email e password GitHub.
 
 ![](images/heroku-aggiornare-nightscout/image_004.png)
 
@@ -56,7 +56,7 @@ Per vedere la versione attuale del tuo Nightscout, clicca sul menu in alto a des
 
 ![](images/heroku-aggiornare-nightscout/image_012.png)
 
-3. Vai su `https://github.com/nightscout/cgm-remote-monitor` e clicca **Fork**.
+3. Vai su [`https://github.com/nightscout/cgm-remote-monitor`](https://github.com/nightscout/cgm-remote-monitor) e clicca **Fork**.
 
 ![](images/heroku-aggiornare-nightscout/image_013.png)
 
@@ -70,7 +70,7 @@ Per vedere la versione attuale del tuo Nightscout, clicca sul menu in alto a des
 
 ## 2. Esegui il deploy su Heroku
 
-1. Apri un nuovo tab e vai su `https://id.heroku.com/login`. Inserisci email e password → **Log In**.
+1. Apri un nuovo tab e vai su [`https://id.heroku.com/login`](https://id.heroku.com/login). Inserisci email e password → **Log In**.
 
 ![](images/heroku-aggiornare-nightscout/image_016.png)
 

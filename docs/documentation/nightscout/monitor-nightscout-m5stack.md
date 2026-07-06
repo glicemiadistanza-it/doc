@@ -4,7 +4,7 @@
 
 Questa guida spiega come configurare un **M5Stack** come display da tavolo per la glicemia, usando il progetto open source **M5_NightscoutMon** di Martin Lukasek.
 
-Documentazione ufficiale: `https://github.com/mlukasek/M5_NightscoutMon/wiki`
+Documentazione ufficiale: [`https://github.com/mlukasek/M5_NightscoutMon/wiki`](https://github.com/mlukasek/M5_NightscoutMon/wiki)
 
 > ℹ️ **Nota**: Funziona anche con Gluroo, direttamente da Dexcom Share e LLink.
 
@@ -40,7 +40,7 @@ Per installare le batterie supplementari, apri delicatamente la parte anteriore 
 
 ## 2. Installa il driver USB
 
-1. Vai sul sito di Silicon Labs: `https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers`
+1. Vai sul sito di Silicon Labs: [`https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers`](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 2. Scarica la versione per il tuo sistema operativo (Windows 64 bit per la maggior parte dei PC moderni).
 
 ![](images/monitor-nightscout-m5stack/image_008.png)
@@ -69,7 +69,7 @@ Per installare le batterie supplementari, apri delicatamente la parte anteriore 
 
 ## 3. Scarica il firmware M5_NightscoutMon
 
-1. Vai su `https://github.com/mlukasek/M5_NightscoutMon` e seleziona l'ultima release.
+1. Vai su [`https://github.com/mlukasek/M5_NightscoutMon`](https://github.com/mlukasek/M5_NightscoutMon) e seleziona l'ultima release.
 
 ![](images/monitor-nightscout-m5stack/image_015.png)
 
@@ -140,7 +140,7 @@ Dopo la programmazione, l'M5Stack si riavvierà e mostrerà una schermata con un
 
 ![](images/monitor-nightscout-m5stack/image_030.png)
 
-2. Apri un browser e vai all'indirizzo mostrato sullo schermo: `http://192.168.0.1`
+2. Apri un browser e vai all'indirizzo mostrato sullo schermo: [`http://192.168.0.1`](http://192.168.0.1)
 3. Nella pagina di configurazione, scorri fino a **WiFi configuration** e clicca **edit**.
 
 ![](images/monitor-nightscout-m5stack/image_031.png)
@@ -169,9 +169,9 @@ Se vedi un errore di Wi-Fi: tieni premuto il tasto sinistro e premi contemporane
 
 ## 6. Configura M5Stack
 
-Da un computer sulla stessa rete Wi-Fi, vai su `http://m5ns.local`
+Da un computer sulla stessa rete Wi-Fi, vai su [`http://m5ns.local`](http://m5ns.local)
 
-Se la pagina non si apre, premi il tasto destro dell'M5Stack fino alla quarta pagina e usa l'indirizzo IP mostrato (es. `http://192.168.1.114`).
+Se la pagina non si apre, premi il tasto destro dell'M5Stack fino alla quarta pagina e usa l'indirizzo IP mostrato (es. [`http://192.168.1.114`](http://192.168.1.114)).
 
 ![](images/monitor-nightscout-m5stack/image_039.png)
 
@@ -188,7 +188,7 @@ Clicca **edit** accanto ai valori che vuoi modificare. Le opzioni principali son
 |---|---|
 | Nightscout URL | Il tuo indirizzo Nightscout (o Gluroo) |
 | User name | Il nome mostrato sul display |
-| Device name | Il nome per `http://M5NS.local` |
+| Device name | Il nome per [`http://M5NS.local`](http://M5NS.local) |
 | Time offset | Fuso orario in secondi (Italia: `3600`) |
 | Daylight saving time offset | Ora legale: `3600` in estate, `0` in inverno |
 | Display units | `mmol/L` o `mg/dL` |

@@ -4,7 +4,7 @@
 
 Questa guida spiega come visualizzare la glicemia di xDrip su un **Amazfit Bip Lite** (dovrebbe funzionare anche con Amazfit Bip S) usando una versione modificata di xDrip (v0.4.1.2).
 
-Progetto originale di Artem (GitHub: @bigdigital). Documentazione: `https://bigdigital.home.blog/2021/03/21/amazfit-bip-bip-lite-and-amazfit-gtr-integration/`
+Progetto originale di Artem (GitHub: @bigdigital). Documentazione: [`https://bigdigital.home.blog/2021/03/21/amazfit-bip-bip-lite-and-amazfit-gtr-integration/`](https://bigdigital.home.blog/2021/03/21/amazfit-bip-bip-lite-and-amazfit-gtr-integration/)
 
 **Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
@@ -31,7 +31,7 @@ Se hai già xDrip in versione ufficiale (non quella modificata di Artem), devi d
 
 ## 3. Ottieni la chiave di autenticazione
 
-1. Vai su `https://www.freemyband.com/` e scarica l'app **Zepp modificata** (usa Chrome o cambia browser se non funziona).
+1. Vai su [`https://www.freemyband.com/`](https://www.freemyband.com/) e scarica l'app **Zepp modificata** (usa Chrome o cambia browser se non funziona).
 2. Installa l'app autorizzando l'installazione da sorgente sconosciuta.
 3. Crea un account con **email e password** (non usare Google). Dichiara almeno 18 anni.
 4. Abbina il Bip Lite e abilita **Visibilità** (modalità rilevabile) se disponibile. Se non trovi l'opzione, prosegui comunque (inserirai i dati manualmente dopo).
@@ -44,7 +44,7 @@ L'app modificata genera automaticamente un file di testo con le credenziali di a
 
 ## 4. Installa la versione modificata di xDrip
 
-Scarica la versione modificata da: `https://www.dropbox.com/s/623ipo9wcsaeupo/xdrip_miband_0.4.1.2.apk?dl=0`
+Scarica la versione modificata da: [`https://www.dropbox.com/s/623ipo9wcsaeupo/xdrip_miband_0.4.1.2.apk?dl=0`](https://www.dropbox.com/s/623ipo9wcsaeupo/xdrip_miband_0.4.1.2.apk?dl=0)
 
 Installa il file `.apk` autorizzando l'installazione da sorgente sconosciuta e concedi tutti i permessi richiesti.
 
@@ -56,7 +56,7 @@ Installa il file `.apk` autorizzando l'installazione da sorgente sconosciuta e c
 **Configura la sorgente dati (per follower):**
 - **Follower xDrip Sync:** in **Dati hardware di origine**, scegli **xDrip Sync Follower**.
 - **Follower Dexcom Share:** scegli **Dex Share Follower** (mai "Dexcom G5/G6" che collegherebbe al sensore).
-- **Follower Nightscout:** in **Impostazioni**, inserisci l'URL del tuo sito in **Nightscout Follow URL** (es. `https://miosito.azurewebsites.net`).
+- **Follower Nightscout:** in **Impostazioni**, inserisci l'URL del tuo sito in **Nightscout Follow URL** (es. [`https://miosito.azurewebsites.net`](https://miosito.azurewebsites.net)).
 
 ---
 

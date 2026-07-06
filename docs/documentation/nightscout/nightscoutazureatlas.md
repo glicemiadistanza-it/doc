@@ -8,11 +8,11 @@
 
 Questa guida spiega come creare un nuovo sito Nightscout su **Microsoft Azure** con database **MongoDB Atlas**, oppure come migrare da Heroku.
 
-Ispirata al tutorial originale di Scott Hanselman: `https://www.youtube.com/watch?v=EDADrteGBnY`
+Ispirata al tutorial originale di Scott Hanselman: [`https://www.youtube.com/watch?v=EDADrteGBnY`](https://www.youtube.com/watch?v=EDADrteGBnY)
 
 Usa un computer (non uno smartphone) durante tutta la procedura. Non cambiare browser o dispositivo. Se hai problemi con un browser, provane un altro.
 
-Per maggiori informazioni su Nightscout: `https://nightscout.github.io/`
+Per maggiori informazioni su Nightscout: [`https://nightscout.github.io/`](https://nightscout.github.io/)
 
 > ℹ️ **Nota**: Azure richiede una carta di credito, ma il piano gratuito non comporta addebiti per Nightscout. MongoDB Atlas è gratuito per database di piccole dimensioni.
 
@@ -22,7 +22,7 @@ Per maggiori informazioni su Nightscout: `https://nightscout.github.io/`
 
 > ℹ️ **Nota**: Se stai migrando da Heroku e hai già un database Atlas, vai direttamente all'**Appendice A**.
 
-1. Vai su `https://www.mongodb.com/cloud/atlas` e clicca **Get started now**.
+1. Vai su [`https://www.mongodb.com/cloud/atlas`](https://www.mongodb.com/cloud/atlas) e clicca **Get started now**.
 
 ![](images/nightscoutazureatlas/image_004.png)
 
@@ -101,7 +101,7 @@ Conserva questa stringa: si chiama **MONGODB_URI**.
 
 ## 2. Crea l'App Web Azure
 
-1. Vai su `https://azure.microsoft.com/it-it/free/search/` e clicca **Inizia gratuitamente**.
+1. Vai su [`https://azure.microsoft.com/it-it/free/search/`](https://azure.microsoft.com/it-it/free/search/) e clicca **Inizia gratuitamente**.
 
 ![](images/nightscoutazureatlas/image_022.png)
 
@@ -227,7 +227,7 @@ dbsize pump iob cob basal careportal sage cage bage bridge
 
 ## 3. Configura il sito Nightscout
 
-1. Dal menu della tua app Azure, vai in **Panoramica** → copia l'indirizzo del sito (es. `https://nomedeltuosito.azurewebsites.net`).
+1. Dal menu della tua app Azure, vai in **Panoramica** → copia l'indirizzo del sito (es. [`https://nomedeltuosito.azurewebsites.net`](https://nomedeltuosito.azurewebsites.net)).
 
 ![](images/nightscoutazureatlas/image_052.png)
 
@@ -259,8 +259,8 @@ Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, 
 ## 4. Aggiorna i dispositivi (solo migrazione da Heroku)
 
 Devi aggiornare l'indirizzo Nightscout su tutti i tuoi dispositivi:
-- **Prima (Heroku):** `https://nomedeltuosito.heroku.com`
-- **Ora (Azure):** `https://nomedeltuosito.azurewebsites.net`
+- **Prima (Heroku):** [`https://nomedeltuosito.heroku.com`](https://nomedeltuosito.heroku.com)
+- **Ora (Azure):** [`https://nomedeltuosito.azurewebsites.net`](https://nomedeltuosito.azurewebsites.net)
 
 Per **xDrip master** (Cloud Upload), l'URL diventa:
 ```
@@ -276,7 +276,7 @@ https://nomedeltuosito.azurewebsites.net/api/v1
 ## Appendice A — Database Atlas esistente (migrazione da Heroku)
 
 **Se hai ancora accesso a Heroku:**
-1. Vai su `https://id.heroku.com/login` e apri la tua app.
+1. Vai su [`https://id.heroku.com/login`](https://id.heroku.com/login) e apri la tua app.
 
 ![](images/nightscoutazureatlas/image_061.png)
 
@@ -295,7 +295,7 @@ https://nomedeltuosito.azurewebsites.net/api/v1
 4. Usa questa stringa come `MONGODB_URI` nel passo 2 di Azure.
 
 **Se non hai più accesso a Heroku:**
-1. Vai su `https://account.mongodb.com/account/login`.
+1. Vai su [`https://account.mongodb.com/account/login`](https://account.mongodb.com/account/login).
 
 ![](images/nightscoutazureatlas/image_066.png)
 

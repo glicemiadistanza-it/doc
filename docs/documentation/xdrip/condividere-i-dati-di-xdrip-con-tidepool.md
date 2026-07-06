@@ -8,7 +8,7 @@ Tidepool è un'organizzazione no profit che offre software open source e servizi
 
 ## 1. Creare un'utenza Tidepool
 
-1. Vai su `https://www.tidepool.org/` e clicca **Sign Up**.
+1. Vai su [`https://www.tidepool.org/`](https://www.tidepool.org/) e clicca **Sign Up**.
 2. Seleziona un'utenza privata e clicca **Continue**.
 3. Compila il nome completo, l'email e la password (annotala: servirà dopo per xDrip).
 4. Clicca **Create Personal Account** per proseguire.

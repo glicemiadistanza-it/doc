@@ -2,7 +2,7 @@
 
 Questa guida spiega come creare un sito Nightscout gratuito usando **Google Cloud** e uno script di installazione automatica creato dalla squadra di xDrip (Jon/@jamorham, Tzachi Dar e Navid Fo).
 
-Documentazione ufficiale (in italiano): `https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html`
+Documentazione ufficiale (in italiano): [`https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html`](https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html)
 
 > ℹ️ **Nota**: Gratuito\*: richiede una carta di credito per creare l'account Google Cloud. Il servizio rimane gratuito entro i limiti previsti; possono capitare addebiti minimi (1–2 centesimi) causati da traffico automatico sul sito.
 
@@ -13,9 +13,9 @@ Documentazione ufficiale (in italiano): `https://navid200.github.io/xDrip/docs/N
 Usa un computer (non uno smartphone). Non cambiare browser o utente durante la procedura.
 
 - Se hai un telefono Android hai già un account Google: puoi accedere direttamente.
-- Se usi iPhone, crea un account gratuito su: `https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IT`
+- Se usi iPhone, crea un account gratuito su: [`https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IT`](https://accounts.google.com/signup/v2/createaccount?biz=false&cc=IT)
 
-1. Vai su `https://cloud.google.com/free?hl=it` e clicca **Inizia Gratuitamente**.
+1. Vai su [`https://cloud.google.com/free?hl=it`](https://cloud.google.com/free?hl=it) e clicca **Inizia Gratuitamente**.
 
 ![](images/nightscoutgooglecloud/image_001.png)
 
@@ -59,7 +59,7 @@ Usa un computer (non uno smartphone). Non cambiare browser o utente durante la p
 
 ## 2. Crea un server virtuale (VPS)
 
-1. Vai su `https://console.cloud.google.com/welcome/new` e clicca **CREA O SELEZIONA UN PROGETTO**.
+1. Vai su [`https://console.cloud.google.com/welcome/new`](https://console.cloud.google.com/welcome/new) e clicca **CREA O SELEZIONA UN PROGETTO**.
 
 ![](images/nightscoutgooglecloud/image_015.png)
 
@@ -143,7 +143,7 @@ Verifica la stima mensile: non dovrebbe superare i 10$ (se supera, ricontrolla l
 
 ![](images/nightscoutgooglecloud/image_041.png)
 
-Ogni volta che vuoi ritrovare questa pagina: `https://console.cloud.google.com/compute/instances`
+Ogni volta che vuoi ritrovare questa pagina: [`https://console.cloud.google.com/compute/instances`](https://console.cloud.google.com/compute/instances)
 
 ---
 
@@ -155,7 +155,7 @@ Google assegna solo un indirizzo IP numerico al tuo server. Per avere un indiriz
 
 ![](images/nightscoutgooglecloud/image_042.png)
 
-2. Vai su `https://freedns.afraid.org/` → **Sign up Free**.
+2. Vai su [`https://freedns.afraid.org/`](https://freedns.afraid.org/) → **Sign up Free**.
 3. Compila i dati: nome utente, password (non perderla!) e un indirizzo email tuo (non usa e getta). Risolvi il captcha e clicca **Send activation email**.
 
 ![](images/nightscoutgooglecloud/image_043.png)
@@ -181,7 +181,7 @@ Il tuo sito Nightscout avrà ora un indirizzo come `mionightscout.mooo.com`.
 
 ## 4. Installa Nightscout
 
-1. Torna su `https://console.cloud.google.com/compute/instances`.
+1. Torna su [`https://console.cloud.google.com/compute/instances`](https://console.cloud.google.com/compute/instances).
 2. Clicca **SSH** sulla riga del tuo server per aprire un terminale.
 
 ![](images/nightscoutgooglecloud/image_047.png)
@@ -253,7 +253,7 @@ Il tuo sito Nightscout avrà ora un indirizzo come `mionightscout.mooo.com`.
 
 ## 5. Configura Nightscout
 
-1. Apri un browser e vai all'indirizzo del tuo sito: `https://tuonome.mooo.com`
+1. Apri un browser e vai all'indirizzo del tuo sito: [`https://tuonome.mooo.com`](https://tuonome.mooo.com)
 
 ![](images/nightscoutgooglecloud/image_065.png)
 
@@ -350,13 +350,13 @@ Per modificare o aggiungere variabili di Nightscout:
 ## Appendice A — Eliminare il VPS
 
 Se hai cambiato idea o hai sbagliato la configurazione:
-- Vai in `https://console.cloud.google.com/compute/instances`.
+- Vai in [`https://console.cloud.google.com/compute/instances`](https://console.cloud.google.com/compute/instances).
 - Clicca i tre puntini a destra del tuo server → **Elimina** → conferma.
 
 ![](images/nightscoutgooglecloud/image_086.png)
 
 **Rimuovere la carta di credito:**
-- Vai su `https://console.cloud.google.com/billing`.
+- Vai su [`https://console.cloud.google.com/billing`](https://console.cloud.google.com/billing).
 
 ![](images/nightscoutgooglecloud/image_087.png)
 

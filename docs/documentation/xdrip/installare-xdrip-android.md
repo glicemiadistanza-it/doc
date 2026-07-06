@@ -66,7 +66,7 @@ Installa sempre l'ultima **Pre-release** dalla pagina ufficiale della Nightscout
 ## 3. Scarica e installa xDrip
 
 1. Dal tuo telefono Android, vai su:
-   `https://github.com/NightscoutFoundation/xDrip/releases`
+   [`https://github.com/NightscoutFoundation/xDrip/releases`](https://github.com/NightscoutFoundation/xDrip/releases)
 2. Trova l'ultima **Pre-release** in cima alla lista.
 3. Espandi la sezione **Assets** e tocca il file `.apk` per scaricarlo.
 4. Se non riesci a scaricarlo, tieni premuto il link e scegli **Apri in un'altra scheda** o **Scarica link**.

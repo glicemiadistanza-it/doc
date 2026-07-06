@@ -215,7 +215,7 @@ Gli elementi principali del quadrante sono:
 
 Il quadrante Sentinel per il Fitbit è stato creato da Ryan Chen, papà di due bambini con diabete di tipo 1 (Ethan e Owen). Il progetto è ancora in sviluppo. Per domande o commenti, pubblica nella pagina Facebook del gruppo Sentinel:
 
-`https://www.facebook.com/groups/3185325128159614/`
+[`https://www.facebook.com/groups/3185325128159614/`](https://www.facebook.com/groups/3185325128159614/)
 
 > ⚠️ *Questo quadrante è solo per supporto e non deve essere usato per prendere decisioni mediche.*
 
@@ -229,4 +229,4 @@ Preparati a eventuali errori di connessione che si verificheranno di tanto in ta
 
 ![](images/sentinel-pro-userguide1/image_060.png)
 
-Sentinel è gratuito per tutti. Per supportare il progetto: `https://paypal.me/ryanwchen`
+Sentinel è gratuito per tutti. Per supportare il progetto: [`https://paypal.me/ryanwchen`](https://paypal.me/ryanwchen)

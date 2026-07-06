@@ -29,7 +29,7 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 
 ## 3. Installa l'app Zepp modificata
 
-1. Vai su `https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html`.
+1. Vai su [`https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html`](https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html).
 2. Scarica la versione **5.6.1** (quella testata con questa guida; la 6.4.1 ha dato problemi in alcuni casi).
 3. Installa il file `.apk` autorizzando l'installazione da sorgente sconosciuta.
 

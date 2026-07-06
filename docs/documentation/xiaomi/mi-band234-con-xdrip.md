@@ -33,7 +33,7 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 
 ## 3. Installa l'app Mi Fit modificata
 
-1. Vai su `https://www.freemyband.com/2019/08/mi-band-4-auth-key.html`
+1. Vai su [`https://www.freemyband.com/2019/08/mi-band-4-auth-key.html`](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html)
 
 ![](images/mi-band234-con-xdrip/image_006.png)
 

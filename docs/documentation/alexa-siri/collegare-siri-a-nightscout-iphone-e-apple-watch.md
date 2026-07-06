@@ -8,7 +8,7 @@ Questa guida spiega come configurare una **scorciatoia Siri** per richiamare il 
 
 ## 1. Scarica la scorciatoia
 
-Apri questo link dall'iPhone: `https://www.icloud.com/shortcuts/7b178e6b76374c37902740bcc950f866`
+Apri questo link dall'iPhone: [`https://www.icloud.com/shortcuts/7b178e6b76374c37902740bcc950f866`](https://www.icloud.com/shortcuts/7b178e6b76374c37902740bcc950f866)
 
 Premi **Ottieni comando rapido**.
 
@@ -19,7 +19,7 @@ Premi **Ottieni comando rapido**.
 ## 2. Configura la scorciatoia
 
 Nella schermata di configurazione inserisci:
-- **URL Nightscout** — il tuo indirizzo Nightscout (es. `https://miosito.azurewebsites.net`)
+- **URL Nightscout** — il tuo indirizzo Nightscout (es. [`https://miosito.azurewebsites.net`](https://miosito.azurewebsites.net))
 - **Fuso orario** — imposta `2` per l'ora italiana
 
 Premi **Fine**.

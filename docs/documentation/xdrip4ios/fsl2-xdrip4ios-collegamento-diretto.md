@@ -10,9 +10,7 @@ Questa guida passo passo spiega come installare l'app xDrip4iOS per leggere i da
 
 ## 1. Installare xDrip4iOS
 
-Segui questa guida:
-
-`https://www.glicemiadistanza.it/xdrip-per-iphone-le-glicemie-di-dexcom-g5-g6-e-miaomiao-lette-con-iphone/`
+Segui la [guida xDrip4iOS](./installare-xdrip4ios).
 
 ## 2. Disabilitare il Bluetooth per l'app del fornitore
 
@@ -64,7 +62,7 @@ Se necessario, per ripristinare l'app del fornitore, elimina il FSL2 da xDrip4iO
 
 Se il telefono è troppo lontano dal sensore ci saranno letture mancanti. Non possono essere recuperate con xDrip4iOS, ma sono disponibili fino a 8 ore dopo con l'app originale.
 
-Per condividere la glicemia e usare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear), è necessario Nightscout (`https://www.glicemiadistanza.it/nightscout/`) o Gluroo (`https://www.glicemiadistanza.it/gluroo/`).
+Per condividere la glicemia e usare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear), è necessario Nightscout ([`https://www.glicemiadistanza.it/nightscout/`](https://www.glicemiadistanza.it/nightscout/)) o [Gluroo](../gluroo/gluroo).
 
 ![](images/fsl2-xdrip4ios-collegamento-diretto/image_014.png)
 

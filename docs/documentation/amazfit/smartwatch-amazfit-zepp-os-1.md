@@ -19,7 +19,7 @@ Dispositivi compatibili:
 
 Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
-Assicurati di avere una versione di xDrip non precedente al 10 luglio 2022. Per aggiornare, vai su `https://github.com/NightscoutFoundation/xDrip/releases`.
+Assicurati di avere una versione di xDrip non precedente al 10 luglio 2022. Per aggiornare, vai su [`https://github.com/NightscoutFoundation/xDrip/releases`](https://github.com/NightscoutFoundation/xDrip/releases).
 
 Poi:
 1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (la vecchia integrazione diretta non funziona con i dispositivi Zepp OS).
@@ -30,7 +30,7 @@ Poi:
 ## 2. Installa e configura WatchDrip+
 
 1. Scarica l'ultima versione di WatchDrip+ dal sito del progetto:
-   `https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`
+   [`https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog)
 2. Installa il file `.apk`.
 3. Apri WatchDrip+ e abilita il **servizio** quando richiesto.
 4. Abilita **Enable web server** nella schermata principale.
@@ -59,7 +59,7 @@ Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zep
 
 ## 5. Installa il quadrante (watchface)
 
-1. Vai su `https://watchdrip.org` per trovare il quadrante adatto al tuo modello.
+1. Vai su [`https://watchdrip.org`](https://watchdrip.org) per trovare il quadrante adatto al tuo modello.
 2. Nell'app Zepp, scansiona il codice QR del quadrante scelto con la funzione **Scan**.
 3. Nella pagina del quadrante, clicca **Installa** per installarlo sul dispositivo.
 

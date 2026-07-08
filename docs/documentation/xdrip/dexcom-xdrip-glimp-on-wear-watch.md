@@ -2,7 +2,9 @@
 
 Questa guida spiega come configurare uno smartwatch **Android Wear OS** (versioni 2 e 3) per visualizzare la glicemia ricevuta dall'app Dexcom (ufficiale o modificata) o da xDrip.
 
-La guida è stata realizzata con un Huawei Watch 2 LTE, ma i passaggi sono simili per qualsiasi smartwatch Wear OS (i nomi dei menu possono variare leggermente).
+ℹ️ **Nota**: Non è possibile usare quadranti attivi con Wear OS 5 e superiore. Vedi [GlucoDataHandler](../glucodatahandler/glucodatahandler.md).
+
+La guida è stata realizzata con un Huawei Watch 2 LTE, ma i passaggi sono simili per qualsiasi smartwatch Wear OS 2 o 3 (i nomi dei menu possono variare leggermente).
 
 **Prerequisito:** sul telefono deve essere già installata e funzionante una di queste app: app Dexcom master (ufficiale o modificata) o xDrip.
 
@@ -123,7 +125,7 @@ Sullo smartwatch comparirà la conferma di tornare al telefono:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_027.png)
 
-7. Il telefono mostra la schermata principale dell'app Wear OS, con un promemoria per restare connessi allo smartwatch:
+7. Il telefono mostra la schermata principale dell'app Wear OS, con un promemoria per restare connessi allo smartwatch: tocca **Resta connesso**
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_028.png)
 
@@ -131,7 +133,7 @@ Tocca **Continua** per restare connesso:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_029.png)
 
-Se compare la richiesta di ignorare le ottimizzazioni della batteria, seleziona **NO** (non ottimizzare), così lo smartwatch resterà sempre connesso:
+Se compare la richiesta di ignorare le ottimizzazioni della batteria, seleziona **SI** (non ottimizzare), così lo smartwatch resterà sempre connesso:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_030.png)
 
@@ -153,7 +155,7 @@ Se compare la richiesta di ignorare le ottimizzazioni della batteria, seleziona 
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_033.png)
 
-Scorrendo la stessa lista trovi anche xDrip+:
+Oppure xDrip+:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_034.png)
 
@@ -172,11 +174,7 @@ Seleziona **Non aggiornare automaticamente le app** e conferma con **FINE**:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_038.png)
 
-2. Riporta il Play Store dello smartwatch alla versione di fabbrica: aspetta che si apra...
-
-![](images/dexcom-xdrip-glimp-on-wear-watch/image_035.png)
-
-...poi vai in **Impostazioni → App e notifiche → Informazioni sull'app → App di sistema → Google Play Store** e tocca **Disinstalla Aggiornamenti**. Se non c'è questa opzione, passa al Metodo 2.
+2. poi vai in **Impostazioni → App e notifiche → Informazioni sull'app → App di sistema → Google Play Store** e tocca **Disinstalla Aggiornamenti**. Se non c'è questa opzione, passa al Metodo 2.
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_039.png)
 
@@ -186,7 +184,7 @@ Se preferisci non seguire questa procedura, usa il Metodo 2.
 
 ### Metodo 2: Wear Installer 2
 
-1. Nel Play Store del telefono, installa **Wear Installer 2** (di Malcolm Bryant):
+1. Nel Play Store del telefono, installa **[Wear Installer 2](https://play.google.com/store/apps/details?id=org.freepoc.wearinstaller2)** (di Malcolm Bryant):
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_040.png)
 
@@ -216,7 +214,7 @@ Concedi l'accesso a foto, contenuti multimediali e file quando richiesto:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_047.png)
 
-Se il testo è troppo piccolo, ingrandisci lo zoom per leggere meglio l'indirizzo:
+Questo indirizzo, per esempio 192.168.1.68:
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_048.png)
 
@@ -267,7 +265,7 @@ I quadranti di xDrip sono disponibili in più varianti grafiche (semplice, grafi
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_060.png)
 
-Anche AAPS offre più varianti di quadrante, incluse quelle con dettagli su carboidrati, IOB e cockpit completo:
+Anche AAPS offre più varianti di quadrante, incluse quelle con dettagli su carboidrati, IOB e cockpit completo (versioni fino a 3.3):
 
 ![](images/dexcom-xdrip-glimp-on-wear-watch/image_061.png)
 

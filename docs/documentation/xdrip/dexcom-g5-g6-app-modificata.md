@@ -81,17 +81,13 @@ Per G6 su Android 10 o superiore, scegli tra versione International e US:
 
 ![](images/dexcom-g5-g6-app-modificata/image_015.png)
 
-Per le versioni Android più vecchie, la scelta include anche l'unità di misura:
+La domanda sul broadcast verso altre app — scegli l'ultima opzione (**both xDrip and Android APS**):
 
-![](images/dexcom-g5-g6-app-modificata/image_013.png)
+![](images/dexcom-g5-g6-app-modificata/image_016.png)
 
 Se hai scelto la versione International, ti viene chiesta l'unità di misura preferita:
 
 ![](images/dexcom-g5-g6-app-modificata/image_017.png)
-
-Per il prodotto **ONE**, il modulo propone invece un'unica versione dell'app:
-
-![](images/dexcom-g5-g6-app-modificata/image_020.png)
 
 > ℹ️ **Nota**: Il modulo propone opzioni analoghe anche per **G7** — scegli il prodotto corretto al passo 2 e segui le domande che il modulo propone di conseguenza.
 
@@ -109,9 +105,7 @@ Le domande su vibrazione, modalità silenziosa e notifiche:
 
 ![](images/dexcom-g5-g6-app-modificata/image_018.png)
 
-La domanda sul broadcast verso altre app — scegli l'ultima opzione (**both xDrip and Android APS**):
 
-![](images/dexcom-g5-g6-app-modificata/image_016.png)
 
 La domanda sulla riduzione del tempo di avviamento — lascia **No**:
 
@@ -262,33 +256,17 @@ L'app chiede conferma prima di proseguire con la configurazione:
 Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 
 1. Segui la [guida base di installazione di xDrip](./installare-xdrip-android).
-2. Come sorgente dati, scegli **640G / Eversense** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share. Puoi farlo dalla configurazione guidata, aprendo il menu di xDrip...
+2. Come sorgente dati, scegli **640G / Eversense** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share. Puoi farlo dalla configurazione guidata, oppure dal menu di xDrip, **Impostazioni**
 
 ![](images/dexcom-g5-g6-app-modificata/image_056.png)
 
-...toccando **Scegli la sorgente dati**...
+...toccando **Dati Hardware di origine**...
 
 ![](images/dexcom-g5-g6-app-modificata/image_053.png)
 
-...**Altro**, poi **640G / 670G**...
+... **640G / Eversense**...
 
 ![](images/dexcom-g5-g6-app-modificata/image_054.png)
-
-...e confermando:
-
-![](images/dexcom-g5-g6-app-modificata/image_052.png)
-
-In alternativa, puoi impostarla manualmente da **Impostazioni**: apri di nuovo il menu di xDrip...
-
-![](images/dexcom-g5-g6-app-modificata/image_058.png)
-
-...vai su **Dati Hardware di origine**...
-
-![](images/dexcom-g5-g6-app-modificata/image_055.png)
-
-...e seleziona **640G / EverSense** dall'elenco:
-
-![](images/dexcom-g5-g6-app-modificata/image_057.png)
 
 3. Quando xDrip chiede di inizializzare il sensore...
 
@@ -309,3 +287,5 @@ In alternativa, puoi impostarla manualmente da **Impostazioni**: apri di nuovo i
 ...e abilita **Imposta come Telefono Principale**:
 
 ![](images/dexcom-g5-g6-app-modificata/image_063.png)
+
+Per impostare un altro telefonino come follower, vedi la guida [xDrip Follower](./masterfollower.md).

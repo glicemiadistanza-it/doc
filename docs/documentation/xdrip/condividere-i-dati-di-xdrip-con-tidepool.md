@@ -2,7 +2,7 @@
 
 Nel gruppo preferiamo Nightscout, ma non tutti i centri diabetologici lo accettano per condividere le statistiche del paziente.
 
-Tidepool è un'organizzazione no profit che offre software open source e servizi gratuiti per la gestione del diabete. Il ramo Tidepool Loop è attivamente coinvolto nell'ottenere l'approvazione FDA per il circuito chiuso (sistema ibrido di erogazione automatica dell'insulina) in collaborazione con la comunità open source Loop.
+Tidepool è un'organizzazione no profit che offre software open source e servizi gratuiti per la gestione del diabete. Il ramo Tidepool Loop ha ottenuto l'approvazione FDA per il circuito chiuso (sistema ibrido di erogazione automatica dell'insulina) in collaborazione con la comunità open source Loop.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_001.png)
 
@@ -55,41 +55,41 @@ Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip. 
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_012.png)
 
-Si apre il menu con le voci principali, tra cui **Impostazioni**:
+Si apre il menu con le voci principali, vai in **Impostazioni**. 
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_013.png)
 
-2. Vai in **Impostazioni**:
+2. Tocca **Caricamento nel Cloud**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_014.png)
 
-Tocca **Cloud Upload**:
+E seleziona **Tidepool**.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_015.png)
 
-E seleziona **Tidepool**. Abilita **Sync to Tidepool**:
+Abilita **Sync to Tidepool**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_016.png)
 
-3. Inserisci la tua email usata per creare l'utenza Tidepool in **Login User Name**:
+3. Inserisci la tua email usata per creare l'utenza Tidepool in **Nome Utente**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_017.png)
 
-E la password in **Login Password**:
+E la password in **Password**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_018.png)
 
-4. Verifica il funzionamento con **Test Tidepool Login**: vedrai prima il messaggio **Connecting...**...
+4. Verifica il funzionamento con **Test di accesso a Tidepool**: vedrai prima il messaggio **Connecting to Tidepool**...
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_019.png)
 
-...e poi **Creating new data set**, a conferma che il collegamento funziona:
+Dovrai quindi effettuare il login nel server Tidepool per autorizzare xDrip:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_020.png)
 
-Se preferisci caricare i dati da computer invece che da xDrip, puoi anche usare il **Tidepool Uploader**:
+⚠️ **Attenzione**: Se inserisci boli e CHO (carboidrati) sia in xDrip sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione **Non caricare i trattamenti** per non inviare i dati doppi a Tidepool:
 
-![](images/condividere-i-dati-di-xdrip-con-tidepool/image_011.png)
+![](images/condividere-i-dati-di-xdrip-con-tidepool/image_025.png)
 
 ## 3. Condividere con il diabetologo
 
@@ -107,16 +107,4 @@ Se preferisci caricare i dati da computer invece che da xDrip, puoi anche usare 
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_023.png)
 
-## 4. Caricare altri dati in Tidepool
 
-Tidepool si interfaccia con moltissimi microinfusori e sensori. Puoi aggiungere dati dal tuo computer usando il **Tidepool Uploader**. Se il tuo diabetologo conosce Tidepool, lo farà probabilmente durante la visita diabetologica. Ecco l'elenco dei dispositivi supportati al momento:
-
-![](images/condividere-i-dati-di-xdrip-con-tidepool/image_024.png)
-
-> ⚠️ **Attenzione**: Con versioni di xDrip precedenti al 7 febbraio 2020: se inserisci boli e CHO (carboidrati) sia in xDrip sia tramite il microinfusore, il risultato verrà raddoppiato in Tidepool. Con le versioni successive, abilita l'apposita opzione **Don't upload treatments** per non inviare i dati doppi a Tidepool:
-
-![](images/condividere-i-dati-di-xdrip-con-tidepool/image_025.png)
-
-## Contatti
-
-Patrick Sonnerat — glicemiadistanza@gmail.com

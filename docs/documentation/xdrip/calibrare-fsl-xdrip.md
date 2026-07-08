@@ -47,21 +47,9 @@ La glicemia arteriosa, capillare, venosa e quella interstiziale non sono sempre 
 
 ![](images/calibrare-fsl-xdrip/image_006.png)
 
-Quello che chiamiamo "calibrare" sfrutta il fatto che, a glicemia stabile, dopo un certo tempo, la concentrazione di glucosio tende a essere simile anche nel liquido interstiziale. Il sensore non legge direttamente la concentrazione in mg/dL: rileva una corrente elettrica derivata da una reazione chimica, che chiamiamo **valore grezzo**. Per calcolare la glicemia reale è necessario un fattore di correzione, ottenuto tramite una misura capillare (con un glucometro come questo)...
+Quello che chiamiamo "calibrare" sfrutta il fatto che, a glicemia stabile, dopo un certo tempo, la concentrazione di glucosio tende a essere simile anche nel liquido interstiziale. Il sensore non legge direttamente la concentrazione in mg/dL: rileva una corrente elettrica derivata da una reazione chimica, che chiamiamo **valore grezzo**. Per calcolare la glicemia reale è necessario un fattore di correzione, ottenuto tramite una misura capillare, confrontata con il valore letto dal sensore.
 
-![](images/calibrare-fsl-xdrip/image_007.png)
-
-...confrontata con il valore letto dal sensore FSL:
-
-![](images/calibrare-fsl-xdrip/image_008.png)
-
-Questa è la calibrazione: fornire un riferimento accurato per far corrispondere meglio la lettura al valore reale della glicemia (un esercizio che, senza gli strumenti giusti, può sembrare un'impresa da laboratorio)...
-
-![](images/calibrare-fsl-xdrip/image_009.png)
-
-...ma che in pratica si riduce a qualche calcolo, come quelli illustrati in questi appunti:
-
-![](images/calibrare-fsl-xdrip/image_010.png)
+Questa è la calibrazione: fornire un riferimento accurato per far corrispondere meglio la lettura al valore reale della glicemia.
 
 L'app e il lettore ufficiali non richiedono calibrazione perché questa viene eseguita in fase di fabbricazione del dispositivo: nel sensore sono già iscritti i parametri necessari all'algoritmo proprietario per generare il valore della glicemia.
 
@@ -110,7 +98,7 @@ Il grafico mostra come xDrip interpreta i dati grezzi e genera il valore calibra
 ![](images/calibrare-fsl-xdrip/image_018.png)
 
 - **Slope** (pendenza): è la pendenza della riga rossa. Più il numero è alto, più una piccola variazione della glicemia grezza viene amplificata. Di solito sta tra `0.8` e `1.2`. Un valore di `1.5`, ad esempio, indica un problema.
-- **Intercept** (offset): è il valore minimo misurabile dal sensore calibrato, cioè un offset da aggiungere alla glicemia grezza. Se il valore supera `40`, xDrip rifiuta la calibrazione per sicurezza (non si riuscirebbe a rilevare un'ipoglicemia).
+- **Intercept** (offset): è il valore minimo misurabile dal sensore calibrato, cioè un offset da aggiungere alla glicemia grezza. Se il valore supera `39`, xDrip rifiuta la calibrazione per sicurezza (non si riuscirebbe a rilevare un'ipoglicemia).
 
 Nel grafico:
 - Asse verticale: glicemia calibrata
@@ -127,11 +115,13 @@ valore reale = glicemia grezza × slope + intercept
 - `slope` amplifica o attenua le variazioni
 - `intercept` sposta la curva su o giù
 
-Un esempio di confronto fra tre curve (grigio, verde, arancione) che mostra come slope e intercept diversi producano andamenti diversi a partire dagli stessi dati grezzi:
+Un esempio di confronto fra tre curve (grigio, verde, arancione) che mostra come slope e intercept diversi producano andamenti diversi a partire dagli stessi dati grezzi.
+
+In questo caso è solo modificato l'intercept (la curva rimane identica ma è spostata su e giù).
 
 ![](images/calibrare-fsl-xdrip/image_019.png)
 
-Un secondo esempio con gli stessi dati e parametri leggermente diversi:
+Un secondo esempio con slope modificata: l'ampiezza aumenta quando il fattore slope è più grande.
 
 ![](images/calibrare-fsl-xdrip/image_020.png)
 
@@ -212,7 +202,11 @@ Calibrare a glicemia non stabile è come cercare di indovinare a che altezza sar
 
 Il FSL fornisce risultati migliori nel range. L'accuratezza si riduce man mano che la glicemia si allontana dai valori centrali: le letture del sensore e quelle capillari si allontanano proprio ai due estremi.
 
-Calibra tra 80 e 180 mg/dL. Sopra 200 mg/dL non è una buona idea.
+**Calibra tra 80 e 180 mg/dL.** Sopra 200 mg/dL non è una buona idea.
+
+> ℹ️ **Nota**: Ovviamente se esistesse il telecomando, sarebbe più semplice programmare una glicemia stabile, nel range... In realtà conosciamo tutti la difficoltà di essere nelle condizioni migliori per calibrare.
+
+![](images/calibrare-fsl-xdrip/image_033.png)
 
 > ⚠️ **Attenzione**: `HIGH` e `LO` non sono valori numerici: non calibrare mai quando il sensore mostra questi valori.
 
@@ -226,17 +220,13 @@ E `LOW` quando è sotto il limite inferiore:
 
 Non calibrare mai quando la glicemia è completamente piatta da troppo tempo: potrebbe indicare un sensore bloccato.
 
-A dover scegliere tra glicemia nel range e stabilità, meglio la misura a glicemia stabile — un momento di stabilità come quello indicato dal punto rosso in questo grafico è preferibile a un valore nel range ma in rapido movimento:
+A dover scegliere tra glicemia nel range e stabilità, meglio la misura a glicemia stabile — un momento di stabilità come quello indicato in questo grafico è preferibile a un valore nel range ma in rapido movimento:
 
 ![](images/calibrare-fsl-xdrip/image_031.png)
 
 Il grafico ufficiale di accuratezza del sensore FSL (Clarke Error Grid) mostra come la dispersione dei punti aumenti ai margini del range di misura:
 
 ![](images/calibrare-fsl-xdrip/image_032.png)
-
-> ℹ️ **Nota**: Nessun dispositivo — vero o immaginario — permette di "regolare" la glicemia con un telecomando: la calibrazione corregge solo la lettura del sensore, non il valore reale nel corpo.
-
-![](images/calibrare-fsl-xdrip/image_033.png)
 
 ## 9. La prima calibrazione
 
@@ -305,11 +295,11 @@ A queste se ne aggiungono altre:
 
 ![](images/calibrare-fsl-xdrip/image_047.png)
 
-4. Non insistere. Quando xDrip non accetta le calibrazioni (qui evidenziate dai quadratini rossi, ben distanti dalla curva verde attesa), riparti da capo o verifica il sensore:
+4. Non insistere. Quando xDrip non accetta le calibrazioni (qui ben distanti dalla curva verde attesa), riparti da capo o verifica il sensore:
 
 ![](images/calibrare-fsl-xdrip/image_048.png)
 
-Anche una serie di trattamenti-verifica (i punti bordati di rosso) che si discostano troppo dalla curva è un segnale che qualcosa non va:
+Anche una serie di capillare che si discostano troppo dalla curva è un segnale che qualcosa non va:
 
 ![](images/calibrare-fsl-xdrip/image_049.png)
 
@@ -317,45 +307,45 @@ Anche una serie di trattamenti-verifica (i punti bordati di rosso) che si discos
 
 Per verificare se la glicemia rimarrà stabile dopo una calibrazione, a glicemia stabile (per esempio la mattina) fai un pungidito di verifica e inserisci il valore in xDrip come **trattamento** (simbolo siringa, in alto a destra nel grafico):
 
-![](images/calibrare-fsl-xdrip/image_050.png)
+![](images/calibrare-fsl-xdrip/image_051.png)
 
 Usa la tastiera numerica per inserire il valore in mg/dl:
 
-![](images/calibrare-fsl-xdrip/image_051.png)
+![](images/calibrare-fsl-xdrip/image_050.png)
 
-Il punto comparirà nel grafico nel futuro, esattamente come per la prima calibrazione:
-
-![](images/calibrare-fsl-xdrip/image_052.png)
-
-Dopo qualche minuto il punto rientra nella curva delle letture:
+Il punto comparirà nel grafico, nel futuro:
 
 ![](images/calibrare-fsl-xdrip/image_053.png)
 
-Puoi verificare i dettagli del trattamento (orario e valore inserito) toccandolo:
+Aspetta che il tuo punto nel futuro venga raggiunto dalla curva glicemica: così puoi verificare se la glicemia è rimasta stabile.
+
+![](images/calibrare-fsl-xdrip/image_052.png)
+
+Se la glicemia è andata avanti abbastanza stabile, tocca il quadrato della misura capillare, vengono fuori i dettagli:
 
 ![](images/calibrare-fsl-xdrip/image_054.png)
 
-Aspetta che il tuo punto nel futuro venga raggiunto dalla curva glicemica: così puoi verificare se la glicemia è rimasta stabile.
-
-![](images/calibrare-fsl-xdrip/image_055.png)
-
-Se la glicemia è andata avanti abbastanza stabile, tocca il punto di trattamento: comparirà un menu con le azioni disponibili...
+Seleziona MISURA CAPILLARE: comparirà un menu con le azioni disponibili...
 
 ![](images/calibrare-fsl-xdrip/image_056.png)
 
-...scegli **CALIBRATE**. Hai appena trasformato una verifica capillare in una calibrazione: il nuovo punto comparirà nella tabella insieme a quelli precedenti.
+...scegli **CALIBRATE**. Hai appena trasformato una verifica capillare in una calibrazione. Vedrai le prossime misure adeguarsi alla nuova calibrazione.
+
+![](images/calibrare-fsl-xdrip/image_055.png)
+
+Il nuovo punto comparirà nella tabella di calibrazione insieme a quelli precedenti.
 
 ![](images/calibrare-fsl-xdrip/image_057.png)
 
-Se non ti piace il risultato, apri la tabella di calibrazione, tieni premuto il punto della calibrazione...
+Se non ti piace il risultato, nella tabella di calibrazione, tieni premuto il punto della calibrazione: si aprirà un menu dove puoi disabilitare questa calibrazione (risposta Yes) oppure uscire senza cambiare niente (risposta No).
 
 ![](images/calibrare-fsl-xdrip/image_058.png)
 
-...e disabilitalo (diventerà rosso, con slope e intercept azzerati):
+Una volta disabilita la calibrazione, diventerà rossa (con slope e intercept azzerati):
 
 ![](images/calibrare-fsl-xdrip/image_059.png)
 
-Il punto rimane come trattamento e la curva torna alla calibrazione precedente:
+Il punto rimane come misura capillare e la curva torna alla calibrazione precedente:
 
 ![](images/calibrare-fsl-xdrip/image_060.png)
 
@@ -363,7 +353,7 @@ Il punto rimane come trattamento e la curva torna alla calibrazione precedente:
 
 ![](images/calibrare-fsl-xdrip/image_061.png)
 
-Molto probabilmente l'ultima calibrazione ha portato il valore `intercept` sopra `40`. È pericoloso: xDrip non permette di visualizzare la glicemia perché potrebbe non rilevare le ipoglicemie. Per verificarlo, guarda la tabella delle calibrazioni: valori di slope e intercept molto lontani dal normale (come in questo esempio) sono un segnale d'allarme.
+Molto probabilmente l'ultima calibrazione ha portato il valore `intercept` sopra `39`. È pericoloso: xDrip non permette di visualizzare la glicemia perché potrebbe non rilevare le ipoglicemie. Per verificarlo, guarda la tabella delle calibrazioni: valori di slope e intercept molto lontani dal normale (come in questo esempio) sono un segnale d'allarme.
 
 ![](images/calibrare-fsl-xdrip/image_062.png)
 
@@ -371,16 +361,14 @@ Molto probabilmente l'ultima calibrazione ha portato il valore `intercept` sopra
 
 ## Addendum – Perché calibrare non è uno scherzo
 
+> ℹ️ **Nota**: Dopo gli incidenti illustrati sotto, xDrip è stato adeguato per dare segnale mancante dopo troppe misure identiche, impedendo calibrazioni pericolose.
+
 Il grafico qui sotto è un caso simile a quello che ha generato l'avvertimento della FDA contro l'uso delle app fai-da-te con il FSL 1. L'utente xDrip non aveva capito che quando un sensore si blocca in `LO`, calibrare non è una buona idea — soprattutto se la differenza tra il valore grezzo e quello calibrato è di 250 mg/dL. Ancora peggio se quel sensore alimenta un sistema di erogazione di insulina fai-da-te: si nota chiaramente il momento di avvio del sensore, seguito da ore di glicemia bassissima senza correzioni.
-
-![](images/calibrare-fsl-xdrip/image_063.png)
-
-Un secondo caso identico ha riguardato un paziente ricoverato in chetoacidosi con un sensore guasto che era stato comunque calibrato: la glicemia mostrata restava stabilmente alta (187 mg/dL) mentre il grafico storico, sotto, rivelava un andamento tutt'altro che normale.
 
 ![](images/calibrare-fsl-xdrip/image_064.png)
 
-Lo stesso grafico storico, ingrandito:
+Un secondo caso identico ha riguardato un paziente ricoverato in chetoacidosi con un sensore guasto che era stato comunque calibrato: la glicemia mostrata restava stabilmente alta (187 mg/dL) mentre il grafico storico, sotto, rivelava un andamento tutt'altro che normale.
 
-![](images/calibrare-fsl-xdrip/image_065.png)
+![](images/calibrare-fsl-xdrip/image_063.png)
 
 > ⚠️ **Attenzione**: **NON FIDARTI MAI CIECAMENTE.** Verifica almeno una volta al giorno con una capillare. Queste persone sono rimaste per ore in glicemia bassa o alta senza mai fare una capillare. Se la glicemia sembra troppo bella o troppo piatta, deve essere un segnale di allarme.

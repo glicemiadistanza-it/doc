@@ -15,10 +15,6 @@ Lo schema generale del collegamento: l'app del paziente (Guardian Connect o micr
 
 ![](images/carelink-con-xdrip/image_001.png)
 
-Il logo del servizio **CareLink Follower** di Medtronic:
-
-![](images/carelink-con-xdrip/image_002.png)
-
 ## 1. Installare xDrip
 
 Segui la [guida base per installare xDrip](../xdrip/installare-xdrip-android), selezionando l'ultimo pre-release.
@@ -27,7 +23,7 @@ Segui la [guida base per installare xDrip](../xdrip/installare-xdrip-android), s
 
 Prima di configurare xDrip, occorre creare un account "Care Partner" su CareLink e collegarlo a quello del paziente: solo così xDrip potrà leggere i dati tramite il CareLink Follower.
 
-1. Vai sul sito di CareLink e seleziona **Create an Account**:
+1. Vai sul sito di [CareLink](https://carelink.medtronic.eu/) e seleziona **Create an Account**:
 
 ![](images/carelink-con-xdrip/image_003.png)
 
@@ -65,11 +61,7 @@ Se la sorgente dati non è ancora configurata, la schermata principale di xDrip 
 
 ![](images/carelink-con-xdrip/image_013.png)
 
-1. Apri il menu principale toccando l'icona ☰ in alto a sinistra:
-
-![](images/carelink-con-xdrip/image_011.png)
-
-Si apre il menu con le voci principali, tra cui **Impostazioni**:
+1. Apri il menu principale toccando l'icona ☰ in alto a sinistra. Si apre il menu con le voci principali, tra cui **Impostazioni**:
 
 ![](images/carelink-con-xdrip/image_015.png)
 
@@ -85,11 +77,11 @@ Conferma la scelta:
 
 ![](images/carelink-con-xdrip/image_016.png)
 
-4. Seleziona il **Paese CareLink** (Italia):
+4. Seleziona il **Paese CareLink** (Italy):
 
 ![](images/carelink-con-xdrip/image_017.png)
 
-5. Se ci sono più pazienti in CareLink, digita il **Nome Utente Paziente CareLink**. Altrimenti lascia vuoto:
+5. **Solo** se ci sono più pazienti in CareLink, digita il **Nome Utente Paziente CareLink**. Altrimenti lascia vuoto:
 
 ![](images/carelink-con-xdrip/image_018.png)
 
@@ -101,9 +93,7 @@ Effettua il login in CareLink con le tue credenziali di Care Partner:
 
 ![](images/carelink-con-xdrip/image_019.png)
 
-> ⚠️ **Attenzione**: Dovrai effettuare nuovamente il login ogni volta che spegni il telefono.
-
-Per eventuali modifiche, sono disponibili diverse opzioni nel menu di xDrip. Non ridurre i valori di **Grace Period** né di **Missed data poll interval**:
+Per eventuali modifiche, sono disponibili diverse opzioni nel menu di xDrip. Non ridurre i valori di **Periodo di grazie** né di **Intervallo richiesta dati mancanti**:
 
 ![](images/carelink-con-xdrip/image_021.png)
 
@@ -123,15 +113,3 @@ Se non arrivano dati e le credenziali sono corrette, disabilita il follower Care
 
 ![](images/carelink-con-xdrip/image_025.png)
 
-## 4. Come vedere le glicemie dall'orologio direttamente con xDrip
-
-Usando xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
-
-- **Android Wear OS:** [guida per Android Wear OS](../xdrip/dexcom-xdrip-glimp-on-wear-watch)
-- **Fitbit Versa e Ionic:** [guida Fitbit Versa e Ionic](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
-- **Samsung Watch:** [`https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`](https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/)
-- **Xiaomi MiBand e Amazfit:** [guida WatchDrip+](../xdrip/xdrip-e-watchdrip)
-
-## Contatti
-
-glicemiadistanza@gmail.com

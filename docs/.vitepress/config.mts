@@ -41,7 +41,7 @@ const xdrip = [
   { text: 'CareLink follower con xDrip', link: '/documentation/xdrip/carelink-con-xdrip' },
   { text: 'Condividere i dati di xDrip con Tidepool', link: '/documentation/xdrip/condividere-i-dati-di-xdrip-con-tidepool' },
   { text: 'App Dexcom modificata – Installazione e funzionalità', link: '/documentation/xdrip/dexcom-g5-g6-app-modificata' },
-  { text: 'Glicemia al polso con app Dexcom master, xDrip, Glimp', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
+  { text: 'Glicemia al polso con app Dexcom master o xDrip', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
   { text: 'Dexcom G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
   { text: 'Disabilitare il risparmio energetico per xDrip', link: '/documentation/xdrip/disabilitare-risparmio-energetico-xdrip' },
   { text: 'Passare da FSL 1 a FSL 2 con Miaomiao o Bubble', link: '/documentation/xdrip/fsl2-miaomiao-bubble' },

@@ -129,6 +129,18 @@
   margin-bottom: 1.25rem;
 }
 
+/* ---- Content screenshots: consistent max size, centered ---- */
+.vp-doc img {
+  display: block;
+  max-width: min(100%, 560px);
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  margin: 1rem auto;
+  border: 1px solid var(--flash-grey);
+  border-radius: 6px;
+}
+
 /* ---- Component: flash-image-left (home page hero layout) ---- */
 .flash-image-left {
   display: flex;

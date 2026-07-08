@@ -4,9 +4,10 @@ Questa guida spiega come installare e configurare l'app **OOPAlgorithm** (Out Of
 
 ## Quando usarlo
 
-Usa l'algoritmo esterno solo se:
+Usa l'algoritmo esterno se:
 - Usi **OOP1** e funziona bene sul tuo telefono (utile per FSL1)
 - Usi un **FSL2 con MiaoMiao o Bubble** e vuoi usare **OOP2**
+- Usi un **FSL2 in [collegamento diretto Bluetooth](../xdrip/l2-xdrip-collegamento-diretto)** (senza MiaoMiao/Bubble): in questo caso OOP2 è **obbligatorio**, altrimenti xDrip non riesce a decodificare il sensore
 
 | Versione | Compatibilità | Uso consigliato |
 |---|---|---|
@@ -17,21 +18,31 @@ Usa l'algoritmo esterno solo se:
 
 ## Come funziona
 
-Senza algoritmo esterno, xDrip calcola internamente il valore di glicemia dal valore grezzo del sensore tramite calibrazioni manuali.
-
-Con OOP1/OOP2, un'app separata riceve il valore grezzo dal sensore e lo converte prima di passarlo a xDrip. Questo permette di ottenere valori senza calibrazione manuale (simili a quelli del lettore FSL ufficiale).
+Senza algoritmo esterno, xDrip calcola internamente il valore di glicemia dal valore grezzo del sensore tramite calibrazioni manuali:
 
 ![](images/xdrip-algoritmo-esterno/image_001.png)
 
+Il sensore misura il glucosio nel liquido interstiziale tramite un piccolo filamento inserito sotto la pelle:
+
 ![](images/xdrip-algoritmo-esterno/image_002.png)
+
+Con la calibrazione manuale, xDrip costruisce una retta che lega il valore grezzo del sensore al valore di glicemia reale, rappresentata nella schermata **Calibration Graph**:
 
 ![](images/xdrip-algoritmo-esterno/image_003.png)
 
+Il valore reale viene inserito misurando la glicemia capillare con il glucometro:
+
 ![](images/xdrip-algoritmo-esterno/image_004.png)
+
+Con OOP1/OOP2, un'app separata (identificata dall'icona Android) riceve il valore grezzo dal sensore e lo converte prima di passarlo a xDrip:
 
 ![](images/xdrip-algoritmo-esterno/image_005.png)
 
+Questo permette di ottenere valori senza calibrazione manuale (simili a quelli del lettore FSL ufficiale): niente più retta di calibrazione...
+
 ![](images/xdrip-algoritmo-esterno/image_006.png)
+
+...e niente più misurazioni con il glucometro:
 
 ![](images/xdrip-algoritmo-esterno/image_007.png)
 
@@ -46,9 +57,11 @@ Prima di procedere, verifica che il firmware del tuo trasmettitore sia aggiornat
 | Bubble | 1.38 |
 | Blucon | 4.2 |
 
-Controlla la versione del firmware in xDrip: **Menu → Stato del sistema**.
+Controlla la versione del firmware in xDrip: **Menu → Stato del sistema → BT Device**. Esempio con un trasmettitore Tomato:
 
 ![](images/xdrip-algoritmo-esterno/image_008.png)
+
+Esempio con un trasmettitore Bubble:
 
 ![](images/xdrip-algoritmo-esterno/image_009.png)
 
@@ -61,7 +74,7 @@ Controlla la versione del firmware in xDrip: **Menu → Stato del sistema**.
 
 ## 2. Installa l'algoritmo
 
-1. Scarica il file `.apk` e installalo (autorizza l'installazione da sorgenti sconosciute se richiesto).
+1. Scarica il file `.apk` e installalo (autorizza l'installazione da sorgenti sconosciute se richiesto). Comparirà l'icona dell'app **OOPalgorithm**:
 
 ![](images/xdrip-algoritmo-esterno/image_010.png)
 
@@ -81,11 +94,15 @@ Quando l'algoritmo è attivo, compare un'icona supplementare nella barra delle n
 
 xDrip potrebbe rilevare automaticamente l'algoritmo e chiederti di abilitarlo. **Non accettare il prompt automatico.** Segui invece questi passi manuali:
 
-1. In xDrip: **Menu → Impostazioni → Impostazioni meno usate**.
+1. In xDrip: **Menu → Impostazioni**, scorri fino a **Impostazioni Meno Usate**:
 
 ![](images/xdrip-algoritmo-esterno/image_012.png)
 
+Apri la pagina e vai in fondo alla voce **Altre opzioni**:
+
 ![](images/xdrip-algoritmo-esterno/image_013.png)
+
+In **Altre opzioni** trovi la sezione OOP:
 
 ![](images/xdrip-algoritmo-esterno/image_014.png)
 
@@ -131,13 +148,9 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 ![](images/xdrip-algoritmo-esterno/image_021.png)
 
-3. Vai in **Impostazioni → Opzioni sviluppatore** e abilita **Debug ADB**.
+3. Vai in **Impostazioni → Opzioni sviluppatore** e abilita **Debug ADB**, confermando quando richiesto:
 
 ![](images/xdrip-algoritmo-esterno/image_022.png)
-
-![](images/xdrip-algoritmo-esterno/image_023.png)
-
-![](images/xdrip-algoritmo-esterno/image_024.png)
 
 4. Premi **Indietro** due volte per uscire.
 
@@ -145,13 +158,15 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 Se non hai un PC Windows disponibile, puoi installare OOP2 sullo smartwatch direttamente dal telefono, tramite Wi-Fi, usando l'app **Wear Installer 2**. Usa lo stesso file `OOP2.apk` scaricato al punto 1 di questa guida (nella cartella Download del telefono).
 
-1. Installa **Wear Installer 2** sul **telefono** (non sullo smartwatch) dal Play Store.
+1. Installa **Wear Installer 2** sul **telefono** (non sullo smartwatch) dal Play Store:
 
 ![](images/xdrip-algoritmo-esterno/image_017.png)
 
+A installazione completata, l'app sarà pronta per essere aperta:
+
 ![](images/xdrip-algoritmo-esterno/image_018.png)
 
-2. Apri l'app e concedi il permesso di accesso a foto e file quando richiesto.
+2. Apri l'app e concedi il permesso di accesso a foto e file quando richiesto:
 
 ![](images/xdrip-algoritmo-esterno/image_019.png)
 
@@ -159,27 +174,31 @@ Se non hai un PC Windows disponibile, puoi installare OOP2 sullo smartwatch dire
 
 ![](images/xdrip-algoritmo-esterno/image_020.png)
 
-4. Sullo smartwatch, nelle **Opzioni sviluppatore**, verifica che **Debug ADB** ed **Esegui il debug tramite Wi-Fi** siano entrambi attivi, e annota l'indirizzo IP mostrato.
+4. Sullo smartwatch, nelle **Opzioni sviluppatore**, verifica che **Debug ADB** ed **Esegui il debug tramite Wi-Fi** siano entrambi attivi, e annota l'indirizzo IP mostrato (nel formato `192.168.x.x:yyyy`):
 
 ![](images/xdrip-algoritmo-esterno/image_025.png)
 
+L'indirizzo da annotare è quello nell'ultima riga:
+
 ![](images/xdrip-algoritmo-esterno/image_027.png)
 
-5. Torna sul telefono, inserisci l'indirizzo IP dello smartwatch nel campo dell'app Wear Installer e tocca **DONE**.
+5. Torna sul telefono, inserisci l'indirizzo IP dello smartwatch nel campo dell'app Wear Installer e tocca **DONE**:
 
 ![](images/xdrip-algoritmo-esterno/image_030.png)
 
-6. L'app si collega allo smartwatch:
+6. L'app si collega allo smartwatch e mostra le app già installate su di esso:
 
 ![](images/xdrip-algoritmo-esterno/image_037.png)
 
-Sullo smartwatch, conferma la richiesta di debug toccando **OK**, poi seleziona **Consenti sempre da questo computer**.
+Sullo smartwatch, conferma la richiesta di debug toccando **OK**...
 
 ![](images/xdrip-algoritmo-esterno/image_035.png)
 
+...poi seleziona **Consenti sempre da questo computer**:
+
 ![](images/xdrip-algoritmo-esterno/image_036.png)
 
-7. Nella schermata principale di Wear Installer, passa alla scheda **Downloads** e seleziona il file `OOP2.apk`.
+7. Nella schermata principale di Wear Installer, passa alla scheda **Downloads** e seleziona il file `OOP2.apk`:
 
 ![](images/xdrip-algoritmo-esterno/image_031.png)
 
@@ -187,9 +206,11 @@ Sullo smartwatch, conferma la richiesta di debug toccando **OK**, poi seleziona 
 
 ![](images/xdrip-algoritmo-esterno/image_033.png)
 
-8. Tocca **INSTALL** e attendi il messaggio di conferma.
+8. Tocca **INSTALL**:
 
 ![](images/xdrip-algoritmo-esterno/image_040.png)
+
+E attendi il messaggio di conferma **APK successfully installed!**:
 
 ![](images/xdrip-algoritmo-esterno/image_041.png)
 
@@ -213,11 +234,15 @@ Sullo smartwatch, conferma la richiesta di debug toccando **OK**, poi seleziona 
 8. Sullo smartwatch, autorizza il debug dal PC scegliendo **Consenti sempre**.
 9. Aspetta il messaggio `Success` nel prompt.
 
-Una volta completata l'installazione, avvia OOPAlgorithm nelle app dello smartwatch e ignora l'eventuale messaggio di errore. Lo smartwatch può ora leggere il sensore in autonomia, senza bisogno del telefono.
+Una volta completata l'installazione, avvia OOPAlgorithm nelle app dello smartwatch e ignora l'eventuale messaggio di errore:
 
 ![](images/xdrip-algoritmo-esterno/image_042.png)
 
+Lo smartwatch può ora leggere il sensore in autonomia, senza bisogno del telefono: la schermata dell'app mostra i servizi attivi...
+
 ![](images/xdrip-algoritmo-esterno/image_043.png)
+
+...e, scorrendo, la durata del timer di aggiornamento impostata:
 
 ![](images/xdrip-algoritmo-esterno/image_044.png)
 

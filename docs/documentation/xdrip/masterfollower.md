@@ -10,15 +10,25 @@ Metti questo telefono in **modalità aereo**. In questo modo, se qualcosa va sto
 
 Sul telefono che non è ancora collegato a MiaoMiao, apri xDrip e scansiona il codice QR del primo telefono per copiare le impostazioni.
 
-![](images/masterfollower/image_009.png)
+Sul telefono già configurato (master), apri il menu ☰ → **Impostazioni**:
 
-![](images/masterfollower/image_010.png)
+![](images/masterfollower/image_013.png)
 
-![](images/masterfollower/image_011.png)
+Vai in **Configurazione automatica** e tocca **Condividi impostazioni tramite...**, poi scegli **COPIARE TUTTE LE IMPOSTAZIONI**:
 
 ![](images/masterfollower/image_012.png)
 
-![](images/masterfollower/image_013.png)
+Verrà mostrato un codice QR a schermo intero:
+
+![](images/masterfollower/image_011.png)
+
+Sul secondo telefono, apri xDrip e concedi il permesso di usare la fotocamera quando richiesto:
+
+![](images/masterfollower/image_009.png)
+
+Inquadra il codice QR mostrato sul primo telefono per copiare le impostazioni:
+
+![](images/masterfollower/image_010.png)
 
 Ora hai due telefoni con xDrip identici. Scegli quale sarà il **master** (collegato a MiaoMiao) e quale sarà il **follower** (che riceve le letture).
 
@@ -29,11 +39,19 @@ Sul telefono scelto come master:
 1. Ripristina il collegamento con MiaoMiao.
 2. Riavvia il sensore se necessario.
 
+Apri il menu laterale di xDrip:
+
 ![](images/masterfollower/image_002.png)
+
+Vai in **Impostazioni** e scorri fino a **XDRIP+ IMPOSTAZIONI EXTRA**:
 
 ![](images/masterfollower/image_003.png)
 
+Apri **Impostazioni xDrip+ Sync** e attiva **Imposta come Telefono Principale**:
+
 ![](images/masterfollower/image_004.png)
+
+Annota la **Chiave di sicurezza del Gruppo**: deve essere identica su entrambi i telefoni per la sincronizzazione:
 
 ![](images/masterfollower/image_005.png)
 
@@ -48,10 +66,18 @@ Sul telefono scelto come follower:
 1. Togli la modalità aereo.
 2. Attendi qualche minuto: le letture dal master dovrebbero arrivare a breve.
 
-![](images/masterfollower/image_006.png)
+Apri **Impostazioni** e tocca **Dati Hardware di origine**:
 
 ![](images/masterfollower/image_007.png)
 
+Nell'elenco delle sorgenti, seleziona **xDrip+ Sync Follower**:
+
+![](images/masterfollower/image_006.png)
+
+Apri di nuovo **Impostazioni xDrip+ Sync** e verifica che **Imposta come Telefono Principale** sia **disattivato** su questo telefono:
+
 ![](images/masterfollower/image_008.png)
+
+Dopo qualche minuto, i due telefoni mostreranno la stessa lettura:
 
 ![](images/masterfollower/image_014.png)

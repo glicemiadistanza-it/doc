@@ -23,6 +23,8 @@ Segui le [istruzioni](https://nightscout-github-io.translate.goog/nightscout/set
 
 Vai su [`https://developer.amazon.com/it/`](https://developer.amazon.com/it/) e registrati con i dati del tuo account Amazon. Accetta le condizioni di utilizzo.
 
+Nel modulo **registrati** di Amazon Developer, inserisci email e password del tuo account Amazon:
+
 ![](images/alexa-e-nightscout-in-italiano/image_004.png)
 
 ---
@@ -30,6 +32,8 @@ Vai su [`https://developer.amazon.com/it/`](https://developer.amazon.com/it/) e 
 ## 3. Registra il tuo Alexa sull'account sviluppatore
 
 Accedi ad Alexa con lo stesso account sviluppatore su [`https://alexa.amazon.it`](https://alexa.amazon.it).
+
+Nella pagina **Accedi** di Amazon Alexa, inserisci la password del tuo account e tocca **ACCEDI**:
 
 ![](images/alexa-e-nightscout-in-italiano/image_005.png)
 
@@ -42,11 +46,19 @@ Accedi ad Alexa con lo stesso account sviluppatore su [`https://alexa.amazon.it`
 3. Clicca **Crea una Skill** in fondo alla pagina, poi **Crea un'abilità** nella console.
 4. Assegna il nome **Nightscout** e imposta la lingua su italiano. Clicca **Crea abilità**.
 
+Nella pagina del portale sviluppatori, seleziona la scheda **Alexa Skills Kit**:
+
 ![](images/alexa-e-nightscout-in-italiano/image_006.png)
+
+In fondo alla pagina, tra i **Passaggi successivi**, clicca **CREA UNA SKILL**:
 
 ![](images/alexa-e-nightscout-in-italiano/image_007.png)
 
+Nella console, clicca il pulsante **Crea abilità**:
+
 ![](images/alexa-e-nightscout-in-italiano/image_008.png)
+
+Nel modulo **Crea una nuova abilità**, assegna il nome `Nightscout` e imposta **Lingua di default** su **Italiano (IT)**:
 
 ![](images/alexa-e-nightscout-in-italiano/image_009.png)
 
@@ -55,6 +67,8 @@ Accedi ad Alexa con lo stesso account sviluppatore su [`https://alexa.amazon.it`
 ## 5. Configura il modello di interazione
 
 Nella nuova skill, clicca **Editor JSON**, cancella il contenuto esistente e incolla il seguente JSON:
+
+Nel pannello **Modello di interazione**, clicca la voce **Editor JSON** in basso a sinistra:
 
 ![](images/alexa-e-nightscout-in-italiano/image_010.png)
 
@@ -105,7 +119,11 @@ Clicca **Salva modello**, poi **Costruisci modello** e attendi il completamento.
 3. Seleziona la seconda opzione nel menu a discesa sotto l'URL.
 4. Clicca **Salva**.
 
+Nel menu a sinistra della console, clicca la voce **endpoint**:
+
 ![](images/alexa-e-nightscout-in-italiano/image_011.png)
+
+Seleziona **HTTPS**, inserisci l'URL del tuo Nightscout nel campo **Regione predefinita** e scegli la seconda opzione nel menu a discesa sottostante:
 
 ![](images/alexa-e-nightscout-in-italiano/image_012.png)
 
@@ -117,7 +135,11 @@ Vai alla pagina **Test** e abilita la skill. Ora puoi chiedere ad Alexa:
 
 *"Alexa, chiedi a Nightscout come sta andando"*
 
+Nella console di sviluppo, vai sulla scheda **Test** e attiva l'interruttore **Il test è abilitato per questa abilità**:
+
 ![](images/alexa-e-nightscout-in-italiano/image_013.png)
+
+Nell'app Alexa, dopo aver posto la domanda, compare la card **Full status** con il valore di glicemia, il basale attuale e l'insulina attiva:
 
 ![](images/alexa-e-nightscout-in-italiano/image_014.png)
 

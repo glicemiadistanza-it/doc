@@ -1,6 +1,6 @@
-# xDrip come follower di Dexcom G5 e G6
+# xDrip come follower di Dexcom G6 e G7
 
-Chi usa l'app Dexcom Follow per ricevere le letture a distanza non può impostare un quadrante su un orologio Wear OS né aggiungere un widget alla schermata del telefono. xDrip risolve entrambi i problemi: si affianca all'app Dexcom Follow e aggiunge le funzioni mancanti.
+Chi usa l'app Dexcom Follow per ricevere le letture a distanza non può impostare un quadrante su un orologio Wear OS né aggiungere un widget alla schermata del telefono. xDrip risolve entrambi i problemi: si affianca all'app Dexcom Follow e aggiunge le funzioni mancanti. Ecco un esempio con l'app Dexcom Follow, xDrip e il widget sulla schermata di blocco, tutti allineati sullo stesso valore:
 
 ![](images/xdrip-follower-dexcom/image_001.png)
 
@@ -12,44 +12,59 @@ Segui la [guida base di installazione](./installare-xdrip-android).
 
 ## 2. Configura la sorgente dati
 
-1. Apri xDrip e tieni premuta la **goccia di sangue** nella schermata principale per aprire il menu della sorgente dati.
-2. Seleziona **Dex Share Follower**.
+1. Apri xDrip e tieni premuta la **goccia di sangue** nella schermata principale per aprire il menu della sorgente dati:
+
+![](images/xdrip-follower-dexcom/image_003.png)
+
+2. Seleziona **Altro**:
 
 ![](images/xdrip-follower-dexcom/image_002.png)
 
-![](images/xdrip-follower-dexcom/image_003.png)
+Poi seleziona **Dex Share Follower** e conferma:
 
 ![](images/xdrip-follower-dexcom/image_004.png)
 
 > ⚠️ **Non selezionare** Dexcom G5 o G6: quella opzione è per il collegamento diretto al sensore, non per il follower.
 
-3. Inserisci il nome utente e la password del tuo account **Dexcom Clarity** (visita [clarity.dexcom.eu](https://clarity.dexcom.eu) se non ricordi le credenziali).
-
-> ⚠️ Il nome utente **non è l'indirizzo email**: è il nome scelto in fase di registrazione.
-
-> ⚠️ **Non selezionare** la casella **My account is on USA servers** se sei in Europa.
-
-![](images/xdrip-follower-dexcom/image_005.png)
-
-![](images/xdrip-follower-dexcom/image_006.png)
+3. Inserisci il nome utente del tuo account **Dexcom Clarity** (visita [clarity.dexcom.eu](https://clarity.dexcom.eu) se non ricordi le credenziali):
 
 ![](images/xdrip-follower-dexcom/image_007.png)
 
-4. Se non riesci ad accedere al menu della sorgente direttamente, vai in **Menu → Impostazioni → Dati hardware di origine** e seleziona **Dex Share Follower** da lì.
+> ⚠️ Il nome utente **non è l'indirizzo email**: è il nome scelto in fase di registrazione.
+
+Poi inserisci la password:
+
+![](images/xdrip-follower-dexcom/image_006.png)
+
+Infine indica se il tuo account è su server USA:
+
+![](images/xdrip-follower-dexcom/image_005.png)
+
+> ⚠️ **Non selezionare** la casella **My account is on USA servers** se sei in Europa.
+
+4. Se non riesci ad accedere al menu della sorgente direttamente, vai in **Menu → Impostazioni**:
 
 ![](images/xdrip-follower-dexcom/image_008.png)
 
+Tocca **Dati Hardware di origine** e seleziona **Dex Share Follower** dall'elenco:
+
 ![](images/xdrip-follower-dexcom/image_009.png)
+
+Verifica che la voce risulti impostata correttamente:
 
 ![](images/xdrip-follower-dexcom/image_010.png)
 
+> ℹ️ **Nota**: Nella stessa schermata **Impostazioni** trovi anche **Caricamento nel Cloud**, che serve a un'altra cosa: far *inviare* a xDrip i suoi dati verso vari servizi (Nightscout, MongoDB, Dexcom Share, Tidepool...):
+
 ![](images/xdrip-follower-dexcom/image_011.png)
+
+Se vuoi che le letture ricevute da xDrip vengano ricaricate anche sul server Dexcom Share (ad esempio per condividerle con altri follower), qui trovi le opzioni **Upload in Dexcom Share Server**:
 
 ![](images/xdrip-follower-dexcom/image_012.png)
 
 ## 3. Verifica il funzionamento
 
-Dopo qualche istante le letture di glicemia dovrebbero comparire su xDrip. Se la schermata rimane vuota, tocca a lungo la goccia di sangue e verifica che la sorgente dati sia impostata correttamente.
+Dopo qualche istante le letture di glicemia dovrebbero comparire su xDrip. Se la schermata rimane vuota, tocca a lungo la goccia di sangue e verifica che la sorgente dati sia impostata correttamente:
 
 ![](images/xdrip-follower-dexcom/image_013.png)
 
@@ -59,13 +74,15 @@ xDrip ha un widget che mostra il valore glicemico e il grafico sia sulla scherma
 
 **Esempio su Samsung Galaxy S7:**
 1. Tieni premuto uno spazio vuoto nella schermata principale.
-2. Seleziona **Widget** dal menu che appare.
+2. Seleziona **Widget** dal menu che appare:
 
 ![](images/xdrip-follower-dexcom/image_014.png)
 
-3. Cerca **xDrip** nell'elenco e selezionalo.
+3. Cerca **xDrip** nell'elenco e selezionalo:
 
 ![](images/xdrip-follower-dexcom/image_015.png)
+
+4. Posiziona e ridimensiona il widget sulla schermata:
 
 ![](images/xdrip-follower-dexcom/image_016.png)
 

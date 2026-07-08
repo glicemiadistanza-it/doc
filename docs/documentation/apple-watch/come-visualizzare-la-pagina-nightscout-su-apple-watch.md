@@ -4,6 +4,8 @@ Questa guida spiega come aprire il sito Nightscout direttamente sull'**Apple Wat
 
 > ⚠️ **Attenzione**: Questo metodo non ha allarmi glicemici. Per gli allarmi, usa un'app dedicata come Nightguard o xDrip4iOS.
 
+Il risultato: la pagina Nightscout aperta nel browser dell'Apple Watch, con valore, trend e grafico delle ultime ore:
+
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_001.png)
 
 ---
@@ -14,9 +16,15 @@ Questa guida spiega come aprire il sito Nightscout direttamente sull'**Apple Wat
 2. Sull'Apple Watch, apri l'app **Mail**, trova l'email che ti sei inviato e tocca l'URL.
 3. Il Watch aprirà il browser e mostrerà la pagina Nightscout come su un computer.
 
+Sull'iPhone, nella cartella **Entrata** di Mail, trovi l'email con l'URL di Nightscout appena inviata:
+
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_002.png)
 
+Sull'Apple Watch, apri l'app **Mail** e trova la stessa email nella lista **In entrata**:
+
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_004.png)
+
+Toccando l'URL nell'email, il Watch apre il browser e mostra la pagina Nightscout con valore, trend e grafico:
 
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_003.png)
 
@@ -29,9 +37,15 @@ Per accedere rapidamente a Nightscout senza riaprire ogni volta l'email:
 1. Nell'app **Apple Watch** sull'iPhone, vai in **Generale → Attiva schermo** e imposta **Mostra ultima app con schermo attivo**.
 2. Vai in **Dock → Preferiti** e aggiungi l'app **Mail** ai preferiti.
 
+Nel menu **Generali** dell'app Apple Watch, tocca la voce **Attiva schermo**:
+
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_007.png)
 
+In **Mostra l'ultima app con schermo attivo**, seleziona **Sempre**:
+
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_006.png)
+
+Nel menu **Dock → Preferiti**, aggiungi l'app **Mail** all'elenco delle app preferite:
 
 ![](images/come-visualizzare-la-pagina-nightscout-su-apple-watch/image_005.png)
 

@@ -18,13 +18,11 @@ Premi **Ottieni comando rapido**.
 
 ## 2. Configura la scorciatoia
 
-Nella schermata di configurazione inserisci:
-- **URL Nightscout** — il tuo indirizzo Nightscout (es. [`https://miosito.azurewebsites.net`](https://miosito.azurewebsites.net))
-- **Fuso orario** — imposta `2` per l'ora italiana
-
-Premi **Fine**.
+Nella prima schermata inserisci l'**URL Nightscout**, il tuo indirizzo Nightscout (es. [`https://miosito.azurewebsites.net`](https://miosito.azurewebsites.net)):
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_002.png)
+
+Nella schermata successiva inserisci il **fuso orario**: imposta `2` per l'ora italiana, poi premi **Fine**:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_003.png)
 
@@ -34,18 +32,28 @@ Premi **Fine**.
 
 1. Nella libreria delle scorciatoie (in basso a sinistra), trova la scorciatoia **Nightscout**.
 2. Tocca i **tre punti** in alto a destra sulla scorciatoia per aprirne il menu interno.
-3. Tocca la freccia per entrare nel menu interno.
+3. Tocca l'icona degli **interruttori** in alto a destra per entrare nelle impostazioni.
 4. Premi **Aggiungi a Siri**.
 5. Registra la tua voce con una parola o frase di tua scelta (non deve per forza essere "Nightscout").
 6. Premi **Fine** per tornare al menu precedente, poi di nuovo **Fine** per tornare alla libreria.
 
+Nella libreria, tocca i **tre punti** sulla card **Nightscout**:
+
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_004.png)
+
+Si apre l'editor della scorciatoia: tocca l'icona degli **interruttori** in alto a destra:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_005.png)
 
+Nel pannello **Impostazioni**, tocca **Aggiungi a Siri**:
+
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_006.png)
 
+Tieni premuto il pulsante rosso e registra la frase con cui vuoi richiamare la scorciatoia (nell'esempio "Nightscout 1"):
+
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_007.png)
+
+La frase risulta registrata: premi **Fine** per confermare e tornare alla libreria:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_008.png)
 
@@ -58,14 +66,24 @@ Puoi richiamare la glicemia in tre modi:
 - **Parlando a Siri** sull'iPhone con la frase che hai registrato.
 - **Parlando a Siri sull'Apple Watch** con la stessa frase.
 
+Toccando la card **Nightscout 1** nella libreria, compare subito il valore in un avviso a comparsa:
+
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_009.png)
+
+Dicendo "Ehi Siri, Nightscout" sull'iPhone, Siri avvia l'esecuzione del comando rapido:
+
+![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_011.png)
+
+Dopo pochi istanti, Siri mostra il risultato con il valore di glicemia, il trend e i minuti trascorsi dall'ultima lettura:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_010.png)
 
-![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_011.png)
+Allo stesso modo, dicendo la stessa frase all'Apple Watch, Siri esegue il comando rapido e mostra il valore direttamente sul quadrante:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_012.png)
 
 > ℹ️ **Nota**: Puoi anche aggiungere la scorciatoia al **menu Widget** dell'iPhone (premi **Modifica** in basso nel menu di sinistra) così che appaia subito senza aprire l'app.
+
+Nel menu Widget della schermata Oggi, il riquadro **Comandi Rapidi** mostra il pulsante **Nightscout** pronto all'uso insieme agli altri comandi rapidi disponibili:
 
 ![](images/collegare-siri-a-nightscout-iphone-e-apple-watch/image_013.png)

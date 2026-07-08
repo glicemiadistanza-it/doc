@@ -1,5 +1,7 @@
 # Medtronic 640/670 G — Glicemie a distanza o su orologio
 
+Il risultato finale: la glicemia del microinfusore visibile sul telefono con l'uploader Nightscout, su un secondo telefono con xDrip e su uno smartwatch:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_001.png)
 
 Questa guida aiuta nella configurazione del dispositivo Medtronic 640/670G collegato con il sensore Enlite. Non è una guida completa e non sostituisce la documentazione originale disponibile qui: [`https://github.com/pazaan/640gAndroidUploader/wiki/Getting-Started:-Installation`](https://github.com/pazaan/640gAndroidUploader/wiki/Getting-Started:-Installation)
@@ -21,41 +23,67 @@ In caso di incongruenze tra questa guida e quella originale, fa fede quella orig
 
 L'uploader è un'app per smartphone Android che, collegando il glucometro Bayer ContourNext Link 2.4 USB allo smartphone tramite cavo OTG, legge i dati memorizzati nel microinfusore 640/670G.
 
+Il glucometro Contour Next Link collegato al telefono tramite cavo OTG, con l'app che mostra la glicemia:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_002.png)
 
 1. Apri il browser dello smartphone e vai a: [`https://github.com/pazaan/640gAndroidUploader/releases`](https://github.com/pazaan/640gAndroidUploader/releases)
    (La versione usata in questa guida è la `0.7.3`.)
 2. Seleziona **assets** e poi il file `.apk` più recente: partirà il download.
 
+La pagina GitHub del progetto, con l'ultima versione disponibile in evidenza:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_003.png)
+
+Scorri fino alla sezione **Assets** e tocca il file `600-series-ns-uploader.apk`:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_004.png)
 
 3. A download completato, abbassa l'area di notifica e seleziona il file scaricato.
 
+Nell'area di notifica compare la conferma **Download completato**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_005.png)
+
+In alternativa, puoi aprire il file dalla barra dei download del browser toccando **Apri**:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_006.png)
 
 4. Se l'installazione viene bloccata (impostazioni predefinite), vai in **Impostazioni**, abilita **Sorgenti sconosciute** e seleziona **OK** nella schermata successiva.
 
+Se compare l'avviso **Installazione bloccata**, tocca **IMPOSTAZIONI**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_007.png)
 
+Nella schermata **Sicurezza**, abilita **Sorgenti sconosciute**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_008.png)
+
+Conferma con **OK** (puoi spuntare **Consenti solo questa installazione**):
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_009.png)
 
 5. Conferma e prosegui con l'installazione.
 
+Alla domanda "Vuoi installare questa applicazione?", tocca **INSTALLA**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_010.png)
 
+L'installazione procede...
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_011.png)
+
+...e al termine compare la conferma **App installata**: tocca **APRI**:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_012.png)
 
 > ⚠️ **Attenzione**: All'apertura dell'app verrà chiesto di escluderla dall'ottimizzazione della batteria: rispondi **Sì**. In caso contrario l'app si bloccherà o non funzionerà correttamente.
 
+Alla richiesta **Ignore battery optimizations?**, rispondi **Sì**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_013.png)
+
+Su alcuni telefoni la richiesta compare in italiano: tocca **CONSENTI**:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_014.png)
 
@@ -63,39 +91,59 @@ Leggi l'esonero di responsabilità e, se sei d'accordo, seleziona **Accetta**. L
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_015.png)
 
-![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_016.png)
-
 In questa versione non è richiesto l'accesso a CareLink. Inseriti i dati, collega il ContourNext Link 2.4 al tuo dispositivo Android tramite cavo OTG e accetta la lettura USB seguendo le istruzioni a schermo. Dovresti vedere la glicemia e il grafico nella schermata principale.
 
+Finché il glucometro non è collegato, la schermata principale resta vuota e il registro segnala l'errore di connessione USB:
+
+![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_016.png)
+
+Con il ContourNext Link collegato tramite cavo OTG, l'app mostra la glicemia, l'insulina attiva e il grafico:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_017.png)
-
-![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_018.png)
-
-![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_019.png)
 
 Per abilitare la condivisione delle glicemie:
 
 1. Apri il menu in alto a sinistra e seleziona **Impostazioni**.
 
+Tocca l'icona del menu (tre linee) in alto a sinistra:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_020.png)
+
+Nel menu laterale, seleziona **Impostazioni**:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_021.png)
 
+La schermata **Impostazioni** raggruppa le opzioni di condivisione: **Invia a Nightscout** (con sito e codice segreto API) e **Invia a xDrip+**:
+
+![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_018.png)
+
 2. Abilita **Trasmissione dati a xDrip**.
 
+Spunta la casella **Invia a xDrip+**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_022.png)
+
+L'opzione risulta attivata:
+
+![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_019.png)
 
 3. Chiudi l'app.
 
 Dopo qualche istante dovresti vedere le glicemie arrivare su xDrip.
 
+Il telefono con l'uploader collegato al glucometro mostra la glicemia in tempo reale...
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_023.png)
+
+...e lo stesso valore compare anche in xDrip:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_024.png)
 
 ## 3. Come condividere le glicemie con un altro telefono Android
 
 Segui questa [guida Master/Follower](../xdrip/masterfollower).
+
+Il risultato: la stessa glicemia sul telefono con l'uploader, sul telefono follower con xDrip e sullo smartwatch:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_025.png)
 
@@ -123,14 +171,19 @@ Al termine della procedura, vai alla videata principale di Heroku: [`https://das
    | `PUMP_FIELDS` | `reservoir battery clock status device` |
    | `PUMP_ENABLE_ALERTS` | `true` |
 
+Le quattro variabili inserite tra le **Config Vars** di Heroku:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_028.png)
 
-5. Scorri fino alla sezione **Condivisione** e abilita **Invia a Nightscout**.
+5. Nell'app 600 Series Uploader, apri di nuovo il menu e seleziona **Impostazioni**:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_029.png)
 
-6. Nel campo **Nightscout URL** inserisci l'indirizzo della tua pagina Nightscout, ad esempio: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
-7. Nel campo **API secret** inserisci il codice API creato su Heroku, ad esempio: `ThisisMyCode`
+6. Nella sezione **Condivisione**, abilita **Invia a Nightscout**.
+7. Nel campo **Sito Nightscout** inserisci l'indirizzo della tua pagina Nightscout, ad esempio: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
+8. Nel campo **Codice segreto API** inserisci il codice API creato su Heroku, ad esempio: `ThisisMyCode`
+
+La sezione **Condivisione** compilata, con **Invia a Nightscout** attivo, il sito e il codice segreto API:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_030.png)
 
@@ -140,9 +193,13 @@ In questa versione non è richiesto l'accesso a CareLink. Collegato il ContourNe
 
 Il tempo della lettura si riferisce alla lettura del sensore da parte del microinfusore (anch'essa ogni 5 minuti). Oltre alla glicemia vengono riportati: lo stato del microinfusore (es. sospensione basale), boli e carboidrati somministrati con l'insulina residua (bolo semplice o prolungato), data di cambio sensore, set e insulina, profilo basale.
 
-Per visualizzare i dati, accedi alla tua pagina Nightscout: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
+Il telefono con l'uploader carica i dati su Nightscout a ogni lettura:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_031.png)
+
+Per visualizzare i dati, accedi alla tua pagina Nightscout: [`https://nomesito.herokuapp.com`](https://nomesito.herokuapp.com)
+
+La pagina Nightscout mostra la glicemia con trend, insulina attiva, carboidrati, basale e lo stato del microinfusore, oltre ai boli sul grafico:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_032.png)
 
@@ -159,10 +216,18 @@ Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwat
 
 ### Allarmi e widget
 
-xDrip include un widget che mostra il valore glicemico e il grafico sulla home del telefono e sulla schermata di blocco. Gli allarmi sono personalizzabili per fascia oraria e giorno della settimana. Puoi impostarli dal menu **Impostazioni → Allarmi e avvisi**.
+xDrip include un widget che mostra il valore glicemico e il grafico sulla home del telefono e sulla schermata di blocco.
 
-![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_033.png)
+Il widget di xDrip sulla schermata principale del telefono, con valore, trend e grafico:
 
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_034.png)
 
+Gli allarmi sono personalizzabili per fascia oraria e giorno della settimana. Puoi impostarli dal menu **Impostazioni → Allarmi e avvisi**.
+
+Nel menu **Impostazioni** di xDrip trovi la voce **Allarmi e Avvisi**:
+
 ![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_035.png)
+
+La sezione **Allarmi e Avvisi** raggruppa la lista degli allarmi glicemici, gli avvisi di calibrazione e gli allarmi extra:
+
+![](images/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio/image_033.png)

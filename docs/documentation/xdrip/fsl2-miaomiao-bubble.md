@@ -21,10 +21,11 @@ Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 
 1. Vai alla pagina delle release di xDrip:
    [`https://github.com/NightscoutFoundation/xDrip/releases`](https://github.com/NightscoutFoundation/xDrip/releases)
-2. Scarica l'ultima versione **Pre-release** espandendo la sezione **Assets**.
-3. Se non riesci a scaricare toccando il link, tieni premuto e scegli **Apri in una nuova scheda** oppure **Scarica link**.
+2. Scarica l'ultima versione **Pre-release** espandendo la sezione **Assets**:
 
 ![](images/fsl2-miaomiao-bubble/image_002.png)
+
+3. Se non riesci a scaricare toccando il link, tieni premuto e scegli **Apri in una nuova scheda** oppure **Scarica link**:
 
 ![](images/fsl2-miaomiao-bubble/image_003.png)
 
@@ -36,13 +37,19 @@ L'aggiornamento non cambia nessuna impostazione, non ferma il sensore in corso e
 
 ## 2. Verifica il firmware del dispositivo ponte
 
-Dal **Menu di xDrip → Stato del sistema** scorri fino alla pagina **BT device** per controllare la versione firmware attuale.
+Dal **Menu di xDrip** → **Stato del sistema**:
 
 ![](images/fsl2-miaomiao-bubble/image_004.png)
 
+Apri la pagina **Stato del sistema** e scorri fino alla scheda **BT Device** per controllare la versione firmware attuale:
+
 ![](images/fsl2-miaomiao-bubble/image_005.png)
 
+Ecco un esempio con un MiaoMiao (**Tomato Firmware: `0037`**):
+
 ![](images/fsl2-miaomiao-bubble/image_006.png)
+
+E un esempio con un Bubble (**Bubble Firmware: `3.2`**):
 
 ![](images/fsl2-miaomiao-bubble/image_007.png)
 
@@ -69,7 +76,7 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 > ℹ️ **Nota**: Se hai un MiaoMiao 3 (che è abbastanza recente), il firmware dovrebbe essere già compatibile. Verifica comunque al passo 2 prima di procedere.
 
-1. Dal **Menu di xDrip → Stato del sistema**, scegli **Dimentica questo dispositivo** (lascia MiaoMiao attaccato al sensore).
+1. Dalla stessa pagina **Stato del sistema → BT Device**, scegli **DIMENTICA QUESTO DISPOSITIVO** (lascia MiaoMiao attaccato al sensore):
 
 ![](images/fsl2-miaomiao-bubble/image_008.png)
 
@@ -78,7 +85,7 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 ![](images/fsl2-miaomiao-bubble/image_009.png)
 
-3. Avvia usapp e tocca **SEARCH MIAOMIAO**. Concedi l'accesso alla posizione (richiesto per il Bluetooth su Android).
+3. Avvia usapp e tocca **SEARCH MIAOMIAO**. Concedi l'accesso alla posizione (richiesto per il Bluetooth su Android). Tieni il dispositivo carico o in carica durante l'aggiornamento:
 
 ![](images/fsl2-miaomiao-bubble/image_010.png)
 
@@ -87,13 +94,11 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 ![](images/fsl2-miaomiao-bubble/image_011.png)
 
-5. Scegli il firmware corretto:
-   - `V39` per MiaoMiao
-   - `V07` per MiaoMiao 2
+5. Scegli il firmware corretto per il tuo modello (`V39` per MiaoMiao, `V07` per MiaoMiao 2):
 
 ![](images/fsl2-miaomiao-bubble/image_012.png)
 
-6. Conferma con **确定** (OK) e aspetta che il processo raggiunga il 100% senza interferire.
+6. Conferma con **确定** (OK) e aspetta che il processo raggiunga il 100% senza interferire:
 
 ![](images/fsl2-miaomiao-bubble/image_013.png)
 
@@ -103,11 +108,12 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 
 Se usapp non funziona, prova questo metodo alternativo:
 1. Installa temporaneamente l'app **Tomato** (richiede autenticazione Facebook o Google — usa Facebook e ricordati di revocare l'accesso dopo).
-2. Resetta MiaoMiao: Tomato eseguirà l'aggiornamento firmware in automatico.
-3. Disinstalla Tomato, resetta MiaoMiao e torna in xDrip.
-4. Esegui **Scansione Bluetooth** per riconnettere.
+2. Resetta MiaoMiao inserendo una graffetta nel foro di reset, come indicato nello schema del produttore:
 
 ![](images/fsl2-miaomiao-bubble/image_014.png)
+
+3. Tomato eseguirà l'aggiornamento firmware in automatico. Disinstalla Tomato, resetta di nuovo MiaoMiao e torna in xDrip.
+4. Esegui **Scansione Bluetooth** per riconnettere.
 
 Poi procedi al **passo 5**.
 
@@ -117,17 +123,20 @@ Poi procedi al **passo 5**.
 
 > ℹ️ **Nota**: Lo strumento di aggiornamento disponibile su GitHub non funziona più. Per aggiornare il Bubble è necessario usare temporaneamente Diabox.
 
-1. Dal **Menu di xDrip → Stato del sistema**, scegli **Dimentica questo dispositivo**.
+1. Dal **Menu di xDrip → Stato del sistema → BT Device**, scegli **DIMENTICA QUESTO DISPOSITIVO**:
 
 ![](images/fsl2-miaomiao-bubble/image_008.png)
 
 2. Installa Diabox e segui la [guida specifica per il Bubble](https://www.glicemiadistanza.it/diabox-la-glicemia-con-e-senza-bubble/).
-   - Durante la configurazione di Diabox, seleziona **Bubble** o **Bubble Mini** come dispositivo.
-   - **Non selezionare FSL 2** come tipo sensore, altrimenti Diabox tenterà di leggere il sensore invece di aggiornare il Bubble.
+   - Durante la configurazione di Diabox, seleziona **Bubble** o **Bubble Mini** come dispositivo — Diabox mostrerà lo stato della batteria e la connessione:
 
 ![](images/fsl2-miaomiao-bubble/image_015.png)
 
+   - **Non selezionare FSL 2** come tipo sensore, altrimenti Diabox tenterà di leggere il sensore invece di aggiornare il Bubble. Lascia che Diabox scansioni e trovi il tuo Bubble:
+
 ![](images/fsl2-miaomiao-bubble/image_016.png)
+
+   - Se è disponibile un aggiornamento, Diabox mostrerà l'opzione **Check New Firmware Version**:
 
 ![](images/fsl2-miaomiao-bubble/image_017.png)
 

@@ -10,6 +10,30 @@ const articoli = [
     text: 'La scelta del microinfusore',
     link: '/articles/la-scelta-del-microinfusore',
   },
+  {
+    text: 'Nightscout — introduzione generale',
+    link: '/articles/nightscout',
+  },
+  {
+    text: 'Perdita segnale e "Trasmettitore non trovato"',
+    link: '/articles/perdita-segnale-trasmettitore-non-trovato',
+  },
+  {
+    text: 'Dexcom G6: riavvio del sensore',
+    link: '/articles/dexcom-g6-riavvio',
+  },
+  {
+    text: 'Dexcom G6: ancoraggio del sensore',
+    link: '/articles/dexcom-g6-ancoraggio',
+  },
+  {
+    text: 'Somministrazione Glucagen Hypokit',
+    link: '/articles/somministrazione-glucagen-hypokit',
+  },
+  {
+    text: 'Tandem t:slim X2: caricare la cartuccia',
+    link: '/articles/tandem-tslim-x2-caricare-la-cartuccia',
+  },
 ]
 
 const xdrip = [
@@ -17,9 +41,8 @@ const xdrip = [
   { text: 'CareLink follower con xDrip', link: '/documentation/xdrip/carelink-con-xdrip' },
   { text: 'Condividere i dati di xDrip con Tidepool', link: '/documentation/xdrip/condividere-i-dati-di-xdrip-con-tidepool' },
   { text: 'App Dexcom modificata – Installazione e funzionalità', link: '/documentation/xdrip/dexcom-g5-g6-app-modificata' },
-  { text: 'App Dexcom, Minimed o CamAPS come compagna di xDrip', link: '/documentation/xdrip/dexcom-g6-compagna-di-xdrip' },
   { text: 'Glicemia al polso con app Dexcom master, xDrip, Glimp', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
-  { text: 'Dexcom G5 / G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
+  { text: 'Dexcom G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
   { text: 'Disabilitare il risparmio energetico per xDrip', link: '/documentation/xdrip/disabilitare-risparmio-energetico-xdrip' },
   { text: 'Passare da FSL 1 a FSL 2 con Miaomiao o Bubble', link: '/documentation/xdrip/fsl2-miaomiao-bubble' },
   { text: 'Installare xDrip per Android', link: '/documentation/xdrip/installare-xdrip-android' },
@@ -28,7 +51,7 @@ const xdrip = [
   { text: 'Utilizzo di un algoritmo esterno con xDrip', link: '/documentation/xdrip/xdrip-algoritmo-esterno' },
   { text: 'xDrip come compagno dell\'app MASTER', link: '/documentation/xdrip/xdrip-compagno' },
   { text: 'Smartband Xiaomi e smartwatch Amazfit con xDrip', link: '/documentation/xdrip/xdrip-e-watchdrip' },
-  { text: 'xDrip come follower di Dexcom G5 e G6', link: '/documentation/xdrip/xdrip-follower-dexcom' },
+  { text: 'xDrip come follower di Dexcom G6 e G7', link: '/documentation/xdrip/xdrip-follower-dexcom' },
   { text: 'xDrip follower FSL 2 e 3', link: '/documentation/xdrip/xdrip-follower-fsl' },
   { text: 'Usare le predizioni con xDrip', link: '/documentation/xdrip/xdrip-predizioni' },
 ]
@@ -58,6 +81,7 @@ const amazfit = [
 
 const fitbit = [
   { text: 'Fitbit: Le glicemie di Dexcom, xDrip o Nightscout', link: '/documentation/fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic' },
+  { text: 'Fitbit: sblocco quadranti personalizzati', link: '/documentation/fitbit/fitbit-sbloccare-quadranti-personalizzati' },
 ]
 
 const garmin = [
@@ -78,9 +102,13 @@ const gluroo = [
   { text: 'Gluroo come sostituto di Nightscout', link: '/documentation/gluroo/gluroo' },
 ]
 
+const glucodatahandler = [
+  { text: 'Glicemia al polso con GlucoDataHandler', link: '/documentation/glucodatahandler/glucodatahandler' },
+]
+
 const sugarmate = [
   { text: 'Sugarmate follower di Dexcom, Nightscout e Gluroo', link: '/documentation/sugarmate/sugarmate-follower-di-dexcom-nightscout-gluroo' },
-  { text: 'Sugarmate: glicemia Dexcom G5 su Apple Watch', link: '/documentation/sugarmate/sugarmate-glicemie-di-dexcom-g5-su-apple-watch' },
+  { text: 'Sugarmate: glicemia Dexcom su Apple Watch', link: '/documentation/sugarmate/sugarmate-glicemie-di-dexcom-g5-su-apple-watch' },
 ]
 
 const sentinel = [
@@ -139,6 +167,7 @@ export default defineConfig({
       { text: 'Xiaomi / Mi Band', items: xiaomi },
       { text: 'Juggluco', items: juggluco },
       { text: 'Gluroo', items: gluroo },
+      { text: 'GlucoDataHandler', items: glucodatahandler },
       { text: 'Sugarmate', items: sugarmate },
       { text: 'Sentinel', items: sentinel },
       { text: 'Medtronic', items: medtronic },

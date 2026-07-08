@@ -1,53 +1,17 @@
 # Sentinel One — Guida utenti
 
+> ⚠️ **Attenzione**: Sentinel ormai è a pagamento.
+
 **Versione:** 1.0  
 **Traduzione e adattamento:** glicemiadistanza.it (by Ryan Chen)
 
+Sentinel One è un quadrante per Fitbit pensato per il monitoraggio di una singola persona, con glicemia, freccia di tendenza e grafico ben in vista:
+
 ![](images/sentineloneuserguide1/image_001.png)
-
-![](images/sentineloneuserguide1/image_002.png)
-
-![](images/sentineloneuserguide1/image_003.png)
-
-![](images/sentineloneuserguide1/image_004.png)
-
-![](images/sentineloneuserguide1/image_005.png)
-
-![](images/sentineloneuserguide1/image_006.png)
-
-![](images/sentineloneuserguide1/image_007.png)
-
-![](images/sentineloneuserguide1/image_008.png)
-
-![](images/sentineloneuserguide1/image_009.png)
-
-![](images/sentineloneuserguide1/image_010.png)
-
-![](images/sentineloneuserguide1/image_011.png)
-
-![](images/sentineloneuserguide1/image_012.png)
-
-![](images/sentineloneuserguide1/image_013.png)
 
 ## 1. Compatibilità
 
 **Smartwatch supportati:** Fitbit Ionic, Sense, Versa/Versa 2, Versa Lite
-
-![](images/sentineloneuserguide1/image_014.png)
-
-![](images/sentineloneuserguide1/image_015.png)
-
-![](images/sentineloneuserguide1/image_016.png)
-
-![](images/sentineloneuserguide1/image_017.png)
-
-![](images/sentineloneuserguide1/image_018.png)
-
-![](images/sentineloneuserguide1/image_019.png)
-
-![](images/sentineloneuserguide1/image_020.png)
-
-![](images/sentineloneuserguide1/image_021.png)
 
 ## 2. Perché Sentinel One?
 
@@ -56,33 +20,13 @@ Sentinel One è stato creato pensando ai bambini con diabete. Offre:
 - Supporto per Nightscout Careportal
 - Icone semplici e intuitive
 
-![](images/sentineloneuserguide1/image_022.png)
-
-![](images/sentineloneuserguide1/image_023.png)
-
-![](images/sentineloneuserguide1/image_024.png)
-
-![](images/sentineloneuserguide1/image_025.png)
-
-![](images/sentineloneuserguide1/image_026.png)
-
-![](images/sentineloneuserguide1/image_027.png)
-
-![](images/sentineloneuserguide1/image_028.png)
-
-![](images/sentineloneuserguide1/image_029.png)
+L'icona goccia di sangue richiama subito il controllo della glicemia, anche per i bambini più piccoli:
 
 ![](images/sentineloneuserguide1/image_030.png)
 
-![](images/sentineloneuserguide1/image_031.png)
+L'obiettivo è che anche a scuola, in classe, il quadrante sia facile da leggere e da usare in autonomia:
 
 ![](images/sentineloneuserguide1/image_032.png)
-
-![](images/sentineloneuserguide1/image_033.png)
-
-![](images/sentineloneuserguide1/image_034.png)
-
-![](images/sentineloneuserguide1/image_035.png)
 
 ## 3. Installazione
 
@@ -97,193 +41,49 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 - **Sentinel Basic X**: [`https://gallery.fitbit.com/details/690a4c2a-7f9d-4aa7-9b9a-9b92dd4dbf6a`](https://gallery.fitbit.com/details/690a4c2a-7f9d-4aa7-9b9a-9b92dd4dbf6a)
 - **Sentinel One X**: [`https://gallery.fitbit.com/details/0ce56270-984f-4c55-b495-649b3071ec36`](https://gallery.fitbit.com/details/0ce56270-984f-4c55-b495-649b3071ec36)
 
+1. Apri il link dal telefono: si apre la pagina della galleria Fitbit con il quadrante e il tasto **OPEN APP**.
+
 ![](images/sentineloneuserguide1/image_036.png)
+
+2. Tocca la miniatura del quadrante per vederne i dettagli, poi premi **Select** per installarlo sull'orologio.
 
 ![](images/sentineloneuserguide1/image_037.png)
 
+3. Una volta installato, il tasto mostra **Selected**: da qui puoi accedere anche a **Settings** e **Permissions**.
+
 ![](images/sentineloneuserguide1/image_038.png)
+
+4. Tocca **Settings** per aprire la schermata di configurazione, dove inserirai la tua sorgente dati (Nightscout, Dexcom Share o xDrip+):
 
 ![](images/sentineloneuserguide1/image_039.png)
 
-![](images/sentineloneuserguide1/image_040.png)
-
-![](images/sentineloneuserguide1/image_041.png)
-
-![](images/sentineloneuserguide1/image_042.png)
-
-![](images/sentineloneuserguide1/image_043.png)
-
-![](images/sentineloneuserguide1/image_044.png)
-
-![](images/sentineloneuserguide1/image_045.png)
-
-![](images/sentineloneuserguide1/image_046.png)
-
-![](images/sentineloneuserguide1/image_047.png)
-
-![](images/sentineloneuserguide1/image_048.png)
-
-![](images/sentineloneuserguide1/image_049.png)
-
-![](images/sentineloneuserguide1/image_050.png)
-
 ## 4. Impostazioni — Sorgenti dati
 
-### Nightscout
+Sentinel One supporta 4 combinazioni di sorgenti dati: **Nightscout**, **Dexcom Share**, **Nightscout + Dexcom Share** e **xDrip+ / Diabox** (in locale o con upload su Nightscout). In ognuna di queste modalità, dalla schermata **Settings** attivi (**Activate**) l'account e i soli toggle della sorgente che vuoi usare, poi inserisci nome, credenziali o indirizzo richiesti.
 
-![](images/sentineloneuserguide1/image_051.png)
+Per usare Nightscout, se vuoi anche inviare trattamenti dal quadrante, crea un soggetto con ruolo `admin` in **Admin Tools** sulla tua pagina Nightscout e copia il relativo **Access Token**:
 
 ![](images/sentineloneuserguide1/image_052.png)
 
-![](images/sentineloneuserguide1/image_053.png)
-
-![](images/sentineloneuserguide1/image_054.png)
-
-![](images/sentineloneuserguide1/image_055.png)
-
-![](images/sentineloneuserguide1/image_056.png)
-
-1. Inserisci il nome da visualizzare sul quadrante.
-
-![](images/sentineloneuserguide1/image_057.png)
-
-![](images/sentineloneuserguide1/image_058.png)
-
-![](images/sentineloneuserguide1/image_059.png)
-
-2. Inserisci l'indirizzo Nightscout (es. [`https://tuonome.herokuapp.com`](https://tuonome.herokuapp.com)).
-
-![](images/sentineloneuserguide1/image_060.png)
-
-![](images/sentineloneuserguide1/image_061.png)
-
-3. (Opzionale) Se hai un token Careportal, inseriscilo nel campo apposito.
-
-![](images/sentineloneuserguide1/image_062.png)
-
-![](images/sentineloneuserguide1/image_063.png)
-
-![](images/sentineloneuserguide1/image_064.png)
-
-![](images/sentineloneuserguide1/image_065.png)
-
-![](images/sentineloneuserguide1/image_066.png)
-
-![](images/sentineloneuserguide1/image_067.png)
-
-### Dexcom Share
-
-> ⚠️ Per usare il quadrante con Dexcom Share, devi avere almeno un follower attivo.
-
-![](images/sentineloneuserguide1/image_068.png)
-
-![](images/sentineloneuserguide1/image_069.png)
-
-![](images/sentineloneuserguide1/image_070.png)
+Per Dexcom Share, verifica che la condivisione (**Condivisione**) sia attiva sull'app Dexcom e che ci sia almeno un follower connesso:
 
 ![](images/sentineloneuserguide1/image_071.png)
 
-![](images/sentineloneuserguide1/image_072.png)
+Ecco la schermata di configurazione con **Use Local xDrip+** attivato, la modalità da scegliere se leggi i dati direttamente da xDrip+ senza passare da Nightscout:
 
-1. Inserisci il nome da visualizzare sul quadrante.
+![](images/sentineloneuserguide1/image_094.png)
 
-![](images/sentineloneuserguide1/image_073.png)
+E qui la stessa schermata con **Use NS Data** e **Use NS Raw BG** attivati, per leggere da Nightscout includendo i dati grezzi del sensore:
 
-2. Inserisci login e password Dexcom Share (verifica le credenziali con l'app Clarity).
-
-![](images/sentineloneuserguide1/image_074.png)
-
-3. Verifica di avere abilitato il server Dexcom Share per l'uso fuori dagli USA (controlla nelle impostazioni dell'app).
-
-![](images/sentineloneuserguide1/image_075.png)
-
-![](images/sentineloneuserguide1/image_076.png)
-
-![](images/sentineloneuserguide1/image_077.png)
-
-![](images/sentineloneuserguide1/image_078.png)
-
-![](images/sentineloneuserguide1/image_079.png)
-
-![](images/sentineloneuserguide1/image_080.png)
-
-### Nightscout + Dexcom Share (NS + Dex)
-
-![](images/sentineloneuserguide1/image_081.png)
-
-![](images/sentineloneuserguide1/image_082.png)
-
-1. Inserisci il nome da visualizzare sul quadrante.
-
-![](images/sentineloneuserguide1/image_083.png)
-
-2. Inserisci login e password Dexcom Share (verifica con Clarity).
-
-![](images/sentineloneuserguide1/image_084.png)
-
-3. Inserisci l'indirizzo Nightscout.
-
-![](images/sentineloneuserguide1/image_085.png)
-
-4. (Opzionale) Inserisci il token Nightscout.
-
-![](images/sentineloneuserguide1/image_086.png)
-
-![](images/sentineloneuserguide1/image_087.png)
-
-![](images/sentineloneuserguide1/image_088.png)
-
-![](images/sentineloneuserguide1/image_089.png)
-
-![](images/sentineloneuserguide1/image_090.png)
-
-![](images/sentineloneuserguide1/image_091.png)
-
-![](images/sentineloneuserguide1/image_092.png)
+![](images/sentineloneuserguide1/image_102.png)
 
 ### xDrip / Diabox
 
 **Sorgente dati:** `Local Web Server`
 
-![](images/sentineloneuserguide1/image_093.png)
-
-![](images/sentineloneuserguide1/image_094.png)
-
-1. Inserisci il nome da visualizzare sul quadrante.
-
-![](images/sentineloneuserguide1/image_095.png)
-
-![](images/sentineloneuserguide1/image_096.png)
-
-![](images/sentineloneuserguide1/image_097.png)
-
-![](images/sentineloneuserguide1/image_098.png)
-
-![](images/sentineloneuserguide1/image_099.png)
-
-![](images/sentineloneuserguide1/image_100.png)
-
 ### xDrip con Nightscout (xDrip & NS)
 
 **Sorgente dati:** `Uploader to NS`
-
-![](images/sentineloneuserguide1/image_101.png)
-
-![](images/sentineloneuserguide1/image_102.png)
-
-1. (Opzionale, solo per Libre e Dexcom G5) Configura il campo aggiuntivo.
-
-![](images/sentineloneuserguide1/image_103.png)
-
-2. Inserisci il nome da visualizzare sul quadrante.
-
-![](images/sentineloneuserguide1/image_104.png)
-
-![](images/sentineloneuserguide1/image_105.png)
-
-![](images/sentineloneuserguide1/image_106.png)
-
-![](images/sentineloneuserguide1/image_107.png)
 
 ## 5. Allarmi
 
@@ -298,29 +98,15 @@ Le opzioni disponibili sono:
 
 ![](images/sentineloneuserguide1/image_108.png)
 
-![](images/sentineloneuserguide1/image_109.png)
-
-![](images/sentineloneuserguide1/image_110.png)
-
-![](images/sentineloneuserguide1/image_111.png)
-
-![](images/sentineloneuserguide1/image_112.png)
-
-![](images/sentineloneuserguide1/image_113.png)
-
 ### Soglie di allarme e silenziamento
 
-*[tabella non recuperabile dalla conversione PDF — consultare la documentazione originale di Sentinel]*
-
-![](images/sentineloneuserguide1/image_114.png)
+Nelle impostazioni imposti le soglie di allarme per glicemia alta, bassa e per il Delta:
 
 ![](images/sentineloneuserguide1/image_115.png)
 
+E gli intervalli di ripetizione (snooze) per ciascun tipo di allarme, così da non essere avvisato troppo spesso per lo stesso evento:
+
 ![](images/sentineloneuserguide1/image_116.png)
-
-![](images/sentineloneuserguide1/image_117.png)
-
-![](images/sentineloneuserguide1/image_118.png)
 
 ## 6. Impostazioni Careportal
 
@@ -332,287 +118,70 @@ Le impostazioni disponibili sono:
 - Abilita/Disabilita le note in NS Careportal
 - Abilita/Disabilita il battito cardiaco in NS Careportal
 
-![](images/sentineloneuserguide1/image_119.png)
-
-![](images/sentineloneuserguide1/image_120.png)
-
-![](images/sentineloneuserguide1/image_121.png)
-
-![](images/sentineloneuserguide1/image_122.png)
-
-![](images/sentineloneuserguide1/image_123.png)
-
-![](images/sentineloneuserguide1/image_124.png)
-
-![](images/sentineloneuserguide1/image_125.png)
-
-![](images/sentineloneuserguide1/image_126.png)
-
-![](images/sentineloneuserguide1/image_127.png)
-
-## 7. Navigazione
-
-![](images/sentineloneuserguide1/image_128.png)
-
-![](images/sentineloneuserguide1/image_129.png)
+Dal quadrante puoi scegliere di inviare un **Messaggio** oppure un trattamento tramite **Careportal**:
 
 ![](images/sentineloneuserguide1/image_130.png)
 
+Se scegli **Message**, puoi mandare a Nightscout una semplice conferma di lettura (**Confirm**) o il tuo stato (**Status**):
+
 ![](images/sentineloneuserguide1/image_131.png)
 
-### Versa / Versa Lite — Mandare note a Nightscout
-
-*[testo non recuperabile dalla conversione PDF — consultare la documentazione originale di Sentinel]*
-
-![](images/sentineloneuserguide1/image_132.png)
-
-![](images/sentineloneuserguide1/image_133.png)
-
-![](images/sentineloneuserguide1/image_134.png)
-
-![](images/sentineloneuserguide1/image_135.png)
-
-![](images/sentineloneuserguide1/image_136.png)
+Scegliendo **Status**, indichi cosa stai facendo in quel momento: mangiare, essere in classe, fare attività fisica o sentirti in ipoglicemia:
 
 ![](images/sentineloneuserguide1/image_137.png)
 
-![](images/sentineloneuserguide1/image_138.png)
+Oppure confermi di aver finito uno spuntino, il glucosio, un pasto o un succo:
 
-![](images/sentineloneuserguide1/image_139.png)
+![](images/sentineloneuserguide1/image_136.png)
 
-![](images/sentineloneuserguide1/image_140.png)
-
-![](images/sentineloneuserguide1/image_141.png)
-
-![](images/sentineloneuserguide1/image_142.png)
-
-![](images/sentineloneuserguide1/image_143.png)
-
-![](images/sentineloneuserguide1/image_144.png)
-
-![](images/sentineloneuserguide1/image_145.png)
-
-![](images/sentineloneuserguide1/image_146.png)
-
-![](images/sentineloneuserguide1/image_147.png)
-
-### Versa / Versa Lite — Mandare trattamenti a Nightscout
-
-*[testo non recuperabile dalla conversione PDF — consultare la documentazione originale di Sentinel]*
-
-![](images/sentineloneuserguide1/image_148.png)
-
-![](images/sentineloneuserguide1/image_149.png)
-
-![](images/sentineloneuserguide1/image_150.png)
-
-![](images/sentineloneuserguide1/image_151.png)
-
-![](images/sentineloneuserguide1/image_152.png)
-
-![](images/sentineloneuserguide1/image_153.png)
-
-![](images/sentineloneuserguide1/image_154.png)
-
-![](images/sentineloneuserguide1/image_155.png)
-
-![](images/sentineloneuserguide1/image_156.png)
-
-![](images/sentineloneuserguide1/image_157.png)
-
-![](images/sentineloneuserguide1/image_158.png)
-
-![](images/sentineloneuserguide1/image_159.png)
-
-![](images/sentineloneuserguide1/image_160.png)
-
-![](images/sentineloneuserguide1/image_161.png)
-
-Una volta inviato un trattamento, Nightscout mostrerà la conferma **MEAL ENTRY ADDED** (aggiornando COB e IOB).
-
-![](images/sentineloneuserguide1/image_162.png)
-
-![](images/sentineloneuserguide1/image_163.png)
-
-![](images/sentineloneuserguide1/image_164.png)
-
-![](images/sentineloneuserguide1/image_165.png)
-
-![](images/sentineloneuserguide1/image_166.png)
-
-![](images/sentineloneuserguide1/image_167.png)
-
-![](images/sentineloneuserguide1/image_168.png)
-
-![](images/sentineloneuserguide1/image_169.png)
-
-![](images/sentineloneuserguide1/image_170.png)
-
-![](images/sentineloneuserguide1/image_171.png)
-
-![](images/sentineloneuserguide1/image_172.png)
-
-![](images/sentineloneuserguide1/image_173.png)
-
-![](images/sentineloneuserguide1/image_174.png)
-
-![](images/sentineloneuserguide1/image_175.png)
-
-### Ionic — Mandare note e trattamenti a Nightscout
-
-*[testo non recuperabile dalla conversione PDF — consultare la documentazione originale di Sentinel]*
-
-![](images/sentineloneuserguide1/image_176.png)
-
-![](images/sentineloneuserguide1/image_177.png)
-
-![](images/sentineloneuserguide1/image_178.png)
-
-![](images/sentineloneuserguide1/image_179.png)
-
-![](images/sentineloneuserguide1/image_180.png)
-
-![](images/sentineloneuserguide1/image_181.png)
-
-![](images/sentineloneuserguide1/image_182.png)
+Se invece scegli **Careportal**, puoi inviare un controllo glicemico (**BG CHECK**), un pasto (**MEAL**), i carboidrati (**CARBS**) o un bolo (**BOLUS**):
 
 ![](images/sentineloneuserguide1/image_183.png)
 
-![](images/sentineloneuserguide1/image_184.png)
+Ogni voce apre un tastierino numerico dedicato. Ad esempio, per i carboidrati:
 
-![](images/sentineloneuserguide1/image_185.png)
+![](images/sentineloneuserguide1/image_154.png)
 
-![](images/sentineloneuserguide1/image_186.png)
+Per il controllo glicemico:
 
-![](images/sentineloneuserguide1/image_187.png)
+![](images/sentineloneuserguide1/image_153.png)
 
-![](images/sentineloneuserguide1/image_188.png)
+E per il bolo:
 
-![](images/sentineloneuserguide1/image_189.png)
+![](images/sentineloneuserguide1/image_152.png)
 
-![](images/sentineloneuserguide1/image_190.png)
+Una volta inviato, Nightscout riceve la notifica in tempo reale — qui ad esempio uno **Status** di ipoglicemia (**"Ryan reports feeling LOW!"**), con il grafico aggiornato subito dopo:
 
-![](images/sentineloneuserguide1/image_191.png)
+![](images/sentineloneuserguide1/image_138.png)
 
-![](images/sentineloneuserguide1/image_192.png)
-
-![](images/sentineloneuserguide1/image_193.png)
-
-![](images/sentineloneuserguide1/image_194.png)
-
-![](images/sentineloneuserguide1/image_195.png)
-
-![](images/sentineloneuserguide1/image_196.png)
-
-![](images/sentineloneuserguide1/image_197.png)
-
-![](images/sentineloneuserguide1/image_198.png)
+## 7. Navigazione
 
 ### Come tornare alla pagina delle impostazioni
 
+Se hai bisogno di modificare le impostazioni del quadrante in un secondo momento:
+
+1. Apri l'app **Fitbit** sul telefono, nella schermata **Today**.
+
 ![](images/sentineloneuserguide1/image_199.png)
+
+2. Tocca l'icona del tuo orologio (in alto a destra) per aprire la sua pagina dei dettagli.
 
 ![](images/sentineloneuserguide1/image_200.png)
 
+3. Tocca **Clock Faces**.
+
 ![](images/sentineloneuserguide1/image_201.png)
+
+4. Tocca il quadrante attivo (qui mostrato come **VOLTRON**, il nome dell'account impostato) per aprirne i dettagli.
 
 ![](images/sentineloneuserguide1/image_202.png)
 
+5. Nella pagina del quadrante, tocca **Settings** per tornare alla schermata di configurazione con tutte le sorgenti dati e gli allarmi.
+
 ![](images/sentineloneuserguide1/image_203.png)
-
-1. Apri l'app **Fitbit** sul telefono.
-
-![](images/sentineloneuserguide1/image_204.png)
-
-2. Tocca l'icona del tuo orologio.
-3. Tocca **…** (tre puntini).
-4. Tocca **Settings**.
-
-![](images/sentineloneuserguide1/image_205.png)
-
-![](images/sentineloneuserguide1/image_206.png)
-
-![](images/sentineloneuserguide1/image_207.png)
-
-5. Tocca l'icona dell'orologio.
-6. Seleziona **Quadranti**.
-
-![](images/sentineloneuserguide1/image_208.png)
-
-![](images/sentineloneuserguide1/image_209.png)
-
-![](images/sentineloneuserguide1/image_210.png)
-
-![](images/sentineloneuserguide1/image_211.png)
-
-![](images/sentineloneuserguide1/image_212.png)
 
 ## Avviso legale
 
 > ⚠️ *Sentinel One è a solo scopo informativo. Non usarlo per prendere decisioni mediche. L'uso è a proprio rischio. Questo quadrante è ancora in sviluppo. Per aggiornamenti e supporto, unisciti al gruppo Facebook Sentinel: [`https://www.facebook.com/groups/3185325128159614`](https://www.facebook.com/groups/3185325128159614)*
-
-![](images/sentineloneuserguide1/image_213.png)
-
-![](images/sentineloneuserguide1/image_214.png)
-
-![](images/sentineloneuserguide1/image_215.png)
-
-![](images/sentineloneuserguide1/image_216.png)
-
-![](images/sentineloneuserguide1/image_217.png)
-
-![](images/sentineloneuserguide1/image_218.png)
-
-![](images/sentineloneuserguide1/image_219.png)
-
-![](images/sentineloneuserguide1/image_220.png)
-
-![](images/sentineloneuserguide1/image_221.png)
-
-![](images/sentineloneuserguide1/image_222.png)
-
-![](images/sentineloneuserguide1/image_223.png)
-
-![](images/sentineloneuserguide1/image_224.png)
-
-![](images/sentineloneuserguide1/image_225.png)
-
-![](images/sentineloneuserguide1/image_226.png)
-
-![](images/sentineloneuserguide1/image_227.png)
-
-![](images/sentineloneuserguide1/image_228.png)
-
-![](images/sentineloneuserguide1/image_229.png)
-
-![](images/sentineloneuserguide1/image_230.png)
-
-![](images/sentineloneuserguide1/image_231.png)
-
-![](images/sentineloneuserguide1/image_232.png)
-
-![](images/sentineloneuserguide1/image_233.png)
-
-![](images/sentineloneuserguide1/image_234.png)
-
-![](images/sentineloneuserguide1/image_235.png)
-
-![](images/sentineloneuserguide1/image_236.png)
-
-![](images/sentineloneuserguide1/image_237.png)
-
-![](images/sentineloneuserguide1/image_238.png)
-
-![](images/sentineloneuserguide1/image_239.png)
-
-![](images/sentineloneuserguide1/image_240.png)
-
-![](images/sentineloneuserguide1/image_241.png)
-
-![](images/sentineloneuserguide1/image_242.png)
-
-![](images/sentineloneuserguide1/image_243.png)
-
-![](images/sentineloneuserguide1/image_244.png)
 
 ![](images/sentineloneuserguide1/image_245.png)

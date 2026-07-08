@@ -1,11 +1,5 @@
 # Nightscout con Azure e MongoDB Atlas
 
-![](images/nightscoutazureatlas/image_001.png)
-
-![](images/nightscoutazureatlas/image_002.png)
-
-![](images/nightscoutazureatlas/image_003.png)
-
 Questa guida spiega come creare un nuovo sito Nightscout su **Microsoft Azure** con database **MongoDB Atlas**, oppure come migrare da Heroku.
 
 Ispirata al tutorial originale di Scott Hanselman: [`https://www.youtube.com/watch?v=EDADrteGBnY`](https://www.youtube.com/watch?v=EDADrteGBnY)
@@ -31,11 +25,15 @@ Per maggiori informazioni su Nightscout: [`https://nightscout.github.io/`](https
 
 ![](images/nightscoutazureatlas/image_005.png)
 
-4. Controlla la mail e clicca **Verify Email**. Si aprirà una pagina nel browser → **Continue**.
+4. Controlla la mail e clicca **Verify Email**.
 
 ![](images/nightscoutazureatlas/image_006.png)
 
+Si aprirà una pagina nel browser che conferma la verifica:
+
 ![](images/nightscoutazureatlas/image_007.png)
+
+Premi **Continue** per procedere:
 
 ![](images/nightscoutazureatlas/image_008.png)
 
@@ -67,19 +65,27 @@ Per maggiori informazioni su Nightscout: [`https://nightscout.github.io/`](https
 
 ![](images/nightscoutazureatlas/image_015.png)
 
+Vedrai il messaggio di conferma delle regole di accesso appena create:
+
 ![](images/nightscoutazureatlas/image_016.png)
 
-11. Aspetta la creazione del cluster (può richiedere più di 3 minuti), poi clicca **Connect** → **Connect your application**.
+11. Aspetta la creazione del cluster (può richiedere più di 3 minuti): finché è in corso, il pulsante di connessione resta disattivato.
 
 ![](images/nightscoutazureatlas/image_017.png)
 
+Quando il cluster è pronto (pallino verde), clicca **Connect**:
+
 ![](images/nightscoutazureatlas/image_018.png)
+
+Poi scegli **Connect your application**:
 
 ![](images/nightscoutazureatlas/image_019.png)
 
-12. Clicca **Copy** per copiare la stringa di collegamento e incollala in un editor di testo (Blocco Note).
+12. Lascia il driver **Node.js** selezionato e clicca **Copy** per copiare la stringa di collegamento.
 
 ![](images/nightscoutazureatlas/image_020.png)
+
+Incollala in un editor di testo (Blocco Note): la userai tra poco per costruire la tua `MONGODB_URI`.
 
 ![](images/nightscoutazureatlas/image_021.png)
 
@@ -105,33 +111,47 @@ Conserva questa stringa: si chiama **MONGODB_URI**.
 
 ![](images/nightscoutazureatlas/image_022.png)
 
-2. Accedi con un account Microsoft (se non ne hai uno, creane uno). Verifica il numero di telefono via SMS.
+2. Accedi con un account Microsoft (se non ne hai uno, creane uno).
 
 ![](images/nightscoutazureatlas/image_023.png)
 
+Compila il profilo utente con paese, nome, cognome ed email:
+
 ![](images/nightscoutazureatlas/image_024.png)
+
+Verifica il numero di telefono via SMS, inserendo il codice ricevuto:
 
 ![](images/nightscoutazureatlas/image_025.png)
 
-3. Inserisci una carta di credito per la verifica dell'identità (non comporta addebiti senza il tuo consenso).
+3. Accetta il contratto e premi **Avanti**:
 
 ![](images/nightscoutazureatlas/image_026.png)
 
+Inserisci una carta di credito per la verifica dell'identità (non comporta addebiti senza il tuo consenso):
+
 ![](images/nightscoutazureatlas/image_027.png)
+
+Conferma il paese/area geografica e premi **Iscriviti**:
 
 ![](images/nightscoutazureatlas/image_028.png)
 
-> ℹ️ **Nota**: Se hai già un account gratuito Azure e non puoi crearne un secondo, puoi iscriverti a un piano **a consumo** (pay-as-you-go) — Nightscout usa solo risorse gratuite, quindi il costo è zero.
+> ℹ️ **Nota**: Se hai già un account gratuito Azure e non puoi crearne un secondo, puoi iscriverti a un piano **a consumo** (pay-as-you-go) — Nightscout usa solo risorse gratuite, quindi il costo è zero. In tal caso vedrai il messaggio **Non si è idonei per un account Azure gratuito**: scegli l'iscrizione con pagamento in base al consumo.
 
 ![](images/nightscoutazureatlas/image_029.png)
 
+Accetta di nuovo il contratto per il piano a consumo:
+
 ![](images/nightscoutazureatlas/image_030.png)
+
+E scegli **Nessun supporto tecnico** prima di premere **Iscriviti**:
 
 ![](images/nightscoutazureatlas/image_031.png)
 
-4. Clicca sul menu Azure → **Crea una risorsa** → **Crea App Web**.
+4. Clicca sul menu Azure → **Crea una risorsa**.
 
 ![](images/nightscoutazureatlas/image_032.png)
+
+Poi cerca **App Web** e clicca **Crea**:
 
 ![](images/nightscoutazureatlas/image_033.png)
 
@@ -151,41 +171,50 @@ Conserva questa stringa: si chiama **MONGODB_URI**.
 ![](images/nightscoutazureatlas/image_036.png)
 
 6. **IMPORTANTE — Seleziona il piano gratuito:**
-   Clicca **Modifica dimensioni** → **Sviluppo/test** → **F1: gratuito** → **Applica**.
+   Clicca **Modifica dimensioni** (a fianco del piano proposto):
 
 ![](images/nightscoutazureatlas/image_037.png)
 
+   Scegli **Sviluppo/test** → **F1: gratuito** → **Applica**.
+
 ![](images/nightscoutazureatlas/image_038.png)
+
+   Verifica che il riquadro mostri **Gratuito F1**, poi premi **Avanti: Docker >**.
 
 ![](images/nightscoutazureatlas/image_039.png)
 
-7. Clicca **Avanti: Docker >**.
-8. In **Origine immagine**, seleziona **Docker Hub**. In **Immagine e tag** scrivi:
+7. In **Origine immagine**, seleziona **Docker Hub**. In **Immagine e tag** scrivi:
    ```
    nightscout/cgm-remote-monitor:latest
    ```
 
 ![](images/nightscoutazureatlas/image_040.png)
 
-9. Clicca **Rivedi e crea** → verifica le informazioni → **Crea**.
+8. Clicca **Rivedi e crea** → verifica le informazioni → **Crea**.
 
 ![](images/nightscoutazureatlas/image_041.png)
 
-10. Aspetta il completamento e clicca **Vai alla risorsa**.
+9. Aspetta il completamento della distribuzione...
 
 ![](images/nightscoutazureatlas/image_042.png)
+
+...e quando è completata, clicca **Vai alla risorsa**.
 
 ![](images/nightscoutazureatlas/image_043.png)
 
 ### Aggiungi le variabili di configurazione
 
-1. Nel menu di sinistra, clicca **Configurazione** → **Nuova Impostazione Applicazione**.
+1. Nel menu di sinistra, clicca **Configurazione**.
 
 ![](images/nightscoutazureatlas/image_044.png)
 
+Poi clicca **+ Nuova impostazione applicazione**:
+
 ![](images/nightscoutazureatlas/image_045.png)
 
-Aggiungi le seguenti variabili una alla volta (nome + valore → **OK**):
+Aggiungi le seguenti variabili una alla volta (nome + valore → **OK**). Ecco ad esempio `API_SECRET`:
+
+![](images/nightscoutazureatlas/image_046.png)
 
 | Nome | Valore |
 |---|---|
@@ -194,15 +223,7 @@ Aggiungi le seguenti variabili una alla volta (nome + valore → **OK**):
 | `MONGODB_URI` | La stringa generata al passo 1 |
 | `ENABLE` | `dbsize pump iob cob basal careportal sage cage bage` |
 
-![](images/nightscoutazureatlas/image_046.png)
-
-Se usi **Dexcom Share** come sorgente, aggiungi anche:
-
-| Nome | Valore |
-|---|---|
-| `BRIDGE_USER_NAME` | Il tuo utente Dexcom |
-| `BRIDGE_PASSWORD` | La tua password Dexcom |
-| `BRIDGE_SERVER` | `EU` |
+Se usi **Dexcom Share** come sorgente, aggiungi anche `BRIDGE_PASSWORD`, `BRIDGE_SERVER` e `BRIDGE_USER_NAME`:
 
 ![](images/nightscoutazureatlas/image_047.png)
 
@@ -211,15 +232,21 @@ E aggiungi `bridge` alla variabile `ENABLE`:
 dbsize pump iob cob basal careportal sage cage bage bridge
 ```
 
+Ecco un esempio con `DISPLAY_UNITS` e `ENABLE` compilati:
+
 ![](images/nightscoutazureatlas/image_048.png)
+
+> ℹ️ **Nota**: Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi Appendice A) e incollale qui allo stesso modo.
+
+Una volta aggiunte tutte le variabili, l'elenco apparirà così:
 
 ![](images/nightscoutazureatlas/image_049.png)
 
-> ℹ️ **Nota**: Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi Appendice A) e incollale qui.
+2. Clicca **Salva** in alto:
 
 ![](images/nightscoutazureatlas/image_050.png)
 
-2. Una volta aggiunte tutte le variabili, clicca **Salva** → **Continua**. L'app web si riavvierà.
+Conferma il riavvio dell'app cliccando **Continua**:
 
 ![](images/nightscoutazureatlas/image_051.png)
 
@@ -231,26 +258,33 @@ dbsize pump iob cob basal careportal sage cage bage bridge
 
 ![](images/nightscoutazureatlas/image_052.png)
 
-2. Aprilo nel browser. Se compare un errore "Timeout", aspetta 5 minuti e riprova.
-3. Clicca sul menu → **Profile Editor**.
+2. Aprilo nel browser. Se compare un errore "Timeout", aspetta 5 minuti e riprova. Il sito mostrerà l'orario e il menu laterale:
 
 ![](images/nightscoutazureatlas/image_053.png)
+
+3. Clicca sul menu → **Profile Editor**.
 
 4. Imposta il fuso orario: **Europe/Rome**.
 
 ![](images/nightscoutazureatlas/image_054.png)
 
-5. Scorri in fondo, clicca **Authenticate**, inserisci l'API secret, poi **Update** e **Save**.
+5. Scorri in fondo, clicca **Authenticate**, inserisci l'API secret...
 
 ![](images/nightscoutazureatlas/image_055.png)
 
+...poi **Update**: lo stato diventerà **Admin authorized**. Premi **Save**.
+
 ![](images/nightscoutazureatlas/image_056.png)
+
+Se il browser chiede conferma sul nuovo formato del profilo, premi **OK**:
 
 ![](images/nightscoutazureatlas/image_057.png)
 
+Il salvataggio è confermato dal messaggio **Status: success**.
+
 ![](images/nightscoutazureatlas/image_058.png)
 
-Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app.
+Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, xDrip4iOS ecc.: inserisci l'indirizzo del sito e l'API secret nell'app. Una volta connesso, il tuo sito Nightscout mostrerà la glicemia in tempo reale:
 
 ![](images/nightscoutazureatlas/image_059.png)
 
@@ -269,6 +303,8 @@ https://nomedeltuosito.azurewebsites.net/api/v1
 
 > ℹ️ **Nota**: Il sito Azure mostrerà i dati anche con il vecchio indirizzo Heroku (il database è condiviso), ma il sito Heroku si è fermato: devi aggiornare tutti i dispositivi per continuare a ricevere dati.
 
+Se vuoi mettere offline il vecchio sito Heroku per essere certo che tutti i dispositivi siano stati aggiornati, puoi attivare la **Maintenance Mode** dalle impostazioni dell'app Heroku:
+
 ![](images/nightscoutazureatlas/image_060.png)
 
 ---
@@ -276,9 +312,11 @@ https://nomedeltuosito.azurewebsites.net/api/v1
 ## Appendice A — Database Atlas esistente (migrazione da Heroku)
 
 **Se hai ancora accesso a Heroku:**
-1. Vai su [`https://id.heroku.com/login`](https://id.heroku.com/login) e apri la tua app.
+1. Vai su [`https://id.heroku.com/login`](https://id.heroku.com/login) e accedi con le tue credenziali.
 
 ![](images/nightscoutazureatlas/image_061.png)
+
+Poi apri la tua app dall'elenco:
 
 ![](images/nightscoutazureatlas/image_062.png)
 
@@ -286,46 +324,66 @@ https://nomedeltuosito.azurewebsites.net/api/v1
 
 ![](images/nightscoutazureatlas/image_063.png)
 
-3. Copia il valore di `MONGODB_URI` (o `MONGO_CONNECTION` se la prima non c'è — **non** `MONGODB_COLLECTION`).
+3. Copia il valore di `MONGODB_URI`...
 
 ![](images/nightscoutazureatlas/image_064.png)
 
-![](images/nightscoutazureatlas/image_065.png)
+...oppure di `MONGO_CONNECTION` se la prima non c'è (**non** `MONGODB_COLLECTION`).
 
 4. Usa questa stringa come `MONGODB_URI` nel passo 2 di Azure.
 
 **Se non hai più accesso a Heroku:**
-1. Vai su [`https://account.mongodb.com/account/login`](https://account.mongodb.com/account/login).
+1. Vai su [`https://account.mongodb.com/account/login`](https://account.mongodb.com/account/login) e accedi con email e password del tuo account Atlas.
 
-![](images/nightscoutazureatlas/image_066.png)
+![](images/nightscoutazureatlas/image_065.png)
 
 2. Se ricordi la password del tuo utente database, segui il passaggio **Connect** nella tua homepage Atlas.
 3. Se non ricordi la password:
-   - Vai in **Database Access** → **EDIT** sull'utente esistente → cambia il ruolo in **Only read any database** → **Update User** (questo disabilita temporaneamente il vecchio accesso).
+   - Vai in **Database Access**...
+
+![](images/nightscoutazureatlas/image_066.png)
+
+   ...e premi **EDIT** sull'utente esistente:
 
 ![](images/nightscoutazureatlas/image_067.png)
 
+   Cambia il ruolo in **Only read any database** → **Update User** (questo disabilita temporaneamente il vecchio accesso).
+
 ![](images/nightscoutazureatlas/image_068.png)
 
-   - Clicca **ADD NEW DATABASE USER**: scegli un nome, genera una password con **Autogenerate Secure Password** → **Show** per visualizzarla e copiala → **Add Built in role: Atlas Admin** → **Add User**.
+   - Clicca **+ ADD NEW DATABASE USER**:
 
 ![](images/nightscoutazureatlas/image_069.png)
 
+   Scegli un nome utente, genera una password con **Autogenerate Secure Password**, premi **SHOW** per visualizzarla e copiala:
+
 ![](images/nightscoutazureatlas/image_070.png)
+
+   Apri il menu **Built-in Role** e seleziona **Atlas admin**:
 
 ![](images/nightscoutazureatlas/image_071.png)
 
+   Se il ruolo non è ancora impostato, usa **Add Built In Role**:
+
 ![](images/nightscoutazureatlas/image_072.png)
+
+   Infine premi **Add User**:
 
 ![](images/nightscoutazureatlas/image_073.png)
 
+   Il nuovo utente comparirà nell'elenco **Database Access** insieme a quello vecchio (ora in sola lettura):
+
 ![](images/nightscoutazureatlas/image_074.png)
 
-   - Torna in **Database** → **Connect** → **Connect your application** → copia la stringa e sostituisci `<username>` e `<password>` con i nuovi valori.
+   - Torna in **Database** → **Connect** sul tuo cluster:
 
 ![](images/nightscoutazureatlas/image_075.png)
 
+   Scegli di nuovo **Connect your application**:
+
 ![](images/nightscoutazureatlas/image_076.png)
+
+   Copia la stringa e sostituisci `<username>` e `<password>` con i nuovi valori:
 
 ![](images/nightscoutazureatlas/image_077.png)
 

@@ -6,11 +6,13 @@ xDrip include una funzione di simulazione che calcola l'evoluzione prevista dell
 
 > ⚠️ **Questo sistema non è un dispositivo medico.** Non usare le predizioni per prendere decisioni terapeutiche. Consulta sempre il tuo diabetologo. L'utilizzo è a esclusiva responsabilità personale.
 
-xDrip stesso mostra questo avviso nelle impostazioni:
-
-![](images/xdrip-predizioni/image_003.png)
+xDrip stesso mostra questo avviso non appena attivi le simulazioni:
 
 ![](images/xdrip-predizioni/image_002.png)
+
+Prima di procedere devi anche accettare il contratto di licenza con l'utente finale (EULA):
+
+![](images/xdrip-predizioni/image_003.png)
 
 Per usare le predizioni è necessario conoscere:
 - La **sensibilità insulinica** (ISF): di quanti mg/dL si abbassa la glicemia per 1 unità di insulina
@@ -21,11 +23,15 @@ Se non conosci questi valori o non sei abituato a calcolarli autonomamente, l'us
 
 ## 1. Abilita le simulazioni
 
-Dal menu principale di xDrip: **Menu → Impostazioni** → scorri verso il basso fino a **xDrip Impostazioni di Simulazione** → attiva **Abilita simulazioni**.
+Dal menu principale di xDrip:
 
 ![](images/xdrip-predizioni/image_004.png)
 
+Vai in **Impostazioni** → scorri verso il basso fino alla sezione **xDrip+ Impostazioni Extra**, dove trovi la voce **xDrip+ Impostazioni di simulazione**:
+
 ![](images/xdrip-predizioni/image_005.png)
+
+Entra nella pagina e attiva **Predictive Simulations**:
 
 ![](images/xdrip-predizioni/image_006.png)
 
@@ -37,18 +43,22 @@ Dal menu principale di xDrip: **Menu → Impostazioni** → scorri verso il bass
 | **Durata dell'insulina (DIA)** | Punto di partenza consigliato: 3 ore (poi aggiusta se necessario) |
 | **Rapporto Sensibilità Fegato / Liver Maximum Impact** | Lascia i valori predefiniti — sono parametri sperimentali |
 
+Questi parametri si trovano nella pagina **Valori di previsione raggiungimento livello basso**:
+
 ![](images/xdrip-predizioni/image_007.png)
+
+La durata dell'insulina (DIA) dipende dal tipo usato: gli analoghi rapidi (come lispro) hanno una curva d'azione più breve rispetto a un'insulina umana regolare come la Humulin R:
 
 ![](images/xdrip-predizioni/image_008.png)
 
 ## 3. Imposta il profilo per fasce orarie
 
-Vai in **Carb Ratio** o **Insulin Sensitivity** (portano alla stessa schermata):
+Torna nella pagina **xDrip+ Impostazioni di simulazione** e vai in **Carb Ratio** o **Insulin Sensitivity** (portano alla stessa schermata):
+
+![](images/xdrip-predizioni/image_009.png)
 
 1. Inserisci il **rapporto insulina/CHO** (quanti grammi di CHO coprono 1 unità) e la **sensibilità** (di quanti mg/dL scende la glicemia per 1 unità).
 2. Premi **Salva**.
-
-![](images/xdrip-predizioni/image_009.png)
 
 ![](images/xdrip-predizioni/image_010.png)
 
@@ -56,10 +66,15 @@ Vai in **Carb Ratio** o **Insulin Sensitivity** (portano alla stessa schermata):
 
 ![](images/xdrip-predizioni/image_011.png)
 
+Il blocco viene diviso in due fasce orarie indipendenti, ciascuna con i propri valori di Carboidrati e Sensibilità:
+
 ![](images/xdrip-predizioni/image_012.png)
 
+4. Per eliminare una fascia creata per errore, tieni premuto **Tutti i giorni** sul blocco da rimuovere: nel menu che compare trovi anche l'opzione **Elimina questo blocco di tempo**.
+
 ![](images/xdrip-predizioni/image_013.png)
-4. Per eliminare una fascia creata per errore, tieni premuto **Tutti i giorni** → **Elimina questo blocco di tempo**.
+
+Al termine, torna alla schermata delle impostazioni di simulazione:
 
 ![](images/xdrip-predizioni/image_014.png)
 
@@ -74,15 +89,23 @@ Ogni volta che mangi o fai insulina:
 - Tocca l'icona **siringa** per inserire le unità di insulina
 - Puoi specificare un orario preciso (tasto orologio) o programmare un inserimento futuro: xDrip creerà un promemoria
 
+Il tastierino per inserire i **carboidrati** (icona posate evidenziata in rosso):
+
 ![](images/xdrip-predizioni/image_015.png)
+
+Lo stesso tastierino per le **unità** di insulina (icona siringa evidenziata):
 
 ![](images/xdrip-predizioni/image_016.png)
 
+Le icone di inserimento compaiono accanto al valore corrente nella schermata principale:
+
 ![](images/xdrip-predizioni/image_017.png)
 
-Per correggere un inserimento errato: toccalo → **Aggiungi nota** → scrivi `DELETE`.
+Per correggere un inserimento errato: toccalo sul grafico...
 
 ![](images/xdrip-predizioni/image_018.png)
+
+...poi **Aggiungi nota** → scrivi `DELETE`:
 
 ![](images/xdrip-predizioni/image_019.png)
 
@@ -95,13 +118,23 @@ Per correggere un inserimento errato: toccalo → **Aggiungi nota** → scrivi `
 | **Curva blu** | Insulina ancora attiva nel corpo |
 | **IOB** | Insulina a bordo (unità ancora attive nel sangue) |
 
+Un esempio completo, con l'avviso **Low predicted in: 53 mins** generato dalla curva rossa:
+
 ![](images/xdrip-predizioni/image_020.png)
+
+Un altro esempio: i trattamenti da 15g, 35g di carboidrati e 9,2u di insulina sono segnati sul grafico, con la curva blu che mostra l'insulina ancora attiva:
 
 ![](images/xdrip-predizioni/image_021.png)
 
+Con il passare del tempo, il grafico si aggiorna e puoi confrontare l'andamento reale (punti verdi) con quanto previsto:
+
 ![](images/xdrip-predizioni/image_022.png)
 
+Allargando la vista puoi anche sovrapporre il grafico della basale erogata alla curva glicemica e all'IOB dello stesso periodo:
+
 ![](images/xdrip-predizioni/image_023.png)
+
+Un ultimo esempio, questa volta dalla schermata principale di xDrip, con tutti gli indicatori insieme: valore attuale, IoB, insulina attiva e curve di previsione per un trattamento da 32g e 9u:
 
 ![](images/xdrip-predizioni/image_024.png)
 
@@ -146,7 +179,11 @@ BG:C = Rapporto I:C ÷ Fattore di correzione
 Esempio: I:C = 10 g/U, FC = 40 mg/dL per U → BG:C = 10 ÷ 40 = 0,25 → 1 g di CHO alza la glicemia di 4 mg/dL
 ```
 
+La formula del rapporto C:BG:
+
 ![](images/xdrip-predizioni/image_025.png)
+
+E il calcolo con i valori dell'esempio:
 
 ![](images/xdrip-predizioni/image_026.png)
 
@@ -169,7 +206,11 @@ Formula semplificata:
 CHO rimanenti = CHO totali - [(minuti trascorsi - 15 min di ritardo) × tasso g/min]
 ```
 
+La formula completa:
+
 ![](images/xdrip-predizioni/image_027.png)
+
+E un esempio numerico (120 g di carboidrati, 75 minuti trascorsi, tasso 2 mg/dL al minuto):
 
 ![](images/xdrip-predizioni/image_028.png)
 

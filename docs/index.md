@@ -22,6 +22,7 @@ layout: doc
 import { ref, computed } from 'vue'
 const activeSensor = ref('all')
 const activeOs     = ref('all')
+const activeStatus = ref('current')
 // ───  AGGIUNGI/MODIFICA GUIDE QUI ────────
 // sensors: uno o più tra 'libre' | 'dexcom' | 'medtronic'
 // os:      uno o più tra 'android' | 'ios'
@@ -40,6 +41,7 @@ const guides = [
   sub: 'Trasmettitore esterno per FSL 1 e FSL 2 con xDrip',
   sensors: ['libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/xdrip/fsl2-miaomiao-bubble' },
 { section: 'sensor',
   title: 'xDrip follower FSL',
@@ -79,25 +81,19 @@ const guides = [
   href: './documentation/juggluco/juggluco-xdrip' },
 { section: 'sensor',
   title: 'Dexcom con xDrip',
-  sub: 'G5 / G6 / ONE con xDrip su Android',
+  sub: 'G6 / ONE con xDrip su Android',
   sensors: ['dexcom'],
   os: ['android'],
   href: './documentation/xdrip/dexcomg5g6-e-xdrip' },
 { section: 'sensor',
-  title: 'Dexcom compagna di xDrip',
-  sub: 'App Dexcom come compagna (companion) di xDrip',
-  sensors: ['dexcom'],
-  os: ['android'],
-  href: './documentation/xdrip/dexcom-g6-compagna-di-xdrip' },
-{ section: 'sensor',
   title: 'xDrip follower Dexcom',
-  sub: 'Letture Dexcom G5 / G6 tramite Dexcom Share',
+  sub: 'Letture Dexcom G6 / G7 tramite Dexcom Share',
   sensors: ['dexcom'],
   os: ['android'],
   href: './documentation/xdrip/xdrip-follower-dexcom' },
 { section: 'sensor',
   title: 'Dexcom — Telefonino non compatibile',
-  sub: 'App Dexcom modificata per Android non supportati',
+  sub: 'App Dexcom modificata (G6/G7) per Android non supportati',
   sensors: ['dexcom'],
   os: ['android'],
   href: './documentation/xdrip/dexcom-g5-g6-app-modificata' },
@@ -115,7 +111,7 @@ const guides = [
   href: './documentation/xdrip4ios/letture-dexcom' },
 { section: 'sensor',
   title: 'xDrip come compagno',
-  sub: 'xDrip affiancato all\'app master ufficiale',
+  sub: 'xDrip affiancato all\'app master ufficiale (Dexcom, Medtronic, CamAPS)',
   sensors: ['dexcom', 'libre', 'medtronic'],
   os: ['android'],
   href: './documentation/xdrip/xdrip-compagno' },
@@ -130,6 +126,7 @@ const guides = [
   sub: 'Glicemie a distanza o su orologio',
   sensors: ['medtronic'],
   os: ['android','ios'],
+  status: 'archived',
   href: './documentation/medtronic/medtronic-640-670-g-glicemie-a-distanza-o-su-orologio' },
 { section: 'sensor',
   title: 'Gluroo',
@@ -159,21 +156,24 @@ const guides = [
   href: './documentation/apple-watch/come-visualizzare-la-pagina-nightscout-su-apple-watch' },
 { section: 'watch',
   title: 'Sugarmate su Apple Watch',
-  sub: 'Glicemia Dexcom G5 su Apple Watch con Sugarmate',
+  sub: 'Glicemia Dexcom G6/G7 su Apple Watch con Sugarmate',
   sensors: ['dexcom'],
   os: ['ios'],
   href: './documentation/sugarmate/sugarmate-glicemie-di-dexcom-g5-su-apple-watch' },
 { section: 'watch',
-  title: 'Amazfit con xDrip',
+  title: 'Amazfit con xDrip ⚠',
   sub: 'Glicemia su smartwatch Amazfit con xDrip',
   sensors: ['dexcom','libre','medtronic'],
   os: ['android'],
-  href: './documentation/amazfit/amazfit-con-xdrip' },
+  status: 'archived',
+  href: './documentation/amazfit/amazfit-con-xdrip',
+  warn: true },
 { section: 'watch',
   title: 'Amazfit Bip Lite',
   sub: 'Glicemia su Amazfit Bip Lite con xDrip',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/amazfit/amazfit-bip-lite-con-xdrip' },
 { section: 'watch',
   title: 'Amazfit ZEPP OS',
@@ -192,12 +192,14 @@ const guides = [
   sub: 'Mi Band 2, 3 e 4 con xDrip',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/xiaomi/mi-band234-con-xdrip' },
 { section: 'watch',
   title: 'Xiaomi Mi Band 4-6',
   sub: 'Mi Band 4, 5 e 6 con xDrip',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/xiaomi/xiaomi-miband-con-xdrip' },
 { section: 'watch',
   title: 'Garmin',
@@ -207,17 +209,49 @@ const guides = [
   href: './documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1' },
 { section: 'watch',
   title: 'Glicemia su Wear OS',
-  sub: 'Dexcom, xDrip e Glimp su smartwatch Android Wear',
+  sub: 'Dexcom e xDrip su smartwatch Android Wear',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
 { section: 'watch',
   title: 'Fitbit ⚠',
   sub: 'Quadranti terze parti rimossi da Google',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic',
   warn: true },
+{ section: 'watch',
+  title: 'Fitbit: sblocco quadranti ⚠',
+  sub: 'Come reinstallare i quadranti rimossi da Google (via VPN)',
+  sensors: ['dexcom','libre'],
+  os: ['android'],
+  status: 'archived',
+  href: './documentation/fitbit/fitbit-sbloccare-quadranti-personalizzati',
+  warn: true },
+{ section: 'watch',
+  title: 'Sentinel Pro ⚠',
+  sub: 'Guida utente Sentinel Pro (quadrante Fitbit)',
+  sensors: ['dexcom','libre','medtronic'],
+  os: ['android','ios'],
+  status: 'archived',
+  href: './documentation/sentinel/sentinel-pro-userguide1',
+  warn: true },
+{ section: 'watch',
+  title: 'Sentinel One ⚠',
+  sub: 'Guida utente Sentinel One (quadrante Fitbit)',
+  sensors: ['dexcom','libre','medtronic'],
+  os: ['android','ios'],
+  status: 'archived',
+  href: './documentation/sentinel/sentineloneuserguide1',
+  warn: true },
+{ section: 'watch',
+  title: 'GlucoDataHandler',
+  sub: 'Glicemia al polso su Wear OS da tante sorgenti diverse',
+  sensors: ['dexcom','libre','medtronic'],
+  os: ['android'],
+  href: './documentation/glucodatahandler/glucodatahandler' },
 
 // Nightscout & tools
 { section: 'tool',
@@ -225,6 +259,7 @@ const guides = [
   sub: 'Aggiornamento e migrazione da Heroku',
   sensors: ['dexcom','libre','medtronic'],
   os: ['android','ios'],
+  status: 'archived',
   href: './documentation/nightscout/heroku-aggiornare-nightscout' },
 { section: 'tool',
   title: 'Nightscout su Google Cloud',
@@ -261,6 +296,7 @@ const guides = [
   sub: 'Display M5Stack dedicato per Nightscout',
   sensors: ['dexcom','libre','medtronic'],
   os: ['android','ios'],
+  status: 'archived',
   href: './documentation/nightscout/monitor-nightscout-m5stack' },
 { section: 'tool',
   title: 'Nightscout Clock',
@@ -286,18 +322,6 @@ const guides = [
   sensors: ['dexcom','libre','medtronic'],
   os: ['ios'],
   href: './documentation/alexa-siri/collegare-siri-a-nightscout-iphone-e-apple-watch' },
-{ section: 'tool',
-  title: 'Sentinel Pro',
-  sub: 'Guida utente Sentinel Pro',
-  sensors: ['dexcom','libre','medtronic'],
-  os: ['android','ios'],
-  href: './documentation/sentinel/sentinel-pro-userguide1' },
-{ section: 'tool',
-  title: 'Sentinel One',
-  sub: 'Guida utente Sentinel One',
-  sensors: ['dexcom','libre','medtronic'],
-  os: ['android','ios'],
-  href: './documentation/sentinel/sentineloneuserguide1' },
 { section: 'tool',
   title: 'Tidepool',
   sub: 'Condivisione dati xDrip con il diabetologo',
@@ -327,12 +351,14 @@ const guides = [
   sub: 'Installazione di ADB per debug su Android',
   sensors: ['dexcom','libre','medtronic'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/android/installare-adb-debug' },
 { section: 'tool',
   title: 'ADB su Huawei Watch 2',
   sub: 'Abilitare ADB sullo smartwatch Huawei Watch 2',
   sensors: ['dexcom','libre'],
   os: ['android'],
+  status: 'archived',
   href: './documentation/android/abilitare-adb-sullo-smartwatch-huawei-watch-2' },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
@@ -340,7 +366,8 @@ const guides = [
 function matches(item) {
   const sOk = activeSensor.value === 'all' || item.sensors.includes(activeSensor.value)
   const oOk = activeOs.value     === 'all' || item.os.includes(activeOs.value)
-  return sOk && oOk
+  const stOk = (item.status ?? 'current') === activeStatus.value
+  return sOk && oOk && stOk
 }
 
 const bySection = (s) => guides.filter(g => g.section === s && matches(g))
@@ -370,8 +397,16 @@ Scegli il tuo **sensore** e il tuo **telefono** per vedere subito le guide rilev
   </div>
 </div>
 
-<h2 class="section-label">Sensori e app di lettura</h2>
-<div class="card-grid">
+<div class="filter-bar">
+  <div class="filter-group">
+    <span class="filter-label">Stato</span>
+    <button v-for="st in [{val:'current',label:'Guide aggiornate'},{val:'archived',label:'Guide obsolete, archiviate o di uso difficile'}]"
+      :key="st.val" class="pill" :class="{active: activeStatus===st.val}" @click="activeStatus=st.val">{{ st.label }}</button>
+  </div>
+</div>
+
+<h2 class="section-label" v-if="bySection('sensor').length">Sensori e app di lettura</h2>
+<div class="card-grid" v-if="bySection('sensor').length">
   <a v-for="item in bySection('sensor')" :key="item.href"
      :href="item.href" class="guide-card" :class="{dimmed: !matches(item), warn: item.warn}">
     <div class="card-title">{{ item.title }}</div>
@@ -380,8 +415,8 @@ Scegli il tuo **sensore** e il tuo **telefono** per vedere subito le guide rilev
   </a>
 </div>
 
-<h2 class="section-label">Smartwatch</h2>
-<div class="card-grid">
+<h2 class="section-label" v-if="bySection('watch').length">Smartwatch</h2>
+<div class="card-grid" v-if="bySection('watch').length">
   <a v-for="item in bySection('watch')" :key="item.href"
      :href="item.href" class="guide-card" :class="{dimmed: !matches(item), warn: item.warn}">
     <div class="card-title">{{ item.title }}</div>
@@ -390,8 +425,8 @@ Scegli il tuo **sensore** e il tuo **telefono** per vedere subito le guide rilev
   </a>
 </div>
 
-<h2 class="section-label">Nightscout e strumenti avanzati</h2>
-<div class="card-grid">
+<h2 class="section-label" v-if="bySection('tool').length">Nightscout e strumenti avanzati</h2>
+<div class="card-grid" v-if="bySection('tool').length">
   <a v-for="item in bySection('tool')" :key="item.href"
      :href="item.href" class="guide-card" :class="{dimmed: !matches(item)}">
     <div class="card-title">{{ item.title }}</div>

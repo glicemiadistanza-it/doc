@@ -2,6 +2,8 @@
 
 Le app ufficiali del FSL (FSL2 e FSL3) non permettono di impostare un quadrante su un orologio o un widget sulla schermata del telefono. xDrip risolve questo problema affiancandosi all'app del fornitore: riceve le letture via internet e aggiunge le funzioni mancanti.
 
+Le notifiche dell'app ufficiale del FSL, ad esempio, mostrano il valore ma non permettono personalizzazioni come allarmi avanzati o widget:
+
 ![](images/xdrip-follower-fsl/image_003.png)
 
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
@@ -12,9 +14,11 @@ Devi già avere un **account follower FSL** attivo e funzionante:
 - FSL2: crea un account follower nell'app LLink
 - FSL3: segui le istruzioni del fornitore per aggiungere un follower
 
-Assicurati che le letture arrivino correttamente nell'app del follower **prima** di proseguire. Annota l'**email** e la **password** dell'account follower: ti serviranno tra poco.
+Assicurati che le letture arrivino correttamente nell'app del follower **prima** di proseguire, come in questo esempio:
 
 ![](images/xdrip-follower-fsl/image_004.png)
+
+Annota l'**email** e la **password** dell'account follower: ti serviranno tra poco.
 
 ## 1. Installa xDrip
 
@@ -22,18 +26,23 @@ Segui la [guida base di installazione](./installare-xdrip-android).
 
 ## 2. Configura la sorgente dati
 
-1. Dal menu principale di xDrip: **Menu → Impostazioni → Dati hardware di origine**.
-2. Seleziona **Web Follower**.
-
-> ⚠️ Non selezionare altre opzioni FSL: usa solo **Web Follower** per il collegamento tramite cloud.
+1. Dal menu principale di xDrip, tocca l'icona ☰ in alto a sinistra:
 
 ![](images/xdrip-follower-fsl/image_005.png)
 
+Seleziona **Impostazioni**:
+
 ![](images/xdrip-follower-fsl/image_006.png)
+
+2. Vai in **Dati Hardware di origine**:
 
 ![](images/xdrip-follower-fsl/image_007.png)
 
+E seleziona **Web Follower**:
+
 ![](images/xdrip-follower-fsl/image_008.png)
+
+> ⚠️ Non selezionare altre opzioni FSL: usa solo **Web Follower** per il collegamento tramite cloud.
 
 3. Vai in **Web Follower Settings** e inserisci:
    - **Username:** l'email dell'account follower
@@ -41,6 +50,8 @@ Segui la [guida base di installazione](./installare-xdrip-android).
    - Non modificare il nome dello script.
 
 ![](images/xdrip-follower-fsl/image_009.png)
+
+Verifica che entrambe le voci risultino impostate su **Web Follower**:
 
 ![](images/xdrip-follower-fsl/image_010.png)
 
@@ -50,7 +61,7 @@ Se le credenziali del follower non funzionano, prova con quelle dell'app master 
 
 ## 3. Verifica il funzionamento
 
-Dopo qualche istante le letture di glicemia compaiono su xDrip. Il valore appare anche nelle notifiche del telefono, anche a schermo bloccato (se autorizzato nelle impostazioni Android).
+Dopo qualche istante le letture di glicemia compaiono su xDrip. Il valore appare anche nelle notifiche del telefono, anche a schermo bloccato (se autorizzato nelle impostazioni Android):
 
 ![](images/xdrip-follower-fsl/image_011.png)
 
@@ -60,19 +71,23 @@ xDrip ha un widget che mostra il valore glicemico e il grafico sulla schermata p
 
 **Esempio su Samsung Galaxy S7:**
 1. Tieni premuto uno spazio vuoto nella schermata principale.
-2. Seleziona **Widget** dal menu che appare.
+2. Seleziona **Widget** dal menu che appare:
 
 ![](images/xdrip-follower-fsl/image_012.png)
 
-3. Cerca **xDrip** e selezionalo.
-
-![](images/xdrip-follower-fsl/image_013.png)
+3. Cerca **xDrip** e selezionalo tra i risultati:
 
 ![](images/xdrip-follower-fsl/image_014.png)
 
-Una volta aggiunto, il widget mostra la glicemia anche sulla schermata di blocco:
+4. Posiziona e ridimensiona il widget sulla schermata principale:
+
+![](images/xdrip-follower-fsl/image_013.png)
+
+Una volta aggiunto, il widget mostra la glicemia anche sulla schermata principale...
 
 ![](images/xdrip-follower-fsl/image_001.png)
+
+...e sulla schermata di blocco:
 
 ![](images/xdrip-follower-fsl/image_002.png)
 

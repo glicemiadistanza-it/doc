@@ -88,9 +88,7 @@ Seleziona **COPIARE TUTTE LE IMPOSTAZIONI**, salva il codice QR (fai uno screens
 
 ---
 
-(step2)=
-
-## 2. Quale versione installare?
+## 2. Quale versione installare? {#step2}
 
 Installa sempre l'ultima **Pre-release** dalla pagina ufficiale della Nightscout Foundation. Le Pre-release sono versioni recenti con le ultime modifiche.
 
@@ -262,9 +260,7 @@ Puoi proseguire la letture se vuoi modificare la configurazione che utilizzavi.
 
 ---
 
-(step6)=
-
-## 6. Scegli la sorgente dati
+## 6. Scegli la sorgente dati {#step6}
 
 Una volta installato xDrip, devi indicare da dove arriveranno i valori di glicemia, si apre la guida automatica per selezionare i sensori e servizi cloud più comuni:
 
@@ -321,7 +317,7 @@ Eversense richiede l'app patchata.
 
 ![](images/installare-xdrip-android/image_039.png)
 
-(non-wizard)=
+<span id="non-wizard"></span>
 
 Se non trovi la sorgente che cerchi, xDrip te lo ricorda direttamente sulla schermata principale:
 

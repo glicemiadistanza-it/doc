@@ -56,7 +56,7 @@ Verifica che il file sia stato salvato:
 
 2. Per conservare anche le impostazioni, tocca **Carica/Salva impostazioni su memoria**::
 
-   <img src="images/installare-xdrip-android/image_006.png"/>
+   ![](images/installare-xdrip-android/image_006.png)
 
    Tocca **Salvare tutte le impostazioni nella SDcard** (cioè direttamente sulla memoria del telefono):
 
@@ -248,7 +248,7 @@ Se non funziona, conferma e ripeti fino a 3 volte se necessario (alcune versioni
 - Le impostazioni dovrebbero essere state ricaricate insieme al backup del database. Se hai già ricuperato la funzionailtà non è necessario ripristinarle.
 - Per ripristinare le **impostazioni**: apri il menu 3 puntini in alto a sinistra e vai in **Carica/Salva impostazioni su memoria**::
 
-<img src="images/installare-xdrip-android/image_006.png"/>
+![](images/installare-xdrip-android/image_006.png)
 
 Tocca **Caricare tutte le impostazioni dalla SDcard** :
 

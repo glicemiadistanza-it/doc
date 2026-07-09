@@ -1,5 +1,7 @@
 # Ricevere le letture dal FSL2 con xDrip (collegamento diretto)
 
+⚠️ Sono stati riscontrati problemi con gli ultimi sensori FSL2 e 2+, se non funziona considera Juggluco.
+
 Questa guida spiega come collegare il sensore FSL2 direttamente a xDrip tramite Bluetooth, senza usare MiaoMiao, Bubble o Blucon.
 
 > ℹ️ L'app ufficiale del fornitore permette già la lettura continua senza scansionare. Usa xDrip con questa modalità solo se hai bisogno di funzioni aggiuntive (smartwatch, allarmi, Nightscout). xDrip non invia dati ai server del fornitore.
@@ -12,48 +14,7 @@ Questa guida spiega come collegare il sensore FSL2 direttamente a xDrip tramite 
 
 ## 1. Installa o aggiorna xDrip
 
-Segui la [guida base di installazione](./installare-xdrip-android).
-
-Dopo l'installazione, imposta la **sorgente dati**:
-1. Tieni premuta la goccia di sangue nella schermata principale per aprire la scelta rapida della sorgente:
-
-![](images/l2-xdrip-collegamento-diretto/image_001.png)
-
-2. Tocca **Libre** per vedere i dispositivi ponte compatibili:
-
-![](images/l2-xdrip-collegamento-diretto/image_002.png)
-
-Conferma la scelta:
-
-![](images/l2-xdrip-collegamento-diretto/image_003.png)
-
-In alternativa, per un maggiore controllo, vai in **Menu → Impostazioni**:
-
-![](images/Menu-Impostazioni.png)
-
-Tocca **Dati Hardware di origine**:
-
-![](images/Menu-Impostazioni-SorgenteDati.png)
-
-E seleziona **Libre Bluetooth** dall'elenco completo (questa è la voce corretta per il collegamento diretto, senza dispositivi ponte):
-
-![](images/l2-xdrip-collegamento-diretto/image_005.png)
-
-xDrip potrebbe chiederti il permesso di accedere al Bluetooth tramite il menu principale...
-
-![](images/l2-xdrip-collegamento-diretto/image_007.png)
-
-...con un avviso che spiega perché serve il permesso di localizzazione GPS per la scansione Bluetooth...
-
-![](images/l2-xdrip-collegamento-diretto/image_008.png)
-
-...concedi il permesso toccando **CONSENTI**:
-
-![](images/l2-xdrip-collegamento-diretto/image_009.png)
-
-A configurazione completata, la schermata **Impostazioni** mostrerà **Dati Hardware di origine: Libre Bluetooth**:
-
-![](images/l2-xdrip-collegamento-diretto/image_010.png)
+Segui la [guida base di installazione](./installare-xdrip-android) e seleziona Libre Bluetooth come sorgente dati.
 
 ## 2. Installa l'app OOP2
 

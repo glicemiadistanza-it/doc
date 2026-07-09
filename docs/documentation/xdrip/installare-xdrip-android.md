@@ -319,11 +319,11 @@ Eversense richiede l'app patchata.
 
 <span id="non-wizard"></span>
 
-Se non trovi la sorgente che cerchi, xDrip te lo ricorda direttamente sulla schermata principale:
-
-![](images/Menu.png)
+Se non vedi la sorgente che cerchi, devi selezionarla dalla lista completa:
 
 Apri il menu e vai in **Impostazioni**:
+
+![](images/Menu.png)
 
 ![](images/Menu-Impostazioni.png)
 

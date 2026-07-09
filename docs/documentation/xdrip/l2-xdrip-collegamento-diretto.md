@@ -1,6 +1,6 @@
 # Ricevere le letture dal FSL2 con xDrip (collegamento diretto)
 
-⚠️ Sono stati riscontrati problemi con gli ultimi sensori FSL2 e 2+, se non funziona considera Juggluco.
+⚠️ Sono stati riscontrati problemi con gli ultimi sensori FSL2 e 2+. Se non funziona considera Juggluco.
 
 Questa guida spiega come collegare il sensore FSL2 direttamente a xDrip tramite Bluetooth, senza usare MiaoMiao, Bubble o Blucon.
 
@@ -22,38 +22,49 @@ OOP2 (Out Of Process Algorithm versione 2) decodifica i dati del FSL2. Senza que
 
 Segui la [guida per installare OOP2](./xdrip-algoritmo-esterno).
 
-## 3. Configura NFC in xDrip
-
-1. Dal menu principale, vai in **Funzionalità Scansione NFC**.
-2. Conferma l'avvertimento che compare all'attivazione:
+Assicurati di impostare OOP2 su **No calibration** quando vuoi collegare un nuovo sensore.
 
 ![](images/l2-xdrip-collegamento-diretto/image_011.png)
 
-3. Abilita **Usa funzionalità NFC**.
-4. Configura le altre opzioni esattamente come mostrato nelle impostazioni consigliate dell'app:
+## 3. Configura NFC in xDrip
+
+1. Dal menu principale, **Impostazioni**, vai in **Funzionalità Scansione NFC**.
+
+![](images/l2-xdrip-collegamento-diretto/image_001.png)
+
+2. Abilita **Usa funzionalità NFC**. No, non è più sperimentale e non rompe il sensore. Mal che vada non lo legge.
+
+![](images/l2-xdrip-collegamento-diretto/image_002.png)
+
+3. Configura le altre opzioni esattamente come mostrato sotto:
 
 ![](images/l2-xdrip-collegamento-diretto/image_012.png)
+
+Questi due sotto comincia lasciandoli disabilitati. Se non riesci a scansionare, prova a abilitare il secondo: Any-tag.
+
+Il primo (Multi-blocco) raramente migliora la scansione, ma se non funziona niente: si può anche provare.
+
+![](images/l2-xdrip-collegamento-diretto/image_003.png)
 
 ## 4. Configura Bluetooth in xDrip
 
 1. Vai in **Impostazioni → Impostazioni meno usate → Impostazioni Bluetooth**.
-2. Imposta le opzioni esattamente come indicato nell'app (le impostazioni predefinite di solito vanno bene):
 
-La prima parte della schermata, con **Attiva Bluetooth** e i watchdog attivi:
+![](images/l2-xdrip-collegamento-diretto/image_005.png)
+
+2. Imposta le opzioni esattamente come indicato sotto.
 
 ![](images/l2-xdrip-collegamento-diretto/image_013.png)
 
-Scorrendo, la seconda parte con **Use Background Scans** e le opzioni sperimentali, normalmente disattivate:
-
 ![](images/l2-xdrip-collegamento-diretto/image_014.png)
 
-> ℹ️ In caso di problemi di connessione, prova a modificare le opzioni **Usa scansione** e **Usa Background Scans**. Se perdi la connessione, il modo più rapido per recuperarla è **Riavvia Collector** seguito da una scansione NFC del sensore.
+> ℹ️ In caso di problemi di connessione, prova a modificare le opzioni **Usa scansione** e **Usa Background Scans**. Se perdi la connessione, il modo più rapido per recuperarla è **Riavvia Collector** seguito da una scansione NFC del sensore. **Trust Auto-connect** ha un effetto negativo con telefonini Samsung e Cinesi...
 
 ## 5. Collega il sensore a xDrip
 
-> ⚠️ Il sensore deve essere stato avviato (con l'app del fornitore o con il lettore 2) da **almeno un'ora** prima di procedere.
+> ⚠️ Il sensore deve essere stato avviato (con l'app del fornitore o con il lettore FSL) da **almeno un'ora** prima di procedere.
 
-1. Se hai l'app del fornitore installata, è consigliato disinstallarla per evitare conflitti NFC. Puoi comunque scansionare il sensore con il lettore fisico.
+1. Se hai l'app del fornitore installata, è consigliato disinstallarla per evitare conflitti NFC. Puoi comunque scansionare il sensore con il lettore fisico se è quello che hai usato per avviarlo.
 2. Esci da xDrip prima di scansionare (la scansione funziona meglio così).
 3. Avvicina il telefono al sensore come faresti con l'app ufficiale. La scansione con xDrip dura più a lungo: non muovere il telefono e riprova se non riesce al primo tentativo.
 4. Dopo la scansione, seleziona **Connettiti a questo sensore FSL2** e abilita **Non chiedermelo più**:
@@ -76,15 +87,13 @@ Poi tocca **INIZIALIZZA SENSORE**:
 
 ![](images/l2-xdrip-collegamento-diretto/image_017.png)
 
-2. Indica quando è stato attivato:
-   - **Oggi:** seleziona **Sì, oggi**
-   - **Prima di oggi:** seleziona **Non oggi** e inserisci l'orario esatto di attivazione
-
-Alla domanda **L'hai inserito oggi?**, rispondi in base a quando hai attivato il sensore:
+2. Alla domanda **L'hai inserito oggi?**, rispondi in base a quando hai **attivato** il sensore:
+   - **Oggi:** seleziona **Sì, oggi** e inserisci l'orario esatto di attivazione
+   - **Prima di oggi:** seleziona **Non oggi** 
 
 ![](images/l2-xdrip-collegamento-diretto/image_019.png)
 
-Se rispondi **Non oggi**, imposta l'orario esatto di attivazione con il selettore:
+Se rispondi **oggi**, imposta l'orario esatto di attivazione girando prima sulle ore e quindi i minuti:
 
 ![](images/l2-xdrip-collegamento-diretto/image_020.png)
 
@@ -99,20 +108,20 @@ In **Menu → Stato del sistema → BT Device**: il sensore appare come un dispo
 
 Scansiona con NFC ogni 5 minuti se il collegamento non si stabilisce. Tieni il telefono vicino al sensore. Il primo collegamento può richiedere più di 20 minuti.
 
-Una volta ricevute le prime letture, xDrip potrebbe chiederti una calibrazione:
+Una volta ricevute le prime letture, xDrip potrebbe chiederti una calibrazione. Vuole dire che hai dimenticato di mettere **No calibration** in OOP2.
 
 ![](images/l2-xdrip-collegamento-diretto/image_022.png)
 
 **In caso di problemi:**
-1. Vai in **Stato del sistema → BT Device** → **Forget device**
-2. Poi **Stop sensore**
+1. Vai in **Stato del sistema → BT Device** → **Dimentica questo dispositivo**
+
+![](images/l2-xdrip-collegamento-diretto/image_007.png)
+
+2. Poi **Stop sensore** (non lo ferma, non si può fermare un FSL: si ferma da solo)
+
 3. Scansiona il sensore con NFC
-4. Dopo la conferma di scansione, avvia nuovamente il sensore in xDrip
 
----
+4. Seleziona **Inizializza sensore**
 
-## Passi successivi
+5. Scansiona il sensore con NFC, ogni 5 minuti
 
-- **Condividi la glicemia con altri telefoni Android:** vedi la guida sulla condivisione xDrip Sync
-- **Condividi con iPhone o altri dispositivi:** usa [Nightscout](../nightscout/nightscoutgooglecloud)
-- **Condividi i dati con il diabetologo:** usa [Tidepool](./condividere-i-dati-di-xdrip-con-tidepool)

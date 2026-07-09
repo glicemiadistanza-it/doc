@@ -65,7 +65,9 @@ Segui la [guida per installare e configurare un algoritmo OOP con xDrip](./xdrip
 
 Per iniziare, disabilita le opzioni di calibrazione automatica. Vai in **Impostazioni**...
 
-![](images/calibrare-fsl-xdrip/image_011.png)
+![](images/Menu.png)
+
+![](images/Menu-Impostazioni.png)
 
 ...**Impostazioni Meno Usate**...
 
@@ -147,7 +149,7 @@ Se vuoi cancellare tutte le calibrazioni e ricominciare da capo, vai nella scher
 
 Dal menu di xDrip, vai in **Impostazioni**...
 
-![](images/calibrare-fsl-xdrip/image_011.png)
+![](images/Menu-Impostazioni.png)
 
 ...**Impostazioni Meno Usate**...
 

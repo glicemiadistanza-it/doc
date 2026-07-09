@@ -90,7 +90,7 @@ Puoi condividere la glicemia con altri telefoni senza passare dai server del for
 
 Apri il menu di xDrip:
 
-![](images/xdrip-compagno/image_012.png)
+![](images/Menu-Impostazioni.png)
 
 Vai in **Impostazioni** e scorri fino a **XDRIP+ IMPOSTAZIONI EXTRA**:
 

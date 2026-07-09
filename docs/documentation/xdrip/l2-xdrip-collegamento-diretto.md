@@ -29,11 +29,11 @@ Conferma la scelta:
 
 In alternativa, per un maggiore controllo, vai in **Menu → Impostazioni**:
 
-![](images/l2-xdrip-collegamento-diretto/image_004.png)
+![](images/Menu-Impostazioni.png)
 
 Tocca **Dati Hardware di origine**:
 
-![](images/l2-xdrip-collegamento-diretto/image_006.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 E seleziona **Libre Bluetooth** dall'elenco completo (questa è la voce corretta per il collegamento diretto, senza dispositivi ponte):
 

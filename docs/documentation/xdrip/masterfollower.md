@@ -12,7 +12,7 @@ Sul telefono che non è ancora collegato a MiaoMiao, apri xDrip e scansiona il c
 
 Sul telefono già configurato (master), apri il menu ☰ → **Impostazioni**:
 
-![](images/masterfollower/image_013.png)
+![](images/Menu.png)
 
 Vai in **Configurazione automatica** e tocca **Condividi impostazioni tramite...**, poi scegli **COPIARE TUTTE LE IMPOSTAZIONI**:
 
@@ -41,7 +41,7 @@ Sul telefono scelto come master:
 
 Apri il menu laterale di xDrip:
 
-![](images/masterfollower/image_002.png)
+![](images/Menu.png)
 
 Vai in **Impostazioni** e scorri fino a **XDRIP+ IMPOSTAZIONI EXTRA**:
 
@@ -68,7 +68,7 @@ Sul telefono scelto come follower:
 
 Apri **Impostazioni** e tocca **Dati Hardware di origine**:
 
-![](images/masterfollower/image_007.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 Nell'elenco delle sorgenti, seleziona **xDrip+ Sync Follower**:
 

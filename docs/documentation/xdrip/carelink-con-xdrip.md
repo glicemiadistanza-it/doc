@@ -2,12 +2,9 @@
 
 Questa guida passo passo spiega come visualizzare la glicemia di CareLink (la piattaforma cloud Medtronic per la gestione del diabete) con xDrip.
 
-Funziona con i seguenti dispositivi quando la glicemia è disponibile in CareLink (richiede un telefono master che la invia su internet):
+Funziona quando la glicemia è disponibile in CareLink (richiede un telefono master che la invia su internet):
 
-- Guardian Connect
-- Microinfusore 7xxG
-
-Ringraziamo Bence Szász per questo lavoro. È necessario un telefono Android con versione 5 o superiore.
+Ringraziamo Bence Szász per questo lavoro. È necessario un telefono Android con versione 8 o superiore.
 
 > ⚠️ **Attenzione**: Potrebbe non funzionare se hai abilitato l'autenticazione a due fattori (2FA) in CareLink.
 
@@ -57,17 +54,15 @@ Prima di configurare xDrip, occorre creare un account "Care Partner" su CareLink
 
 ## 3. Configurare il follower CareLink
 
-Se la sorgente dati non è ancora configurata, la schermata principale di xDrip mostra un promemoria e il pulsante **AVVIA CONFIGURAZIONE GUIDATA**:
-
-![](images/carelink-con-xdrip/image_013.png)
-
 1. Apri il menu principale toccando l'icona ☰ in alto a sinistra. Si apre il menu con le voci principali, tra cui **Impostazioni**:
 
-![](images/carelink-con-xdrip/image_015.png)
+![](images/Menu.png)
+
+![](images/Menu-Impostazioni.png)
 
 2. Vai in **Impostazioni** → **Dati Hardware di Origine** (inizialmente mostrerà la sorgente precedente, ad esempio "Bluetooth Wixel"):
 
-![](images/carelink-con-xdrip/image_014.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 3. Seleziona **CareLink Follower** dall'elenco:
 
@@ -81,7 +76,8 @@ Conferma la scelta:
 
 ![](images/carelink-con-xdrip/image_017.png)
 
-5. **Solo** se ci sono più pazienti in CareLink, digita il **Nome Utente Paziente CareLink**. Altrimenti lascia vuoto:
+5. **Solo** se ci sono più pazienti in CareLink, digita il **Nome Utente Paziente CareLink**.
+   Altrimenti lascia vuoto:
 
 ![](images/carelink-con-xdrip/image_018.png)
 
@@ -99,9 +95,9 @@ Per eventuali modifiche, sono disponibili diverse opzioni nel menu di xDrip. Non
 
 La glicemia dovrebbe comparire entro 5 minuti. Se non succede nulla, vai in **Menu → Stato del sistema**:
 
-![](images/carelink-con-xdrip/image_023.png)
+![](images/Menu-StatoSistema.png)
 
-Nella pagina **Stato del sistema**, verifica che **Data Source** risulti impostato su **CareLink**:
+Nella pagina **Stato del sistema**, verifica che la **Sorgente Dati** risulti impostata su **CareLink**:
 
 ![](images/carelink-con-xdrip/image_024.png)
 

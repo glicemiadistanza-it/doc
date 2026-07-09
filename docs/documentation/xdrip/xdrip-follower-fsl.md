@@ -28,15 +28,15 @@ Segui la [guida base di installazione](./installare-xdrip-android).
 
 1. Dal menu principale di xDrip, tocca l'icona ☰ in alto a sinistra:
 
-![](images/xdrip-follower-fsl/image_005.png)
+![](images/Menu.png)
 
 Seleziona **Impostazioni**:
 
-![](images/xdrip-follower-fsl/image_006.png)
+![](images/Menu-Impostazioni.png)
 
 2. Vai in **Dati Hardware di origine**:
 
-![](images/xdrip-follower-fsl/image_007.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 E seleziona **Web Follower**:
 

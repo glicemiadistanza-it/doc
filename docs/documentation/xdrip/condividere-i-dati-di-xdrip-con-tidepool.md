@@ -53,11 +53,11 @@ Per inviare glicemia e trattamenti a Tidepool, abilita l'integrazione in xDrip. 
 
 1. Apri il menu principale di xDrip toccando l'icona ☰ in alto a sinistra:
 
-![](images/condividere-i-dati-di-xdrip-con-tidepool/image_012.png)
+![](images/Menu.png)
 
 Si apre il menu con le voci principali, vai in **Impostazioni**. 
 
-![](images/condividere-i-dati-di-xdrip-con-tidepool/image_013.png)
+![](images/Menu-Impostazioni.png)
 
 2. Tocca **Caricamento nel Cloud**:
 
@@ -67,7 +67,7 @@ E seleziona **Tidepool**.
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_015.png)
 
-Abilita **Sync to Tidepool**:
+Abilita **Sincronizza con Tidepool**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_016.png)
 
@@ -106,5 +106,4 @@ Dovrai quindi effettuare il login nel server Tidepool per autorizzare xDrip:
 5. Se vuoi anche che possano aggiungere altri dati (durante la visita diabetologica), seleziona anche **Allow uploading**:
 
 ![](images/condividere-i-dati-di-xdrip-con-tidepool/image_023.png)
-
 

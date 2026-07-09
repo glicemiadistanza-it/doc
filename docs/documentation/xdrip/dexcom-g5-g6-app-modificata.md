@@ -258,11 +258,11 @@ Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 1. Segui la [guida base di installazione di xDrip](./installare-xdrip-android).
 2. Come sorgente dati, scegli **640G / Eversense** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share. Puoi farlo dalla configurazione guidata, oppure dal menu di xDrip, **Impostazioni**
 
-![](images/dexcom-g5-g6-app-modificata/image_056.png)
+![](images/Menu-Impostazioni.png)
 
 ...toccando **Dati Hardware di origine**...
 
-![](images/dexcom-g5-g6-app-modificata/image_053.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 ... **640G / Eversense**...
 
@@ -278,7 +278,7 @@ Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 
 4. In xDrip, imposta questo telefono come **master** — così potrai usare un altro telefono come follower senza dipendere dai server Dexcom. Apri di nuovo il menu di xDrip...
 
-![](images/dexcom-g5-g6-app-modificata/image_061.png)
+![](images/Menu-Impostazioni.png)
 
 ...vai in **Impostazioni** e cerca **Impostazioni xDrip+ Sync**...
 

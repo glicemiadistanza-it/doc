@@ -1,13 +1,15 @@
 # Passare da FSL 1 a FSL 2 con MiaoMiao o Bubble
 
+⚠️ **Attenzione**: non ci sono riscontri positivi con gli ultimi sensori FSL2 e FSL2+.
+
+> ℹ️ **Nota**: In alternativa, puoi collegare xDrip direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare  Juggluco per leggere il sensore e poi inviare la glicemia a xDrip.
+
 Questa guida spiega come continuare a usare xDrip con un dispositivo ponte (MiaoMiao o Bubble) dopo aver cambiato sensore da FSL 1 a FSL 2.
 
 Usare MiaoMiao o Bubble con il FSL 2 offre diversi vantaggi:
 - Non interferisce con l'app ufficiale del fornitore.
 - Il segnale Bluetooth è più stabile rispetto alla connessione diretta sensore-telefono.
 - Puoi scegliere di non calibrare oppure di calibrare con diverse strategie.
-
-> ℹ️ **Nota**: In alternativa, puoi collegare xDrip direttamente al FSL 2 (vedi la [guida al collegamento diretto](./l2-xdrip-collegamento-diretto)), ma potrebbe interferire con l'app ufficiale e non funziona su tutti i telefoni. Puoi anche usare Diabox o Juggluco per leggere il sensore e poi inviare la glicemia a xDrip.
 
 > ⚠️ **Attenzione**: **Il FSL 2 non può essere usato collegato direttamente a uno smartwatch Android Wear.**
 
@@ -39,7 +41,7 @@ L'aggiornamento non cambia nessuna impostazione, non ferma il sensore in corso e
 
 Dal **Menu di xDrip** → **Stato del sistema**:
 
-![](images/fsl2-miaomiao-bubble/image_004.png)
+![](images/Menu-StatoSistema.png)
 
 Apri la pagina **Stato del sistema** e scorri fino alla scheda **BT Device** per controllare la versione firmware attuale:
 
@@ -71,6 +73,8 @@ Se il tuo firmware è già compatibile, salta direttamente al **passo 5**.
 ---
 
 ## 3. Aggiorna il firmware di MiaoMiao
+
+⚠️ **Attenzione**: non è più possibile aggiornarne il firmware.
 
 > ℹ️ **Nota**: Se hai un Bubble, salta al passo 4.
 

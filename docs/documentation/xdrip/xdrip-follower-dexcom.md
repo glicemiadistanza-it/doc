@@ -44,7 +44,7 @@ Infine indica se il tuo account è su server USA:
 
 4. Se non riesci ad accedere al menu della sorgente direttamente, vai in **Menu → Impostazioni**:
 
-![](images/xdrip-follower-dexcom/image_008.png)
+![](images/Menu-Impostazioni-SorgenteDati.png)
 
 Tocca **Dati Hardware di origine** e seleziona **Dex Share Follower** dall'elenco:
 

@@ -269,7 +269,7 @@ A questo punto il tuo sito mostrerà la glicemia in tempo reale, come in questo 
 
 ---
 
-## Appendice A — Crea un nome più facile da ricordare (opzionale)
+## 5. Crea un nome più facile da ricordare (opzionale)
 
 Il nome predefinito del server Ionos è difficile da ricordare. Puoi creare un indirizzo più semplice con FreeDNS (gratuito).
 

@@ -105,7 +105,7 @@ Sul display della smartband conferma l'abbinamento:
 
 ![](images/mi-band234-con-xdrip/image_019.png)
 
-Tornato nell'app, scorri le impostazioni del dispositivo appena associato:
+Torna nell'app e scorri le impostazioni del dispositivo appena associato:
 
 ![](images/mi-band234-con-xdrip/image_016.png)
 
@@ -203,7 +203,7 @@ Se invece la chiave non è corretta, compare un avviso di autenticazione fallita
 
 ![](images/mi-band234-con-xdrip/image_036.png)
 
-**Se compare "Errore di autenticazione":** torna al passo 3 e rigenera la chiave.
+**Se compare "Errore di autenticazione":** torna al passo 4 e rigenera la chiave.
 
 Ricontrolla i campi **Indirizzo MAC** e **Chiave di autenticazione** e reinseriscili:
 

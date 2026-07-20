@@ -37,7 +37,7 @@ A sensore scaduto (o anche prima della naturale scadenza):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NMISX8AGMI4" title="Come estrarre il trasmettitore Dexcom G6" frameborder="0" allowfullscreen></iframe>
 
-## Nota importante sulla calibrazione
+## 3. Nota importante sulla calibrazione
 
 Il principale problema legato ai riavvii riguarda l'**errore di calibrazione**, che può presentarsi al termine delle 2 ore di riscaldamento, quando viene richiesta la doppia calibrazione per l'attivazione.
 

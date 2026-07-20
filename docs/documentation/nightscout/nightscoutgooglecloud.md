@@ -127,7 +127,7 @@ Confermi così di stare lavorando all'interno del progetto corretto (visibile in
 
 ![](images/nightscoutgooglecloud/image_027.png)
 
-5. Abilita il **Compute Engine API** se richiesto, premendo **ABILITA**. Se Google chiede di verificare la carta, procedi.
+5. Abilita la **Compute Engine API** se richiesto, premendo **ABILITA**. Se Google chiede di verificare la carta, procedi.
 
 ![](images/nightscoutgooglecloud/image_028.png)
 

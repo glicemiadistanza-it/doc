@@ -1,10 +1,10 @@
-# Juggluco con FSL 2 e xDrip per Android
+# Juggluco con FSL2 e xDrip per Android
 
-Questa guida spiega come usare **Juggluco** per leggere un sensore **FSL 2** e inviare i dati a **xDrip**, che gestirà condivisione, allarmi e visualizzazione sullo smartwatch.
+Questa guida spiega come usare **Juggluco** per leggere un sensore **FSL2** e inviare i dati a **xDrip**, che gestirà condivisione, allarmi e visualizzazione sullo smartwatch.
 
-> ℹ️ L'app FSL 2 ufficiale (LLink) ora supporta la lettura continua senza scansionare il sensore. Usare Juggluco per questo scopo non è più indispensabile, ma rimane utile per chi vuole integrare xDrip nel proprio sistema.
+> ℹ️ L'app FSL2 ufficiale (LLink) ora supporta la lettura continua senza scansionare il sensore. Usare Juggluco per questo scopo non è più indispensabile, ma rimane utile per chi vuole integrare xDrip nel proprio sistema.
 
-> ⚠️ Come qualsiasi app di terza parte, collegare un sensore FSL 2 a Juggluco **disabilita definitivamente gli allarmi dell'app ufficiale** per quel sensore. Se vuoi ripristinare la funzionalità, prova a disinstallare Juggluco e reinstallare l'app ufficiale con lo stesso account — ma il recupero non è garantito. L'abbinamento invalida la garanzia: non potrai richiedere la sostituzione del sensore per problemi di allarmi mancanti.
+> ⚠️ Come qualsiasi app di terza parte, collegare un sensore FSL2 a Juggluco **disabilita definitivamente gli allarmi dell'app ufficiale** per quel sensore. Se vuoi ripristinare la funzionalità, prova a disinstallare Juggluco e reinstallare l'app ufficiale con lo stesso account — ma il recupero non è garantito. L'abbinamento invalida la garanzia: non potrai richiedere la sostituzione del sensore per problemi di allarmi mancanti.
 
 > ⚠️ Se installi Juggluco sul telefono di un bambino, disabilita temporaneamente **Play Protect** prima dell'installazione.
 
@@ -64,7 +64,7 @@ Prima della scansione, il grafico di Juggluco è ancora vuoto:
 
 ![](images/juggluco-xdrip/image_008.png)
 
-- Dopo la **prima scansione** compare una schermata di conferma: fai **OK**.
+- Dopo la **prima scansione** compare una schermata di conferma: tocca **OK**.
 
 ![](images/juggluco-xdrip/image_009.png)
 
@@ -72,7 +72,7 @@ Prima della scansione, il grafico di Juggluco è ancora vuoto:
 
 ![](images/juggluco-xdrip/image_010.png)
 
-- Dopo la **seconda scansione** comparirà la curva di glicemia: fai **OK**.
+- Dopo la **seconda scansione** comparirà la curva di glicemia: tocca **OK**.
 
 ![](images/juggluco-xdrip/image_011.png)
 
@@ -105,7 +105,7 @@ Se dopo qualche minuto non hai dati:
 
 ## 4. Configura Juggluco
 
-Apri il **Menu 1** (tocca in alto a sinistra nello schermo).
+Apri il **Menu 1** (tocca in alto a sinistra dello schermo).
 
 Il **Menu 1** raggruppa in quattro colonne le voci principali dell'app: **Orologio**, **Sensore**, **Impostazione** e altre funzioni di esportazione, ricerca e navigazione tra i giorni:
 
@@ -137,7 +137,7 @@ Spunta **Inverti schermo** per passare alla modalità scura:
 
 ![](images/juggluco-xdrip/image_020.png)
 
-- Abilita **Sensore via Bluetooth** — obbligatorio per il collegamento diretto con FSL 2.
+- Abilita **Sensore via Bluetooth** — obbligatorio per il collegamento diretto con FSL2.
 
 Assicurati che **Sensore via bluetooth** sia spuntato:
 
@@ -149,7 +149,7 @@ Tocca il pulsante **Uploader**:
 
 ![](images/juggluco-xdrip/image_022.png)
 
-Inserisci l'indirizzo del tuo sito Nightscout e l'**api_secret**, poi tocca **Salva**:
+Inserisci l'indirizzo del tuo sito Nightscout e l'`api_secret`, poi tocca **Salva**:
 
 ![](images/juggluco-xdrip/image_023.png)
 
@@ -175,7 +175,7 @@ Se non hai ancora xDrip, installalo seguendo la [guida base](../xdrip/installare
 
 Nell'app xDrip, scegli come sorgente dati **App Libre patchata** — questa è l'opzione che riceve i dati da Juggluco.
 
-Nell'elenco delle sorgenti dati di xDrip, seleziona **Libre2 Patched (App LibreLink patchata)**:
+Nell'elenco delle sorgenti dati di xDrip, seleziona **Libre2 Patched (App LLink patchata)**:
 
 ![](images/juggluco-xdrip/image_027.png)
 
@@ -185,8 +185,8 @@ Se non ricevi le letture di Juggluco in xDrip, vai nel menù di xDrip e fai **Av
 
 ---
 
-## Condivisione con altri dispositivi
+## 6. Condivisione con altri dispositivi
 
-Con xDrip puoi condividere la glicemia con altri telefoni Android tramite **xDrip Sync** (guida: Condivisione con xDrip).
+Con xDrip puoi condividere la glicemia con altri telefoni Android tramite **xDrip Sync** (guida: [Configurazione Master/Follower con xDrip](../xdrip/masterfollower)).
 
 Per condividere con iPhone, è necessario Nightscout.

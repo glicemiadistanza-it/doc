@@ -112,7 +112,7 @@ La sezione **Servizi cloud** raccoglie le sorgenti che forniscono la glicemia vi
 
 ![](images/glucodatahandler/image_019.png)
 
-Per ciascun servizio, attiva **Abilita** e apri **Avanzate** per inserire le credenziali (nome utente e password per LLink/Dexcom Share, oppure URL e API_SECRET per Nightscout):
+Per ciascun servizio, attiva **Abilita** e apri **Avanzate** per inserire le credenziali (nome utente e password per LLink/Dexcom Share, oppure URL e `API_SECRET` per Nightscout):
 
 ![](images/glucodatahandler/image_020.png)
 
@@ -178,7 +178,7 @@ Seleziona il risultato **GlucoDataHandler** (autore **pachi81**) e tocca **Insta
 
 ![](images/glucodatahandler/image_033.png)
 
-Una volta installata, vedrai la glicemia sullo smartwatch come sul telefonino. Questo però **non è ancora un quadrante**: è solo l'app che gira in sfondo per recuperare la glicemia.
+Una volta installata, vedrai la glicemia sullo smartwatch come sul telefonino. Questo però **non è ancora un quadrante**: è solo l'app che gira in background per recuperare la glicemia.
 
 ![](images/glucodatahandler/image_034.png)
 

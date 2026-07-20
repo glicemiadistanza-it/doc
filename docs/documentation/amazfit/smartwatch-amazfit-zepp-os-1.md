@@ -114,7 +114,7 @@ Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zep
 
 ![](images/smartwatch-amazfit-zepp-os-1/image_019.png)
 
-> ℹ️ Se non esiste un watchface specifico per il tuo modello, puoi visualizzare il valore della glicemia direttamente nell'app WatchDrip Watch sull'orologio.
+> ℹ️ **Nota**: Se non esiste un watchface specifico per il tuo modello, puoi visualizzare il valore della glicemia direttamente nell'app WatchDrip Watch sull'orologio.
 
 Adesso cerca la mini app WatchDrip+ sull'orologio e aprila per visualizzare i valori:
 
@@ -132,7 +132,7 @@ Una volta collegato, aspetta la prossima lettura di xDrip: il valore comparirà 
 
 ---
 
-## Sezione speciale — Xiaomi Smart Band 7
+## 6. Sezione speciale — Xiaomi Smart Band 7
 
 La Xiaomi Smart Band 7 usa lo stesso sistema operativo Zepp degli Amazfit, ma l'app Zepp Life (per Xiaomi) non ha le API di comunicazione necessarie per WatchDrip+. Tuttavia è possibile farlo funzionare mascherando la Band 7 come un Amazfit Band 7.
 
@@ -147,4 +147,4 @@ La Xiaomi Smart Band 7 usa lo stesso sistema operativo Zepp degli Amazfit, ma l'
 7. Accedi con lo stesso account usato durante l'abbinamento.
 8. Ora puoi installare l'app WatchDrip Watch e il quadrante come descritto sopra.
 
-> ℹ️ Se non riesci ad abbinare con l'app modificata, prova l'app alternativa creata da Artem (disponibile sul suo blog: bigdigital.home.blog).
+> ℹ️ **Nota**: Se non riesci ad abbinare con l'app modificata, prova l'app alternativa creata da Artem, disponibile sul suo blog: [`https://bigdigital.home.blog`](https://bigdigital.home.blog).

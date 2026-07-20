@@ -1,8 +1,8 @@
 # Amazfit con xDrip (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip successive all'11 luglio 2022.** Se hai una versione recente di xDrip, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Attenzione**: Questa guida è obsoleta per versioni di xDrip successive all'11 luglio 2022. Se hai una versione recente di xDrip, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
-> ⚠️ **Attenzione**: Con Android 15 l'app Zepp modificata non va e non genera la chiave di autenticazione.
+> ⚠️ **Attenzione**: Con Android 15 l'app Zepp modificata non funziona e non genera la chiave di autenticazione.
 
 Dispositivi compatibili con questo metodo:
 - Amazfit Band 5
@@ -39,15 +39,15 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 
 ## 4. Ottieni la chiave di autenticazione
 
-1. Apri l'app e crea un account con **email e password** (non usare Google). Dichiara almeno 18 anni.
+1. Apri l'app e crea un account con **email e password** (non usare Google). Dichiara di avere almeno 18 anni.
 2. Nel profilo, aggiungi il tuo dispositivo: **Orologio** per GTR e GTS, **Bracciale** per Band 5.
 3. Abbina lo smartwatch e abilita **Visibilità** (modalità rilevabile) se disponibile. Se non trovi l'opzione, prosegui comunque.
 
 L'app modificata crea automaticamente un file di testo con le credenziali. Trovalo nella **memoria interna** o sulla **scheda SD**, nella cartella `freemyband`.
 
-> ⚠️ Se il file non esiste, xDrip non riuscirà a comunicare con lo smartwatch. Se disaccoppi o reimposti il dispositivo, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ **Attenzione**: Se il file non esiste, xDrip non riuscirà a comunicare con lo smartwatch. Se disaccoppi o reimposti il dispositivo, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
-> ℹ️ **Amazfit GTS2 mini:** per permettere a xDrip di installare il suo quadrante, devi cancellare tutti i quadranti personalizzati: **Impostazioni → Quadranti** e rimuovi tutto quello che puoi.
+> ℹ️ **Nota**: Sull'Amazfit GTS2 mini, per permettere a xDrip di installare il suo quadrante devi cancellare tutti i quadranti personalizzati: **Impostazioni → Quadranti** e rimuovi tutto quello che puoi.
 
 ---
 
@@ -63,9 +63,9 @@ L'app modificata crea automaticamente un file di testo con le credenziali. Trova
 2. Copia l'**indirizzo MAC** in **Mac Address**.
 3. Copia la **chiave di autenticazione** in **Auth Key**.
 
-Osserva lo stato in fondo alla schermata: prima comparirà "Smartwatch rilevata", poi "Smartwatch autenticata".
+Osserva lo stato in fondo alla schermata: prima comparirà "Smartwatch rilevato", poi "Smartwatch autenticato".
 
-**Se compare "Errore di autenticazione":** torna al passo 3 e rigenera la chiave.
+**Se compare "Errore di autenticazione":** torna al passo 4 e rigenera la chiave.
 
 **Se il quadrante non appare (sequenza di ripristino):**
 1. Disabilita MiBand in xDrip.

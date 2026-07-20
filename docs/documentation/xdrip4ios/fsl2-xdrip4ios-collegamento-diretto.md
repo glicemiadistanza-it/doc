@@ -1,4 +1,4 @@
-# Ricevere le letture da FSL 2 con xDrip4iOS
+# Ricevere le letture da FSL2 con xDrip4iOS
 
 > ℹ️ **Nota**: L'app aggiornata del fornitore permette la lettura in continuo senza scansionare: usare xDrip4iOS solo per questo scopo non è più obbligatorio. xDrip4iOS non manda dati ai server del fornitore.
 

@@ -14,7 +14,7 @@ Per maggiori informazioni su Nightscout: [`https://nightscout.github.io/`](https
 
 ## 1. Crea il database Atlas
 
-> ℹ️ **Nota**: Se stai migrando da Heroku e hai già un database Atlas, vai direttamente all'**Appendice A**.
+> ℹ️ **Nota**: Se stai migrando da Heroku e hai già un database Atlas, vai direttamente alla **sezione 5**.
 
 1. Vai su [`https://www.mongodb.com/cloud/atlas`](https://www.mongodb.com/cloud/atlas) e clicca **Get started now**.
 
@@ -166,7 +166,7 @@ Poi cerca **App Web** e clicca **Crea**:
 ![](images/nightscoutazureatlas/image_035.png)
 
    - **Pubblica**: seleziona **Contenitore Docker** con **Linux**.
-   - **Area geografica**: scegli una area vicina a dove abiti.
+   - **Area geografica**: scegli un'area vicina a dove abiti.
 
 ![](images/nightscoutazureatlas/image_036.png)
 
@@ -219,7 +219,7 @@ Aggiungi le seguenti variabili una alla volta (nome + valore → **OK**). Ecco a
 | Nome | Valore |
 |---|---|
 | `API_SECRET` | La tua password Nightscout (minimo 12 caratteri, no spazi, no `@`, no `!`) |
-| `DISPLAY_UNIT` | `mg/dl` |
+| `DISPLAY_UNITS` | `mg/dl` |
 | `MONGODB_URI` | La stringa generata al passo 1 |
 | `ENABLE` | `dbsize pump iob cob basal careportal sage cage bage` |
 
@@ -236,7 +236,7 @@ Ecco un esempio con `DISPLAY_UNITS` e `ENABLE` compilati:
 
 ![](images/nightscoutazureatlas/image_048.png)
 
-> ℹ️ **Nota**: Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi Appendice A) e incollale qui allo stesso modo.
+> ℹ️ **Nota**: Se stai migrando da Heroku, copia tutte le variabili dal tuo sito Heroku (vedi sezione 5) e incollale qui allo stesso modo.
 
 Una volta aggiunte tutte le variabili, l'elenco apparirà così:
 
@@ -293,7 +293,7 @@ Se usi Dexcom Share, i dati appariranno entro qualche minuto. Per xDrip, Spike, 
 ## 4. Aggiorna i dispositivi (solo migrazione da Heroku)
 
 Devi aggiornare l'indirizzo Nightscout su tutti i tuoi dispositivi:
-- **Prima (Heroku):** [`https://nomedeltuosito.heroku.com`](https://nomedeltuosito.heroku.com)
+- **Prima (Heroku):** [`https://nomedeltuosito.herokuapp.com`](https://nomedeltuosito.herokuapp.com)
 - **Ora (Azure):** [`https://nomedeltuosito.azurewebsites.net`](https://nomedeltuosito.azurewebsites.net)
 
 Per **xDrip master** (Cloud Upload), l'URL diventa:
@@ -309,7 +309,7 @@ Se vuoi mettere offline il vecchio sito Heroku per essere certo che tutti i disp
 
 ---
 
-## Appendice A — Database Atlas esistente (migrazione da Heroku)
+## 5. Database Atlas esistente (migrazione da Heroku)
 
 **Se hai ancora accesso a Heroku:**
 1. Vai su [`https://id.heroku.com/login`](https://id.heroku.com/login) e accedi con le tue credenziali.

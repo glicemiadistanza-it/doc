@@ -34,7 +34,7 @@ Toccando l'URL nell'email, il Watch apre il browser e mostra la pagina Nightscou
 
 Per accedere rapidamente a Nightscout senza riaprire ogni volta l'email:
 
-1. Nell'app **Apple Watch** sull'iPhone, vai in **Generale → Attiva schermo** e imposta **Mostra ultima app con schermo attivo**.
+1. Nell'app **Apple Watch** sull'iPhone, vai in **Generali → Attiva schermo** e imposta **Mostra ultima app con schermo attivo**.
 2. Vai in **Dock → Preferiti** e aggiungi l'app **Mail** ai preferiti.
 
 Nel menu **Generali** dell'app Apple Watch, tocca la voce **Attiva schermo**:

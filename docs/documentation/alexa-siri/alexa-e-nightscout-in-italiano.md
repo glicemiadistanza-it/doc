@@ -13,7 +13,7 @@ Basata sulla documentazione ufficiale: [`https://github.com/nightscout/cgm-remot
 
 ## 1. Abilita il plugin Alexa su Nightscout
 
-Aggiungi `alexa` alla variabile **ENABLE** del tuo Nightscout. 
+Aggiungi `alexa` alla variabile **ENABLE** del tuo Nightscout.
 
 Segui le [istruzioni](https://nightscout-github-io.translate.goog/nightscout/setup_variables/?_x_tr_sl=auto&_x_tr_tl=it) se usi un sito fai-da-te, oppure contatta il tuo [fornitore](https://nightscout-github-io.translate.goog/?_x_tr_sl=auto&_x_tr_tl=it#nightscout-as-a-service) per un sito a pagamento.
 
@@ -119,7 +119,7 @@ Clicca **Salva modello**, poi **Costruisci modello** e attendi il completamento.
 3. Seleziona la seconda opzione nel menu a discesa sotto l'URL.
 4. Clicca **Salva**.
 
-Nel menu a sinistra della console, clicca la voce **endpoint**:
+Nel menu a sinistra della console, clicca la voce **Endpoint**:
 
 ![](images/alexa-e-nightscout-in-italiano/image_011.png)
 

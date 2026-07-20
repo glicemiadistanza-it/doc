@@ -10,7 +10,7 @@ La soluzione si chiama **WatchDrip+**, sviluppata da Artem (@bigdigital su GitHu
 
 **Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Prima di iniziare, carica completamente lo smartband/smartwatch.
 
-## Panoramica dei passaggi
+## 1. Panoramica dei passaggi
 
 1. Installa e configura xDrip con la glicemia visibile
 2. Disinstalla le app ufficiali MiFit / Zepp se presenti
@@ -21,13 +21,13 @@ La soluzione si chiama **WatchDrip+**, sviluppata da Artem (@bigdigital su GitHu
 
 ---
 
-## 1. Installa xDrip
+## 2. Installa xDrip
 
 Segui la [guida base di installazione](./installare-xdrip-android). **Non proseguire fino a quando non vedi la glicemia in xDrip.**
 
 ---
 
-## 2. Rimuovi le app ufficiali
+## 3. Rimuovi le app ufficiali
 
 > ⚠️ Disinstallare non significa solo rimuovere l'icona: devi eliminare l'app completamente dalle impostazioni del telefono.
 
@@ -79,15 +79,15 @@ Su alcuni modelli, lo smartwatch mostra invece questa schermata di abbinamento:
 
 ![](images/xdrip-e-watchdrip/image_011.png)
 
-2. Vai in **Impostazioni Android → App → Zepp** e disinstalla completamente.
+3. Vai in **Impostazioni Android → App → Zepp** e disinstalla completamente.
 
 ---
 
-## 3. Ottieni la chiave di autenticazione
+## 4. Ottieni la chiave di autenticazione
 
 ### Per Xiaomi MiBand 2/3/4/5/6
 
-1. Dal sito [freemyband.com](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html), scarica l'app MiFit modificata (versione 5.3.1 è quella testata; versioni più recenti potrebbero funzionare):
+1. Dal sito [freemyband.com](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html), scarica l'app MiFit modificata (la versione 5.3.1 è quella testata; versioni più recenti potrebbero funzionare):
 
 ![](images/xdrip-e-watchdrip/image_013.png)
 
@@ -149,7 +149,7 @@ Attiva la **Modalità rilevabile**. Se non trovi l'opzione, prosegui comunque:
 
 ### Per smartwatch Amazfit
 
-1. Dal sito [freemyband.com](https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html), scarica l'app Zepp modificata (versione 5.6.1 è quella testata; evita la 6.4.1 che ha dato problemi):
+1. Dal sito [freemyband.com](https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html), scarica l'app Zepp modificata (la versione 5.6.1 è quella testata; evita la 6.4.1 che ha dato problemi):
 
 ![](images/xdrip-e-watchdrip/image_028.png)
 
@@ -208,7 +208,7 @@ All'interno trovi il file di testo con indirizzo MAC e chiave (nel nome del file
 
 ---
 
-## 4. Configura xDrip
+## 5. Configura xDrip
 
 1. **Disabilita MiBand in xDrip:** vai in **Menu → Impostazioni**:
 
@@ -228,7 +228,7 @@ Tocca **MiBand** e **disabilita** l'opzione **Usa MiBand** (questa è la vecchia
 
 ---
 
-## 5. Installa e configura WatchDrip+
+## 6. Installa e configura WatchDrip+
 
 1. Scarica l'ultima versione di WatchDrip+ dal sito del progetto:
    [`https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog)
@@ -284,7 +284,7 @@ Se compare il messaggio **"Impossibile trovare l'orologio"**, inserisci l'indiri
 
 ![](images/xdrip-e-watchdrip/image_054.png)
 
-> ⚠️ Se nella cartella ci sono più file, cancellali tutti e rigenera la chiave ripartendo dal passo 3.
+> ⚠️ Se nella cartella ci sono più file, cancellali tutti e rigenera la chiave ripartendo dal passo 4.
 
 ### Verifica il funzionamento
 
@@ -341,6 +341,6 @@ In fondo alla pagina trovi anche la sezione **Avanzate**, con opzioni aggiuntive
 
 ---
 
-## 6. Reinstalla le app ufficiali (opzionale)
+## 7. Reinstalla le app ufficiali (opzionale)
 
 Puoi reinstallare MiFit o Zepp dal Play Store. **Usa esattamente lo stesso account** (email e password) dell'app modificata. Se usi un account diverso, probabilmente dovrai ricominciare dall'inizio.

@@ -59,7 +59,7 @@ L'app modificata crea automaticamente un file di testo con le credenziali. Trova
 
 Osserva lo stato in fondo alla schermata: prima comparirà "Smartband rilevata", poi "Smartband autenticata".
 
-**Se compare "Errore di autenticazione":** torna al passo 3 e rigenera la chiave.
+**Se compare "Errore di autenticazione":** torna al passo 4 e rigenera la chiave.
 
 **Se il quadrante non appare (sequenza di ripristino):**
 1. Disabilita MiBand in xDrip.

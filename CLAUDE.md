@@ -1,6 +1,6 @@
 # glicemiadistanza.it — Documentation Guidelines
 
-This is a VitePress documentation site in Italian for the Facebook group "Diabete, glicemie a distanza e nuove tecnologie". All content is written for non-technical diabetes patients.
+This is a VitePress documentation site in Italian for the Facebook group "Diabete, glicemia a distanza e nuove tecnologie". All content is written for non-technical diabetes patients.
 
 ## Writing style
 

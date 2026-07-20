@@ -64,7 +64,7 @@ Inserisci l'email e la password ricevute via mail e clicca **log in**:
 
 ![](images/nightscoutzehnbe/image_014.png)
 
-3. Scegli un **nome** per il tuo sito (solo minuscole, numeri e `-`; se è già occupato, scegline un altro), (facoltativo) un **Display-Name** per personalizzare il titolo della pagina, e la **API Password** (almeno 12 caratteri, meglio solo lettere e numeri — evita `!`, `#`, `%`, `&`, `/`, `=`):
+3. Scegli un **nome** per il tuo sito (solo minuscole, numeri e `-`; se è già occupato, scegline un altro), (facoltativo) un **Display-Name** per personalizzare il titolo della pagina, e l'**API Password** (almeno 12 caratteri, meglio solo lettere e numeri — evita `!`, `#`, `%`, `&`, `/`, `=`):
 
 ![](images/nightscoutzehnbe/image_015.png)
 
@@ -92,11 +92,11 @@ Inserisci l'email e la password ricevute via mail e clicca **log in**:
 
 ![](images/nightscoutzehnbe/image_020.png)
 
-Il server viene creato con lo stato **creating**: da questa schermata trovi anche l'indirizzo del sito e la API secret appena impostata (attenzione: il pagamento non è ancora attivo):
+Il server viene creato con lo stato **creating**: da questa schermata trovi anche l'indirizzo del sito e l'API secret appena impostata (attenzione: il pagamento non è ancora attivo):
 
 ![](images/nightscoutzehnbe/image_021.png)
 
-Più in basso nella stessa pagina trovi anche gli indirizzi già pronti per xDrip e per AndroidAPS/iPhone Loop, con la API secret già inclusa nell'URL:
+Più in basso nella stessa pagina trovi anche gli indirizzi già pronti per xDrip e per AndroidAPS/iPhone Loop, con l'API secret già inclusa nell'URL:
 
 ![](images/nightscoutzehnbe/image_022.png)
 
@@ -150,7 +150,7 @@ Clicca **Update**: lo stato di autenticazione passerà da "Unauthorized" ad "Adm
 
 ![](images/nightscoutzehnbe/image_032.png)
 
-Clicca **Save**: ti verrà chiesto conferma del salvataggio nel nuovo formato del profilo...
+Clicca **Save**: ti verrà chiesta conferma del salvataggio nel nuovo formato del profilo...
 
 ![](images/nightscoutzehnbe/image_033.png)
 

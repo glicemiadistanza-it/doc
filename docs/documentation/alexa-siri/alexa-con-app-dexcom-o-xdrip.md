@@ -69,7 +69,7 @@ Sugarmate genera un indirizzo email da usare come follower: copialo e clicca **F
 
 ## 4. Aggiungi Sugarmate come follower Dexcom
 
-**Se usi xDrip:** vai in **Impostazioni → Cloud Upload → Dexcom Share Server → Gestire Follower**. Clicca **Invite a follower**, inserisci come nome `Sugarmate`, come tuo nome e l'email di Sugarmate copiata prima. Clicca **Send Invite**.
+**Se usi xDrip:** vai in **Impostazioni → Cloud Upload → Dexcom Share Server → Gestire Follower**. Clicca **Invite a follower**, inserisci come nome `Sugarmate`, il tuo nome e l'email di Sugarmate copiata prima. Clicca **Send Invite**.
 
 Nelle impostazioni di **Upload in Dexcom Share Server**, tocca **Gestire Follower**:
 
@@ -135,7 +135,7 @@ Compare la conferma che la skill è stata collegata con successo:
 
 ---
 
-## Usare Alexa
+## 7. Usare Alexa
 
 Puoi chiedere:
 

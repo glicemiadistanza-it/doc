@@ -2,7 +2,7 @@
 
 **Gluroo** è un'app gratuita creata da Greg Badros che funziona come una versione semplificata di Nightscout: puoi usarla per condividere la glicemia, visualizzarla su smartwatch e sul monitor M5Stack, senza gestire un server.
 
-Sorgenti dati compatibili: Dexcom Share, FSL 2, FSL 3 (tramite LView), Nightscout.
+Sorgenti dati compatibili: Dexcom Share, FSL2, FSL3 (tramite LView), Nightscout.
 
 Documento originale di Didier Frétigné.
 
@@ -34,7 +34,7 @@ La schermata principale di Gluroo con il menu aperto: la voce **CGM** è in alto
 
 ## 2. Configura la sorgente dati
 
-Il menu **monitoraggio continuo della glicemia** propone tre sorgenti: **Dexcom**, **FSL tramite LLink-Up** e **Fai da te tramite Nightscout**:
+Il menu **monitoraggio continuo della glicemia** propone tre sorgenti: **Dexcom**, **FSL tramite LLink** e **Fai da te tramite Nightscout**:
 
 ![](images/gluroo/image_004.png)
 
@@ -58,7 +58,7 @@ La schermata **Dexcom Share** dell'app Dexcom, con la condivisione attiva e l'el
 
 4. Clicca **Verifica accesso**. A breve dovresti vedere la glicemia in Gluroo.
 
-### Se usi LView (FSL 2 o FSL 3)
+### Se usi LView (FSL2 o FSL3)
 
 Puoi inserire Gluroo come follower di LView.
 
@@ -177,7 +177,7 @@ Nella sezione **Application firmware** della stessa pagina puoi verificare la ve
 
 ---
 
-## Maggiori informazioni
+## 4. Maggiori informazioni
 
 - Gruppo Facebook di Gluroo: [`https://www.facebook.com/groups/1326762991077589`](https://www.facebook.com/groups/1326762991077589)
 - Blog ufficiale: [`https://www.gluroo.com/blog/nightscout_heroku_alternative_free/index.html`](https://www.gluroo.com/blog/nightscout_heroku_alternative_free/index.html)

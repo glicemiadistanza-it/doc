@@ -1,4 +1,4 @@
-# **La scelta del microinfusore**
+# La scelta del microinfusore
 
 Un tema ricorrente, sempre più presente nei post del gruppo, è la scelta del microinfusore ⛽.
 
@@ -10,7 +10,7 @@ Spesso si chiedono informazioni a chi ha usato proprio quel modello, oppure a ch
 
 Ancora meno senso ha chiedere in gruppi specifici come “Tandem t:slim X2 utenti” o “Medtronic 780G”, perché inevitabilmente vincerà la maggioranza.
 
-## **La comodità è soggettiva**
+## La comodità è soggettiva
 
 La comodità è molto personale, così come la preferenza e l’accettazione del dispositivo. Ci sono persone che non accettano il catetere e preferiscono una patch pump nonostante le sue limitazioni. Le abitudini di vita influenzano spesso anche le nostre decisioni quotidiane.
 
@@ -18,7 +18,7 @@ Ho visto risultati migliori in persone in terapia multi-iniettiva rispetto a qua
 
 E anche qui si apre un mondo, perché spesso la scelta del microinfusore è vincolata dal tipo di sensore.
 
-## **Il ruolo del paziente e del medico**
+## Il ruolo del paziente e del medico
 
 La parte seguente è già stata riportata in un altro post, ma è ancora valida: vedi [Evoluzione della terapia insulinica con microinfusore](./levoluzione-della-terapia-insulinica-con-microinfusore).
 
@@ -28,7 +28,7 @@ La scelta del microinfusore più evoluto non è garanzia di successo, a meno che
 
 E perché questo accada, il medico ha un ruolo chiave nell’educazione, nel training e nel monitoraggio. La parte educativa diventa cruciale per il successo terapeutico. Anche il follow‑up è fondamentale per capire se il sistema stia facendo bene il suo lavoro e se il paziente lo utilizzi secondo protocollo.
 
-## **Sistemi ibridi: aspettative e realtà**
+## Sistemi ibridi: aspettative e realtà
 
 Abbiamo ancora un sistema “ibrido”, in cui l’intervento umano è fondamentale. Molti pazienti, e perfino tanti medici, potrebbero avere un concetto di pancreas artificiale che ancora non è realtà.
 
@@ -38,12 +38,11 @@ L’accettazione da parte del paziente di una soluzione comunque “protesica”
 
 Bisogna quindi affrontare preventivamente tutte queste criticità, per far comprendere che solo una buona gestione della tecnologia può portare ai risultati attesi.
 
-## **Prima di scegliere**
+## Prima di scegliere
 
 Parla con il tuo medico e, prima di fare una scelta definitiva, valuta un periodo di prova: solitamente i centri propongono due mesi per decidere.
 
 Le foto sono estratte dal documento: **“Dall’automonitoraggio ai sistemi ibridi” – Daniela Bruttomesso, Azienda Ospedale Università di Padova**
-
 
 ![](./images/sceltamicro1.png)
 

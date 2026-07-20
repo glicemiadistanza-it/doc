@@ -96,7 +96,7 @@ Clicca **Update**: lo stato di autenticazione passerà da "Unauthorized" ad "Adm
 
 ![](images/nightscoutpro/image_018.png)
 
-Clicca **Save**: ti verrà chiesto conferma del salvataggio nel nuovo formato del profilo...
+Clicca **Save**: ti verrà chiesta conferma del salvataggio nel nuovo formato del profilo...
 
 ![](images/nightscoutpro/image_019.png)
 

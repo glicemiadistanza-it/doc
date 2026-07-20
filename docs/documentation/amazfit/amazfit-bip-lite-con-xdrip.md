@@ -1,6 +1,6 @@
 # Amazfit Bip / Bip Lite con xDrip (metodo legacy)
 
-> ⚠️ **Questa guida è obsoleta per versioni di xDrip successive all'11 luglio 2022.** Se hai una versione recente di xDrip, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
+> ⚠️ **Attenzione**: Questa guida è obsoleta per versioni di xDrip successive all'11 luglio 2022. Se hai una versione recente di xDrip, segui invece la [guida WatchDrip+](../xdrip/xdrip-e-watchdrip).
 
 Questa guida spiega come visualizzare la glicemia di xDrip su un **Amazfit Bip Lite** (dovrebbe funzionare anche con Amazfit Bip S) usando una versione modificata di xDrip (v0.4.1.2).
 
@@ -8,7 +8,7 @@ Progetto originale di Artem (GitHub: @bigdigital). Documentazione: [`https://big
 
 **Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
-> ⚠️ Se usi xDrip collegato direttamente al sensore, questa versione modificata potrebbe non essere compatibile con future versioni di Android. Prima di procedere, **esporta il database e salva le impostazioni** di xDrip (menù → Importa/Esporta → Esporta database, e copia il codice QR delle impostazioni).
+> ⚠️ **Attenzione**: Se usi xDrip collegato direttamente al sensore, questa versione modificata potrebbe non essere compatibile con future versioni di Android. Prima di procedere, **esporta il database e salva le impostazioni** di xDrip (menù → Importa/Esporta → Esporta database, e copia il codice QR delle impostazioni).
 
 ---
 
@@ -33,12 +33,12 @@ Se hai già xDrip in versione ufficiale (non quella modificata di Artem), devi d
 
 1. Vai su [`https://www.freemyband.com/`](https://www.freemyband.com/) e scarica l'app **Zepp modificata** (usa Chrome o cambia browser se non funziona).
 2. Installa l'app autorizzando l'installazione da sorgente sconosciuta.
-3. Crea un account con **email e password** (non usare Google). Dichiara almeno 18 anni.
+3. Crea un account con **email e password** (non usare Google). Dichiara di avere almeno 18 anni.
 4. Abbina il Bip Lite e abilita **Visibilità** (modalità rilevabile) se disponibile. Se non trovi l'opzione, prosegui comunque (inserirai i dati manualmente dopo).
 
 L'app modificata genera automaticamente un file di testo con le credenziali di autenticazione. Trovalo nella **memoria interna** o sulla **scheda SD**, nella cartella `freemyband`.
 
-> ⚠️ Se il file non esiste, WatchDrip+/xDrip non funzionerà. Se resetti il Bip Lite, cancella il vecchio file e rigenera le credenziali con l'app modificata.
+> ⚠️ **Attenzione**: Se il file non esiste, WatchDrip+/xDrip non funzionerà. Se resetti il Bip Lite, cancella il vecchio file e rigenera le credenziali con l'app modificata.
 
 ---
 

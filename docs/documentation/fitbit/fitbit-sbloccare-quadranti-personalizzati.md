@@ -1,4 +1,4 @@
-# FitBit: come sbloccare l'installazione dei quadranti personalizzati
+# Fitbit: come sbloccare l'installazione dei quadranti personalizzati
 
 Google ha eliminato dalla galleria app di Fitbit i quadranti e le app di terze parti per gli utenti nello Spazio Economico Europeo (SEE), quindi anche i quadranti dedicati alla glicemia (Glance, Sentinel, ecc.).
 

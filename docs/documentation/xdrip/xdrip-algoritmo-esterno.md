@@ -2,7 +2,7 @@
 
 Questa guida spiega come installare e configurare l'app **OOPAlgorithm** (Out Of Process Algorithm), un'applicazione supplementare che lavora con xDrip per migliorare la lettura del sensore FSL.
 
-## Quando usarlo
+## 1. Quando usarlo
 
 Usa l'algoritmo esterno se:
 - Usi **OOP1** e funziona bene sul tuo telefono (utile per FSL1)
@@ -16,7 +16,7 @@ Usa l'algoritmo esterno se:
 
 > ⚠️ OOP1 e OOP2 non possono essere usati contemporaneamente. Disinstalla quello che non serve.
 
-## Come funziona
+## 2. Come funziona
 
 Senza algoritmo esterno, xDrip calcola internamente il valore di glicemia dal valore grezzo del sensore tramite calibrazioni manuali:
 
@@ -46,7 +46,7 @@ Questo permette di ottenere valori senza calibrazione manuale (simili a quelli d
 
 ![](images/xdrip-algoritmo-esterno/image_007.png)
 
-## Versioni firmware richieste
+## 3. Versioni firmware richieste
 
 Prima di procedere, verifica che il firmware del tuo trasmettitore sia aggiornato:
 
@@ -65,14 +65,14 @@ Esempio con un trasmettitore Bubble:
 
 ![](images/xdrip-algoritmo-esterno/image_009.png)
 
-## 1. Scarica l'algoritmo
+## 4. Scarica l'algoritmo
 
 - **OOP1** (FSL1, Android 9 e inferiori):
   [`https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM`](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM)
 - **OOP2** (FSL2, Android 10 e superiori):
   [`https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view`](https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view)
 
-## 2. Installa l'algoritmo
+## 5. Installa l'algoritmo
 
 1. Scarica il file `.apk` e installalo (autorizza l'installazione da sorgenti sconosciute se richiesto). Comparirà l'icona dell'app **OOPalgorithm**:
 
@@ -90,7 +90,7 @@ Esempio con un trasmettitore Bubble:
 
 Quando l'algoritmo è attivo, compare un'icona supplementare nella barra delle notifiche.
 
-## 3. Configura xDrip
+## 6. Configura xDrip
 
 xDrip potrebbe rilevare automaticamente l'algoritmo e chiederti di abilitarlo. **Non accettare il prompt automatico.** Segui invece questi passi manuali:
 
@@ -112,7 +112,7 @@ In **Altre opzioni** trovi la sezione OOP:
 
 ![](images/xdrip-algoritmo-esterno/image_015.png)
 
-## 4. Funzionamento
+## 7. Funzionamento
 
 ### Con OOP1 (FSL1)
 
@@ -132,7 +132,7 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 ---
 
-## Sezione avanzata: installare OOP sullo smartwatch Android Wear
+## 8. Sezione avanzata: installare OOP sullo smartwatch Android Wear
 
 > ℹ️ Questa sezione è per chi usa uno smartwatch Android Wear **senza telefono** come collettore standalone. Richiede un PC Windows con ADB installato.
 
@@ -156,7 +156,7 @@ Devi comunque fare **Stop sensore** e **Avvia nuovo sensore** a ogni cambio.
 
 ### Alternativa senza PC: installa con l'app Wear Installer
 
-Se non hai un PC Windows disponibile, puoi installare OOP2 sullo smartwatch direttamente dal telefono, tramite Wi-Fi, usando l'app **Wear Installer 2**. Usa lo stesso file `OOP2.apk` scaricato al punto 1 di questa guida (nella cartella Download del telefono).
+Se non hai un PC Windows disponibile, puoi installare OOP2 sullo smartwatch direttamente dal telefono, tramite Wi-Fi, usando l'app **Wear Installer 2**. Usa lo stesso file `OOP2.apk` scaricato nella sezione 4 di questa guida (nella cartella Download del telefono).
 
 1. Installa **Wear Installer 2** sul **telefono** (non sullo smartwatch) dal Play Store:
 

@@ -118,7 +118,7 @@ Clicca **Validate, save and restart**: il dispositivo si riavvierà e la glicemi
 
 ## 5. In caso di difficoltà
 
-- Se il dispositivo non riesce a collegarsi, tieni premuto il tasto sinistro e premi contemporaneamente il tasto rosso sul lato per riavviare. Tieni premuto il tasto sinistro finché il dispositivo si ferma sulla schermata iniziale, poi ricomincia dalla configurazione Wi-Fi.
+- Se il dispositivo non riesce a collegarsi, tieni premuto il tasto sinistro e premi contemporaneamente il tasto rosso sul lato per riavviare. Tieni premuto il tasto sinistro finché il dispositivo non si ferma sulla schermata iniziale, poi ricomincia dalla configurazione Wi-Fi.
 - Per la diagnostica avanzata: lascia il cavo USB collegato dopo l'installazione per vedere i messaggi di debug tramite **LOGS & CONSOLE** nel pannello del dispositivo.
 
 > ℹ️ **Nota**: Al momento non ci sono quadranti aggiuntivi e non è possibile impostare allarmi o regolare la luminosità direttamente dal dispositivo. Lo sviluppatore sta lavorando a nuove funzionalità.

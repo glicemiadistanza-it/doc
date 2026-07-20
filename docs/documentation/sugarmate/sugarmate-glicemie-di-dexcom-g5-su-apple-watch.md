@@ -14,7 +14,7 @@ Autori: Maurizio Frijia e Mimmo Longobardi.
 
 Se hai già l'autenticazione a due fattori attiva, salta direttamente al punto 2.
 
-1. Apri **Impostazioni** sull'iPhone del follower e tocca il tuo nome in alto per accedere all'account iCloud:
+1. Apri **Impostazioni** sull'iPhone del follower:
 
 ![](images/sugarmate-glicemie-di-dexcom-g5-su-apple-watch/image_001.png)
 
@@ -51,7 +51,7 @@ A operazione completata, la voce **Autenticazione a due fattori** risulta **Abil
 
 ![](images/sugarmate-glicemie-di-dexcom-g5-su-apple-watch/image_008.png)
 
-Dopo l'attivazione, torna alle impostazioni iCloud e assicurati che la **voce Calendario** sia spuntata. Altrimenti non potrai condividere il calendario con Sugarmate.
+Dopo l'attivazione, torna alle impostazioni iCloud e assicurati che la voce **Calendari** sia spuntata. Altrimenti non potrai condividere il calendario con Sugarmate.
 
 Torna in **Impostazioni** e tocca **iCloud**:
 
@@ -258,7 +258,7 @@ Nella configurazione del quadrante, assegna **Calendario** a una delle complicaz
 
 ![](images/sugarmate-glicemie-di-dexcom-g5-su-apple-watch/image_051.png)
 
-3. Scorri fino a **Imposta come quadrante** e confermala.
+3. Scorri fino a **Imposta come quadrante** e conferma.
 
 Inizialmente comparirà "Nessun evento". Dopo qualche minuto il calendario si aggiornerà con il valore glicemico corrente.
 

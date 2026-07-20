@@ -2,10 +2,10 @@
 
 > ⚠️ **Attenzione**: Sentinel ormai è a pagamento.
 
-**Versione:** 1.0  
-**Traduzione e adattamento:** glicemiadistanza.it (by Ryan Chen)
+**Versione:** 1.0
+**Autore:** Ryan Chen — guida adattata e tradotta per glicemiadistanza.it.
 
-Sentinel One è un quadrante per Fitbit pensato per il monitoraggio di una singola persona, con glicemia, freccia di tendenza e grafico ben in vista:
+Sentinel One è un quadrante per Fitbit creato da Ryan Chen come variante di Sentinel, il quadrante che permette di monitorare la glicemia di 1-3 persone. Sentinel One è dedicato al monitoraggio di una sola persona: glicemia, freccia di tendenza e grafico sono ben in vista, con caratteri grandi e icone semplici:
 
 ![](images/sentineloneuserguide1/image_001.png)
 
@@ -13,16 +13,33 @@ Sentinel One è un quadrante per Fitbit pensato per il monitoraggio di una singo
 
 **Smartwatch supportati:** Fitbit Ionic, Sense, Versa/Versa 2, Versa Lite
 
+Ecco il quadrante su Fitbit Ionic:
+
+![](images/sentineloneuserguide1/image_015.png)
+
+Su Versa Lite:
+
+![](images/sentineloneuserguide1/image_016.png)
+
+E su Versa:
+
+![](images/sentineloneuserguide1/image_017.png)
+
 ## 2. Perché Sentinel One?
 
-Sentinel One è stato creato pensando ai bambini con diabete. Offre:
-- Aspetto pulito e minimalista
-- Supporto per Nightscout Careportal
-- Icone semplici e intuitive
+Sentinel One è stato creato pensando ai bambini con diabete di tipo 1: serve a controllare la glicemia, imparare a rispondere agli allarmi, leggere il grafico e mandare messaggi e trattamenti a Nightscout in autonomia. Offre:
 
-L'icona goccia di sangue richiama subito il controllo della glicemia, anche per i bambini più piccoli:
+- **Aspetto pulito** e minimalista
+- **Supporto per Nightscout Careportal**
+- **Icone semplici** e intuitive
+
+L'icona goccia di sangue richiama subito il controllo capillare della glicemia, anche per i bambini più piccoli:
 
 ![](images/sentineloneuserguide1/image_030.png)
+
+Le pastiglie di glucosio hanno la loro icona dedicata:
+
+![](images/sentineloneuserguide1/image_019.png)
 
 L'obiettivo è che anche a scuola, in classe, il quadrante sia facile da leggere e da usare in autonomia:
 
@@ -30,7 +47,7 @@ L'obiettivo è che anche a scuola, in classe, il quadrante sia facile da leggere
 
 ## 3. Installazione
 
-> ⚠️ **Nota per gli utenti di xDrip:** un aggiornamento recente dell'app Fitbit blocca i dati da xDrip. Devi installare la versione `3.58` e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
+> ⚠️ **Attenzione**: se usi xDrip come sorgente dati, un aggiornamento recente dell'app Fitbit blocca i dati. Devi installare la versione `3.58` dell'app Fitbit e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
 
 Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio per installare il quadrante:
 
@@ -45,7 +62,7 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 
 ![](images/sentineloneuserguide1/image_036.png)
 
-2. Tocca la miniatura del quadrante per vederne i dettagli, poi premi **Select** per installarlo sull'orologio.
+2. Nell'app Fitbit tocca la miniatura del quadrante per vederne i dettagli, poi premi **Select** per installarlo sull'orologio.
 
 ![](images/sentineloneuserguide1/image_037.png)
 
@@ -53,135 +70,253 @@ Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio
 
 ![](images/sentineloneuserguide1/image_038.png)
 
-4. Tocca **Settings** per aprire la schermata di configurazione, dove inserirai la tua sorgente dati (Nightscout, Dexcom Share o xDrip+):
+4. Tocca **Settings** per aprire la schermata di configurazione (**USER ACCOUNT 1**), dove imposterai la tua sorgente dati:
 
 ![](images/sentineloneuserguide1/image_039.png)
 
-## 4. Impostazioni — Sorgenti dati
+## 4. Impostazioni e sorgenti dati
 
-Sentinel One supporta 4 combinazioni di sorgenti dati: **Nightscout**, **Dexcom Share**, **Nightscout + Dexcom Share** e **xDrip+ / Diabox** (in locale o con upload su Nightscout). In ognuna di queste modalità, dalla schermata **Settings** attivi (**Activate**) l'account e i soli toggle della sorgente che vuoi usare, poi inserisci nome, credenziali o indirizzo richiesti.
+Nella schermata **Settings** trovi tutti i campi dell'account:
 
-Per usare Nightscout, se vuoi anche inviare trattamenti dal quadrante, crea un soggetto con ruolo `admin` in **Admin Tools** sulla tua pagina Nightscout e copia il relativo **Access Token**:
+- **Activate** — attiva l'account (da abilitare per ultimo, quando tutto è configurato)
+- **Use Local xDrip+** — legge i dati direttamente da xDrip (o Diabox) sul telefono
+- **Use Dexcom Data** — legge i dati dai server Dexcom Share
+- **Use NS Data** — legge i dati da Nightscout
+- **Use NS Raw BG** — legge anche i dati grezzi del sensore da Nightscout
+- **Name** — il nome visualizzato sul quadrante
+- **Dexcom Username** / **Dexcom Password** — le credenziali Dexcom
+- **NS URL** — l'indirizzo della tua pagina Nightscout
+- **NS Careportal Token** — il token di accesso a Careportal (opzionale)
+
+In fondo alla schermata puoi anche scegliere il colore del quadrante. Le sezioni che seguono spiegano come impostare le diverse sorgenti di dati.
+
+### Sorgente dati: Nightscout
+
+1. In **Name** inserisci il nome da visualizzare sul quadrante.
+2. In **NS URL** metti l'indirizzo della tua pagina Nightscout.
+3. Metti **on** l'interruttore **Use NS Data**.
+4. Metti **on** l'interruttore **Activate**.
+5. (Opzionale) Se hai un token di accesso a Careportal, mettilo in **NS Careportal Token**.
+
+La schermata configurata per Nightscout è questa:
+
+![](images/sentineloneuserguide1/image_053.png)
+
+Il token si crea dalla tua pagina Nightscout in **Admin Tools**, con un soggetto con ruolo `admin`: copia il codice della colonna **Access Token**. Trovi la procedura passo-passo nella [guida di Sentinel Pro](sentinel-pro-userguide1.md#uso-con-nightscout-protetto-da-token).
 
 ![](images/sentineloneuserguide1/image_052.png)
 
-Per Dexcom Share, verifica che la condivisione (**Condivisione**) sia attiva sull'app Dexcom e che ci sia almeno un follower connesso:
+### Sorgente dati: Dexcom Share
+
+> ℹ️ **Nota**: ricordati che per usare il quadrante devi avere un follower attivo nell'app Dexcom.
+
+Verifica che la condivisione (**Condivisione**) sia attiva nell'app Dexcom e che ci sia almeno un follower connesso:
 
 ![](images/sentineloneuserguide1/image_071.png)
 
-Ecco la schermata di configurazione con **Use Local xDrip+** attivato, la modalità da scegliere se leggi i dati direttamente da xDrip+ senza passare da Nightscout:
+1. In **Name** inserisci il nome da visualizzare sul quadrante.
+2. In **Dexcom Username** e **Dexcom Password** metti login e password Dexcom Share (verifica che siano giusti facendo login su Dexcom Clarity).
+3. Metti **on** l'interruttore **Use Dexcom Data**.
+4. Metti **on** l'interruttore **Activate**.
 
-![](images/sentineloneuserguide1/image_094.png)
+![](images/sentineloneuserguide1/image_070.png)
 
-E qui la stessa schermata con **Use NS Data** e **Use NS Raw BG** attivati, per leggere da Nightscout includendo i dati grezzi del sensore:
+> ⚠️ **Attenzione**: verifica di avere abilitato il server Dexcom Share fuori dagli USA: scorri in fondo alle impostazioni e metti **on** l'interruttore **Dexcom Share outside USA** (vedi la sezione 6).
 
-![](images/sentineloneuserguide1/image_102.png)
+### Sorgente dati: Nightscout + Dexcom Share
 
-### xDrip / Diabox
+Puoi usare le due sorgenti insieme: le glicemie arrivano da Dexcom Share e i trattamenti da Nightscout Careportal.
 
-**Sorgente dati:** `Local Web Server`
+1. In **Name** inserisci il nome da visualizzare sul quadrante.
+2. In **Dexcom Username** e **Dexcom Password** metti login e password Dexcom Share (verifica con Clarity).
+3. In **NS URL** metti l'indirizzo della tua pagina Nightscout.
+4. (Opzionale) In **NS Careportal Token** metti il token Nightscout.
+5. Metti **on** gli interruttori **Use Dexcom Data**, **Use NS Data** e per ultimo **Activate**.
 
-### xDrip con Nightscout (xDrip & NS)
+![](images/sentineloneuserguide1/image_081.png)
 
-**Sorgente dati:** `Uploader to NS`
+### Sorgente dati: xDrip o Diabox (Local Web Server)
+
+In questa modalità il quadrante legge i dati direttamente dal servizio web locale (`Local Web Server`) di xDrip o Diabox sul telefono, senza passare da Nightscout. Assicurati che in xDrip il servizio web locale sia abilitato.
+
+1. In **Name** inserisci il nome da visualizzare sul quadrante.
+2. Metti **on** l'interruttore **Use Local xDrip+**.
+3. Metti **on** l'interruttore **Activate**.
+
+![](images/sentineloneuserguide1/image_093.png)
+
+### Sorgente dati: xDrip + Nightscout (Uploader to NS)
+
+In questa modalità xDrip carica i dati su Nightscout (`Uploader to NS`) e il quadrante li legge dalla tua pagina Nightscout.
+
+1. In **Name** inserisci il nome da visualizzare sul quadrante.
+2. In **NS URL** metti l'indirizzo della tua pagina Nightscout.
+3. Metti **on** l'interruttore **Use NS Data**.
+4. Metti **on** l'interruttore **Activate**.
+5. (Opzionale) Metti **on** l'interruttore **Use NS Raw BG** per leggere anche i dati grezzi: solo per FSL e Dexcom G5.
+
+![](images/sentineloneuserguide1/image_101.png)
 
 ## 5. Allarmi
 
 ### Abilitare e disabilitare gli allarmi
 
-Le opzioni disponibili sono:
-- Allarmi disabilitati durante la carica
-- Allarme salita o discesa veloce
-- Allarme salita o discesa
-- Lampeggio del display per un allarme
-- Vibrazione per un allarme
+Nella schermata **ACTIVATE / DISABLE ALARMS** puoi attivare o disattivare singolarmente ogni allarme:
 
-![](images/sentineloneuserguide1/image_108.png)
+- **Alarms OFF when CHARGING** — allarmi disabilitati durante la carica
+- **Rising/Falling Delta Alarm** — allarme salita o discesa veloce (Delta)
+- **Single Arrow UP/DN Alarm** — allarme salita o discesa (freccia di tendenza)
+- **Active Alarm Display** — fa lampeggiare il display per un allarme
+- **Active Alarm Haptics** — vibrazione per un allarme
+
+![](images/sentineloneuserguide1/image_107.png)
 
 ### Soglie di allarme e silenziamento
 
-Nelle impostazioni imposti le soglie di allarme per glicemia alta, bassa e per il Delta:
+Nella schermata **SET BG ALARM THRESHOLDS** imposti le soglie di allarme:
+
+- **Target (BG)** — il valore obiettivo della glicemia
+- **High Alarm (BG)** — soglia dell'allarme glicemia alta
+- **Low Alarm (BG)** — soglia dell'allarme glicemia bassa
+- **Rising Delta Alarm** — soglia di salita veloce (+ `mgdl`/`mmol`)
+- **Falling Delta Alarm** — soglia di discesa veloce (− `mgdl`/`mmol`)
+- **Missing Data Alarm (Minutes)** — allarme dati mancanti, in minuti
+
+![](images/sentineloneuserguide1/image_114.png)
+
+E nella schermata **SET ALARM SNOOZE INTERVALS** gli intervalli di ripetizione (snooze) in minuti per ciascun tipo di allarme, così da non essere avvisato troppo spesso per lo stesso evento:
 
 ![](images/sentineloneuserguide1/image_115.png)
 
-E gli intervalli di ripetizione (snooze) per ciascun tipo di allarme, così da non essere avvisato troppo spesso per lo stesso evento:
+## 6. Impostazioni varie e Careportal
 
-![](images/sentineloneuserguide1/image_116.png)
+Nella schermata **MISC SETTINGS** trovi le impostazioni di Careportal e le altre opzioni:
 
-## 6. Impostazioni Careportal
+- **First Name** — nome visualizzato per i trattamenti in Careportal
+- **Use Careportal** — abilita/disabilita NS Careportal
+- **Use NS Messages** — abilita/disabilita le note in NS Careportal
+- **Use NS Heart Rate** — abilita/disabilita l'invio del battito cardiaco a NS Careportal
+- **Heart Rate Interval (Minutes)** e **Heart Rate Threshold (BPM)** — intervallo e soglia del battito cardiaco
+- **Dexcom Share outside USA** — server Dexcom Share internazionale
+- **mmol (thresholds & display)** — unità `mmol` per soglie e visualizzazione
+- **24hr Clock Display** — ora in formato 24 ore
 
-> ⚠️ **Importante per gli utenti fuori dagli USA:** nelle impostazioni Careportal, assicurati di avere abilitato il server internazionale.
+![](images/sentineloneuserguide1/image_118.png)
 
-Le impostazioni disponibili sono:
-- Nome visualizzato per i trattamenti in Careportal
-- Abilita/Disabilita NS Careportal
-- Abilita/Disabilita le note in NS Careportal
-- Abilita/Disabilita il battito cardiaco in NS Careportal
+> ⚠️ **Attenzione**: IMPORTANTE, per gli utenti fuori dagli USA l'interruttore **Dexcom Share outside USA** deve essere ABILITATO.
 
-Dal quadrante puoi scegliere di inviare un **Messaggio** oppure un trattamento tramite **Careportal**:
+## 7. Mandare note e trattamenti a Nightscout
+
+Dal quadrante puoi mandare note (messaggi) e trattamenti a Nightscout Careportal, senza usare il telefono.
+
+### Versa e Versa Lite: mandare note
+
+Dal quadrante:
+
+![](images/sentineloneuserguide1/image_128.png)
+
+si apre la schermata **REPORTING OPTIONS**, con le due scelte **Message** (note) e **Careportal** (trattamenti):
+
+![](images/sentineloneuserguide1/image_129.png)
+
+Se scegli **Message**, puoi mandare a Nightscout una conferma (**Confirm**) o il tuo stato (**Status**):
 
 ![](images/sentineloneuserguide1/image_130.png)
 
-Se scegli **Message**, puoi mandare a Nightscout una semplice conferma di lettura (**Confirm**) o il tuo stato (**Status**):
+Con **Confirm** confermi di aver finito uno spuntino (**SNACK**), il glucosio (**GLUCOSE**), un pasto (**MEAL**) o un succo (**JUICE**):
 
-![](images/sentineloneuserguide1/image_131.png)
+![](images/sentineloneuserguide1/image_135.png)
 
-Scegliendo **Status**, indichi cosa stai facendo in quel momento: mangiare, essere in classe, fare attività fisica o sentirti in ipoglicemia:
-
-![](images/sentineloneuserguide1/image_137.png)
-
-Oppure confermi di aver finito uno spuntino, il glucosio, un pasto o un succo:
+Con **Status** indichi cosa stai facendo in quel momento: mangiare (**EATING**), essere in classe (**IN CLASS**), fare attività (**PLAYING**) o sentirti in ipoglicemia (**FEEL LOW**):
 
 ![](images/sentineloneuserguide1/image_136.png)
 
-Se invece scegli **Careportal**, puoi inviare un controllo glicemico (**BG CHECK**), un pasto (**MEAL**), i carboidrati (**CARBS**) o un bolo (**BOLUS**):
+La nota arriva subito su Nightscout: qui ad esempio uno stato di ipoglicemia (**"Ryan reports feeling LOW!"**) mostrato in cima alla pagina:
 
-![](images/sentineloneuserguide1/image_183.png)
+![](images/sentineloneuserguide1/image_137.png)
 
-Ogni voce apre un tastierino numerico dedicato. Ad esempio, per i carboidrati:
+### Versa e Versa Lite: mandare trattamenti
 
-![](images/sentineloneuserguide1/image_154.png)
+Dal quadrante:
 
-Per il controllo glicemico:
+![](images/sentineloneuserguide1/image_174.png)
 
-![](images/sentineloneuserguide1/image_153.png)
+apri **REPORTING OPTIONS** e scegli **Careportal**: puoi inviare un controllo glicemico (**BG CHECK**), un pasto (**MEAL**), i carboidrati (**CARBS**) o un bolo (**BOLUS**). In alto vedi il riepilogo dell'ultimo bolo e degli ultimi carboidrati inseriti:
 
-E per il bolo:
+![](images/sentineloneuserguide1/image_146.png)
+
+Ogni voce apre un tastierino dedicato. Per il controllo glicemico regoli il valore con **±1** e **±10**, poi premi **Send**:
 
 ![](images/sentineloneuserguide1/image_152.png)
 
-Una volta inviato, Nightscout riceve la notifica in tempo reale — qui ad esempio uno **Status** di ipoglicemia (**"Ryan reports feeling LOW!"**), con il grafico aggiornato subito dopo:
+Per i carboidrati regoli i grammi con **±1** e **±10**, poi premi **Next**:
 
-![](images/sentineloneuserguide1/image_138.png)
+![](images/sentineloneuserguide1/image_153.png)
 
-## 7. Navigazione
+E per il bolo regoli le unità a piccoli (**±Sm**) o grandi (**±Lg**) incrementi, poi premi **Send**. Con **MEAL** inserisci prima i carboidrati e poi il bolo, in sequenza:
 
-### Come tornare alla pagina delle impostazioni
+![](images/sentineloneuserguide1/image_151.png)
+
+Il trattamento compare subito su Nightscout: il pasto inserito appare sul grafico (**MEAL ENTRY ADDED**, qui `12 g` e `0.6 U`):
+
+![](images/sentineloneuserguide1/image_156.png)
+
+E i carboidrati e l'insulina attivi (**COB** e **IOB**) si aggiornano:
+
+![](images/sentineloneuserguide1/image_157.png)
+
+### Ionic: mandare note e trattamenti
+
+Su Fitbit Ionic le schermate sono le stesse, in formato orizzontale. Il menu **Careportal**:
+
+![](images/sentineloneuserguide1/image_182.png)
+
+Le note **Confirm**:
+
+![](images/sentineloneuserguide1/image_180.png)
+
+Le note **Status**:
+
+![](images/sentineloneuserguide1/image_181.png)
+
+Il tastierino del bolo:
+
+![](images/sentineloneuserguide1/image_183.png)
+
+Il tastierino del controllo glicemico:
+
+![](images/sentineloneuserguide1/image_184.png)
+
+E il tastierino dei carboidrati:
+
+![](images/sentineloneuserguide1/image_185.png)
+
+## 8. Tornare alla pagina delle impostazioni
 
 Se hai bisogno di modificare le impostazioni del quadrante in un secondo momento:
 
-1. Apri l'app **Fitbit** sul telefono, nella schermata **Today**.
+1. Apri l'app **Fitbit** sul telefono e tocca l'icona del tuo orologio, in alto a destra.
+
+![](images/sentineloneuserguide1/image_197.png)
+
+2. Nella pagina dell'orologio tocca **Clock Faces** (quadranti).
+
+![](images/sentineloneuserguide1/image_198.png)
+
+3. Nella scheda **MY IONIC** (o del tuo orologio) tocca il quadrante attivo.
 
 ![](images/sentineloneuserguide1/image_199.png)
 
-2. Tocca l'icona del tuo orologio (in alto a destra) per aprire la sua pagina dei dettagli.
+4. Nella pagina di Sentinel One tocca **Settings**.
 
 ![](images/sentineloneuserguide1/image_200.png)
 
-3. Tocca **Clock Faces**.
+5. Si riapre la pagina delle impostazioni, con le sorgenti dati, gli allarmi e le impostazioni varie.
 
 ![](images/sentineloneuserguide1/image_201.png)
 
-4. Tocca il quadrante attivo (qui mostrato come **VOLTRON**, il nome dell'account impostato) per aprirne i dettagli.
+## 9. Avviso legale
 
-![](images/sentineloneuserguide1/image_202.png)
+> ⚠️ **Attenzione**: *Sentinel One è a solo scopo informativo. Non usarlo per prendere decisioni mediche. L'uso è a proprio rischio. Questo quadrante è ancora in sviluppo. Per aggiornamenti e supporto, unisciti al gruppo Facebook Sentinel: [`https://www.facebook.com/groups/3185325128159614`](https://www.facebook.com/groups/3185325128159614)*
 
-5. Nella pagina del quadrante, tocca **Settings** per tornare alla schermata di configurazione con tutte le sorgenti dati e gli allarmi.
-
-![](images/sentineloneuserguide1/image_203.png)
-
-## Avviso legale
-
-> ⚠️ *Sentinel One è a solo scopo informativo. Non usarlo per prendere decisioni mediche. L'uso è a proprio rischio. Questo quadrante è ancora in sviluppo. Per aggiornamenti e supporto, unisciti al gruppo Facebook Sentinel: [`https://www.facebook.com/groups/3185325128159614`](https://www.facebook.com/groups/3185325128159614)*
-
-![](images/sentineloneuserguide1/image_245.png)
+![](images/sentineloneuserguide1/image_242.png)

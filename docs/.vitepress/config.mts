@@ -131,6 +131,7 @@ const apple_watch = [
 ]
 
 const android = [
+  { text: 'Glicemia al polso con xDrip e Android Wear', link: '/documentation/android/glicemia-android-wear-xdrip' },
   { text: 'Abilitare ADB sullo smartwatch Huawei Watch 2', link: '/documentation/android/abilitare-adb-sullo-smartwatch-huawei-watch-2' },
   { text: 'Installare ADB Debug', link: '/documentation/android/installare-adb-debug' },
 ]

@@ -361,7 +361,7 @@ Molto probabilmente l'ultima calibrazione ha portato il valore `intercept` sopra
 
 **Soluzione:** **Stop sensore** → **Avviare il sensore** per cancellare tutte le calibrazioni.
 
-## Addendum – Perché calibrare non è uno scherzo
+## 13. Addendum – Perché calibrare non è uno scherzo
 
 > ℹ️ **Nota**: Dopo gli incidenti illustrati sotto, xDrip è stato adeguato per dare segnale mancante dopo troppe misure identiche, impedendo calibrazioni pericolose.
 

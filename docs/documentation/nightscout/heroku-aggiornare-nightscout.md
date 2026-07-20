@@ -2,6 +2,8 @@
 
 ![](images/heroku-aggiornare-nightscout/image_002.png)
 
+> ⚠️ **Attenzione**: Heroku non offre più il piano gratuito dal novembre 2022. Questa guida serve solo a chi ha ancora un sito Nightscout attivo su Heroku a pagamento. Per creare un nuovo sito, o migrare il tuo, segui una delle guide attuali: [Google Cloud](nightscoutgooglecloud), [Ionos](nightscoutionos), [ZehnBe](nightscoutzehnbe) o [Nightscout Pro](nightscoutpro).
+
 Questa guida spiega come aggiornare un sito Nightscout ospitato su Heroku. Usa questi passaggi **solo per Heroku** (non per Azure o Google Cloud).
 
 Adattato dalla [guida ufficiale Nightscout](https://nightscout.github.io/update/update/).
@@ -35,11 +37,9 @@ Accedi con la tua email e password GitHub:
 
 3. Controlla se c'è la scritta **"This branch is X commits behind nightscout:master"** (nell'esempio, 226 commit di ritardo):
 
-![](images/heroku-aggiornare-nightscout/image_007.png)
-
-4. Se sì, clicca **Fetch upstream** → **Fetch and merge**:
-
 ![](images/heroku-aggiornare-nightscout/image_008.png)
+
+4. Se sì, clicca **Sync fork** → **Update branch**.
 
 5. Dopo pochi istanti comparirà: **"This branch is up to date with nightscout:master"**:
 

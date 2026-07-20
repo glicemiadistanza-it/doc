@@ -149,9 +149,11 @@ Il risultato: la stessa glicemia sul telefono con l'uploader, sul telefono follo
 
 ## 4. Condivisione universale con Nightscout
 
-Segui la guida base: [`https://www.glicemiadistanza.it/nighscout-con-heroku-e-mongodb-atlas-nuova-guida/`](https://www.glicemiadistanza.it/nighscout-con-heroku-e-mongodb-atlas-nuova-guida/)
+Se non hai ancora un sito Nightscout, parti dalla [pagina Nightscout](../../articles/nightscout) di questo sito per creare il tuo.
 
-Al termine della procedura, vai alla videata principale di Heroku: [`https://dashboard.heroku.com/apps`](https://dashboard.heroku.com/apps)
+> ℹ️ **Nota**: Le schermate seguenti mostrano Heroku, che non offre più il piano gratuito. Se il tuo Nightscout è ospitato altrove (Google Cloud, Ionos, ecc.), la logica è la stessa: devi solo aggiungere le stesse variabili di configurazione al tuo sito.
+
+Se usi ancora Heroku, vai alla schermata principale: [`https://dashboard.heroku.com/apps`](https://dashboard.heroku.com/apps)
 
 1. Clicca sul nome della tua app.
 
@@ -205,7 +207,7 @@ La pagina Nightscout mostra la glicemia con trend, insulina attiva, carboidrati,
 
 ## 5. Come vedere le glicemie da orologio con xDrip
 
-Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia su chi usa xDrip come follower.
+Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia per chi usa xDrip come follower.
 
 - **Android Wear 2**: [guida per Android Wear OS](../xdrip/dexcom-xdrip-glimp-on-wear-watch)
 - **Sony Smartwatch 3 (SWR50)**: [`https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/`](https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/)

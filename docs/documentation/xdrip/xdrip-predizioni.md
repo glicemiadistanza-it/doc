@@ -80,7 +80,7 @@ Al termine, torna alla schermata delle impostazioni di simulazione:
 
 ## 4. Tasso di assorbimento dei carboidrati
 
-L'ultimo parametro è il tasso di assorbimento dei CHO all'ora. Per calcolarlo, segui il test descritto in fondo a questa pagina (adattamento del metodo di Anna Marchese).
+L'ultimo parametro è il tasso di assorbimento dei CHO all'ora. Per calcolarlo, segui il test descritto nell'appendice in fondo a questa pagina (adattamento del metodo di Anna Marchese).
 
 ## 5. Come usare le predizioni
 
@@ -134,7 +134,7 @@ Allargando la vista puoi anche sovrapporre il grafico della basale erogata alla 
 
 ![](images/xdrip-predizioni/image_023.png)
 
-Un ultimo esempio, questa volta dalla schermata principale di xDrip, con tutti gli indicatori insieme: valore attuale, IoB, insulina attiva e curve di previsione per un trattamento da 32g e 9u:
+Un ultimo esempio, questa volta dalla schermata principale di xDrip, con tutti gli indicatori insieme: valore attuale, IOB, insulina attiva e curve di previsione per un trattamento da 32g e 9u:
 
 ![](images/xdrip-predizioni/image_024.png)
 
@@ -148,7 +148,7 @@ Le predizioni sono utili per:
 
 ---
 
-## Appendice: Calcolare il tasso di assorbimento dei carboidrati
+## 6. Appendice: Calcolare il tasso di assorbimento dei carboidrati
 
 *Traduzione e adattamento del post su #DIYPS — a cura di Anna Marchese*
 
@@ -171,15 +171,15 @@ Questo test è rivolto a persone con **diabete di tipo 1** e richiede un CGM acc
 
 ### Calcolo del rapporto glicemia/CHO (BG:C)
 
-Se non lo conosci, calcolalo così:
+Il rapporto **BG:C** indica di quanti mg/dL sale la glicemia per 1 g di CHO. Se non lo conosci, calcolalo così:
 
 ```
-BG:C = Rapporto I:C ÷ Fattore di correzione
+BG:C = Fattore di correzione ÷ Rapporto I:C
 
-Esempio: I:C = 10 g/U, FC = 40 mg/dL per U → BG:C = 10 ÷ 40 = 0,25 → 1 g di CHO alza la glicemia di 4 mg/dL
+Esempio: I:C = 10 g/U, FC = 40 mg/dL per U → BG:C = 40 ÷ 10 = 4 → 1 g di CHO alza la glicemia di 4 mg/dL
 ```
 
-La formula del rapporto C:BG:
+Il suo inverso è il rapporto **C:BG** (quanti grammi di CHO servono per alzare la glicemia di 1 mg/dL; nell'esempio, 10 ÷ 40 = `0,25`). La formula del rapporto C:BG:
 
 ![](images/xdrip-predizioni/image_025.png)
 

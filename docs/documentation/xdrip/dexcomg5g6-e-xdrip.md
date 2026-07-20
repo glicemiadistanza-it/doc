@@ -215,7 +215,7 @@ Crea un sito Nightscout oppure usa [Gluroo](../gluroo/gluroo.md).
 
 ---
 
-## 9. Cambio sensore
+## 7. Cambio sensore
 
 Per **prolungare** il sensore oltre i 10 giorni: segui la guida specifica sul riavvio sensore.
 
@@ -232,7 +232,7 @@ Per **sostituire** il sensore:
 
 ---
 
-## 10. Cambio trasmettitore
+## 8. Cambio trasmettitore
 
 > ⚠️ **Attenzione**: Il sensore deve essere stato fermato prima di cambiare il trasmettitore.
 
@@ -252,7 +252,7 @@ Nella pagina **Stato del sistema**, premi **FORGET DEVICE**:
 
 ---
 
-## 11. Stato del sistema
+## 9. Stato del sistema
 
 La schermata **Stato del sistema** mostra:
 - Stato del sensore e giorni di utilizzo

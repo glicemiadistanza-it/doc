@@ -8,7 +8,7 @@ Le notifiche dell'app ufficiale del FSL, ad esempio, mostrano il valore ma non p
 
 > ⚠️ L'utilizzo è a esclusiva responsabilità personale.
 
-## Prerequisiti
+## 1. Prerequisiti
 
 Devi già avere un **account follower FSL** attivo e funzionante:
 - FSL2: crea un account follower nell'app LLink
@@ -20,11 +20,11 @@ Assicurati che le letture arrivino correttamente nell'app del follower **prima**
 
 Annota l'**email** e la **password** dell'account follower: ti serviranno tra poco.
 
-## 1. Installa xDrip
+## 2. Installa xDrip
 
 Segui la [guida base di installazione](./installare-xdrip-android).
 
-## 2. Configura la sorgente dati
+## 3. Configura la sorgente dati
 
 1. Dal menu principale di xDrip, tocca l'icona ☰ in alto a sinistra:
 
@@ -59,13 +59,13 @@ Se le credenziali del follower non funzionano, prova con quelle dell'app master 
 
 > ⚠️ Se non ricevi dati dopo qualche minuto, imposta la sorgente su **Disable collection** per evitare il blocco dell'account a causa di troppi tentativi falliti. Riprova più tardi.
 
-## 3. Verifica il funzionamento
+## 4. Verifica il funzionamento
 
 Dopo qualche istante le letture di glicemia compaiono su xDrip. Il valore appare anche nelle notifiche del telefono, anche a schermo bloccato (se autorizzato nelle impostazioni Android):
 
 ![](images/xdrip-follower-fsl/image_011.png)
 
-## 4. Aggiungi il widget (opzionale)
+## 5. Aggiungi il widget (opzionale)
 
 xDrip ha un widget che mostra il valore glicemico e il grafico sulla schermata principale e di blocco.
 
@@ -93,7 +93,7 @@ Una volta aggiunto, il widget mostra la glicemia anche sulla schermata principal
 
 Il metodo varia da modello a modello.
 
-## 5. Visualizza le glicemie sullo smartwatch (opzionale)
+## 6. Visualizza le glicemie sullo smartwatch (opzionale)
 
 xDrip può inviare la glicemia direttamente a diversi tipi di smartwatch:
 

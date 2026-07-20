@@ -9,9 +9,9 @@ Autore: Gianluca Curci.
 Dispositivi confermati dalla comunità:
 - Vivoactive HR
 - Garmin Fenix 3, Fenix 5
-- Forerunner 630, 735XT, 750
+- Forerunner 630, 735XT, 745
 
-Le istruzioni seguenti si basano sul modello **Forerunner 735XT** su Android. Su iPhone il procedimento è analogo tramite l'app Garmin Connect da App Store.
+Le istruzioni seguenti si basano sul modello **Forerunner 735XT** su Android. Su iPhone il procedimento è analogo tramite l'app Garmin Connect dall'App Store.
 
 ---
 
@@ -122,7 +122,7 @@ Cerca nel Connect IQ Store le app o i widget compatibili con Nightscout. Le due 
 ### Widget e app di Phimpy
 Cerca "Nightscout" o "Phimpy" nel Connect IQ Store.
 
-Nella pagina web dello store puoi vedere tutte le app pubblicate da Phimby, incluse **Nightscout Watch** e **Nightscout Widget**:
+Nella pagina web dello store puoi vedere tutte le app pubblicate da Phimpy, incluse **Nightscout Watch** e **Nightscout Widget**:
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_038.png)
 
@@ -192,6 +192,8 @@ Inserisci i seguenti parametri:
 - **Site Name** — solo il nome del sito, senza l'estensione Azure o Heroku (es. `birillo`)
 - **Host** — seleziona `azure` o `heroku` in base al tuo Nightscout
 - **Units** — l'unità di misura preferita (`mg/dL` o `mmol/L`)
+
+> ℹ️ **Nota**: Questo widget prevede solo i host `azure` e `heroku`, servizi ormai superati (vedi la [pagina Nightscout](../../articles/nightscout) per le soluzioni attuali). Se il tuo sito è ospitato altrove, usa il **CGM Widget** descritto più sotto, che accetta l'indirizzo completo del sito.
 
 Le impostazioni del **Nightscout Widget**, con i campi **Site Name**, **Host** e **Units**:
 

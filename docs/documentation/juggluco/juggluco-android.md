@@ -12,14 +12,14 @@ Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jka
 
 ![](images/juggluco-android/image_001.png)
 
-## Contenuto della guida
+## 1. Contenuto della guida
 
-1. [Prerequisito](#1-prerequisito)
-2. [Installare Juggluco](#2-installare-juggluco)
-3. [Collegare il sensore](#3-collegare-il-sensore)
-4. [Configurare Juggluco](#4-configurare-juggluco)
+2. [Prerequisito](#2-prerequisito)
+3. [Installare Juggluco](#3-installare-juggluco)
+4. [Collegare il sensore](#4-collegare-il-sensore)
+5. [Configurare Juggluco](#5-configurare-juggluco)
 
-## 1. Prerequisito
+## 2. Prerequisito
 
 Juggluco usa le librerie di **LLink**: conviene installarlo su un telefono dove l'app LLink è già presente (con la geolocalizzazione o il Bluetooth disabilitati per LLink, da **Impostazioni Android → App → LLink**).
 
@@ -29,7 +29,7 @@ Versioni delle librerie richieste:
 
 Se non hai già LLink installata, puoi scaricare l'apk da una lista di link su [`http://jkaltes.byethost16.com/Juggluco/urls.html`](http://jkaltes.byethost16.com/Juggluco/urls.html) — scegli una versione **non-US** (ricorda che APKPure è bloccato in Italia).
 
-## 2. Installare Juggluco
+## 3. Installare Juggluco
 
 Juggluco è disponibile nel Google Play Store. Aprilo e cerca "juggluco" oppure segui questo link:
 
@@ -49,7 +49,7 @@ Autorizza anche Juggluco a non essere ottimizzata dalla batteria, così può res
 
 ![](images/juggluco-android/image_005.png)
 
-Alla primissima apertura, l'app mostra le versioni di libreria richieste (vedi [Prerequisito](#1-prerequisito)) e due pulsanti: **Senza sensore** (modalità follower, senza accesso diretto al sensore) e **Apri**. Scegli **Apri**:
+Alla primissima apertura, l'app mostra le versioni di libreria richieste (vedi [Prerequisito](#2-prerequisito)) e due pulsanti: **Senza sensore** (modalità follower, senza accesso diretto al sensore) e **Apri**. Scegli **Apri**:
 
 ![](images/juggluco-android/image_006.png)
 
@@ -59,7 +59,7 @@ Si apre la schermata principale di Juggluco, in modalità orizzontale (non è po
 
 > ℹ️ **Nota**: Se invece si apre il contenuto **Downloads** del telefono, vuol dire che non hai installato LLink. Torna indietro, vai su [`http://jkaltes.byethost16.com/Juggluco/urls.html`](http://jkaltes.byethost16.com/Juggluco/urls.html) e scarica una versione qualsiasi della lista **non-US**. Torna sulla schermata con **Apri** e, quando ti riporta nella cartella Download, seleziona l'app LLink che hai scaricato.
 
-## 3. Collegare il sensore
+## 4. Collegare il sensore
 
 Lascia Juggluco aperto e scansiona il sensore. Servono due scansioni per collegare un nuovo sensore.
 
@@ -97,7 +97,7 @@ Se il tuo telefono lo supporta, il valore appare anche nelle icone in alto a sin
 
 ![](images/juggluco-android/image_014.png)
 
-## 4. Configurare Juggluco
+## 5. Configurare Juggluco
 
 Ci sono 4 menu, raggiungibili con un tocco in 4 diverse zone dello schermo (angoli in alto a sinistra, in alto a destra, in basso a sinistra e in basso a destra):
 

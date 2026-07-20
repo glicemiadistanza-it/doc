@@ -4,7 +4,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 
 ![](images/dexcom-g5-g6-app-modificata/image_001.png)
 
-## Che cos'è l'app Dexcom modificata?
+## 1. Che cos'è l'app Dexcom modificata?
 
 È l'app Dexcom ufficiale con due piccole modifiche:
 - Non controlla se il telefono è nella lista dei dispositivi compatibili ufficiali.
@@ -12,7 +12,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 
 > ⚠️ **Attenzione**: L'app modificata non è autorizzata da Dexcom. Usandola, potresti perdere il diritto al supporto e alla garanzia per problemi di trasmettitore e sensore. Se disponibile, basa sempre le segnalazioni di problemi sul ricevitore Dexcom ufficiale. L'utilizzo è a esclusiva responsabilità personale.
 
-## Perché installarla?
+## 2. Perché installarla?
 
 - Il telefono non è compatibile con l'app ufficiale (ricorda che la compatibilità non è garantita neanche con l'app modificata).
 - Per ricevere la glicemia sullo smartwatch senza dipendere da internet o dai server Dexcom.
@@ -20,7 +20,7 @@ Questa guida spiega come creare e installare la versione modificata dell'app Dex
 
 ---
 
-## 1. Disinstalla l'app Dexcom ufficiale
+## 3. Disinstalla l'app Dexcom ufficiale
 
 > ⚠️ **Attenzione**: **NON fare Stop sensore** se non vuoi cambiare il sensore adesso.
 
@@ -56,7 +56,7 @@ Per disinstallare senza interagire con il sensore, apri le **Impostazioni Androi
 
 ---
 
-## 2. Crea la tua app Dexcom modificata
+## 4. Crea la tua app Dexcom modificata
 
 1. Vai sul modulo di richiesta:
    [`https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform`](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform)
@@ -117,7 +117,7 @@ La domanda sulla riduzione del tempo di avviamento — lascia **No**:
 
 ---
 
-## 3. Installa l'app Dexcom modificata
+## 5. Installa l'app Dexcom modificata
 
 1. Apri la mail ricevuta e leggi le istruzioni per l'installazione:
 
@@ -223,7 +223,7 @@ Segui le istruzioni per accendere il Bluetooth e concedere la geolocalizzazione 
 
 ![](images/dexcom-g5-g6-app-modificata/image_043.png)
 
-9. Inserisci il numero **NS del trasmettitore** annotato al passo 1 (fotografando la confezione oppure manualmente):
+9. Inserisci il numero **NS del trasmettitore** annotato al passo 3 (fotografando la confezione oppure manualmente):
 
 ![](images/dexcom-g5-g6-app-modificata/image_046.png)
 
@@ -251,7 +251,7 @@ L'app chiede conferma prima di proseguire con la configurazione:
 
 ---
 
-## 4. Collega xDrip (opzionale)
+## 6. Collega xDrip (opzionale)
 
 Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 

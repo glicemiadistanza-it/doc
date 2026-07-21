@@ -19,6 +19,10 @@ const articoli = [
     link: '/articles/perdita-segnale-trasmettitore-non-trovato',
   },
   {
+    text: 'Problemi con il follower LLink?',
+    link: '/articles/problemi-follower-llink',
+  },
+  {
     text: 'Dexcom G6: riavvio del sensore',
     link: '/articles/dexcom-g6-riavvio',
   },
@@ -76,7 +80,7 @@ const nightscout = [
 const amazfit = [
   { text: 'Amazfit Bip Lite con xDrip', link: '/documentation/amazfit/amazfit-bip-lite-con-xdrip' },
   { text: 'Amazfit con xDrip', link: '/documentation/amazfit/amazfit-con-xdrip' },
-  { text: 'Smartwatch Amazfit con sistema operativo ZEPP OS', link: '/documentation/amazfit/smartwatch-amazfit-zepp-os-1' },
+  { text: 'Smartwatch Amazfit con sistema operativo ZEPP OS', link: '/documentation/amazfit/smartwatch-amazfit-zepp-os' },
 ]
 
 const fitbit = [

@@ -4,14 +4,12 @@ Questa guida spiega come visualizzare la glicemia di xDrip su smartwatch **Amazf
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
-Dispositivi compatibili (elenco parziale):
-- Amazfit GTR3 PRO, GTR3, GTR4
-- Amazfit GTS3, GTS4, GTS4 Mini
-- Amazfit TRex2
-- Amazfit Band7
-- Amazfit Falcon
+Dispositivi compatibili (elenco completo e aggiornato su [`https://watchdrip.org`](https://watchdrip.org)):
 
-> ℹ️ **Nota**: il progetto WatchDrip si è spostato sul sito [`https://watchdrip.org`](https://watchdrip.org), dove trovi l'elenco aggiornato dei dispositivi supportati. La nuova app WatchDrip per l'orologio (versione `2.1.0` e successive) richiede **Zepp OS 3.0 o superiore** e supporta anche i modelli più recenti (Balance, Bip 6, T-Rex 3, Active 2, Cheetah, ecc.). I dispositivi con Zepp OS 1 e 2 (come GTR3, GTS3 e GTS4 Mini) continuano a funzionare con il metodo descritto in questa guida.
+- **Amazfit**: Active, Active 2 (tonda e quadrata), Active 2 Premium, Active Max, Active 3 Premium, Balance, Balance 2, Balance 3, Balance Ultra, Band 7, Bip 5, Bip 6, Bip Max, Cheetah (tonda e quadrata), Cheetah Pro, Cheetah 2 Pro, Falcon, GTR 3, GTR 3 Pro, GTR 4, GTR Mini, GTS 3, GTS 4, GTS 4 Mini, T-Rex 2, T-Rex 3, T-Rex 3 Pro, T-Rex Ultra, T-Rex Ultra 2
+- **Xiaomi**: Smart Band 7 (vedi la sezione dedicata in fondo alla guida)
+
+> ℹ️ **Nota**: per i dispositivi con **Zepp OS 3.0 o superiore** esiste anche la nuova app **WatchDrip Service** (versione `2.1.0`): un servizio in background che riceve la glicemia in tempo reale appena prodotta, consuma meno batteria e si riavvia da solo se il sistema lo ferma. Trovi l'app, l'elenco dei dispositivi e le istruzioni qui: [`https://watchdrip.org/apps/watchdrip-service/`](https://watchdrip.org/apps/watchdrip-service/). **Importante**: anche usando il Service, non disinstallare la mini app WatchDrip: se il servizio si ferma, i quadranti tornano automaticamente al sistema precedente. I dispositivi con Zepp OS 1 e 2 (come GTR 3, GTS 3 e GTS 4 Mini) **non supportano il Service** e continuano a funzionare con il metodo descritto in questa guida.
 
 **Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
@@ -26,17 +24,17 @@ Assicurati di avere una versione di xDrip non precedente al 10 luglio 2022. Per 
 Poi:
 1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (la vecchia integrazione diretta non funziona con i dispositivi Zepp OS).
 
-![](images/smartwatch-amazfit-zepp-os-1/image_001.png)
+![](images/smartwatch-amazfit-zepp-os/image_001.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_002.png)
+![](images/smartwatch-amazfit-zepp-os/image_002.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_003.png)
+![](images/smartwatch-amazfit-zepp-os/image_003.png)
 
 2. Vai in **Menu → Impostazioni → Inter-app settings** e abilita **Servizio di trasmissione API** (in fondo alla pagina).
 
-![](images/smartwatch-amazfit-zepp-os-1/image_004.png)
+![](images/smartwatch-amazfit-zepp-os/image_004.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_005.png)
+![](images/smartwatch-amazfit-zepp-os/image_005.png)
 
 ---
 
@@ -52,7 +50,7 @@ Poi:
 
 La schermata di WatchDrip+ dovrebbe avere questo aspetto, con **Abilita servizio** e **Enable web server** attivi e **Enable device** disattivato:
 
-![](images/smartwatch-amazfit-zepp-os-1/image_006.png)
+![](images/smartwatch-amazfit-zepp-os/image_006.png)
 
 ---
 
@@ -60,11 +58,11 @@ La schermata di WatchDrip+ dovrebbe avere questo aspetto, con **Abilita servizio
 
 1. Installa l'app **Zepp** dal Google Play Store e collega il tuo smartwatch.
 
-![](images/smartwatch-amazfit-zepp-os-1/image_007.png)
+![](images/smartwatch-amazfit-zepp-os/image_007.png)
 
 2. **Abilita la modalità sviluppatore** in Zepp: vai in **Profilo → Impostazioni → Informazioni** e tocca l'icona Zepp **7 volte di seguito** fino a quando compare un avviso di abilitazione.
 
-![](images/smartwatch-amazfit-zepp-os-1/image_008.png)
+![](images/smartwatch-amazfit-zepp-os/image_008.png)
 
 3. Adesso l'app Zepp può scansionare e installare quadranti personalizzati tramite il codice QR:
    - Vai su **Home** (in basso a sinistra)
@@ -73,15 +71,15 @@ La schermata di WatchDrip+ dovrebbe avere questo aspetto, con **Abilita servizio
    - Tocca **Modalità sviluppatore**
    - Tocca **+** in alto a destra per aprire **Scan**
 
-![](images/smartwatch-amazfit-zepp-os-1/image_009.png)
+![](images/smartwatch-amazfit-zepp-os/image_009.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_010.png)
+![](images/smartwatch-amazfit-zepp-os/image_010.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_011.png)
+![](images/smartwatch-amazfit-zepp-os/image_011.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_012.png)
+![](images/smartwatch-amazfit-zepp-os/image_012.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_013.png)
+![](images/smartwatch-amazfit-zepp-os/image_013.png)
 
 ---
 
@@ -91,11 +89,11 @@ Nell'app Zepp, usa la funzione **Scan** per scansionare il codice QR dell'app Wa
 
 L'app è universale per tutti i dispositivi Amazfit Zepp OS. Il codice QR si trova nel sito del progetto WatchDrip+: [`https://watchdrip.org/apps/watchdrip-app/`](https://watchdrip.org/apps/watchdrip-app/).
 
-![](images/smartwatch-amazfit-zepp-os-1/image_014.png)
+![](images/smartwatch-amazfit-zepp-os/image_014.png)
 
 > ⚠️ **Attenzione**: se ricevi l'errore **Download failed – invalid ZIP file format**, ti serve la versione più recente dell'app (`v2.1.0` o successive), disponibile sulla stessa pagina.
 
-![](images/smartwatch-amazfit-zepp-os-1/image_015.png)
+![](images/smartwatch-amazfit-zepp-os/image_015.png)
 
 Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zepp.
 
@@ -105,32 +103,32 @@ Per l'installazione è necessaria la versione `v7.7.0` o successive dell'app Zep
 
 1. Vai su [`https://watchdrip.org`](https://watchdrip.org) per trovare il quadrante adatto al tuo modello.
 
-![](images/smartwatch-amazfit-zepp-os-1/image_016.png)
+![](images/smartwatch-amazfit-zepp-os/image_016.png)
 
 2. Nell'app Zepp, scansiona il codice QR del quadrante scelto con la funzione **Scan**.
 3. Nella pagina del quadrante, clicca **Installa** per installarlo sul dispositivo.
 
-![](images/smartwatch-amazfit-zepp-os-1/image_017.png)
+![](images/smartwatch-amazfit-zepp-os/image_017.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_018.png)
+![](images/smartwatch-amazfit-zepp-os/image_018.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_019.png)
+![](images/smartwatch-amazfit-zepp-os/image_019.png)
 
 > ℹ️ **Nota**: Se non esiste un watchface specifico per il tuo modello, puoi visualizzare il valore della glicemia direttamente nell'app WatchDrip Watch sull'orologio.
 
 Adesso cerca la mini app WatchDrip+ sull'orologio e aprila per visualizzare i valori:
 
-![](images/smartwatch-amazfit-zepp-os-1/image_020.png)
+![](images/smartwatch-amazfit-zepp-os/image_020.png)
 
 Una volta collegato, aspetta la prossima lettura di xDrip: il valore comparirà sia in WatchDrip+ che sullo smartwatch, con un aspetto simile a questo (varia in base al quadrante scelto):
 
-![](images/smartwatch-amazfit-zepp-os-1/image_021.png)
+![](images/smartwatch-amazfit-zepp-os/image_021.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_022.png)
+![](images/smartwatch-amazfit-zepp-os/image_022.png)
 
-![](images/smartwatch-amazfit-zepp-os-1/image_023.png)
+![](images/smartwatch-amazfit-zepp-os/image_023.png)
 
-> ⚠️ **Attenzione**: l'elenco dei dispositivi compatibili si aggiorna periodicamente. Controlla sempre la pagina [`https://watchdrip.org/apps/watchdrip-service/`](https://watchdrip.org/apps/watchdrip-service/) per le novità. Tra i modelli aggiunti di recente: Active Max, Active 3 Premium, T-Rex Ultra 2, Cheetah 2 Pro e Ultra, Bip Max. Questi quadranti non sono ancora testati dalla community, quindi ti consigliamo di acquistare con possibilità di reso perché la compatibilità non è garantita.
+> ⚠️ **Attenzione**: l'elenco dei dispositivi compatibili si aggiorna periodicamente. Controlla sempre la pagina [`https://watchdrip.org/apps/watchdrip-service/`](https://watchdrip.org/apps/watchdrip-service/) per le novità. Tra i modelli aggiunti di recente: Active 3 Premium, T-Rex Ultra 2, Cheetah 2 Pro, Bip Max, Balance 3 e Balance Ultra. I quadranti per i modelli appena aggiunti non sono ancora testati dalla community, quindi ti consigliamo di acquistare con possibilità di reso perché la compatibilità non è garantita.
 
 ---
 

@@ -180,7 +180,7 @@ const guides = [
   sub: 'Glicemia su Amazfit con sistema operativo ZEPP OS',
   sensors: ['dexcom','libre'],
   os: ['android'],
-  href: './documentation/amazfit/smartwatch-amazfit-zepp-os-1' },
+  href: './documentation/amazfit/smartwatch-amazfit-zepp-os' },
 { section: 'watch',
   title: 'WatchDrip+',
   sub: 'Amazfit e Xiaomi Mi Band con WatchDrip+ e xDrip',

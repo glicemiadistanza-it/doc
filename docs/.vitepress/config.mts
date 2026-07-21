@@ -40,9 +40,9 @@ const xdrip = [
   { text: 'Calibrare il FSL con xDrip', link: '/documentation/xdrip/calibrare-fsl-xdrip' },
   { text: 'CareLink follower con xDrip', link: '/documentation/xdrip/carelink-con-xdrip' },
   { text: 'Condividere i dati di xDrip con Tidepool', link: '/documentation/xdrip/condividere-i-dati-di-xdrip-con-tidepool' },
-  { text: 'App Dexcom modificata – Installazione e funzionalità', link: '/documentation/xdrip/dexcom-g5-g6-app-modificata' },
-  { text: 'Glicemia al polso con app Dexcom master o xDrip', link: '/documentation/xdrip/dexcom-xdrip-glimp-on-wear-watch' },
-  { text: 'Dexcom G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg5g6-e-xdrip' },
+  { text: 'App Dexcom modificata – Installazione e funzionalità', link: '/documentation/xdrip/dexcom-g6-g7-app-modificata' },
+  { text: 'Glicemia al polso con app Dexcom master o xDrip', link: '/documentation/xdrip/dexcom-xdrip-on-wear-watch' },
+  { text: 'Dexcom G6 / ONE con xDrip', link: '/documentation/xdrip/dexcomg6-e-xdrip' },
   { text: 'Disabilitare il risparmio energetico per xDrip', link: '/documentation/xdrip/disabilitare-risparmio-energetico-xdrip' },
   { text: 'Passare da FSL 1 a FSL 2 con Miaomiao o Bubble', link: '/documentation/xdrip/fsl2-miaomiao-bubble' },
   { text: 'Installare xDrip per Android', link: '/documentation/xdrip/installare-xdrip-android' },
@@ -91,12 +91,12 @@ const garmin = [
 ]
 
 const xiaomi = [
-  { text: 'Xiaomi MiBand 2, 3 e 4 con xDrip', link: '/documentation/xiaomi/mi-band234-con-xdrip' },
+  { text: 'Xiaomi MiBand 2, 3 e 4 con xDrip', link: '/documentation/xdrip/mi-band234-con-xdrip' },
   { text: 'Xiaomi MiBand 4, 5 e 6 con xDrip', link: '/documentation/xiaomi/xiaomi-miband-con-xdrip' },
 ]
 
 const juggluco = [
-  { text: 'Juggluco per Android con FSL 2', link: '/documentation/juggluco/juggluco-android' },
+  { text: 'Juggluco per Android (FSL 2/3, Dexcom G7)', link: '/documentation/juggluco/juggluco-android' },
   { text: 'Juggluco per Android con FSL 2 e xDrip', link: '/documentation/juggluco/juggluco-xdrip' },
 ]
 

@@ -6,9 +6,9 @@ Questa guida spiega come configurare il dispositivo **Ulanzi TC001** come displa
 
 Il progetto si chiama **Nightscout Clock**, sviluppato da Artiom Kenibasov. Documentazione ufficiale: [`https://github.com/ktomy/nightscout-clock`](https://github.com/ktomy/nightscout-clock)
 
-> ℹ️ **Nota**: Funziona **solo con Nightscout** — non è compatibile con Dexcom Share diretto o altri servizi.
+> ℹ️ **Nota**: oltre a Nightscout, le versioni attuali del firmware supportano molte altre sorgenti dati: **Dexcom Share**, **LLink** (follower), **Medtrum EasyFollow**, **Juggluco**, **Gluroo** e il **web service di xDrip** sulla rete locale.
 
-**Requisiti:** computer con Windows e porta USB disponibile.
+**Requisiti:** computer con porta USB e un browser Chrome o Edge (Windows, Mac o Linux).
 
 > ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
@@ -35,7 +35,7 @@ E il display frontale, dove verrà mostrata la glicemia:
 ## 2. Installa il firmware
 
 1. Collega il TC001 al computer con il cavo USB in dotazione.
-2. Dal browser, vai sulla pagina del progetto GitHub **ktomy/nightscout-clock** e clicca sul link **installing**:
+2. Dal browser, vai sulla pagina di installazione [`https://ktomy.github.io/nightscout-clock/`](https://ktomy.github.io/nightscout-clock/) (la trovi anche dalla pagina GitHub del progetto, link **installing**):
 
 ![](images/nightscoutclock/image_005.png)
 
@@ -106,9 +106,9 @@ Dal pannello **nsclock**, clicca **VISIT DEVICE** (oppure vai all'indirizzo IP o
 ![](images/nightscoutclock/image_017.png)
 
 Compila i campi richiesti:
-- **URL Nightscout** (il tuo indirizzo, es. [`https://tuonightscout.azurewebsites.net`](https://tuonightscout.azurewebsites.net))
+- **Sorgente dati** (Nightscout con URL ed eventuale token, oppure Dexcom Share, LLink, Juggluco, Gluroo, ecc.)
 - **Valori TIR** (target range)
-- **Unità di misura** (mg/dL)
+- **Unità di misura** (mg/dL o mmol/L)
 
 Clicca **Validate, save and restart**: il dispositivo si riavvierà e la glicemia comparirà sul display:
 
@@ -121,4 +121,4 @@ Clicca **Validate, save and restart**: il dispositivo si riavvierà e la glicemi
 - Se il dispositivo non riesce a collegarsi, tieni premuto il tasto sinistro e premi contemporaneamente il tasto rosso sul lato per riavviare. Tieni premuto il tasto sinistro finché il dispositivo non si ferma sulla schermata iniziale, poi ricomincia dalla configurazione Wi-Fi.
 - Per la diagnostica avanzata: lascia il cavo USB collegato dopo l'installazione per vedere i messaggi di debug tramite **LOGS & CONSOLE** nel pannello del dispositivo.
 
-> ℹ️ **Nota**: Al momento non ci sono quadranti aggiuntivi e non è possibile impostare allarmi o regolare la luminosità direttamente dal dispositivo. Lo sviluppatore sta lavorando a nuove funzionalità.
+> ℹ️ **Nota**: le versioni attuali del firmware offrono **6 quadranti** diversi (valore semplice, cifre grandi, grafico 3 ore, grafico + valore, delta, ora + valore), **allarmi sonori** con soglie, snooze e melodie personalizzabili, **luminosità automatica** con modalità per stanze buie, avviso di dati vecchi e aggiornamento del firmware dalla stessa pagina di configurazione.

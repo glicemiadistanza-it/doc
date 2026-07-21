@@ -1,8 +1,10 @@
 # Gluroo come alternativa a Nightscout
 
-**Gluroo** è un'app gratuita creata da Greg Badros che funziona come una versione semplificata di Nightscout: puoi usarla per condividere la glicemia, visualizzarla su smartwatch e sul monitor M5Stack, senza gestire un server.
+**Gluroo** è un'app gratuita creata da Greg Badros che funziona come una versione semplificata di Nightscout: puoi usarla per condividere la glicemia, visualizzarla su smartwatch e sul monitor M5Stack, senza gestire un server. È disponibile per Android, iPhone e come app web ([`https://app.gluroo.com`](https://app.gluroo.com)).
 
-Sorgenti dati compatibili: Dexcom Share, FSL2, FSL3 (tramite LView), Nightscout.
+Sorgenti dati compatibili: Dexcom Share (G6, G7, ONE+), FSL2, FSL3 (tramite LLink), Nightscout, e altre app sul telefono tramite la lettura delle notifiche (funzione **Gluroo Local Integration**: Medtronic Guardian 4, CamAPS, xDrip).
+
+La condivisione con i familiari avviene tramite il **GluCrew**: dal menu **GluCrew → Invite new crew member** puoi invitare follower con un link, un codice QR o una email.
 
 Documento originale di Didier Frétigné.
 
@@ -72,10 +74,14 @@ In alto, la schermata **Condividi** dell'app del fornitore per gestire i collega
 
 ### Modalità "Fai da te" (equivalente Nightscout)
 
-Questa modalità crea un endpoint compatibile con Nightscout: puoi usare l'indirizzo Gluroo come se fosse il tuo sito Nightscout.
+Questa modalità, oggi chiamata **Gluroo Global Connect**, crea un endpoint compatibile con Nightscout: puoi usare l'indirizzo Gluroo come se fosse il tuo sito Nightscout.
 
-- **Indirizzo Nightscout:** il tuo indirizzo Gluroo (formato: [`https://xxxx.xx.gluroo.com:porta`](https://xxxx.xx.gluroo.com:porta))
-- `API_SECRET`: la password mostrata nell'app
+Trovi indirizzo e password in **Menu → Settings → Gluroo Global Connect Nightscout**:
+
+- **Indirizzo Nightscout:** il tuo indirizzo Gluroo (formato attuale: [`https://xxxx.ns.gluroo.com/`](https://xxxx.ns.gluroo.com/))
+- `API_SECRET`: la password (**API Secret Token**) mostrata nell'app
+
+> ℹ️ **Nota**: nella stessa pagina, l'opzione **Other formats for various apps** mostra l'indirizzo già pronto nel formato giusto per le app più comuni (ad esempio Nightguard): tocca **Copy** accanto al nome dell'app.
 
 Selezionando **Fai da te tramite Nightscout**, l'app mostra il tuo **Nightscout URL** e l'**API Secret**, con le icone per copiarli:
 
@@ -83,7 +89,7 @@ Selezionando **Fai da te tramite Nightscout**, l'app mostra il tuo **Nightscout 
 
 > ℹ️ **Nota**: Usa l'icona di copia per mandare questi valori a te stesso via SMS o email, così puoi inserirli facilmente sugli altri dispositivi.
 
-**Compatibilità (verificata a settembre 2023):**
+**Compatibilità:**
 
 | App / Dispositivo | Come master | Come follower |
 |---|---|---|
@@ -96,9 +102,11 @@ Selezionando **Fai da te tramite Nightscout**, l'app mostra il tuo **Nightscout 
 | M5Stack NightscoutMon | — | ✓ (firmware nov. 2022 o successivo) |
 | Garmin | — | ✓ |
 | Samsung Watch (G-Watch) | — | ✓ |
-| FitBit | — | ✗ |
+| Fitbit (quadranti Glance e Sentinel) | — | ✓ |
 
 > ℹ️ **Nota**: Se usi Dexcom Share o LView come sorgente, non hai bisogno di un master separato.
+
+Per lo smartwatch hai anche opzioni dirette, senza passare dall'endpoint Nightscout: su **Apple Watch** Gluroo offre una complicazione nativa, e per **Wear OS** esiste l'app dedicata **Gluroo for Wear OS**.
 
 Per vedere la glicemia in una pagina web, usa **Gluroo Web**: c'è anche una modalità semplificata con solo il valore corrente.
 
@@ -116,8 +124,8 @@ La modalità semplificata, con solo il valore corrente, il trend e i minuti dall
 
 Con xDrip usa questi formati di URL:
 
-- **Master:** [`https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1`](https://API_SECRET@xxxx.xx.gluroo.com:porta/api/v1)
-- **Follower:** [`https://API_SECRET@xxxx.xx.gluroo.com:porta`](https://API_SECRET@xxxx.xx.gluroo.com:porta)
+- **Master:** `https://API_SECRET@xxxx.ns.gluroo.com/api/v1`
+- **Follower:** `https://API_SECRET@xxxx.ns.gluroo.com`
 
 Come master: in **API Upload (REST)** di xDrip, abilita il caricamento e inserisci l'indirizzo Gluroo (con `/api/v1` finale) nel campo **URL di base**:
 
@@ -149,7 +157,7 @@ In **CGM Data Source**, imposta **Master or Follower** su **Follower** e **Follo
 
 ### Nightguard e Nightwatch
 
-Inserisci l'indirizzo così: [`https://xxxx.xx.gluroo.com:porta?token=API_SECRET`](https://xxxx.xx.gluroo.com:porta?token=API_SECRET)
+Inserisci l'indirizzo così: `https://xxxx.ns.gluroo.com?token=API_SECRET` (oppure copia il formato già pronto da **Other formats for various apps** nelle impostazioni di Gluroo Global Connect).
 
 Nightguard su iPhone mostra il valore corrente, le statistiche e il grafico ricevuti da Gluroo:
 

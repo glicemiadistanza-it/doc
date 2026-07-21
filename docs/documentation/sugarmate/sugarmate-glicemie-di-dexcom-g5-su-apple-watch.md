@@ -2,6 +2,8 @@
 
 **Sugarmate** è un'app che usa il calendario di Apple per portare le glicemie di Dexcom (G6 o G7) sull'Apple Watch del follower, in tempo reale (ritardo di circa 10 secondi).
 
+> ℹ️ **Nota**: il metodo del calendario è ancora oggi quello ufficiale: Sugarmate non ha una complicazione propria per l'Apple Watch perché Apple limita gli aggiornamenti delle complicazioni normali, mentre quella del Calendario non ha questo limite.
+
 > ℹ️ **Nota**: Questa guida è dedicata ai **follower** di Dexcom. L'app Dexcom ufficiale (G6 o G7) mostra la glicemia sullo smartwatch solo sul dispositivo master (quello che legge il sensore), non sui follower. Sugarmate risolve questa limitazione condividendo la glicemia tramite il calendario di iCloud, sfruttando l'account Dexcom Share comune a tutte le versioni del sensore.
 
 Tutta la procedura si esegue sull'**iPhone del follower**, tranne i passaggi in cui è necessario il dispositivo master con l'app Dexcom Mobile.
@@ -168,6 +170,8 @@ L'app mostra l'indirizzo email da aggiungere come follower nell'app Dexcom: copi
 ---
 
 ## 5. Aggiungi Sugarmate come follower su Dexcom
+
+> ⚠️ **Attenzione**: nelle versioni attuali dell'app la sorgente Dexcom non si aggiunge più con l'email follower mostrata in queste schermate, ma accedendo direttamente con il **tuo account Dexcom** da **Menu → My Account → Data Source → Dexcom** (la condivisione deve essere attiva nell'app Dexcom del master). La procedura aggiornata è descritta nella guida [Sugarmate follower di Dexcom, Nightscout e Gluroo](sugarmate-follower-di-dexcom-nightscout-gluroo). I passi restanti di questa guida (calendario e Apple Watch) restano validi.
 
 **Sul dispositivo master** (quello con l'app Dexcom Mobile, G6/G7):
 

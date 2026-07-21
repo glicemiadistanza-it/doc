@@ -1,5 +1,7 @@
 # Xiaomi MiBand 2, 3 e 4 con xDrip
 
+> ⚠️ **Attenzione**: questa guida è **obsoleta**: descrive la vecchia integrazione diretta di xDrip con le MiBand 2, 3 e 4, dispositivi ormai fuori produzione. Per le smartband e gli smartwatch attuali vedi [Smartband Xiaomi e smartwatch Amazfit con xDrip](xdrip-e-watchdrip).
+
 Questa guida spiega come visualizzare la glicemia di xDrip su una smartband **Xiaomi MiBand 2, 3 o 4**.
 
 Progetto originale di Artem (GitHub: @bigdigital).

@@ -8,9 +8,9 @@ Questa guida spiega come usare **Juggluco** per leggere un sensore **FSL2** e in
 
 > ⚠️ Se installi Juggluco sul telefono di un bambino, disabilita temporaneamente **Play Protect** prima dell'installazione.
 
-**Requisiti:** telefono Android 4.4 o superiore, con Bluetooth 4.2 (BLE) e lettore NFC.
+**Requisiti:** telefono Android 5 o superiore, con Bluetooth 4.2 (BLE) e lettore NFC (Android 8 o superiore per la versione del Play Store).
 
-Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jkaltes.byethost16.com/Juggluco/)
+Documentazione originale: [`https://www.juggluco.nl/Juggluco/index.html`](https://www.juggluco.nl/Juggluco/index.html)
 
 Un esempio della schermata principale di Juggluco, con il grafico della glicemia e il valore corrente in tempo reale:
 
@@ -26,7 +26,7 @@ Disinstalla l'app LLink (o disabilitala togliendole l'accesso alla geolocalizzaz
 
 ## 2. Installa Juggluco
 
-Juggluco non è disponibile nel Google Play Store. Scaricala dal [sito ufficiale](https://www.juggluco.nl/Juggluco/download.html).
+Juggluco è oggi disponibile anche nel Google Play Store: [`https://play.google.com/store/apps/details?id=tk.glucodata`](https://play.google.com/store/apps/details?id=tk.glucodata). In alternativa puoi scaricare il file `.apk` dal [sito ufficiale](https://www.juggluco.nl/Juggluco/download.html), come descritto qui sotto.
 
 > ⚠️ **Attenzione**: Cercando "Juggluco" online potresti trovare pagine di terze parti (store APK generici) che offrono il file da scaricare, come questa: usa sempre il sito ufficiale collegato sopra, per evitare di scaricare versioni modificate o non aggiornate.
 

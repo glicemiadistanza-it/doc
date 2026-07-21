@@ -1,14 +1,14 @@
-# Juggluco per Android con FSL 2
+# Juggluco per Android
 
-Guida base passo passo per l'installazione di Juggluco su Android con un sensore FSL2. Puoi anche usare Juggluco solo per scansionare un sensore FSL 1 o FSL2, senza abbinarlo stabilmente.
+Guida base passo passo per l'installazione di Juggluco su Android. Juggluco legge da solo, senza altre app, i sensori **FSL2**, **FSL3** e **Dexcom G7 / ONE+** (oltre ad altri sensori meno diffusi in Italia). Puoi anche usare Juggluco solo per scansionare un sensore FSL 1 o FSL2, senza abbinarlo stabilmente.
 
-> ⚠️ È necessario un telefono Android dalla versione 4.4 in su, con supporto Bluetooth 4.2 (BLE) e lettore NFC.
+> ⚠️ È necessario un telefono Android dalla versione 5 in su, con supporto Bluetooth 4.2 (BLE) e lettore NFC. Per FSL3, per i FSL2 di USA/Canada/Australia e per la versione del Play Store serve **Android 8 o superiore**. Con Android 12 o superiore l'app chiede il permesso **Dispositivi nelle vicinanze**, con Android 13 anche quello per le **notifiche**: concedili entrambi.
 
-> ⚠️ Come qualsiasi app di terza parte, l'uso con un sensore FSL2 **disabiliterà gli allarmi di LLink definitivamente**, senza possibilità di ripristino. L'abbinamento di un sensore FSL2 a Juggluco invalida la garanzia e non si può chiedere la sostituzione per problemi di allarmi mancanti.
+> ⚠️ Come qualsiasi app di terza parte, l'uso con un sensore FSL2 o FSL3 **disabiliterà gli allarmi di LLink definitivamente**, senza possibilità di ripristino. L'abbinamento di un sensore a Juggluco invalida la garanzia e non si può chiedere la sostituzione per problemi di allarmi mancanti.
 
 > ⚠️ Se vuoi installare Juggluco sul telefonino di un bambino, Play Protect va disabilitato temporaneamente.
 
-Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jkaltes.byethost16.com/Juggluco/)
+Documentazione originale: [`https://www.juggluco.nl/Juggluco/index.html`](https://www.juggluco.nl/Juggluco/index.html)
 
 ![](images/juggluco-android/image_001.png)
 
@@ -21,19 +21,21 @@ Documentazione originale: [`http://jkaltes.byethost16.com/Juggluco/`](http://jka
 
 ## 2. Prerequisito
 
-Juggluco usa le librerie di **LLink**: conviene installarlo su un telefono dove l'app LLink è già presente (con la geolocalizzazione o il Bluetooth disabilitati per LLink, da **Impostazioni Android → App → LLink**).
+L'app **LLink non deve essere attiva** sul telefono: disinstallala, disabilitala oppure forzane l'arresto (da **Impostazioni Android → App → LLink**). Se LLink resta attiva in background, si "ruberà" il collegamento Bluetooth del sensore.
 
-Versioni delle librerie richieste:
-- **FSL2 USA e Canada:** LLink versione `2.5.2`, `2.5.3` o `2.7.1`.
-- **Altri sensori** (Italia inclusa): LLink versione `2.4.0`, `2.4.1` o `2.4.2` (le versioni successive funzionano comunque, ma consumano più batteria). Il codice del paese non fa differenza.
+> ℹ️ **Nota**: a differenza del passato, Juggluco non ha più bisogno delle librerie di LLink: non serve avere LLink installata, né una versione particolare.
 
-Se non hai già LLink installata, puoi scaricare l'apk da una lista di link su [`http://jkaltes.byethost16.com/Juggluco/urls.html`](http://jkaltes.byethost16.com/Juggluco/urls.html) — scegli una versione **non-US** (ricorda che APKPure è bloccato in Italia).
+Regole per sensore:
+- **FSL2 (Europa)**: tollera più app collegate contemporaneamente, ma gli allarmi diventano inaffidabili — meglio una sola app.
+- **FSL2 (USA/Canada/Australia) e tutti i FSL3**: si collegano a **una sola app alla volta**. Per passare da un'app all'altra devi forzare l'arresto dell'app che non usi e riscansionare il sensore.
 
 ## 3. Installare Juggluco
 
 Juggluco è disponibile nel Google Play Store. Aprilo e cerca "juggluco" oppure segui questo link:
 
 [`https://play.google.com/store/apps/details?id=tk.glucodata`](https://play.google.com/store/apps/details?id=tk.glucodata)
+
+In alternativa puoi scaricare il file `.apk` dal sito ufficiale (utile per i telefoni senza Play Store o con Android più vecchio): [`https://www.juggluco.nl/Juggluco/download.html`](https://www.juggluco.nl/Juggluco/download.html)
 
 ![](images/juggluco-android/image_002.png)
 
@@ -49,7 +51,7 @@ Autorizza anche Juggluco a non essere ottimizzata dalla batteria, così può res
 
 ![](images/juggluco-android/image_005.png)
 
-Alla primissima apertura, l'app mostra le versioni di libreria richieste (vedi [Prerequisito](#2-prerequisito)) e due pulsanti: **Senza sensore** (modalità follower, senza accesso diretto al sensore) e **Apri**. Scegli **Apri**:
+Alla primissima apertura scegli **Apri** (il pulsante **Senza sensore** serve solo per la modalità follower, senza accesso diretto al sensore):
 
 ![](images/juggluco-android/image_006.png)
 
@@ -57,11 +59,11 @@ Si apre la schermata principale di Juggluco, in modalità orizzontale (non è po
 
 ![](images/juggluco-android/image_007.png)
 
-> ℹ️ **Nota**: Se invece si apre il contenuto **Downloads** del telefono, vuol dire che non hai installato LLink. Torna indietro, vai su [`http://jkaltes.byethost16.com/Juggluco/urls.html`](http://jkaltes.byethost16.com/Juggluco/urls.html) e scarica una versione qualsiasi della lista **non-US**. Torna sulla schermata con **Apri** e, quando ti riporta nella cartella Download, seleziona l'app LLink che hai scaricato.
-
 ## 4. Collegare il sensore
 
-Lascia Juggluco aperto e scansiona il sensore. Servono due scansioni per collegare un nuovo sensore.
+### Sensore FSL2
+
+Lascia Juggluco aperto e scansiona il sensore con l'NFC del telefono. Servono due scansioni per collegare un nuovo sensore.
 
 Dopo la prima scansione dovrebbe comparire una schermata di conferma: fai **OK**.
 
@@ -96,6 +98,27 @@ La glicemia compare nella tendina delle notifiche. Tocca **JUGGLUCO** per aprire
 Se il tuo telefono lo supporta, il valore appare anche nelle icone in alto a sinistra:
 
 ![](images/juggluco-android/image_014.png)
+
+### Sensore FSL3
+
+Con i sensori FSL3 serve un passaggio in più **prima** di scansionare il sensore: Juggluco deve conoscere l'**Account ID** del tuo account LView.
+
+1. Vai nel menu in alto a sinistra → **Settings → Exchange data → Libreview**.
+2. Inserisci email e password del tuo account LView e tocca **Get Account ID**, poi **From Libreview**.
+3. Ora scansiona il sensore con l'NFC come per il FSL2.
+
+Regole importanti:
+
+- Juggluco può **avviare da solo** un sensore FSL3, oppure **subentrare** a un sensore già attivato con l'app FSL3 di Abbott (non con il lettore, né con l'app "unificata"). Il subentro funziona solo con l'Account ID originale con cui il sensore è stato attivato.
+- Il sensore FSL3 si collega a **una sola app alla volta**: forza l'arresto dell'app che non stai usando. Il primo collegamento può richiedere qualche minuto; se non arriva, prova a spegnere e riaccendere il Bluetooth o a riavviare il telefono.
+
+### Sensore Dexcom G7 / ONE+
+
+Juggluco supporta anche i Dexcom G7 e ONE+ (il G6 invece **non è supportato**). Non serve l'NFC:
+
+1. Vai nel menu in alto a sinistra → **Photo**.
+2. Scansiona con la fotocamera il **codice data matrix stampato sull'applicatore** del sensore.
+3. Alla prima connessione comparirà la richiesta di **abbinamento Bluetooth** di Android: **tieni lo schermo acceso** e conferma subito. Il G7 e il ONE+ si collegano solo ogni 5 minuti: se perdi la richiesta, dovrai aspettare il tentativo successivo.
 
 ## 5. Configurare Juggluco
 

@@ -23,6 +23,7 @@ GlucoDataHandler può ricevere la glicemia da diverse app, sullo stesso telefono
 - Dexcom Share
 - Nightscout
 - Medtrum EasyFollow/EasyView
+- Yuwell Anytime
 
 ## 2. Installa GlucoDataHandler sul telefonino
 
@@ -98,7 +99,7 @@ Poi, in GlucoDataHandler, entra in **AndroidAPS** e attiva **Abilita**:
 
 #### App modificata BYODA G6
 
-Se hai creato la tua [app Dexcom modificata](../xdrip/dexcom-g5-g6-app-modificata), nel modulo di richiesta scegli di trasmettere anche ad Android APS (oppure a entrambi xDrip e Android APS):
+Se hai creato la tua [app Dexcom modificata](../xdrip/dexcom-g6-g7-app-modificata), nel modulo di richiesta scegli di trasmettere anche ad Android APS (oppure a entrambi xDrip e Android APS):
 
 ![](images/glucodatahandler/image_017.png)
 
@@ -228,4 +229,12 @@ In **Orologio → Orologi MiBand e Amazfit**, attiva **WatchDrip+**. **Important
 
 ![](images/glucodatahandler/image_043.png)
 
-Ci sono tante altre possibilità con GlucoDataHandler, anche l'integrazione con Android Auto. Scoprile e condividile nel gruppo Facebook [Diabete, glicemia a distanza e nuove tecnologie](https://www.facebook.com/groups/nightscout/).
+## 8. Garmin e Fitbit
+
+GlucoDataHandler può anche imitare il web service di xDrip sul telefono: in **Orologio → Orologi Garmin e Fitbit**, attiva il **web service locale**. A quel punto qualsiasi quadrante o campo dati Garmin che supporta xDrip come sorgente (e il quadrante Glance per Fitbit, scegliendo xDrip come sorgente) funziona con GlucoDataHandler al posto di xDrip.
+
+## 9. Android Auto
+
+L'integrazione con Android Auto oggi è affidata a un'app separata dello stesso autore, **GlucoDataAuto**, disponibile solo su GitHub (non sul Play Store per le regole di Google): [`https://github.com/pachi81/GlucoDataAuto`](https://github.com/pachi81/GlucoDataAuto). Riceve i dati da GlucoDataHandler e li mostra in Android Auto.
+
+Ci sono tante altre possibilità con GlucoDataHandler: scoprile e condividile nel gruppo Facebook [Diabete, glicemia a distanza e nuove tecnologie](https://www.facebook.com/groups/nightscout/).

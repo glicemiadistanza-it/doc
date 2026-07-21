@@ -17,7 +17,7 @@ Questa guida spiega come visualizzare la glicemia su uno smartwatch **Wear OS** 
 
 ## 1. Installa xDrip sullo smartwatch
 
-Segui la guida [Android Wear OS: come impostare un quadrante con l'app Dexcom, xDrip, Glimp o AAPS](../xdrip/dexcom-xdrip-glimp-on-wear-watch).
+Segui la guida [Android Wear OS: come impostare un quadrante con l'app Dexcom, xDrip o AAPS](../xdrip/dexcom-xdrip-on-wear-watch).
 
 > ℹ️ **Nota**: Per installare app sullo smartwatch serve ADB: vedi [Installare ADB Debug](installare-adb-debug) e [Abilitare ADB sullo smartwatch Huawei Watch 2](abilitare-adb-sullo-smartwatch-huawei-watch-2).
 

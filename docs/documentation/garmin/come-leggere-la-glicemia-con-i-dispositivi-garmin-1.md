@@ -6,12 +6,14 @@ Traduzione e integrazione della guida originale di Paweł Babańczyk: [`http://n
 
 Autore: Gianluca Curci.
 
-Dispositivi confermati dalla comunità:
-- Vivoactive HR
-- Garmin Fenix 3, Fenix 5
-- Forerunner 630, 735XT, 745
+Le app attuali supportano la maggior parte dei modelli Garmin recenti (Fenix, Epix, Forerunner, Venu, Vivoactive, Instinct, Enduro e altri): controlla la lista dei dispositivi compatibili nella pagina di ogni app sullo store.
 
 Le istruzioni seguenti si basano sul modello **Forerunner 735XT** su Android. Su iPhone il procedimento è analogo tramite l'app Garmin Connect dall'App Store.
+
+Due modi di funzionamento, da scegliere in base a come gestisci la glicemia:
+
+- **Locale, senza internet**: l'app sull'orologio legge i dati da xDrip (o GlucoDataHandler, Juggluco, AAPS) sul telefono Android, via Bluetooth. Non funziona con iPhone.
+- **Via cloud**: l'app sull'orologio legge i dati da Nightscout, Dexcom Share o LLink; serve internet sul telefono. Funziona anche con iPhone.
 
 ---
 
@@ -115,23 +117,45 @@ Nello store, cerca "Nightscout watch" per vedere le app disponibili per il tuo m
 
 ---
 
-## 5. Cerca e scarica l'app o il widget Nightscout
+## 5. Cerca e scarica l'app o il widget
 
-Cerca nel Connect IQ Store le app o i widget compatibili con Nightscout. Le due più diffuse sono:
+Ogni sviluppatore offre in genere tre varianti della stessa app: **quadrante** (watchface, sempre visibile), **widget** (nel menu rapido dell'orologio) e **campo dati** (per le attività sportive). Queste sono le app consigliate, tutte mantenute e aggiornate:
 
-### Widget e app di Phimpy
-Cerca "Nightscout" o "Phimpy" nel Connect IQ Store.
+### CGM Connect (di bruder_jakob) — la più completa
 
-Nella pagina web dello store puoi vedere tutte le app pubblicate da Phimpy, incluse **Nightscout Watch** e **Nightscout Widget**:
+La scelta più semplice per chi usa sensori FSL: riceve i dati direttamente da un account follower LLink, oltre che da Dexcom Share, Nightscout, xDrip, Juggluco e AAPS. Si configura tutta dalle impostazioni dell'app in Garmin Connect, senza app aggiuntive, e funziona anche con iPhone.
 
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_038.png)
+- Quadrante: [`https://apps.garmin.com/apps/301dc1f8-847a-4edf-98dd-871536866e1a`](https://apps.garmin.com/apps/301dc1f8-847a-4edf-98dd-871536866e1a)
+- Widget: [`https://apps.garmin.com/apps/034a3784-b27f-4f2a-a109-67413a5f4f83`](https://apps.garmin.com/apps/034a3784-b27f-4f2a-a109-67413a5f4f83)
+- Campo dati: [`https://apps.garmin.com/apps/286fcd0e-8697-4d22-a557-6203ae3cca18`](https://apps.garmin.com/apps/286fcd0e-8697-4d22-a557-6203ae3cca18)
 
-### CGM Widget di Andreas-May
-Cerca "CGM Widget" o "Andreas-May" nel Connect IQ Store.
+### xDrip+/Spike/Nightscout (di andreas-may) — la classica per xDrip
 
-Allo stesso modo, questa è la pagina con tutte le app pubblicate da andreas-may, tra cui **CGM Widget**:
+La storica famiglia di app per chi usa xDrip sul telefono Android (funziona anche senza internet, via Bluetooth) o Nightscout. Nelle vecchie versioni di questa guida era chiamata "CGM Widget".
 
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_039.png)
+- Quadrante: [`https://apps.garmin.com/apps/8fab3746-f56f-4b41-b3c7-5f4aaeaed6c9`](https://apps.garmin.com/apps/8fab3746-f56f-4b41-b3c7-5f4aaeaed6c9)
+- Widget: [`https://apps.garmin.com/apps/73115e04-dc9f-4765-ad88-e7ae283ce995`](https://apps.garmin.com/apps/73115e04-dc9f-4765-ad88-e7ae283ce995)
+- Campo dati: [`https://apps.garmin.com/apps/5a3e2cda-12f0-4afd-88ed-000e67a68d84`](https://apps.garmin.com/apps/5a3e2cda-12f0-4afd-88ed-000e67a68d84)
+
+Per usarle con xDrip, abilita in xDrip **Impostazioni → Impostazioni Inter-app → xDrip Web Service**.
+
+> ℹ️ **Nota**: se usi [GlucoDataHandler](../glucodatahandler/glucodatahandler) al posto di xDrip, attiva il suo **web service locale** (Orologio → Orologi Garmin e Fitbit): tutte le app Garmin compatibili con xDrip funzioneranno anche con GlucoDataHandler.
+
+### Widget e campo dati ufficiali Dexcom
+
+Pubblicati da Garmin in collaborazione con Dexcom (G6, G7, ONE, ONE+). Richiedono l'app Dexcom sul telefono con la **condivisione attiva e almeno un follower**, e l'accesso con l'account Dexcom. Sono ufficiali ma hanno recensioni basse per ritardi e disconnessioni, e non supportano la serie Instinct.
+
+- Widget: [`https://apps.garmin.com/apps/396d46de-5ac1-4994-9d4c-1e00a2285c2d`](https://apps.garmin.com/apps/396d46de-5ac1-4994-9d4c-1e00a2285c2d)
+- Campo dati: [`https://apps.garmin.com/apps/9040cc1d-13de-4d48-a859-6c2a0cedec3e`](https://apps.garmin.com/apps/9040cc1d-13de-4d48-a859-6c2a0cedec3e)
+
+### Altre app valide
+
+- **CGM Gauge** (RoboleoApps) — quadrante, widget e campo dati in stile "indicatore", sorgenti xDrip o Nightscout.
+- **NightscoutWatch2 / NightscoutData2** (Horsetooth) — quadrante e campo dati per Nightscout o xDrip.
+- **CGM+** (watchface.io) — campo dati per Dexcom, Nightscout, LLink e xDrip, con documentazione molto curata: [`https://watchface.io/docs/cgm/intro`](https://watchface.io/docs/cgm/intro)
+- **FR965 Like Plus xDrip** (bine8x8) — il quadrante con glicemia più scaricato in assoluto, solo per xDrip.
+
+> ⚠️ **Attenzione**: le vecchie app **Nightscout Watch** e **Nightscout Widget** di Phimpy non sono più mantenute da anni e prevedono solo siti Azure e Heroku, ormai superati: non installarle.
 
 Seleziona quello che preferisci, clicca **Scarica** e accetta i termini e le autorizzazioni.
 
@@ -185,41 +209,15 @@ Tocca **Impostazioni** per aprire la configurazione del widget:
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_028.png)
 
-### Configurazione widget Nightscout (di Phimpy)
+### Configurazione del widget xDrip+/Spike/Nightscout (di andreas-may)
 
-Inserisci i seguenti parametri:
+Questa è la pagina dello store con tutte le app pubblicate da andreas-may:
 
-- **Site Name** — solo il nome del sito, senza l'estensione Azure o Heroku (es. `birillo`)
-- **Host** — seleziona `azure` o `heroku` in base al tuo Nightscout
-- **Units** — l'unità di misura preferita (`mg/dL` o `mmol/L`)
+![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_039.png)
 
-> ℹ️ **Nota**: Questo widget prevede solo i host `azure` e `heroku`, servizi ormai superati (vedi la [pagina Nightscout](../../articles/nightscout) per le soluzioni attuali). Se il tuo sito è ospitato altrove, usa il **CGM Widget** descritto più sotto, che accetta l'indirizzo completo del sito.
+Se usi Nightscout come sorgente, inserisci l'indirizzo completo del sito comprensivo di dominio (es. `https://miosito.dominio.com`). Se invece usi xDrip sul telefono, lascia la sorgente locale e verifica di avere attivato il **xDrip Web Service** in xDrip. Puoi anche configurare l'unità di misura e i limiti del range target.
 
-Le impostazioni del **Nightscout Widget**, con i campi **Site Name**, **Host** e **Units**:
-
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_029.png)
-
-Tocca **Site Name** e inserisci il nome del tuo sito Nightscout:
-
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_030.png)
-
-Tocca **Host** e scegli tra **Azure** e **Heroku** in base a dove è ospitato il tuo Nightscout:
-
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_031.png)
-
-Dopo la sincronizzazione, sull'orologio il widget mostra brevemente **Loading**...
-
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_032.png)
-
-...e poi il valore corrente di glicemia con trend e minuti trascorsi dall'ultima lettura:
-
-![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_033.png)
-
-### Configurazione CGM Widget (di Andreas-May)
-
-Inserisci la stringa completa comprensiva di dominio (es. [`https://birillo.herokuapp.com`](https://birillo.herokuapp.com)). Puoi anche configurare l'unità di misura e i limiti del range target.
-
-Nella scheda del **CGM Widget**, tocca **Impostazioni**:
+Nella scheda del widget, tocca **Impostazioni**:
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_034.png)
 
@@ -240,3 +238,5 @@ Sull'orologio, il **CGM Widget** si connette e mostra un valore provvisorio ment
 ...per poi mostrare la glicemia corrente con la freccia di trend e i minuti trascorsi dall'ultima lettura:
 
 ![](images/come-leggere-la-glicemia-con-i-dispositivi-garmin-1/image_037.png)
+
+> ℹ️ **Nota**: un bug noto dell'app Garmin Connect può bloccare dopo un po' di tempo le richieste internet delle app Connect IQ: se il valore di glicemia smette di aggiornarsi, apri Garmin Connect e **sincronizza l'orologio**.

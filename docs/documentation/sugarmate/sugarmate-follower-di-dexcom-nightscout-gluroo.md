@@ -1,10 +1,12 @@
 # Sugarmate — Follower di Dexcom, Nightscout e Gluroo
 
-**Sugarmate** è un'app che aggrega i dati di glicemia da diverse sorgenti e li visualizza su iPhone, iPad, Android, Apple Watch, Apple CarPlay, Amazon Alexa e altro.
+**Sugarmate** (oggi "Sugarmate by Tandem", di proprietà di Tandem Diabetes Care) è un'app che aggrega i dati di glicemia da diverse sorgenti e li visualizza su iPhone, iPad, Android, Apple Watch, Apple CarPlay e sull'app web [`https://app.sugarmate.io/`](https://app.sugarmate.io/).
 
-Sorgenti dati supportate: Dexcom Share, Nightscout, Gluroo.
+Sorgenti dati supportate: Dexcom Share, Nightscout, Gluroo e (in alcuni paesi) Tandem Source. Puoi usare **una sola sorgente dati alla volta**.
 
 Sito ufficiale: [`https://www.sugarmate.io/`](https://www.sugarmate.io/)
+
+> ℹ️ **Nota**: dal 1° gennaio 2025 la skill Alexa e l'app per Mac di Sugarmate sono state dismesse e non funzionano più. L'app per Android invece esiste dal 2025 ed è disponibile sul Play Store.
 
 ![](images/sugarmate-follower-di-dexcom-nightscout-gluroo/image_001.png)
 

@@ -209,7 +209,7 @@ La pagina Nightscout mostra la glicemia con trend, insulina attiva, carboidrati,
 
 Usando l'app xDrip puoi visualizzare le glicemie direttamente su alcuni smartwatch senza usare Nightscout. Il collegamento funziona sia sul telefono principale sia per chi usa xDrip come follower.
 
-- **Android Wear 2**: [guida per Android Wear OS](../xdrip/dexcom-xdrip-glimp-on-wear-watch)
+- **Android Wear 2**: [guida per Android Wear OS](../xdrip/dexcom-xdrip-on-wear-watch)
 - **Sony Smartwatch 3 (SWR50)**: [`https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/`](https://www.glicemiadistanza.it/sony-smartwatch-3-e-xdrip/)
 - **Fitbit Versa e Ionic** (anche per Nightscout): [guida Fitbit Versa e Ionic](../fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic)
 - **Samsung Watch** (anche per Nightscout): [`https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/`](https://www.glicemiadistanza.it/g-watch-per-smartwatch-samsung/)

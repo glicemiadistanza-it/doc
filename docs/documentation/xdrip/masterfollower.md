@@ -2,6 +2,8 @@
 
 Questa guida spiega come trasferire il collegamento MiaoMiao (il lettore Bluetooth per il FSL) da un telefono all'altro, impostando un telefono come **master** (quello che legge il sensore) e l'altro come **follower** (quello che riceve le letture a distanza).
 
+> ⚠️ **Attenzione**: a luglio 2024 Google ha dismesso il vecchio sistema di sincronizzazione (Firebase). Per usare xDrip Sync serve una versione di xDrip **`2024.07.23` o successiva** su tutti i telefoni, con i **Google Play Services** attivi ed esclusi dall'ottimizzazione della batteria.
+
 ## 1. Prepara il telefono attualmente collegato a MiaoMiao
 
 Metti questo telefono in **modalità aereo**. In questo modo, se qualcosa va storto, puoi ripristinare rapidamente la configurazione che funzionava.
@@ -47,7 +49,7 @@ Vai in **Impostazioni** e scorri fino a **XDRIP+ IMPOSTAZIONI EXTRA**:
 
 ![](images/masterfollower/image_003.png)
 
-Apri **Impostazioni xDrip+ Sync** e attiva **Imposta come Telefono Principale**:
+Apri **Impostazioni xDrip+ Sync** e attiva **Imposta come Telefono Principale** (nelle versioni recenti l'opzione si chiama **Be Master for Followers**):
 
 ![](images/masterfollower/image_004.png)
 
@@ -55,9 +57,11 @@ Annota la **Chiave di sicurezza del Gruppo**: deve essere identica su entrambi i
 
 ![](images/masterfollower/image_005.png)
 
+Nella stessa schermata controlla l'opzione **Use xDrip Cloud**: è il nuovo sistema di trasporto dei dati e deve essere impostata **allo stesso modo (attiva o disattivata) su tutti i telefoni** del gruppo.
+
 > ⚠️ Il nuovo telefono potrebbe richiedere una calibrazione all'avvio del sensore.
 
-> ℹ️ Può esserci **un solo master** alla volta.
+> ℹ️ Può esserci **un solo master** alla volta per ogni chiave di gruppo.
 
 ## 4. Configura il follower
 
@@ -74,10 +78,12 @@ Nell'elenco delle sorgenti, seleziona **xDrip+ Sync Follower**:
 
 ![](images/masterfollower/image_006.png)
 
-Apri di nuovo **Impostazioni xDrip+ Sync** e verifica che **Imposta come Telefono Principale** sia **disattivato** su questo telefono:
+Apri di nuovo **Impostazioni xDrip+ Sync** e verifica che **Imposta come Telefono Principale** sia **disattivato** su questo telefono e che **Use xDrip Cloud** sia impostata come sul master:
 
 ![](images/masterfollower/image_008.png)
 
 Dopo qualche minuto, i due telefoni mostreranno la stessa lettura:
 
 ![](images/masterfollower/image_014.png)
+
+> ℹ️ **Nota**: se ti serve la sincronizzazione senza internet (per esempio in vacanza senza copertura), le versioni recenti di xDrip offrono **Desert Sync**, che condivide i dati sulla rete Wi-Fi locale (hotspot del master). Vedi la documentazione xDrip (traduzione automatica): [`https://psonnera-github-io.translate.goog/xdrip_docs/use/sync/?_x_tr_sl=auto&_x_tr_tl=it`](https://psonnera-github-io.translate.goog/xdrip_docs/use/sync/?_x_tr_sl=auto&_x_tr_tl=it)

@@ -27,6 +27,14 @@ const articoli = [
     link: '/articles/problemi-follower-llink',
   },
   {
+    text: 'Problemi con i server Dexcom Share?',
+    link: '/articles/problemi-server-dexcom-share',
+  },
+  {
+    text: 'CamAPS FX: far ripartire follower e smartwatch',
+    link: '/articles/follower-camaps-fx',
+  },
+  {
     text: 'Dexcom G6: riavvio del sensore',
     link: '/articles/dexcom-g6-riavvio',
   },

@@ -1,5 +1,7 @@
 # Glicemia su Alexa con Dexcom o xDrip
 
+> ⚠️ **Attenzione**: questa guida è **obsoleta**. La skill Alexa di Sugarmate è stata dismessa il 1° gennaio 2025 e non funziona più. Per far leggere le glicemie ad Alexa puoi usare la guida [Alexa e Nightscout in italiano](alexa-e-nightscout-in-italiano).
+
 Questa guida spiega come far leggere ad **Alexa** (lo speaker Amazon) il valore di glicemia in tempo reale, partendo dall'app **Dexcom** o da **xDrip**.
 
 La comunicazione funziona tramite **Sugarmate**, che riceve i dati da Dexcom Share. Serve quindi un account Dexcom, anche se usi xDrip con un sensore FSL.

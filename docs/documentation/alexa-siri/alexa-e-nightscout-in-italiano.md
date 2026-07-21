@@ -2,12 +2,14 @@
 
 Questa guida spiega come far leggere ad **Alexa** (lo speaker Amazon) le glicemie di Nightscout in italiano.
 
-Basata sulla documentazione ufficiale: [`https://github.com/nightscout/cgm-remote-monitor/blob/master/lib/plugins/alexa-plugin.md`](https://github.com/nightscout/cgm-remote-monitor/blob/master/lib/plugins/alexa-plugin.md)
+Basata sulla documentazione ufficiale: [`https://github.com/nightscout/cgm-remote-monitor/blob/master/docs/plugins/alexa-plugin.md`](https://github.com/nightscout/cgm-remote-monitor/blob/master/docs/plugins/alexa-plugin.md)
 
 **Requisiti:**
 - Account Amazon
 - Dispositivo Alexa registrato sull'account
 - Sito Nightscout
+
+> ⚠️ **Attenzione**: questa è una procedura **complessa**, con molti passaggi tra la console sviluppatori Amazon e Nightscout. Prenditi il tempo necessario e segui i passi uno alla volta, senza saltarne nessuno.
 
 ---
 
@@ -114,10 +116,11 @@ Clicca **Salva modello**, poi **Costruisci modello** e attendi il completamento.
 ## 6. Collega la skill al tuo Nightscout
 
 1. Nel menu a sinistra, clicca **Endpoint**.
-2. Seleziona **HTTPS** e inserisci l'URL del tuo Nightscout in questo formato:
-   [`https://nomesito.herokuapp.com/api/v1/alexa`](https://nomesito.herokuapp.com/api/v1/alexa)
+2. Seleziona **HTTPS** e inserisci l'URL del tuo Nightscout seguito da `/api/v1/alexa`. Ad esempio, se il tuo sito è `https://miosito.dominio.com`, l'URL da inserire è `https://miosito.dominio.com/api/v1/alexa`.
 3. Seleziona la seconda opzione nel menu a discesa sotto l'URL.
 4. Clicca **Salva**.
+
+> ℹ️ **Nota**: se il tuo Nightscout è protetto con i ruoli di autenticazione (variabile `AUTH_DEFAULT_ROLES` impostata su `denied`), aggiungi alla fine dell'URL `?token=` seguito da un token di sola lettura, creato in **Admin Tools** del tuo Nightscout. Esempio: `https://miosito.dominio.com/api/v1/alexa?token=iltuotoken`.
 
 Nel menu a sinistra della console, clicca la voce **Endpoint**:
 

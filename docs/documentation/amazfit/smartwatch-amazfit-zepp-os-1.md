@@ -4,12 +4,14 @@ Questa guida spiega come visualizzare la glicemia di xDrip su smartwatch **Amazf
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
-Dispositivi compatibili:
+Dispositivi compatibili (elenco parziale):
 - Amazfit GTR3 PRO, GTR3, GTR4
 - Amazfit GTS3, GTS4, GTS4 Mini
 - Amazfit TRex2
 - Amazfit Band7
 - Amazfit Falcon
+
+> ℹ️ **Nota**: il progetto WatchDrip si è spostato sul sito [`https://watchdrip.org`](https://watchdrip.org), dove trovi l'elenco aggiornato dei dispositivi supportati. La nuova app WatchDrip per l'orologio (versione `2.1.0` e successive) richiede **Zepp OS 3.0 o superiore** e supporta anche i modelli più recenti (Balance, Bip 6, T-Rex 3, Active 2, Cheetah, ecc.). I dispositivi con Zepp OS 1 e 2 (come GTR3, GTS3 e GTS4 Mini) continuano a funzionare con il metodo descritto in questa guida.
 
 **Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
@@ -41,7 +43,7 @@ Poi:
 ## 2. Installa e configura WatchDrip+
 
 1. Scarica l'ultima versione di WatchDrip+ dal sito del progetto:
-   [`https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog`](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/#changelog)
+   [`https://watchdrip.org`](https://watchdrip.org)
 2. Installa il file `.apk`.
 3. Apri WatchDrip+ e abilita il **servizio** quando richiesto.
 4. Abilita **Enable web server** nella schermata principale.

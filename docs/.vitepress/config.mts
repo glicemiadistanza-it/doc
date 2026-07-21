@@ -82,6 +82,8 @@ const amazfit = [
 const fitbit = [
   { text: 'Fitbit: Le glicemie di Dexcom, xDrip o Nightscout', link: '/documentation/fitbit/fitbit-le-glicemie-di-dexcom-spike-xdrip-o-nightscout-su-smartwach-versa-e-ionic' },
   { text: 'Fitbit: sblocco quadranti personalizzati', link: '/documentation/fitbit/fitbit-sbloccare-quadranti-personalizzati' },
+  { text: 'Sentinel Pro – Guida utente', link: '/documentation/fitbit/sentinel-pro-userguide1' },
+  { text: 'Sentinel One – Guida utente', link: '/documentation/fitbit/sentineloneuserguide1' },
 ]
 
 const garmin = [
@@ -109,11 +111,6 @@ const glucodatahandler = [
 const sugarmate = [
   { text: 'Sugarmate follower di Dexcom, Nightscout e Gluroo', link: '/documentation/sugarmate/sugarmate-follower-di-dexcom-nightscout-gluroo' },
   { text: 'Sugarmate: glicemia Dexcom su Apple Watch', link: '/documentation/sugarmate/sugarmate-glicemie-di-dexcom-g5-su-apple-watch' },
-]
-
-const sentinel = [
-  { text: 'Sentinel Pro – Guida utente', link: '/documentation/sentinel/sentinel-pro-userguide1' },
-  { text: 'Sentinel One – Guida utente', link: '/documentation/sentinel/sentineloneuserguide1' },
 ]
 
 const medtronic = [
@@ -170,7 +167,6 @@ export default defineConfig({
       { text: 'Gluroo', items: gluroo },
       { text: 'GlucoDataHandler', items: glucodatahandler },
       { text: 'Sugarmate', items: sugarmate },
-      { text: 'Sentinel', items: sentinel },
       { text: 'Medtronic', items: medtronic },
       { text: 'Alexa / Siri', items: alexa_siri },
       { text: 'Apple Watch', items: apple_watch },

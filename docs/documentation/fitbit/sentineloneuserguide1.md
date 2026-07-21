@@ -47,7 +47,7 @@ L'obiettivo è che anche a scuola, in classe, il quadrante sia facile da leggere
 
 ## 3. Installazione
 
-> ⚠️ **Attenzione**: se usi xDrip come sorgente dati, un aggiornamento recente dell'app Fitbit blocca i dati. Devi installare la versione `3.58` dell'app Fitbit e disabilitare gli aggiornamenti automatici. Scarica la versione precedente da [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Se usi Nightscout o Dexcom Share, questo passaggio non è necessario.
+> ⚠️ **Attenzione**: in passato, sui telefoni con **Android 9 o precedente**, per usare xDrip come sorgente dati serviva installare la vecchia versione `3.58` dell'app Fitbit. Dal 15 luglio 2026 le versioni dell'app precedenti alla 5.0 non funzionano più (l'app Fitbit è stata sostituita dall'app **Google Health**), quindi questo espediente non è più possibile: su questi telefoni usa **Nightscout** o **Dexcom Share** come sorgente dati. Se usi Nightscout, Dexcom Share o hai Android 10 o superiore, questo passaggio non è necessario.
 
 Con il telefonino abbinato al Fitbit, vai al link corrispondente al tuo orologio per installare il quadrante:
 

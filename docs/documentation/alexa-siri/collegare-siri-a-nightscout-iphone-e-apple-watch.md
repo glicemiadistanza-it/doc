@@ -1,5 +1,7 @@
 # Leggere la glicemia di Nightscout con Siri
 
+> ⚠️ **Attenzione**: la scorciatoia usata in questa guida **non è più disponibile** su iCloud, quindi al momento la procedura non può essere seguita. Lasciamo la guida come riferimento in attesa di una scorciatoia sostitutiva.
+
 Questa guida spiega come configurare una **scorciatoia Siri** per richiamare il valore di glicemia attuale da Nightscout, sia sull'**iPhone** che sull'**Apple Watch** abbinato.
 
 **Requisiti:** iPhone con iOS 12 o superiore.

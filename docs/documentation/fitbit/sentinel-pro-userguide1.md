@@ -2,6 +2,8 @@
 
 > ⚠️ **Attenzione**: Sentinel ormai è a pagamento.
 
+> ⚠️ **Attenzione**: da maggio 2026 l'app Fitbit è stata sostituita dall'app **Google Health** e le versioni vecchie dell'app non funzionano più. Sui telefoni con **Android 9 o precedente** le sorgenti dati locali (xDrip, Diabox) non sono più utilizzabili: usa **Nightscout** o **Dexcom Share**. Con Android 10 o superiore le sorgenti locali dovrebbero continuare a funzionare, ma il comportamento della nuova app Google Health non è ancora verificato.
+
 **Versione:** `0.1.2`
 **Autore:** Ryan Chen — questa guida è stata tradotta dall'originale da glicemiadistanza.it.
 

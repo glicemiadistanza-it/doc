@@ -4,6 +4,8 @@ Google ha eliminato dalla galleria app di Fitbit i quadranti e le app di terze p
 
 > ⚠️ **Attenzione**: sconsigliamo l'acquisto di nuovi dispositivi Fitbit, proprio a causa di questa limitazione.
 
+> ℹ️ **Nota**: da maggio 2026 l'app Fitbit è stata sostituita dall'app **Google Health**. Questa procedura è stata scritta per l'app Fitbit: nella nuova app i passaggi potrebbero essere leggermente diversi e la disponibilità della galleria quadranti non è garantita.
+
 Se hai provato a installare un quadrante Glance o Sentinel, avrai sicuramente visto questo messaggio:
 
 ![](images/fitbit-sbloccare-quadranti-personalizzati/image_001.jpeg)

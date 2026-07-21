@@ -4,6 +4,8 @@ Questa guida spiega come visualizzare la glicemia su uno smartwatch **Fitbit Ver
 
 Sorgenti compatibili: Dexcom, xDrip, Diabox, Spike, Nightscout.
 
+> ⚠️ **Attenzione**: da maggio 2026 l'app Fitbit è stata sostituita dall'app **Google Health**, e dal 15 luglio 2026 le versioni vecchie dell'app Fitbit (precedenti alla 5.0) hanno smesso del tutto di funzionare. Se il tuo telefono ha **Android 9 o precedente**, il vecchio espediente di installare la versione `3.58` per far funzionare le sorgenti locali (xDrip, Diabox, Spike) **non è più possibile**: usa **Nightscout** o **Dexcom Share** come sorgente dati. Con Android 10 o superiore le sorgenti locali dovrebbero continuare a funzionare, ma il comportamento della nuova app Google Health non è ancora verificato. Ricordiamo che sconsigliamo l'acquisto di nuovi dispositivi Fitbit.
+
 Verifica la compatibilità del tuo telefono con il tuo Fitbit: [`https://www.fitbit.com/it/devices`](https://www.fitbit.com/it/devices)
 
 Un esempio del risultato finale: il quadrante sullo smartwatch (a sinistra) e le rispettive app sorgente sul telefono (a destra), con lo stesso valore di glicemia mostrato su entrambi:
@@ -14,9 +16,9 @@ Un esempio del risultato finale: il quadrante sullo smartwatch (a sinistra) e le
 
 ## 1. Abbina il Fitbit al telefono
 
-Installa l'app **Fitbit** (disponibile per Android e iPhone) e abbina il tuo Versa o Ionic seguendo le istruzioni dell'app.
+Installa l'app **Fitbit** (oggi sostituita dall'app **Google Health**, disponibile per Android e iPhone) e abbina il tuo Versa o Ionic seguendo le istruzioni dell'app.
 
-> ⚠️ **Attenzione**: Se usi xDrip, esiste un bug con le versioni recenti dell'app Fitbit. Devi installare la versione **3.58** dell'app Fitbit, che trovi su Aptoide: [`https://fitbit.it.aptoide.com/versions`](https://fitbit.it.aptoide.com/versions). Dopo l'installazione, **disabilita l'aggiornamento automatico** dell'app nel Play Store.
+> ⚠️ **Attenzione**: in passato, sui telefoni con **Android 9 o precedente**, per usare xDrip come sorgente serviva installare la vecchia versione `3.58` dell'app Fitbit. Dal 15 luglio 2026 le versioni dell'app precedenti alla 5.0 non funzionano più, quindi questo espediente non è più possibile: su questi telefoni carica i dati su Nightscout o su Dexcom Share e usa quella come sorgente. Con Android 10 o superiore questo passaggio non è mai stato necessario.
 
 > ℹ️ **Nota**: Se usi l'app Dexcom Mobile, devi avere almeno un follower attivo nell'app per poter inviare i dati al Fitbit.
 

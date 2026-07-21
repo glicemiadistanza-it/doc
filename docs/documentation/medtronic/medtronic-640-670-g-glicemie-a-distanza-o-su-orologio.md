@@ -10,7 +10,7 @@ In caso di incongruenze tra questa guida e quella originale, fa fede quella orig
 
 ## 1. Cosa occorre per cominciare?
 
-- **Smartphone Android** `4.0.3` o superiore con supporto OTG (funzionalità che permette di collegare un dispositivo USB al telefono). Consulta la lista dei telefoni testati: [`https://docs.google.com/document/d/13OeqBaq01rpzcfsA1quDZgCJ3saJVgFob0IEqA4MCv8/edit`](https://docs.google.com/document/d/13OeqBaq01rpzcfsA1quDZgCJ3saJVgFob0IEqA4MCv8/edit)
+- **Smartphone Android** `4.0.3` o superiore con supporto OTG (funzionalità che permette di collegare un dispositivo USB al telefono). La lista dei telefoni testati pubblicata dalla community non è più disponibile online.
 - **Cavo OTG** micro-USB maschio a USB femmina.
 - **Glucometro Contour Next Link 2.4 USB.** Si raccomanda vivamente di usarne uno di ricambio per il caricamento dei dati dal 640/670G, e non quello principale. Il glucometro deve essere registrato sul sito CareLink e deve essere stato usato almeno una volta per il caricamento dati.
 - **Microinfusore Medtronic 640/670G.** Anche se l'app Android legge solo le informazioni dal glucometro, per sicurezza si consiglia di disattivare la funzione di bolo remoto seguendo questi passaggi:

@@ -87,7 +87,7 @@ In xDrip4iOS, tocca la riga **Transmitter ID** e metti lo stesso nome (attenzion
 
 ---
 
-Per condividere la glicemia con altri telefoni e utilizzare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear) serve Nightscout ([`https://www.glicemiadistanza.it/nightscout/`](https://www.glicemiadistanza.it/nightscout/)) o [Gluroo](../gluroo/gluroo).
+Per condividere la glicemia con altri telefoni e utilizzare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear) serve [Nightscout](../../articles/nightscout) o [Gluroo](../gluroo/gluroo).
 
 La documentazione originale (link con traduttore automatico): [`https://xdrip4ios-readthedocs-io.translate.goog/en/latest/connect/cgm/?_x_tr_sl=auto&_x_tr_tl=it`](https://xdrip4ios-readthedocs-io.translate.goog/en/latest/connect/cgm/?_x_tr_sl=auto&_x_tr_tl=it)
 

@@ -122,7 +122,7 @@ Clicca **Fine** per completare l'installazione del driver:
 
 ### Installa M5Burner e il firmware
 
-1. Scarica **M5Burner** (versione **Win x64**) da [`https://docs.m5stack.com/en/uiflow/m5burner`](https://docs.m5stack.com/en/uiflow/m5burner).
+1. Scarica **M5Burner** (versione **Win10 x64**) dalla pagina download di M5Stack, sezione **UiFlow Firmware Burning Tool**: [`https://docs.m5stack.com/en/download`](https://docs.m5stack.com/en/download).
 2. Estrai lo zip in un percorso **senza spazi** (es. direttamente in `C:\`) e avvia `M5Burner.exe`.
 3. Se Windows Defender blocca l'esecuzione, clicca **Ulteriori informazioni**:
 

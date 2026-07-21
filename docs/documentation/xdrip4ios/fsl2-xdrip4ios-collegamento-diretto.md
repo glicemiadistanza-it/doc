@@ -90,4 +90,4 @@ Se necessario, per ripristinare l'app del fornitore, elimina il FSL2 da xDrip4iO
 
 Se il telefono è troppo lontano dal sensore ci saranno letture mancanti. Non possono essere recuperate con xDrip4iOS, ma sono disponibili fino a 8 ore dopo con l'app originale.
 
-Per condividere la glicemia e usare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear), è necessario Nightscout ([`https://www.glicemiadistanza.it/nightscout/`](https://www.glicemiadistanza.it/nightscout/)) o [Gluroo](../gluroo/gluroo).
+Per condividere la glicemia e usare smartwatch diversi da Apple Watch (Fitbit, Garmin, Samsung Gear), è necessario [Nightscout](../../articles/nightscout) o [Gluroo](../gluroo/gluroo).

@@ -159,7 +159,7 @@ Se è stato scaricato come `.zip`, rinominalo in `.apk`:
 ![](images/installare-xdrip-android/image_052.png)
 
 **Ancora niente?**
-Scarica [APK Installer](https://play.google.com/store/apps/details?id=com.apkinstaller.ApkInstaller) dal Play Store, aprilo e tocca **Install APKs**:
+Cerca un'app **APK Installer** sul [Play Store](https://play.google.com/store/search?q=apk%20installer&c=apps) (ce ne sono diverse, tutte molto simili), installala, aprila e tocca **Install APKs**:
 
 ![](images/installare-xdrip-android/image_053.png)
 

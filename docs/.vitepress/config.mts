@@ -15,6 +15,10 @@ const articoli = [
     link: '/articles/nightscout',
   },
   {
+    text: 'Glicemia al polso: quale smartwatch?',
+    link: '/articles/glicemia-al-polso',
+  },
+  {
     text: 'Perdita segnale e "Trasmettitore non trovato"',
     link: '/articles/perdita-segnale-trasmettitore-non-trovato',
   },

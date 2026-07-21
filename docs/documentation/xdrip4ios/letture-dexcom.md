@@ -12,7 +12,9 @@ Vedi come fare [qua](./installare-xdrip4ios), poi torna a questa guida.
 
 ## 2. Rimuovi i vecchi sensori Dex
 
-Per evitare di collegarsi a un vecchio sensore (inesistente oppure oltre 10 giorni di età) è consigliato rimuovere i vecchi dispositivi dalla lista Bluetooth. Conviene prendere l'abitudine di farlo a ogni cambio sensore.
+**A ogni cambio sensore, prima di tutto** — cioè prima ancora di avviare il nuovo sensore con l'app ufficiale — rimuovi i vecchi sensori dalla lista Bluetooth dell'iPhone. Prendici l'abitudine: è un gesto di 10 secondi che evita quasi tutti i problemi di abbinamento.
+
+> ℹ️ **Nota**: perché è così importante? Un G7 o ONE+ sostituito prima della scadenza dei 10 giorni + 12 ore di tolleranza **resta attivo e continua a trasmettere un valore anche staccato dal corpo**. Se rimane nella lista Bluetooth, il telefono rischia di collegarsi al sensore vecchio invece che al nuovo.
 
 Vai nelle **Impostazioni** del tuo iPhone e scorri verso il basso fino a **Bluetooth**.
 
@@ -20,13 +22,13 @@ Nella lista **My Devices**, i vecchi sensori sono quelli il cui nome inizia con 
 
 ![](images/letture-dexcom/image_001.png)
 
-## 3. Disabilita il Bluetooth dell'app Dex
+Solo dopo questa pulizia avvia il nuovo sensore con l'app ufficiale Dex e verifica che funzioni.
 
-Prima di abbinare il trasmettitore a xDrip4iOS, devi impedire all'app ufficiale Dex di occupare il collegamento Bluetooth, altrimenti xDrip4iOS non troverà mai il dispositivo.
+## 3. Rimuovi il vecchio sensore anche da xDrip4iOS
 
-Nelle **Impostazioni** di iOS, scorri l'elenco delle app fino a trovare quella ufficiale Dex e, nella sua pagina, disattiva l'interruttore **Bluetooth**.
+Quando il nuovo sensore funziona nell'app ufficiale, passa a xDrip4iOS: se nella scheda **Bluetooth** di xDrip4iOS è ancora presente il sensore precedente, eliminalo con l'icona del **cestino** prima di avviare la scansione. Se non c'è nessun vecchio sensore, avvia semplicemente la scansione (sezione 4).
 
-> ℹ️ **Nota**: Con il Bluetooth disabilitato, l'app ufficiale non riceve le letture né gli allarmi. Potrai riabilitarlo al termine dell'abbinamento (vedi fine della sezione 4).
+> ℹ️ **Nota**: a differenza del G6, il G7/ONE+ accetta più collegamenti Bluetooth contemporanei: **non serve** disabilitare il Bluetooth dell'app ufficiale Dex, che continuerà a ricevere letture e allarmi insieme a xDrip4iOS.
 
 <a id="abbinare-il-trasmettitore"></a>
 ## 4. Abbina il trasmettitore
@@ -45,11 +47,9 @@ In **Select Transmitter Type**, scorri fino a **Dexcom G7/ONE+/Stelo** e tocca *
 
 ![](images/letture-dexcom/image_004.png)
 
-Ti verrà richiesto di inserire l'ID del trasmettitore (ad esempio `80H9W4`): inserisci il tuo.
+> ℹ️ **Nota**: con G7, ONE+ e Stelo **non serve inserire nessun ID del trasmettitore né codice del sensore**: xDrip4iOS trova il sensore da solo con la scansione.
 
-![](images/letture-dexcom/image_005.png)
-
-Una volta inserito l'ID del trasmettitore, verrà visualizzato un messaggio che ti chiede di mantenere aperto xDrip4iOS mentre viene trovato il trasmettitore e viene stabilita una connessione Bluetooth. Lascia il tuo iPhone sul tavolo e prendi un caffè. NON giocare a Roblox, guardare Netflix o ascoltare Spotify. Metti giù il telefono senza toccarlo e restagli vicino.
+Verrà visualizzato un messaggio che ti chiede di mantenere aperto xDrip4iOS mentre viene trovato il trasmettitore e viene stabilita una connessione Bluetooth. Lascia il tuo iPhone sul tavolo e prendi un caffè. NON giocare a Roblox, guardare Netflix o ascoltare Spotify. Metti giù il telefono senza toccarlo e restagli vicino.
 
 L'avviso **Please Read** ricorda di tenere l'app in primo piano: tocca **OK**:
 
@@ -67,13 +67,11 @@ La scheda del dispositivo con lo stato **Scanning** e il **Transmitter ID** rile
 
 ![](images/letture-dexcom/image_008.png)
 
-Adesso che xDrip4iOS è collegato, puoi anche riabilitare il Bluetooth dell'app Dex.
-
 ## 5. Aiuto, non lo trova!
 
-Prima di tutto, verifica di aver disabilitato il Bluetooth dell'app Dex come spiegato nella sezione 3. Se non è disabilitato, xDrip4iOS non troverà mai il dispositivo...
+Prima di tutto, verifica di aver fatto pulizia dei vecchi sensori, sia nel Bluetooth dell'iPhone (sezione 2) sia nella scheda Bluetooth di xDrip4iOS (sezione 3): è la causa più comune.
 
-Se xDrip4iOS non trova alcun dispositivo, puoi inserirlo manualmente. Generalmente non è necessario.
+Se xDrip4iOS non trova comunque il dispositivo, puoi inserirlo manualmente. Generalmente non è necessario.
 
 Vai nella lista dei dispositivi Bluetooth del tuo iPhone e cerca quello chiamato `DXCM`...
 

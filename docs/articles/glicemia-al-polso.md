@@ -130,9 +130,9 @@ Ecco alcuni esempi di come queste app mostrano la glicemia su Apple Watch.
 
 ## 7. Riepilogo
 
-| Categoria | Telefono | Supporto glicemia sul quadrante | Modelli consolidati / note | Pro | Contro |
-|---|---|---|---|---|---|
-| Amazfit (Zepp OS) | Solo Android | Buono, dipende dal modello e dalla community | Lista su [`https://watchdrip.org`](https://watchdrip.org) | Economici, buona autonomia | Supporto variabile da modello a modello |
-| Wear OS | Solo Android | Ottimo, molto supporto | Samsung Galaxy Watch 4 e successivi, Google Pixel, OnePlus, Mobvoi | Ampia compatibilità, quadranti stabili | Verificare che sia davvero Wear OS |
-| Garmin | Android e iPhone | Limitato e non uniforme | Dipende da sensore, app e microinfusore | Autonomia eccellente, ideali per lo sport | Supporto non standard, verifiche caso per caso |
-| Apple Watch | Solo iPhone | Ottimo con soluzioni ufficiali e di terze parti | Serie 6 o successive, SE e Ultra | Soluzioni ufficiali per Dexcom, MiniMed e Simplera | Alcune soluzioni richiedono un abbonamento |
+| Categoria | Telefono | Supporto glicemia sul quadrante | Modelli consolidati / note | Pro e contro |
+|---|---|---|---|---|
+| Amazfit (Zepp OS) | Solo Android | Buono, dipende dal modello e dalla community | Lista su [`https://watchdrip.org`](https://watchdrip.org) | **Pro**: economici, buona autonomia<br>**Contro**: supporto variabile da modello a modello |
+| Wear OS | Solo Android | Ottimo, molto supporto | Samsung Galaxy Watch 4 e successivi, Google Pixel, OnePlus, Mobvoi | **Pro**: ampia compatibilità, quadranti stabili<br>**Contro**: verificare che sia davvero Wear OS |
+| Garmin | Android e iPhone | Limitato e non uniforme | Dipende da sensore, app e microinfusore | **Pro**: autonomia eccellente, ideali per lo sport<br>**Contro**: supporto non standard, verifiche caso per caso |
+| Apple Watch | Solo iPhone | Ottimo con soluzioni ufficiali e di terze parti | Serie 6 o successive, SE e Ultra | **Pro**: soluzioni ufficiali per Dexcom, MiniMed e Simplera<br>**Contro**: alcune soluzioni richiedono un abbonamento |

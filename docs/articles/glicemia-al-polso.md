@@ -56,6 +56,20 @@ Alcuni sensori hanno soluzioni ufficiali e molti utenti sono soddisfatti:
 - **Simplera** (Medtronic) con visualizzazione della glicemia e degli avvisi su Apple Watch
 - altri sistemi simili
 
+### Esempi di quadranti con le app ufficiali
+
+**Dexcom G7**: la glicemia come complicazione sul quadrante **Modulare** e su un quadrante analogico, e l'app sull'orologio con valore e grafico:
+
+![](images/smartwatch-apple-watch-dexcom-g7-1.png) ![](images/smartwatch-apple-watch-dexcom-g7-2.png) ![](images/smartwatch-apple-watch-dexcom-g7-3.png)
+
+**MiniMed Mobile**: grafico e tempo in range direttamente al polso:
+
+![](images/smartwatch-apple-watch-minimed-1.png) ![](images/smartwatch-apple-watch-minimed-2.png)
+
+**Simplera**: gli avvisi di glicemia bassa o alta arrivano anche sull'orologio:
+
+![](images/smartwatch-apple-watch-simplera-1.png)
+
 In diversi casi servono app di terze parti per mostrare il valore sul quadrante: vedi ad esempio [xDrip4iOS con sensori Dex](../documentation/xdrip4ios/letture-dexcom) e [Visualizzare Nightscout su Apple Watch](../documentation/apple-watch/come-visualizzare-la-pagina-nightscout-su-apple-watch).
 
 > ℹ️ **Nota**: su Apple Watch alcune soluzioni richiedono un abbonamento. Non sponsorizziamo questi servizi, ma talvolta sono le uniche opzioni funzionanti.
@@ -86,6 +100,28 @@ Con un sensore FSL 2, 2+ o 3 e un iPhone si possono utilizzare due tipi di smart
 - Puoi usare **xDrip4iOS** (sull'App Store si chiama Zukka): vedi [Installare xDrip4iOS](../documentation/xdrip4ios/installare-xdrip4ios).
 - In alternativa **Gluroo** ([guida](../documentation/gluroo/gluroo)) può prelevare i valori dal follower LLink e renderli disponibili, tramite l'indirizzo Nightscout fornito da Gluroo, a xDrip4iOS oppure a **Nightguard** ([`https://github.com/nightscout/nightguard`](https://github.com/nightscout/nightguard)) sull'Apple Watch.
 - Oppure puoi mostrare il valore con una complicazione sui quadranti modulari: [`https://gluroo.com/support/apple_watch_any_watchface/`](https://gluroo.com/support/apple_watch_any_watchface/).
+
+Ecco alcuni esempi di come queste app mostrano la glicemia su Apple Watch.
+
+**GlucoWatch** — complicazioni su un quadrante analogico e app sull'orologio:
+
+![](images/smartwatch-apple-watch-glucowatch-1.png) ![](images/smartwatch-apple-watch-glucowatch-2.png)
+
+**FLwatch** — complicazioni su quadrante analogico e modulare:
+
+![](images/smartwatch-apple-watch-flwatch-1.png) ![](images/smartwatch-apple-watch-flwatch-2.png)
+
+**xDrip4iOS** — app sull'orologio con valore, variazione e grafico:
+
+![](images/smartwatch-apple-watch-xdrip4ios-1.png) ![](images/smartwatch-apple-watch-xdrip4ios-2.png)
+
+**Gluroo** — valore sul quadrante tramite la complicazione con la foto del contatto:
+
+![](images/smartwatch-apple-watch-gluroo-1.png) ![](images/smartwatch-apple-watch-gluroo-2.png)
+
+**Nightguard** — complicazione sul quadrante Infograph e app con grafico Nightscout:
+
+![](images/smartwatch-apple-watch-nightguard-1.png) ![](images/smartwatch-apple-watch-nightguard-2.png)
 
 ### Garmin con iPhone
 

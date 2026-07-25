@@ -80,7 +80,7 @@ const xdrip4ios = [
 
 const nightscout = [
   { text: 'Nightscout – Aggiornamento con Heroku', link: '/documentation/nightscout/heroku-aggiornare-nightscout' },
-  { text: 'Monitor Nightscout con M5Stack', link: '/documentation/nightscout/monitor-nightscout-m5stack' },
+  { text: 'Monitor glicemia con M5Stack', link: '/documentation/nightscout/monitor-nightscout-m5stack' },
   { text: 'Nightscout su Azure + Atlas', link: '/documentation/nightscout/nightscoutazureatlas' },
   { text: 'Monitor Nightscout Clock', link: '/documentation/nightscout/nightscoutclock' },
   { text: 'Nightscout su Google Cloud', link: '/documentation/nightscout/nightscoutgooglecloud' },

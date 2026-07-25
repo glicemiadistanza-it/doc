@@ -9,7 +9,7 @@ Questa guida spiega come configurare un **M5Stack** come display da tavolo per l
 - **M5_NightscoutMon** (progetto originale di Martin Lukasek, aggiornato da Patrick Sonnerat): si collega al Wi-Fi di casa e legge i dati da Nightscout, Dexcom Share, LLink o Gluroo. Documentazione ufficiale: [`https://github.com/psonnera/M5_NightscoutMon/wiki`](https://github.com/psonnera/M5_NightscoutMon/wiki)
 - **M5Stack_xDripMon**: riceve la glicemia direttamente dal telefono via Bluetooth, da xDrip (Android) o xDrip4iOS (iPhone). Niente Wi-Fi, niente cloud. Documentazione ufficiale: [`https://github.com/psonnera/M5Stack_xDripMon`](https://github.com/psonnera/M5Stack_xDripMon)
 
-**Requisiti:** uno smartphone **Android** (Android 10 o superiore, con presa USB-C) — è il metodo più semplice e funziona per entrambi i firmware — oppure un computer (Windows di preferenza, solo per M5_NightscoutMon).
+**Requisiti:** uno smartphone **Android** (Android 10 o superiore, con presa USB-C) — è il metodo più semplice e funziona per entrambi i firmware — oppure un computer (Windows o Mac): entrambi i firmware sono disponibili nell'elenco ufficiale di M5Burner.
 
 > ⚠️ **Attenzione**: L'utilizzo è a esclusiva responsabilità personale.
 
@@ -37,7 +37,7 @@ In breve:
 
 ## 2. Materiale occorrente
 
-- **M5Stack Core Basic** (ESP32): lo trovi sul sito del produttore [`https://m5stack.com/collections/m5-core`](https://m5stack.com/collections/m5-core), su AliExpress o Amazon. Prezzo indicativo: meno di 60 € spedito (metà 2026). Funzionano anche Core GRAY, GO, FIRE, Core2, CoreS3 e M5Tough, ma non offrono vantaggi per questo uso.
+- **M5Stack Core Basic** (ESP32): lo trovi sul sito del produttore [`https://m5stack.com/collections/m5-core`](https://m5stack.com/collections/m5-core), su AliExpress o Amazon. Prezzo indicativo: 60–70 € spedito (metà 2026). Funzionano anche Core GRAY, GO, FIRE, Core2, CoreS3/S3SE e M5Tough, ma non offrono vantaggi per questo uso.
 
 ![](images/monitor-nightscout-m5stack/image_002.png)
 
@@ -83,12 +83,42 @@ Non serve nessun computer: basta uno smartphone Android (versione 10 o superiore
 
 1. Collega prima l'M5Stack a un caricatore USB, così si ricarica.
 2. Sul telefono, installa l'app **M5Stack Loader** da [`https://github.com/psonnera/M5StackLoader/releases`](https://github.com/psonnera/M5StackLoader/releases) (in attesa della pubblicazione sul Play Store).
-3. Collega l'M5Stack al telefono con il cavo USB-C. Quando Android chiede quale app usare per il dispositivo USB, scegli **M5Stack Loader** e autorizza l'accesso USB (**Consenti sempre** oppure **Solo questa volta**), poi tocca **OK**.
-4. Concedi il permesso di **posizione** (**Mentre usi l'app**): Android lo richiede per elencare le reti Wi-Fi.
-5. Nella schermata principale scegli il firmware da installare: **M5 NightscoutMon** (Wi-Fi) oppure **M5Stack xDripMon** (Bluetooth). La terza scheda, per firmware personalizzati da GitHub, è riservata agli esperti.
-6. (Solo per M5_NightscoutMon, consigliato) Spunta **Set up Wi-Fi on the device** e inserisci la **password** della tua rete Wi-Fi: le credenziali vengono scritte nel dispositivo durante la programmazione, così si collegherà da solo alla rete (le credenziali non vengono inviate a nessun server). Se non la spunti, potrai configurare il Wi-Fi più tardi con il metodo descritto alla sezione 5 di questa guida.
-7. L'app riconosce da sola il modello di M5Stack e sceglie il firmware giusto: controlla il riepilogo e tocca **Flash firmware**. La barra può restare all'1% per una trentina di secondi, poi la scrittura dura circa 10 secondi: **non scollegare il cavo**. Alla fine il dispositivo si riavvia.
-8. (Solo per M5_NightscoutMon) Tocca **Open device configuration**: l'app trova il dispositivo al suo indirizzo unico `m5ns-xxxx.local` e apre la pagina di configurazione (vedi sezione 6).
+3. Collega l'M5Stack al telefono con il cavo USB-C. Quando Android chiede quale app usare per il dispositivo USB, scegli **M5Stack Loader**:
+
+![](images/monitor-nightscout-m5stack/image_047.png)
+
+Autorizza l'accesso USB (**Consenti sempre** se non colleghi altri dispositivi ESP32 al telefono, oppure **Solo questa volta**) e tocca **OK**:
+
+![](images/monitor-nightscout-m5stack/image_048.png)
+
+4. Concedi il permesso di **posizione** (**Mentre usi l'app**): Android lo richiede per elencare le reti Wi-Fi:
+
+![](images/monitor-nightscout-m5stack/image_049.png)
+
+5. Alla domanda **What would you like to flash?** scegli il riquadro del firmware da installare: **M5 NightscoutMon** (il gufo, Wi-Fi) oppure **M5Stack xDripMon** (Bluetooth). Il terzo riquadro, per firmware personalizzati da GitHub, è riservato agli esperti:
+
+![](images/monitor-nightscout-m5stack/image_050.png)
+
+6. (Solo per M5_NightscoutMon, consigliato) Spunta **Set up Wi-Fi on the device** e inserisci la **password** della tua rete Wi-Fi: le credenziali vengono scritte nel dispositivo durante la programmazione, così si collegherà da solo alla rete (le credenziali non vengono inviate a nessun server). Se non la spunti, potrai configurare il Wi-Fi più tardi con il metodo descritto alla sezione 5 di questa guida:
+
+![](images/monitor-nightscout-m5stack/image_051.png)
+
+7. L'app riconosce da sola il modello di M5Stack e sceglie il firmware giusto: controlla il riepilogo e tocca **Flash firmware**:
+
+![](images/monitor-nightscout-m5stack/image_052.png)
+
+La barra può restare all'1% per una trentina di secondi, poi la scrittura dura circa 10 secondi: **non scollegare il cavo**:
+
+![](images/monitor-nightscout-m5stack/image_053.png)
+
+Alla fine il dispositivo si riavvia e puoi scollegarlo:
+
+![](images/monitor-nightscout-m5stack/image_054.png)
+
+8. (Solo per M5_NightscoutMon) Tocca **Open device configuration**: l'app trova il dispositivo al suo indirizzo unico `m5ns-xxxx.local` e apre la pagina di configurazione (vedi sezione 6):
+
+![](images/monitor-nightscout-m5stack/image_055.png)
+
 9. (Solo per M5Stack_xDripMon) Alla prima accensione il dispositivo ti chiede da quale app riceverà la glicemia: vai alla sezione 9 di questa guida.
 
 **Se qualcosa non va:**
@@ -99,9 +129,11 @@ Non serve nessun computer: basta uno smartphone Android (versione 10 o superiore
 
 ---
 
-## 4. Metodo alternativo — Programma da Windows con M5Burner
+## 4. Metodo alternativo — Programma da computer con M5Burner
 
-> ℹ️ **Nota**: questo metodo vale solo per **M5_NightscoutMon**. Per M5Stack_xDripMon usa il metodo dal telefono (sezione 3); gli esperti possono usare esptool seguendo le istruzioni nel [repository del progetto](https://github.com/psonnera/M5Stack_xDripMon).
+Entrambi i firmware sono pubblicati nell'elenco ufficiale di **M5Burner**, lo strumento di programmazione di M5Stack. La procedura è la stessa da Windows e da Mac: cambia solo il firmware da cercare.
+
+> ℹ️ **Nota**: le schermate di questa sezione si riferiscono a Windows; su Mac le finestre sono un po' diverse, ma i passaggi sono gli stessi.
 
 ### Verifica il driver USB
 
@@ -117,54 +149,72 @@ Non serve nessun computer: basta uno smartphone Android (versione 10 o superiore
    - `CH9102_VCP_SER_Windows` per i Basic/Core2 recenti (chip CH9102)
    - `CP210x_VCP_Windows` per le unità più vecchie (chip CP2104), disponibile anche dal sito Silicon Labs: [`https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers`](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers)
 
-![](images/monitor-nightscout-m5stack/image_008.png)
+![](images/monitor-nightscout-m5stack/image_056.png)
 
-Clicca sul link di download della versione VCP (Virtual COM Port) indicata:
+Nella cartella Download, estrai il file `.zip`, apri la cartella estratta ed esegui il programma di installazione per la tua piattaforma (x64 per la maggior parte dei computer), poi **Avanti**, **Accetta**, **Avanti**, **Fine**:
 
-![](images/monitor-nightscout-m5stack/image_009.png)
+![](images/monitor-nightscout-m5stack/image_057.png)
 
-Nella cartella Download, fai clic destro sul file `.zip` → **Estrai tutto**:
-
-![](images/monitor-nightscout-m5stack/image_010.png)
-
-Conferma la destinazione e clicca **Estrai**:
-
-![](images/monitor-nightscout-m5stack/image_011.png)
-
-Nella cartella estratta, esegui il programma di installazione per la tua piattaforma (es. 64 bit):
-
-![](images/monitor-nightscout-m5stack/image_012.png)
-
-Clicca **Avanti** per procedere con l'installazione guidata:
-
-![](images/monitor-nightscout-m5stack/image_013.png)
-
-Clicca **Fine** per completare l'installazione del driver:
-
-![](images/monitor-nightscout-m5stack/image_014.png)
+Ricollega l'M5Stack e controlla che la porta COM compaia in Gestione dispositivi.
 
 > ℹ️ **Nota**: Se hai già versioni precedenti del driver USB SiLabs, rimuovile prima per evitare conflitti. Dopo l'installazione, scollega e ricollega il dispositivo.
 
+**Su Mac** di solito non serve nessun driver (da macOS Catalina in poi). Per verificare, collega l'M5Stack, apri il **Terminale** e digita:
+
+```bash
+ls /dev/cu.*
+```
+
+Se compare una porta tipo `/dev/cu.usbserial-XXXX` o `/dev/cu.wchusbserial-XXXX`, sei a posto. Altrimenti installa il driver dalla stessa pagina M5Stack (`CH9102_VCP_SER_MacOS` per le unità recenti, `CP210x` per le più vecchie) e autorizzalo in **Impostazioni di Sistema** → **Generali** → **Elementi login ed estensioni**.
+
 ### Installa M5Burner e il firmware
 
-1. Scarica **M5Burner** (versione **Win10 x64**) dalla pagina download di M5Stack, sezione **UiFlow Firmware Burning Tool**: [`https://docs.m5stack.com/en/download`](https://docs.m5stack.com/en/download).
-2. Estrai lo zip in un percorso **senza spazi** (es. direttamente in `C:\`) e avvia `M5Burner.exe`.
+1. Scarica **M5Burner** dalla pagina ufficiale [`https://docs.m5stack.com/en/uiflow/m5burner`](https://docs.m5stack.com/en/uiflow/m5burner): versione **Win x64** per Windows oppure **MacOS x64** per Mac:
+
+![](images/monitor-nightscout-m5stack/image_058.png)
+
+2. Su Windows, estrai lo zip in un percorso **senza spazi** (es. direttamente in `C:\`) e avvia `M5Burner.exe`. Su Mac, apri il file DMG e trascina M5Burner in **Applicazioni**; al primo avvio, se macOS lo blocca, aprilo con clic destro (Ctrl+clic) → **Apri**.
 3. Se Windows Defender blocca l'esecuzione, clicca **Ulteriori informazioni**:
 
 ![](images/monitor-nightscout-m5stack/image_024.png)
 
-Poi clicca **Esegui comunque**:
+Poi clicca **Esegui comunque** (M5Burner è lo strumento ufficiale di M5Stack, è sicuro):
 
 ![](images/monitor-nightscout-m5stack/image_025.png)
 
-4. In M5Burner, nell'elenco **Device Type** a sinistra seleziona **CORE** (per Basic/Core/Gray) oppure **CORE2 & TOUGH** (per Core2/Tough).
-5. Digita `Nightscout` nella barra di ricerca e premi Invio: sul risultato **NightscoutMon** clicca **Download**.
-6. Clicca **Burn**: al messaggio sul firmware non ufficiale rispondi **Continue**, seleziona la porta **COM** annotata prima, imposta il baud rate a `921600` e clicca **Start**.
-7. Al termine comparirà **"Burn successfully, click here to return"**.
+4. In M5Burner, nell'elenco **Device Type** a sinistra seleziona il tuo modello, poi cerca il firmware nella barra di ricerca in alto e clicca **Download** sul risultato. Per **M5_NightscoutMon** su Basic/Core/Gray, seleziona **CORE** e cerca `Nightscout`:
 
-**Se la scrittura fallisce:** riprova con baud rate `115200`, cambia cavo o porta USB, e chiudi eventuali programmi che usano la porta COM.
+![](images/monitor-nightscout-m5stack/image_059.png)
 
-> ℹ️ **Nota per Mac**: M5Burner esiste anche per macOS (stessa pagina di download). A differenza di Windows, il firmware si scarica dalla sezione **USER CUSTOM** (in basso a sinistra) → **Share Burn**, inserendo il codice `0nPW6eAzC7GcnfWN` per Basic/Core oppure `1HgGY5jdSokZb7JK` per Core2. La procedura completa è descritta nella [pagina Mac del wiki](https://github.com/psonnera/M5_NightscoutMon/wiki/Mac).
+Per un Core2 o Tough, seleziona invece **CORE2 & TOUGH**:
+
+![](images/monitor-nightscout-m5stack/image_060.png)
+
+Per **M5Stack_xDripMon**, seleziona **CORE** (la stessa versione vale per tutti i modelli supportati) e cerca `xDrip`:
+
+![](images/monitor-nightscout-m5stack/image_061.png)
+
+5. Una volta scaricato, sul firmware compaiono i pulsanti **Remove** e **Burn**: clicca **Burn**:
+
+![](images/monitor-nightscout-m5stack/image_062.png)
+
+Al messaggio **Notice** sul firmware non ufficiale rispondi **Continue** (è normale: si tratta di firmware della comunità, non pubblicato da M5Stack):
+
+![](images/monitor-nightscout-m5stack/image_063.png)
+
+6. Nella finestra di scrittura, controlla che l'M5Stack sia collegato, seleziona la porta annotata prima (la porta **COM** su Windows, la porta `/dev/cu.…` su Mac), imposta il baud rate a `921600` e clicca **Start**:
+
+![](images/monitor-nightscout-m5stack/image_064.png)
+
+La scrittura del firmware mostra l'avanzamento:
+
+![](images/monitor-nightscout-m5stack/image_065.png)
+
+7. Al termine comparirà **"Burn successfully, click here to return"**: cliccalo per tornare a M5Burner:
+
+![](images/monitor-nightscout-m5stack/image_066.png)
+
+**Se la scrittura fallisce:** riprova con baud rate `115200`, cambia cavo o porta USB, e chiudi eventuali programmi che usano la porta.
 
 ---
 
@@ -320,44 +370,114 @@ Ed ecco un esempio di quadrante circolare, con lancetta di tendenza e temperatur
 
 ## 9. M5Stack_xDripMon — Configura il collegamento Bluetooth
 
-Con questo firmware non c'è niente da configurare via web: il telefono con xDrip (Android) o xDrip4iOS (iPhone) invia la glicemia direttamente al dispositivo via Bluetooth.
+Con questo firmware non c'è niente da configurare via web: il telefono con xDrip (Android) o xDrip4iOS (iPhone) invia la glicemia direttamente al dispositivo via Bluetooth, e tutte le impostazioni si regolano dal menu sul dispositivo stesso.
 
 ### Prima accensione: scegli la sorgente
 
-Alla prima accensione il dispositivo chiede da quale app riceverà i dati:
+Alla prima accensione (e dopo un factory reset) il dispositivo chiede da quale app riceverà i dati, prima ancora di attivare il Bluetooth:
+
+![](images/monitor-nightscout-m5stack/image_067.jpg)
 
 - **Tasto sinistro (A)**: xDrip (Android)
 - **Tasto destro (C)**: xDrip4iOS (iPhone)
 
-Puoi cambiare la scelta in qualsiasi momento dal menu delle impostazioni (vedi sotto).
+La scelta viene memorizzata e non viene più richiesta; puoi comunque cambiarla in qualsiasi momento da **Menu** → **Data source** (il dispositivo si riavvia). Finché il telefono non si collega, il quadrante principale mostra `---` al posto del valore.
+
+### Tasti e pagine
+
+| Azione | Tasto |
+|---|---|
+| Pagina precedente / successiva | Tasto sinistro (A) / tasto destro (C) |
+| Snooze allarme | Tasto centrale (B), pressione breve |
+| Apri il menu impostazioni | Tasto centrale (B) dalla pagina **Log** |
+| Indietro / annulla (nel menu) | Tasto centrale (B), pressione lunga |
+
+Le pagine, in ordine: **quadrante principale** (glicemia, freccia di tendenza, mini-grafico e minuti dall'ultima lettura), **glicemia in grande**, **orologio analogico** e **Log** (gli eventi di connessione). Nel menu, le icone sopra i tasti indicano la funzione del momento (su/seleziona/giù, oppure meno/OK/più quando modifichi un valore).
+
+Ecco il quadrante principale:
+
+![](images/monitor-nightscout-m5stack/image_068.jpg)
+
+> ℹ️ **Nota**: come in M5_NightscoutMon, il riquadro dei minuti diventa bianco dopo 5 minuti senza letture e rosso dopo 15.
 
 ### Configura xDrip (Android)
 
-1. In xDrip, apri **Impostazioni** → **Smart Watch Features** → **Mi Band**.
-2. Attiva **Use Mi Band** e lascia **vuoto** il campo della chiave di autenticazione (auth key).
-3. Attiva l'invio delle letture (l'opzione basata sulle notifiche, nella stessa pagina).
-4. Torna al quadrante dell'M5Stack: entro pochi minuti l'icona Bluetooth diventerà blu fissa e comparirà la glicemia.
+In questa modalità l'M5Stack si presenta al telefono come un braccialetto Mi Band 2: xDrip lo trova, si autentica e gli invia ogni lettura.
 
-> ℹ️ **Nota sull'orologio**: xDrip per Android non sincronizza l'ora. Sui modelli Basic e Fire (senza orologio interno a batteria) dovrai reinserire l'ora dal menu dopo ogni spegnimento completo; il Core2 invece mantiene l'ora da solo.
+**Metodo consigliato — codice QR.** Dopo aver scelto **xDrip (Android)** come sorgente, il dispositivo mostra un **codice QR** che contiene tutto il necessario (indirizzo Bluetooth e impostazioni Mi Band), così non devi digitare niente:
+
+![](images/monitor-nightscout-m5stack/image_069.jpg)
+
+1. In xDrip, apri **Impostazioni** → **Data Sync** → **Auto configure** (configurazione tramite codice a barre):
+
+![](images/monitor-nightscout-m5stack/image_070.png)
+
+2. Inquadra il codice QR sullo schermo dell'M5Stack e conferma l'importazione toccando **Yes**:
+
+![](images/monitor-nightscout-m5stack/image_071.png)
+
+Quando l'autenticazione riesce, l'icona Bluetooth diventa blu fissa e nella pagina **Log** compare **auth OK**.
+
+> ℹ️ **Nota**: se il codice QR non è più visibile, lo ritrovi in qualsiasi momento dal menu del dispositivo: **Bluetooth** → **xDrip Setup QR**.
+
+**Prova subito il collegamento.** Per non aspettare il prossimo ciclo di 5 minuti, invia subito una lettura: in xDrip apri **Impostazioni** → **Smart Watch Features** → **Mi Band**, scorri fino a **Update BG manually** e alla domanda **Update BG data now?** tocca **Yes**:
+
+![](images/monitor-nightscout-m5stack/image_072.jpg)
+
+Il valore comparirà subito sul quadrante; per vedere freccia di tendenza e delta servono alcune letture in più.
+
+**Se il QR non funziona — configurazione manuale.** In xDrip apri **Impostazioni** → **Smart Watch Features** → **Mi Band**:
+
+1. Attiva **Use MiBand Band** e lascia **vuota** la chiave di autenticazione (la genera xDrip):
+
+![](images/monitor-nightscout-m5stack/image_073.jpg)
+
+2. Se il campo **Mac address** contiene un indirizzo di un abbinamento precedente, cancellalo completamente e tocca **OK** (vuoto = ricerca automatica), altrimenti xDrip continuerà a cercare il vecchio dispositivo:
+
+![](images/monitor-nightscout-m5stack/image_074.jpg)
+
+3. Con l'M5Stack acceso e vicino, xDrip lo trova da solo e compila l'indirizzo automaticamente:
+
+![](images/monitor-nightscout-m5stack/image_075.jpg)
+
+Poi prova il collegamento con **Update BG manually** come descritto sopra.
+
+> ℹ️ **Nota sull'orologio**: xDrip per Android non sincronizza l'ora: impostala da **Menu** → **Set time**. Il Core2 la mantiene anche da spento; sui modelli Basic e Fire (senza orologio interno a batteria) dovrai reinserirla dopo ogni spegnimento completo.
 
 ### Configura xDrip4iOS (iPhone)
 
-1. In xDrip4iOS, aggiungi un nuovo dispositivo Bluetooth di tipo **M5Stack**.
-2. Accetta la richiesta di abbinamento: letture, freccia di tendenza e ora si sincronizzano automaticamente quando l'app si collega.
+1. Assicurati che la sorgente del dispositivo sia **xDrip4iOS** (tasto destro alla prima accensione, oppure **Menu** → **Data source**).
+2. In xDrip4iOS, aggiungi un nuovo dispositivo Bluetooth di tipo **M5Stack**. La procedura ufficiale è descritta nella guida di xDrip4iOS: [`https://xdrip4ios.readthedocs.io/en/latest/connect/devices/`](https://xdrip4ios.readthedocs.io/en/latest/connect/devices/)
+3. Accetta la richiesta di abbinamento: letture, freccia di tendenza, riconnessione e ora si sincronizzano automaticamente quando l'app si collega.
 
 ### Icona Bluetooth
 
 L'icona Bluetooth sul display indica lo stato del collegamento:
 
 - **Rossa lampeggiante**: non collegato (telefono lontano o app chiusa)
-- **Blu lampeggiante**: collegamento in corso
-- **Blu fissa**: collegato, i dati arrivano
+- **Blu lampeggiante**: collegato, autenticazione in corso
+- **Blu fissa**: collegato e autenticato, i dati arrivano
 
-### Impostazioni sul dispositivo
+### Menu impostazioni
 
-Tutte le impostazioni si regolano direttamente sull'M5Stack: **tieni premuto il tasto centrale** per aprire il menu. Da lì puoi impostare le soglie gialle e rosse, i suoni di avvertimento e allarme, i volumi e la sorgente dati.
+Dalla pagina **Log**, premi il tasto centrale per aprire il menu:
 
-I quadranti sono gli stessi di M5_NightscoutMon (quadrante principale, glicemia in grande, orologio analogico, registro eventi) e il **tasto centrale** con una pressione breve silenzia gli allarmi (snooze), come descritto nella sezione 8.
+![](images/monitor-nightscout-m5stack/image_076.jpg)
+
+Le voci disponibili:
+
+- **Data source**: passa tra xDrip (Android) e xDrip4iOS
+- **Units**: `mg/dL` o `mmol/L`
+- Soglie dei colori: giallo (avvertimento) e rosso (fuori range), per basso e alto
+- Allarmi: soglie di avvertimento e allarme, suoni, durata dello snooze e timeout senza letture
+- **Display**: personalizzazione dello schermo
+- **Set time**: impostazione manuale dell'ora
+- **Bluetooth**: parametri del collegamento e codice QR per xDrip
+- **Factory reset**: torna alle impostazioni di fabbrica e richiede di nuovo la scelta della sorgente
+
+Per impostare l'ora (**Set time**), modifica anno, mese, giorno, ora e minuti con i tasti **−** / **+**, confermando ogni campo con il tasto centrale; tienilo premuto per annullare:
+
+![](images/monitor-nightscout-m5stack/image_077.jpg)
 
 ---
 
@@ -367,5 +487,5 @@ I quadranti sono gli stessi di M5_NightscoutMon (quadrante principale, glicemia 
 - Se lo schermo resta nero, ripeti semplicemente la programmazione: è molto difficile danneggiare un ESP32.
 - **M5_NightscoutMon** — se non ricordi il nome `.local` del dispositivo, premi il tasto destro fino alla pagina con il codice QR di configurazione: mostra nome esatto e indirizzo IP.
 - **M5_NightscoutMon** — il registro degli errori è visibile in uno dei quadranti (tasto destro per scorrerli) e nella pagina web di configurazione.
-- **M5Stack_xDripMon** — se l'icona Bluetooth resta rossa lampeggiante: controlla che il telefono sia vicino, che xDrip/xDrip4iOS sia aperta e che le opzioni della sezione 9 siano attive; su Android verifica che xDrip non venga chiusa dal risparmio energetico.
-- **M5Stack_xDripMon** — se l'ora è sbagliata su Basic o Fire, reimpostala dal menu (tieni premuto il tasto centrale): questi modelli non hanno un orologio interno a batteria.
+- **M5Stack_xDripMon** — se l'icona Bluetooth resta rossa lampeggiante: controlla che il telefono sia vicino, che xDrip/xDrip4iOS sia aperta e che le opzioni della sezione 9 siano attive; su Android verifica che xDrip non venga chiusa dal risparmio energetico e che il campo dell'indirizzo MAC in **Mi Band** sia vuoto o corrisponda al dispositivo attuale.
+- **M5Stack_xDripMon** — se l'ora è sbagliata su Basic o Fire, reimpostala da **Menu** → **Set time** (dalla pagina **Log**, tasto centrale): questi modelli non hanno un orologio interno a batteria.

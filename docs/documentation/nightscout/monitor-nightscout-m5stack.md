@@ -15,7 +15,7 @@ Questa guida spiega come configurare un **M5Stack** come display da tavolo per l
 
 ---
 
-## 1. Scegli il firmware
+## 1. I due firmware
 
 | | M5_NightscoutMon | M5Stack_xDripMon |
 |---|---|---|
@@ -28,8 +28,24 @@ Questa guida spiega come configurare un **M5Stack** come display da tavolo per l
 
 In breve:
 
-- Se hai **Nightscout** (oppure usi Dexcom Share, LLink o Gluroo) e il display resterà dove c'è un Wi-Fi → scegli **M5_NightscoutMon**.
-- Se usi già **xDrip** o **xDrip4iOS** e vuoi zero configurazione di rete → scegli **M5Stack_xDripMon**: il telefono invia la glicemia direttamente al display.
+- **M5_NightscoutMon** fa per te se hai **Nightscout** (oppure usi Dexcom Share, LLink o Gluroo) e il display resterà dove c'è un Wi-Fi.
+- **M5Stack_xDripMon** fa per te se usi già **xDrip** o **xDrip4iOS** e vuoi zero configurazione di rete: il telefono invia la glicemia direttamente al display.
+
+Una volta individuato il tuo firmware, questi sono i passi da seguire:
+
+**Percorso M5_NightscoutMon:**
+
+1. [Procurati il materiale](#_2-materiale-occorrente)
+2. Programma l'M5Stack [dal telefono Android](#_3-metodo-facile-—-programma-l-m5stack-dal-telefono-android) (più semplice) oppure [dal computer](#_4-metodo-alternativo-—-programma-da-computer-con-m5burner)
+3. [Collegalo al Wi-Fi](#_5-m5-nightscoutmon-—-collega-al-wi-fi)
+4. [Configuralo](#_6-m5-nightscoutmon-—-configura-il-dispositivo)
+5. Quando ti serve: [aggiorna il firmware](#_7-m5-nightscoutmon-—-aggiorna-il-firmware) e [scopri tasti e quadranti](#_8-m5-nightscoutmon-—-tasti-e-quadranti)
+
+**Percorso M5Stack_xDripMon:**
+
+1. [Procurati il materiale](#_2-materiale-occorrente)
+2. Programma l'M5Stack [dal telefono Android](#_3-metodo-facile-—-programma-l-m5stack-dal-telefono-android) (più semplice) oppure [dal computer](#_4-metodo-alternativo-—-programma-da-computer-con-m5burner)
+3. [Configura il collegamento Bluetooth](#_9-m5stack-xdripmon-—-configura-il-collegamento-bluetooth)
 
 > ℹ️ **Nota**: i quadranti e gli allarmi sono praticamente identici nei due firmware, e puoi passare dall'uno all'altro in qualsiasi momento riprogrammando il dispositivo.
 
@@ -75,6 +91,8 @@ E questo invece è un M5Stack Core 2, riconoscibile dal frontale completamente t
 
 ![](images/monitor-nightscout-m5stack/image_018.png)
 
+**Prossimo passo**: programma l'M5Stack [dal telefono Android](#_3-metodo-facile-—-programma-l-m5stack-dal-telefono-android) (consigliato) oppure [dal computer con M5Burner](#_4-metodo-alternativo-—-programma-da-computer-con-m5burner).
+
 ---
 
 ## 3. Metodo facile — Programma l'M5Stack dal telefono Android
@@ -99,7 +117,7 @@ Autorizza l'accesso USB (**Consenti sempre** se non colleghi altri dispositivi E
 
 ![](images/monitor-nightscout-m5stack/image_050.png)
 
-6. (Solo per M5_NightscoutMon, consigliato) Spunta **Set up Wi-Fi on the device** e inserisci la **password** della tua rete Wi-Fi: le credenziali vengono scritte nel dispositivo durante la programmazione, così si collegherà da solo alla rete (le credenziali non vengono inviate a nessun server). Se non la spunti, potrai configurare il Wi-Fi più tardi con il metodo descritto alla sezione 5 di questa guida:
+6. (Solo per M5_NightscoutMon, consigliato) Spunta **Set up Wi-Fi on the device** e inserisci la **password** della tua rete Wi-Fi: le credenziali vengono scritte nel dispositivo durante la programmazione, così si collegherà da solo alla rete (le credenziali non vengono inviate a nessun server). Se non la spunti, potrai configurare il Wi-Fi più tardi con il metodo descritto alla [sezione 5](#_5-m5-nightscoutmon-—-collega-al-wi-fi) di questa guida:
 
 ![](images/monitor-nightscout-m5stack/image_051.png)
 
@@ -115,16 +133,16 @@ Alla fine il dispositivo si riavvia e puoi scollegarlo:
 
 ![](images/monitor-nightscout-m5stack/image_054.png)
 
-8. (Solo per M5_NightscoutMon) Tocca **Open device configuration**: l'app trova il dispositivo al suo indirizzo unico `m5ns-xxxx.local` e apre la pagina di configurazione (vedi sezione 6):
+8. (Solo per M5_NightscoutMon) Tocca **Open device configuration**: l'app trova il dispositivo al suo indirizzo unico `m5ns-xxxx.local` e apre la pagina di configurazione (vedi la [sezione 6](#_6-m5-nightscoutmon-—-configura-il-dispositivo)):
 
 ![](images/monitor-nightscout-m5stack/image_055.png)
 
-9. (Solo per M5Stack_xDripMon) Alla prima accensione il dispositivo ti chiede da quale app riceverà la glicemia: vai alla sezione 9 di questa guida.
+9. (Solo per M5Stack_xDripMon) Alla prima accensione il dispositivo ti chiede da quale app riceverà la glicemia: continua con la [sezione 9](#_9-m5stack-xdripmon-—-configura-il-collegamento-bluetooth) di questa guida.
 
 **Se qualcosa non va:**
 - La programmazione non parte o si interrompe: prova con un altro cavo.
 - Lo schermo resta nero: ripeti la programmazione (è molto difficile danneggiare un ESP32).
-- Il dispositivo non si collega al Wi-Fi: la password era sbagliata; riprogramma oppure usa la configurazione Wi-Fi della sezione 5.
+- Il dispositivo non si collega al Wi-Fi: la password era sbagliata; riprogramma oppure usa la configurazione Wi-Fi della [sezione 5](#_5-m5-nightscoutmon-—-collega-al-wi-fi).
 - Non trovi la pagina di configurazione: premi ripetutamente il **tasto destro** dell'M5Stack fino alla pagina con il **codice QR di configurazione** e scansionalo (oppure usa l'indirizzo IP mostrato).
 
 ---
@@ -216,11 +234,13 @@ La scrittura del firmware mostra l'avanzamento:
 
 **Se la scrittura fallisce:** riprova con baud rate `115200`, cambia cavo o porta USB, e chiudi eventuali programmi che usano la porta.
 
+**Prossimo passo**: con M5_NightscoutMon, [collega il dispositivo al Wi-Fi](#_5-m5-nightscoutmon-—-collega-al-wi-fi); con M5Stack_xDripMon, [configura il collegamento Bluetooth](#_9-m5stack-xdripmon-—-configura-il-collegamento-bluetooth).
+
 ---
 
 ## 5. M5_NightscoutMon — Collega al Wi-Fi
 
-> ℹ️ **Nota**: le sezioni da 5 a 8 riguardano solo **M5_NightscoutMon**. Se hai installato M5Stack_xDripMon, salta alla sezione 9.
+> ℹ️ **Nota**: le sezioni da 5 a 8 riguardano solo **M5_NightscoutMon**. Se hai installato M5Stack_xDripMon, salta alla [sezione 9](#_9-m5stack-xdripmon-—-configura-il-collegamento-bluetooth).
 
 Se non hai già configurato il Wi-Fi durante la programmazione da Android, alla prima accensione l'M5Stack entra in modalità **SoftAP**: crea una propria rete Wi-Fi temporanea e mostra sullo schermo i dati per collegarsi:
 
@@ -271,6 +291,8 @@ E poi il quadrante grafico:
 **Per rientrare in modalità SoftAP** in qualsiasi momento:
 - **Basic/Core**: tieni premuto il **tasto sinistro**, premi il tasto rosso di reset sul lato e continua a tenere premuto il tasto sinistro finché non compare la schermata con il QR del Wi-Fi.
 - **Core2**: premi il tasto di reset in basso a sinistra e tocca **CONFIG** sullo schermo durante il riavvio.
+
+**Prossimo passo**: [configura il dispositivo](#_6-m5-nightscoutmon-—-configura-il-dispositivo).
 
 ---
 
@@ -488,6 +510,10 @@ Per impostare l'ora (**Set time**), modifica anno, mese, giorno, ora e minuti co
 
 ![](images/monitor-nightscout-m5stack/image_077.jpg)
 
+### Aggiorna il firmware
+
+Per aggiornare M5Stack_xDripMon basta riprogrammare il dispositivo con una versione più recente, [dal telefono Android](#_3-metodo-facile-—-programma-l-m5stack-dal-telefono-android) o [dal computer](#_4-metodo-alternativo-—-programma-da-computer-con-m5burner): le impostazioni attuali vengono conservate, non dovrai riconfigurare niente.
+
 ---
 
 ## 10. In caso di difficoltà
@@ -496,5 +522,5 @@ Per impostare l'ora (**Set time**), modifica anno, mese, giorno, ora e minuti co
 - Se lo schermo resta nero, ripeti semplicemente la programmazione: è molto difficile danneggiare un ESP32.
 - **M5_NightscoutMon** — se non ricordi il nome `.local` del dispositivo, premi il tasto destro fino alla pagina con il codice QR di configurazione: mostra nome esatto e indirizzo IP.
 - **M5_NightscoutMon** — il registro degli errori è visibile in uno dei quadranti (tasto destro per scorrerli) e nella pagina web di configurazione.
-- **M5Stack_xDripMon** — se l'icona Bluetooth resta rossa lampeggiante: controlla che il telefono sia vicino, che xDrip/xDrip4iOS sia aperta e che le opzioni della sezione 9 siano attive; su Android verifica che xDrip non venga chiusa dal risparmio energetico e che il campo dell'indirizzo MAC in **Mi Band** sia vuoto o corrisponda al dispositivo attuale.
+- **M5Stack_xDripMon** — se l'icona Bluetooth resta rossa lampeggiante: controlla che il telefono sia vicino, che xDrip/xDrip4iOS sia aperta e che le opzioni della [sezione 9](#_9-m5stack-xdripmon-—-configura-il-collegamento-bluetooth) siano attive; su Android verifica che xDrip non venga chiusa dal risparmio energetico e che il campo dell'indirizzo MAC in **Mi Band** sia vuoto o corrisponda al dispositivo attuale.
 - **M5Stack_xDripMon** — se l'ora è sbagliata su Basic o Fire, reimpostala da **Menu** → **Set time** (dalla pagina **Log**, tasto centrale): questi modelli non hanno un orologio interno a batteria.

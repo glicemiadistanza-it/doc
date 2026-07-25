@@ -224,48 +224,53 @@ La scrittura del firmware mostra l'avanzamento:
 
 Se non hai già configurato il Wi-Fi durante la programmazione da Android, alla prima accensione l'M5Stack entra in modalità **SoftAP**: crea una propria rete Wi-Fi temporanea e mostra sullo schermo i dati per collegarsi:
 
-![](images/monitor-nightscout-m5stack/image_029.png)
+![](images/monitor-nightscout-m5stack/image_078.jpg)
 
-1. Dal tuo smartphone (qualsiasi), scansiona il codice QR oppure connettiti manualmente alla rete Wi-Fi mostrata, usando la password sullo schermo (il telefono avviserà che la rete non ha internet: scegli di restare connesso):
+1. Dal tuo smartphone (qualsiasi), scansiona il codice QR oppure connettiti manualmente alla rete Wi-Fi mostrata, usando la password sullo schermo. Poiché questa rete non ha internet, il telefono ti avviserà: scegli **Connetti solo questa volta** (oppure **Connetti sempre**):
 
-![](images/monitor-nightscout-m5stack/image_030.png)
+![](images/monitor-nightscout-m5stack/image_079.jpg)
 
-2. Apri un browser e vai all'indirizzo mostrato sullo schermo: [`http://192.168.0.1`](http://192.168.0.1) (attenzione: **http**, non https). Il server del dispositivo è lento: abbi pazienza tra un clic e l'altro.
-3. Nella pagina di configurazione, scorri fino a **WiFi configuration**:
+Attendi che il telefono si colleghi alla rete dell'M5Stack:
 
-![](images/monitor-nightscout-m5stack/image_031.png)
+![](images/monitor-nightscout-m5stack/image_080.jpg)
 
-Clicca **edit** accanto alla voce `[wlan1]`:
+![](images/monitor-nightscout-m5stack/image_081.jpg)
 
-![](images/monitor-nightscout-m5stack/image_032.png)
+2. Apri un browser e vai a `http://m5ns-xxxx.local` (il nome esatto è quello della rete Wi-Fi mostrata sullo schermo) oppure a [`http://192.168.0.1`](http://192.168.0.1) — attenzione: **http**, non https. Il server del dispositivo è lento: abbi pazienza tra un clic e l'altro:
 
-4. Seleziona la prima voce `[wlan1]`, poi la tua rete Wi-Fi di casa dal menu a tendina:
+![](images/monitor-nightscout-m5stack/image_082.jpg)
 
-![](images/monitor-nightscout-m5stack/image_033.png)
+Si aprirà la pagina di configurazione dell'M5Stack (per ora conviene configurare solo il Wi-Fi):
 
-Inserisci la password nel campo apposito e clicca **OK**:
+![](images/monitor-nightscout-m5stack/image_083.jpg)
 
-![](images/monitor-nightscout-m5stack/image_034.png)
+3. Scorri fino a **WiFi Configuration** e clicca **edit**:
 
-5. Torna al menu principale e clicca **Save configuration to M5NS.ini file**: il dispositivo si riavvierà e si connetterà alla tua rete Wi-Fi. Vedrai prima la conferma del salvataggio:
+![](images/monitor-nightscout-m5stack/image_084.png)
 
-![](images/monitor-nightscout-m5stack/image_035.png)
+4. Seleziona la tua rete Wi-Fi dal menu a tendina (oppure digita il nome della rete a mano), inserisci la password nel campo sotto, scorri fino in fondo e clicca **Apply**:
 
-Poi la schermata di avvio della connessione Wi-Fi:
+![](images/monitor-nightscout-m5stack/image_085.png)
 
-![](images/monitor-nightscout-m5stack/image_036.png)
+5. Le modifiche al Wi-Fi vengono riepilogate: attendi il ritorno al menu principale, poi clicca **Save configuration to M5NS.INI**. Il dispositivo si riavvierà e si connetterà alla tua rete Wi-Fi:
 
-E infine il messaggio che conferma l'avvio della procedura di connessione:
+![](images/monitor-nightscout-m5stack/image_086.png)
 
-![](images/monitor-nightscout-m5stack/image_037.png)
+Al riavvio vedrai la schermata di avvio:
+
+![](images/monitor-nightscout-m5stack/image_087.png)
+
+E poi il quadrante grafico:
+
+![](images/monitor-nightscout-m5stack/image_089.png)
+
+> ⚠️ **Attenzione**: se invece il dispositivo resta fermo su questa schermata, le credenziali Wi-Fi erano sbagliate: rientra in modalità SoftAP (vedi sotto) e correggile.
+
+![](images/monitor-nightscout-m5stack/image_088.png)
 
 **Per rientrare in modalità SoftAP** in qualsiasi momento:
 - **Basic/Core**: tieni premuto il **tasto sinistro**, premi il tasto rosso di reset sul lato e continua a tenere premuto il tasto sinistro finché non compare la schermata con il QR del Wi-Fi.
 - **Core2**: premi il tasto di reset in basso a sinistra e tocca **CONFIG** sullo schermo durante il riavvio.
-
-Ecco un esempio di schermata con errore di connessione registrato nel log:
-
-![](images/monitor-nightscout-m5stack/image_038.png)
 
 ---
 
@@ -273,13 +278,15 @@ Ecco un esempio di schermata con errore di connessione registrato nel log:
 
 Da un computer o telefono sulla stessa rete Wi-Fi, vai su `http://m5ns-xxxx.local` — il nome esatto (le 4 cifre `xxxx` sono uniche per il tuo dispositivo) è mostrato nella pagina con il **codice QR di configurazione**: premi il **tasto destro** dell'M5Stack finché non compare, poi scansiona il QR o usa l'indirizzo IP indicato:
 
-![](images/monitor-nightscout-m5stack/image_039.png)
+![](images/monitor-nightscout-m5stack/image_090.png)
 
 Se tutto è corretto, si aprirà la pagina di configurazione con lo stato del dispositivo e le impostazioni correnti:
 
-![](images/monitor-nightscout-m5stack/image_040.png)
+![](images/monitor-nightscout-m5stack/image_091.png)
 
-Clicca **edit** accanto ai valori che vuoi modificare. Le modifiche sono subito attive in memoria, ma per conservarle devi cliccare **Save configuration to M5NS.INI** in alto; le impostazioni che richiedono un riavvio (sorgente dati, nome dispositivo, reti Wi-Fi, fuso orario) mostrano un avviso rosso e il dispositivo si riavvia da solo al salvataggio.
+Clicca **edit** accanto ai valori che vuoi modificare. Le modifiche sono subito attive in memoria, ma per conservarle devi cliccare **Save configuration to M5NS.INI** in alto; le impostazioni che richiedono un riavvio (sorgente dati, nome dispositivo, reti Wi-Fi, fuso orario) mostrano un avviso rosso e il dispositivo si riavvia da solo al salvataggio:
+
+![](images/monitor-nightscout-m5stack/image_092.png)
 
 ### Sorgente dati (una sola attiva)
 
@@ -311,9 +318,7 @@ Clicca **edit** accanto ai valori che vuoi modificare. Le modifiche sono subito 
 
 La pagina permette anche di gestire più reti Wi-Fi memorizzate (fino a 9), gli accessori opzionali (striscia LED, motorino di vibrazione) e il **server web interno** (se lo disabiliti, la pagina non sarà più raggiungibile fino al prossimo riavvio in modalità configurazione).
 
-Una volta sistemate le impostazioni, clicca **Save configuration to M5NS.INI**:
-
-![](images/monitor-nightscout-m5stack/image_041.png)
+Una volta sistemate le impostazioni, clicca **Save configuration to M5NS.INI** in cima alla pagina.
 
 > ℹ️ **Nota**: per riportare il dispositivo alle impostazioni di fabbrica, vai su `http://m5ns-xxxx.local/clearconfigflash` e poi rifai la configurazione dalla modalità SoftAP.
 
@@ -323,19 +328,23 @@ Una volta sistemate le impostazioni, clicca **Save configuration to M5NS.INI**:
 
 ## 7. M5_NightscoutMon — Aggiorna il firmware
 
-Nella pagina di configurazione web, scorri fino a **Application firmware**. Clicca **Check for update**: se è disponibile una versione più recente, clicca il link di aggiornamento:
+Gli aggiornamenti vengono scaricati direttamente dal repository GitHub del progetto: il dispositivo sceglie da solo la versione adatta al proprio modello.
 
-![](images/monitor-nightscout-m5stack/image_042.png)
+Nella pagina di configurazione web, scorri fino a **Application firmware**. Clicca **Check for update**: se è disponibile una versione più recente, clicca **click to update**:
 
-Il dispositivo scaricherà e installerà il nuovo firmware automaticamente (meno di 5 minuti); la pagina web mostra l'avanzamento:
+![](images/monitor-nightscout-m5stack/image_093.png)
 
-![](images/monitor-nightscout-m5stack/image_043.png)
+In alternativa puoi aggiornare direttamente dal dispositivo: premi il tasto destro fino alla pagina con il codice QR di configurazione; se c'è un aggiornamento disponibile, sopra il tasto centrale compare **UPDATE**: premilo:
 
-E anche il display dell'M5Stack mostra l'avanzamento dell'aggiornamento:
+![](images/monitor-nightscout-m5stack/image_094.jpg)
 
-![](images/monitor-nightscout-m5stack/image_044.png)
+Il dispositivo scaricherà e installerà il nuovo firmware automaticamente (meno di 5 minuti), mostrando l'avanzamento sul display:
 
-> ℹ️ **Nota**: puoi aggiornare anche direttamente dal dispositivo: premi il tasto destro fino alla pagina con il codice QR; se c'è un aggiornamento disponibile, sopra il tasto centrale compare **UPDATE**: premilo.
+![](images/monitor-nightscout-m5stack/image_095.png)
+
+Attendi il completamento: al termine il dispositivo si riavvia da solo:
+
+![](images/monitor-nightscout-m5stack/image_096.jpg)
 
 ---
 

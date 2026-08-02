@@ -15,6 +15,8 @@ Due modi di funzionamento, da scegliere in base a come gestisci la glicemia:
 - **Locale, senza internet**: l'app sull'orologio legge i dati da xDrip (o GlucoDataHandler, Juggluco, AAPS) sul telefono Android, via Bluetooth. Non funziona con iPhone.
 - **Via cloud**: l'app sull'orologio legge i dati da Nightscout, Dexcom Share o LLink; serve internet sul telefono. Funziona anche con iPhone.
 
+> ℹ️ **Nota**: se usi [Gluroo](../gluroo/gluroo), puoi usare tutte le app Garmin che leggono da Nightscout: il suo indirizzo **Gluroo Global Connect** è compatibile con Nightscout, inseriscilo al posto dell'URL del sito Nightscout nelle impostazioni dell'app.
+
 ---
 
 ## 1. Installa Garmin Connect
@@ -129,6 +131,8 @@ La scelta più semplice per chi usa sensori FSL: riceve i dati direttamente da u
 - Widget: [`https://apps.garmin.com/apps/034a3784-b27f-4f2a-a109-67413a5f4f83`](https://apps.garmin.com/apps/034a3784-b27f-4f2a-a109-67413a5f4f83)
 - Campo dati: [`https://apps.garmin.com/apps/286fcd0e-8697-4d22-a557-6203ae3cca18`](https://apps.garmin.com/apps/286fcd0e-8697-4d22-a557-6203ae3cca18)
 
+Tutte le app di bruder_jakob sullo store: [`https://apps.garmin.com/developer/2609a36a-c06d-4386-9fe6-5c2dc7d702f1/apps`](https://apps.garmin.com/developer/2609a36a-c06d-4386-9fe6-5c2dc7d702f1/apps)
+
 ### xDrip+/Spike/Nightscout (di andreas-may) — la classica per xDrip
 
 La storica famiglia di app per chi usa xDrip sul telefono Android (funziona anche senza internet, via Bluetooth) o Nightscout. Nelle vecchie versioni di questa guida era chiamata "CGM Widget".
@@ -154,6 +158,20 @@ Pubblicati da Garmin in collaborazione con Dexcom (G6, G7, ONE, ONE+). Richiedon
 - **NightscoutWatch2 / NightscoutData2** (Horsetooth) — quadrante e campo dati per Nightscout o xDrip.
 - **CGM+** (watchface.io) — campo dati per Dexcom, Nightscout, LLink e xDrip, con documentazione molto curata: [`https://watchface.io/docs/cgm/intro`](https://watchface.io/docs/cgm/intro)
 - **FR965 Like Plus xDrip** (bine8x8) — il quadrante con glicemia più scaricato in assoluto, solo per xDrip.
+
+### WatchDrip+ — aggiornamenti istantanei
+
+Un approccio diverso dalle app viste sopra: dalla versione `0.5.0`, WatchDrip+ (l'app Android già usata per [smartband Xiaomi e smartwatch Amazfit](../xdrip/xdrip-e-watchdrip)) invia la glicemia anche agli orologi Garmin. Il vantaggio è che i valori arrivano sull'orologio **all'istante**, appena il telefono riceve una nuova lettura, senza aspettare il ciclo di aggiornamento di 5 minuti delle app Connect IQ: utile soprattutto con i sensori FSL3, che leggono ogni minuto.
+
+WatchDrip+ riceve i dati da xDrip oppure direttamente da AAPS (in questo caso senza bisogno di xDrip) e mostra sull'orologio glicemia, delta e freccia di trend, insulina attiva (IOB), serbatoio e batteria del microinfusore, grafico a colori e boli. Funziona solo con telefoni Android.
+
+Come si configura:
+
+1. Installa dallo store Connect IQ l'app WatchdripSync: [`https://apps.garmin.com/apps/84e4579d-aa4c-48fa-bd66-5021c6076db5`](https://apps.garmin.com/apps/84e4579d-aa4c-48fa-bd66-5021c6076db5) e avviala sull'orologio.
+2. Installa WatchDrip+ sul telefono (si scarica dalla pagina Patreon del progetto, vedi sotto) e attiva il servizio di sincronizzazione Garmin nelle sue impostazioni.
+3. WatchdripSync pubblica i dati come "complicazione" (`CompWatchdrip`): per vederli sull'orologio serve un quadrante che la supporti. I primi quadranti compatibili sono già disponibili e altri ne arriveranno.
+
+Tutti i dettagli e il download nell'annuncio originale: [`https://www.patreon.com/xdrip_miband/posts/watchdrip-v0-5-163791331`](https://www.patreon.com/xdrip_miband/posts/watchdrip-v0-5-163791331)
 
 > ⚠️ **Attenzione**: le vecchie app **Nightscout Watch** e **Nightscout Widget** di Phimpy non sono più mantenute da anni e prevedono solo siti Azure e Heroku, ormai superati: non installarle.
 

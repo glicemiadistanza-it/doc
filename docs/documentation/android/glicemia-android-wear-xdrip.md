@@ -1,5 +1,7 @@
 # Glicemia al polso con xDrip e Android Wear
 
+> ⚠️ **Attenzione — guida obsoleta**: questa procedura **non funziona più** con gli smartwatch e le versioni attuali di Wear OS. La conserviamo solo come documentazione storica e tecnica, perché resta una lettura interessante. Non seguirla per configurare un orologio attuale: parti invece dalla [guida Wear OS](../wearos/glicemia-su-smartwatch-wear-os).
+
 Questa guida spiega come visualizzare la glicemia su uno smartwatch **Wear OS** (Android Wear) con xDrip, e come far leggere il sensore direttamente dallo smartwatch (modalità *standalone collector*), anche senza telefono.
 
 ![](images/glicemia-android-wear-xdrip/image_003.png)
@@ -88,6 +90,8 @@ Hai adesso la glicemia al polso. La lettura viene eseguita dal telefono, che la 
 ---
 
 ## 5. Abilita la lettura diretta dallo smartwatch
+
+> ⚠️ **Attenzione**: la modalità *standalone collector* descritta da qui in poi **non è più utilizzabile**: funzionava solo con i vecchi smartwatch come quello di questa guida e con i sensori FSL di prima generazione con MiaoMiao o Bubble.
 
 In questa modalità lo smartwatch legge direttamente il sensore tramite MiaoMiao/Bubble, anche in assenza del telefono.
 

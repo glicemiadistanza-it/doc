@@ -36,8 +36,6 @@ GlucoDataHandler è la soluzione più versatile: accetta quasi tutte le sorgenti
 
 Se usi xDrip o l'app Dexcom sul telefono, la guida [Glicemia al polso con smartwatch Android Wear OS](../xdrip/dexcom-xdrip-on-wear-watch) spiega come installare l'app sull'orologio e scegliere il quadrante con la glicemia.
 
-> ℹ️ **Nota**: con xDrip puoi anche far leggere il sensore direttamente dall'orologio, senza telefono: vedi [Glicemia al polso con xDrip e Android Wear](../android/glicemia-android-wear-xdrip).
-
 ### Blose
 
 Blose è un quadrante da installare sull'orologio; le indicazioni per la configurazione sono nella scheda del Play Store, sotto **Informazioni sull'app**:

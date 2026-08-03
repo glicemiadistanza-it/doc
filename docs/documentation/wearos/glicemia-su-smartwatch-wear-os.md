@@ -70,7 +70,7 @@ Sentronica, degli stessi sviluppatori di [Sentinel per Fitbit](../fitbit/sentine
 
 ## 3. Installa app e quadranti sull'orologio
 
-Il metodo più semplice è il **Play Store dell'orologio**: cerca l'app direttamente dallo smartwatch, oppure aprila nella sezione **App sul telefono**. Trovi i passaggi dettagliati:
+Il metodo più semplice è il **Play Store dell'orologio**: cerca l'app direttamente dallo smartwatch. Trovi i passaggi dettagliati:
 
 - nella sezione 5 della guida [GlucoDataHandler](../glucodatahandler/glucodatahandler) per l'app GlucoDataHandler;
 - nella sezione 3 della guida [Glicemia al polso con smartwatch Android Wear OS](../xdrip/dexcom-xdrip-on-wear-watch), che spiega anche il metodo alternativo con **Wear Installer 2** se il Play Store dell'orologio fa i capricci.

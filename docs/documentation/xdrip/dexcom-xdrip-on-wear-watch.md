@@ -147,11 +147,7 @@ Se compare la richiesta di ignorare le ottimizzazioni della batteria, seleziona 
 
 ![](images/dexcom-xdrip-on-wear-watch/image_031.png)
 
-2. Scorri verso il basso fino a **App sul telefono**.
-
-![](images/dexcom-xdrip-on-wear-watch/image_032.png)
-
-3. Se la vedi, cerca l'app che ti interessa (xDrip o Dexcom) e premi l'icona di download. In questo esempio compare Dexcom G6:
+2. Cerca l'app che ti interessa (xDrip o Dexcom) e premi l'icona di download. In questo esempio compare Dexcom G6:
 
 ![](images/dexcom-xdrip-on-wear-watch/image_033.png)
 
@@ -159,28 +155,9 @@ Oppure xDrip+:
 
 ![](images/dexcom-xdrip-on-wear-watch/image_034.png)
 
-4. Aspetta l'installazione: l'app apparirà nella lista dei quadranti disponibili (vedi passo 4).
+3. Aspetta l'installazione: l'app apparirà nella lista dei quadranti disponibili (vedi passo 4).
 
-**Se non vedi "App sul telefono":**
-1. Disabilita l'aggiornamento automatico delle app nel Google Play Store del telefono: apri il pannello dell'account e tocca **Impostazioni**:
-
-![](images/dexcom-xdrip-on-wear-watch/image_036.png)
-
-Vai su **Aggiornamento automatico app**:
-
-![](images/dexcom-xdrip-on-wear-watch/image_037.png)
-
-Seleziona **Non aggiornare automaticamente le app** e conferma con **FINE**:
-
-![](images/dexcom-xdrip-on-wear-watch/image_038.png)
-
-2. poi vai in **Impostazioni → App e notifiche → Informazioni sull'app → App di sistema → Google Play Store** e tocca **Disinstalla Aggiornamenti**. Se non c'è questa opzione, passa al Metodo 2.
-
-![](images/dexcom-xdrip-on-wear-watch/image_039.png)
-
-3. Disaccoppia e riaccoppia lo smartwatch in Wear OS, poi riprova dal punto 1.
-
-Se preferisci non seguire questa procedura, usa il Metodo 2.
+> ℹ️ **Nota**: la sezione **App sul telefono**, presente in passato nel Play Store dell'orologio, è stata rimossa da Google: ora puoi solo cercare le app direttamente nel Play Store. Se non trovi l'app che ti interessa, usa il Metodo 2.
 
 ### Metodo 2: Wear Installer 2
 

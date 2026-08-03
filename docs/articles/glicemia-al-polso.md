@@ -32,16 +32,7 @@ Molto diffusi tra chi pratica sport. Compatibili **sia con Android sia con iPhon
 
 ![](images/smartwatch-garmin-modelli.jpg)
 
-Non è possibile fornire una lista precisa dei modelli compatibili: Garmin è molto versatile, ma il supporto da parte degli sviluppatori volontari è limitato e le soluzioni ufficiali sono poche. In base al sensore utilizzato, all'app che legge il sensore e all'eventuale microinfusore possiamo indicarti le soluzioni disponibili e aiutarti a verificare quali modelli sono supportati: inizia dalla [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1).
-
-### Per approfondire: Dexcom su Garmin
-
-- Come visualizzare i dati CGM su un orologio Garmin o un ciclocomputer (traduzione automatica): [`https://medium-com.translate.goog/trit1dtech/how-to-view-cgm-data-on-a-garmin-watch-or-bike-computer-6846b06801e2?_x_tr_sl=auto&_x_tr_tl=it`](https://medium-com.translate.goog/trit1dtech/how-to-view-cgm-data-on-a-garmin-watch-or-bike-computer-6846b06801e2?_x_tr_sl=auto&_x_tr_tl=it)
-- Quadrante xDrip/Spike/Nightscout per Garmin: [`https://github.com/swissalpine/GARMIN-xDrip-Spike-Nightscout-Watchface`](https://github.com/swissalpine/GARMIN-xDrip-Spike-Nightscout-Watchface)
-- Installazione della complicazione Dexcom per i quadranti Face It (supporto Garmin): [`https://support.garmin.com/en-US/?faq=EMZNM1RNP65gcp8rl8PTq5`](https://support.garmin.com/en-US/?faq=EMZNM1RNP65gcp8rl8PTq5)
-- Configurazione del widget Glance di Dexcom (supporto Garmin): [`https://support.garmin.com/en-US/?faq=urGLazwTsJ9qYnC5sC1289`](https://support.garmin.com/en-US/?faq=urGLazwTsJ9qYnC5sC1289)
-- Widget Dexcom, un modo secondario per visualizzare i dati: [`https://apps.garmin.com/en-US/apps/027db46d-fbc8-4362-a65f-05fa6c0f113f`](https://apps.garmin.com/en-US/apps/027db46d-fbc8-4362-a65f-05fa6c0f113f)
-- Configurazione del campo dati Dexcom (supporto Garmin): [`https://support.garmin.com/it-IT/?faq=3HkHX1wT6U7TeNB7YHfiT7`](https://support.garmin.com/it-IT/?faq=3HkHX1wT6U7TeNB7YHfiT7)
+Non è possibile fornire una lista precisa dei modelli compatibili: Garmin è molto versatile, ma il supporto da parte degli sviluppatori volontari è limitato e le soluzioni ufficiali sono poche. In base al sensore utilizzato, all'app che legge il sensore e all'eventuale microinfusore possiamo indicarti le soluzioni disponibili e aiutarti a verificare quali modelli sono supportati: inizia dalla [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1), dove trovi le app consigliate per ogni sorgente dati (xDrip, Nightscout, Dexcom Share, LLink e altre) e tutti i passaggi di installazione e configurazione.
 
 ## 4. Apple Watch
 
@@ -87,7 +78,7 @@ Segui la guida passo passo e facci sapere se hai difficoltà o dubbi. Quando ved
 
 - **Amazfit con Zepp OS**: la lista sempre aggiornata dei modelli è su [`https://watchdrip.org`](https://watchdrip.org), la guida per impostarli è [sul nostro sito](../documentation/amazfit/smartwatch-amazfit-zepp-os).
 - **Orologi marchiati Wear OS**, non necessariamente Samsung: vedi la sezione 2 di questa pagina e [questo post nel gruppo](https://www.facebook.com/groups/nightscout/posts/1378344615920724/).
-- **Hai già un orologio Garmin?** Prova **CGM Connect Widget** e **CGM Connect datafield**, caricati di recente su Connect IQ dallo sviluppatore bruder_jakob: usano come sorgente dati le credenziali del follower LLink. Nella pagina di ogni app controlla la sezione **Dispositivi compatibili** per verificare che il tuo modello sia supportato. Se non lo è, cerca un quadrante xDrip in Connect IQ; vedi anche la [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1).
+- **Hai già un orologio Garmin?** La scelta consigliata è **CGM Connect**, che legge i dati dal follower LLink: app, alternative e configurazione sono nella [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1).
 
 ## 6. Sensori FSL e smartwatch con iPhone
 
@@ -125,8 +116,7 @@ Ecco alcuni esempi di come queste app mostrano la glicemia su Apple Watch.
 
 ### Garmin con iPhone
 
-- Se hai già un orologio Garmin, prova le app **CGM Connect** dello [sviluppatore bruder_jakob](https://apps.garmin.com/it-IT/developer/2609a36a-c06d-4386-9fe6-5c2dc7d702f1/apps), che leggono i dati dal follower LLink.
-- Oppure, con Gluroo attivo, prova un quadrante Nightscout da Connect IQ.
+Anche con iPhone la scelta consigliata è **CGM Connect**, che legge i dati dal follower LLink; in alternativa, con Gluroo attivo, puoi usare i quadranti Nightscout di Connect IQ. Trovi app e configurazione nella [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1).
 
 ## 7. Riepilogo
 

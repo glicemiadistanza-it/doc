@@ -106,6 +106,10 @@ const garmin = [
   { text: 'Come leggere la glicemia con i dispositivi Garmin', link: '/documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1' },
 ]
 
+const wearos = [
+  { text: 'Glicemia su smartwatch Wear OS', link: '/documentation/wearos/glicemia-su-smartwatch-wear-os' },
+]
+
 const xiaomi = [
   { text: 'Xiaomi MiBand 2, 3 e 4 con xDrip', link: '/documentation/xdrip/mi-band234-con-xdrip' },
   { text: 'Xiaomi MiBand 4, 5 e 6 con xDrip', link: '/documentation/xiaomi/xiaomi-miband-con-xdrip' },
@@ -178,6 +182,7 @@ export default defineConfig({
       { text: 'Amazfit', items: amazfit },
       { text: 'Fitbit', items: fitbit },
       { text: 'Garmin', items: garmin },
+      { text: 'Wear OS', items: wearos },
       { text: 'Xiaomi / Mi Band', items: xiaomi },
       { text: 'Juggluco', items: juggluco },
       { text: 'Gluroo', items: gluroo },

@@ -24,7 +24,7 @@ Oltre a Samsung esistono altri marchi con Wear OS: Google Pixel, OnePlus, Mobvoi
 
 ![](images/smartwatch-wearos-logo.jpg)
 
-Per iniziare vedi [Glicemia al polso con xDrip e Android Wear](../documentation/android/glicemia-android-wear-xdrip) e [Glicemia al polso con GlucoDataHandler](../documentation/glucodatahandler/glucodatahandler).
+Per iniziare vedi la [guida Wear OS](../documentation/wearos/glicemia-su-smartwatch-wear-os), dove trovi i quadranti e le app consigliati per ogni sorgente dati (xDrip, GlucoDataHandler, app Dexcom, Nightscout, Gluroo) e i passaggi di installazione.
 
 ## 3. Garmin
 
@@ -77,7 +77,7 @@ Prima di acquistare l'orologio devi provare sul telefono una o entrambe queste s
 Segui la guida passo passo e facci sapere se hai difficoltà o dubbi. Quando vedi i valori sul telefono, puoi passare alla scelta dell'orologio:
 
 - **Amazfit con Zepp OS**: la lista sempre aggiornata dei modelli è su [`https://watchdrip.org`](https://watchdrip.org), la guida per impostarli è [sul nostro sito](../documentation/amazfit/smartwatch-amazfit-zepp-os).
-- **Orologi marchiati Wear OS**, non necessariamente Samsung: vedi la sezione 2 di questa pagina e [questo post nel gruppo](https://www.facebook.com/groups/nightscout/posts/1378344615920724/).
+- **Orologi marchiati Wear OS**, non necessariamente Samsung: vedi la [guida Wear OS](../documentation/wearos/glicemia-su-smartwatch-wear-os) e [questo post nel gruppo](https://www.facebook.com/groups/nightscout/posts/1378344615920724/).
 - **Hai già un orologio Garmin?** La scelta consigliata è **CGM Connect**, che legge i dati dal follower LLink: app, alternative e configurazione sono nella [guida Garmin](../documentation/garmin/come-leggere-la-glicemia-con-i-dispositivi-garmin-1).
 
 ## 6. Sensori FSL e smartwatch con iPhone

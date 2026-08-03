@@ -84,9 +84,9 @@
 }
 
 /* ---- Local search highlight ---- */
-.VPLocalSearchBox mark {
-  color: var(--flash-primary) !important;
-  background-color: var(--flash-cream);
+:root {
+  --vp-local-search-highlight-bg: var(--flash-cream);
+  --vp-local-search-highlight-text: var(--flash-primary);
 }
 
 /* ---- Tables ---- */

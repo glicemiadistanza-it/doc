@@ -12,7 +12,7 @@ Segui la [guida base di installazione](./installare-xdrip-android).
 
 ## 2. Configura la sorgente dati
 
-1. Apri xDrip e tieni premuta la **goccia di sangue** nella schermata principale per aprire il menu della sorgente dati:
+1. Apri xDrip e tocca il pulsante **AVVIA CONFIGURAZIONE GUIDATA** nella schermata principale (se non lo vedi, tieni premuta la goccia di sangue e abilita **Pulsante Assistente Sorgente**). Si apre il menu della sorgente dati:
 
 ![](images/xdrip-follower-dexcom/image_003.png)
 
@@ -40,7 +40,7 @@ Infine indica se il tuo account è su server USA:
 
 ![](images/xdrip-follower-dexcom/image_005.png)
 
-> ⚠️ **Non selezionare** la casella **My account is on USA servers** se sei in Europa.
+> ⚠️ Se sei in Europa, **togli la spunta** dalla casella **My account is on USA servers** (potrebbe risultare già selezionata).
 
 4. Se non riesci ad accedere al menu della sorgente direttamente, vai in **Menu → Impostazioni**:
 
@@ -64,7 +64,7 @@ Se vuoi che le letture ricevute da xDrip vengano ricaricate anche sul server Dex
 
 ## 3. Verifica il funzionamento
 
-Dopo qualche istante le letture di glicemia dovrebbero comparire su xDrip. Se la schermata rimane vuota, tocca a lungo la goccia di sangue e verifica che la sorgente dati sia impostata correttamente:
+Dopo qualche istante le letture di glicemia dovrebbero comparire su xDrip. Se la schermata rimane vuota, vai in **Impostazioni** e verifica che **Dati Hardware di origine** sia impostato correttamente:
 
 ![](images/xdrip-follower-dexcom/image_013.png)
 

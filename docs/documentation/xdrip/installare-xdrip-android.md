@@ -248,7 +248,7 @@ Se non funziona, conferma e ripeti fino a 3 volte se necessario (alcune versioni
 
 ![](images/installare-xdrip-android/image_006.png)
 
-Tocca **Caricare tutte le impostazioni dalla SDcard** :
+Tocca **Caricare tutte Impostazioni dalla SDcard**:
 
 ![](images/installare-xdrip-android/image_013.png)
 

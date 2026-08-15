@@ -139,9 +139,9 @@ Dentro la cartella trovi il file di testo con MAC e chiave di autenticazione (es
 
 ## 5. Configura xDrip per MiBand
 
-1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand**.
+1. Vai in **Menu → Impostazioni → Caratteristiche Collegamenti Smart Watch → MiBand**.
 
-Apri il menu principale di xDrip e scorri fino a **Caratteristiche**:
+Apri il menu principale di xDrip, entra in **Impostazioni** e scorri fino a **Caratteristiche Collegamenti Smart Watch**:
 
 ![](images/mi-band234-con-xdrip/image_024.png)
 
@@ -219,7 +219,7 @@ Verifica che la configurazione di MiBand in xDrip corrisponda a questa (Usa MiBa
 
 ![](images/mi-band234-con-xdrip/image_038.png)
 
-Nelle **Opzioni grafico**, controlla lo stato della casella **Abilita grafico**:
+Nella sezione **EXPERIMENTAL** in fondo alla pagina, controlla lo stato dell'opzione **Allow to use custom watchface** (il quadrante personalizzato con il grafico; nelle versioni precedenti si chiamava **Abilita grafico**):
 
 ![](images/mi-band234-con-xdrip/image_039.png)
 
@@ -255,11 +255,11 @@ A questo punto la glicemia dovrebbe comparire sul quadrante della smartband:
 
 ![](images/mi-band234-con-xdrip/image_042.png)
 
-Se ancora non funziona, abilita **Disable high MTU** nelle impostazioni MiBand:
+Se ancora non funziona, abilita **Disable hight MTU values** nelle impostazioni MiBand:
 
 ![](images/mi-band234-con-xdrip/image_048.png)
 
-Assicurati anche che **Abilita grafico** risulti spuntata:
+Assicurati anche che **Allow to use custom watchface** risulti attiva:
 
 ![](images/mi-band234-con-xdrip/image_049.png)
 

@@ -20,7 +20,7 @@ Quando xDrip chiede la sorgente dati, scegli **Dex**:
 
 ![](images/dexcomg6-e-xdrip/image_001.png)
 
-Conferma cliccando su **Yes**:
+Conferma toccando **SI**:
 
 ![](images/dexcomg6-e-xdrip/image_003.png)
 
@@ -137,7 +137,7 @@ Nella scheda **Classic Status Page** puoi vedere lo stato generale (sorgente dat
 
 ![](images/dexcomg6-e-xdrip/image_026.png)
 
-Nella scheda **G5/G6 Status** trovi i dettagli tecnici del collegamento, utili in caso di problemi (errore di scansione, e comandi bloccati in coda: Stop Sensor, come in questo esempio):
+Nella scheda **Dex Status** (nelle versioni precedenti **G5/G6 Status**) trovi i dettagli tecnici del collegamento, utili in caso di problemi (ricerca del trasmettitore in corso, errore di scansione, comandi in coda come `Stop Sensor`, come in questo esempio):
 
 ![](images/dexcomg6-e-xdrip/image_027.png)
 
@@ -169,11 +169,11 @@ Quando il collegamento è stabilito, il menu principale e le due schede di stato
 ![](images/dexcomg6-e-xdrip/image_029.png)
 
 2. Indica quando hai inserito il sensore:
-   - **Oggi:** seleziona **YES, TODAY**.
+   - **Oggi:** seleziona **SI, OGGI**.
 
 ![](images/dexcomg6-e-xdrip/image_032.png)
 
-   - **Nei giorni precedenti:** seleziona **NOT TODAY** e inserisci l'orario esatto di avvio:
+   - **Nei giorni precedenti:** seleziona **NON OGGI**. Se rispondi oggi, inserisci l'orario esatto di avvio:
 
 ![](images/dexcomg6-e-xdrip/image_031.png)
 
@@ -220,7 +220,7 @@ Crea un sito Nightscout oppure usa [Gluroo](../gluroo/gluroo.md).
 Per **prolungare** il sensore oltre i 10 giorni: segui la guida specifica sul riavvio sensore.
 
 Per **sostituire** il sensore:
-1. Apri il menu e tocca **Stop Sensor**, poi conferma:
+1. Apri il menu e tocca **Stop Sensore**, poi **STOP SENSORE** e conferma:
 
 ![](images/dexcomg6-e-xdrip/image_063.png)
 
@@ -240,7 +240,7 @@ Per **sostituire** il sensore:
 
 ![](images/Menu-StatoSistema.png)
 
-Nella pagina **Stato del sistema**, premi **FORGET DEVICE**:
+Nella pagina **Stato del sistema**, premi **Dimentica questo dispositivo**:
 
 ![](images/dexcomg6-e-xdrip/image_026.png)
 

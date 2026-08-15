@@ -27,11 +27,11 @@ Dal menu principale di xDrip:
 
 ![](images/xdrip-predizioni/image_004.png)
 
-Vai in **Impostazioni** → scorri verso il basso fino alla sezione **xDrip+ Impostazioni Extra**, dove trovi la voce **xDrip+ Impostazioni di simulazione**:
+Vai in **Impostazioni** → scorri verso il basso fino alla sezione **xDrip+ Impostazioni Extra**, dove trovi la voce **xDrip+ Impostazioni di simulazione predittiva**:
 
 ![](images/xdrip-predizioni/image_005.png)
 
-Entra nella pagina e attiva **Predictive Simulations**:
+Entra nella pagina e attiva **Simulazioni predittive**:
 
 ![](images/xdrip-predizioni/image_006.png)
 
@@ -39,11 +39,11 @@ Entra nella pagina e attiva **Predictive Simulations**:
 
 | Parametro | Descrizione |
 |---|---|
-| **Target Glucose Default** | Il valore di glicemia usato come obiettivo per le correzioni suggerite |
-| **Durata dell'insulina (DIA)** | Punto di partenza consigliato: 3 ore (poi aggiusta se necessario) |
-| **Rapporto Sensibilità Fegato / Liver Maximum Impact** | Lascia i valori predefiniti — sono parametri sperimentali |
+| **Obiettivo di glicemia predefinito** | Il valore di glicemia usato come obiettivo per le correzioni suggerite |
+| **Durata insulina ore** (DIA) | Punto di partenza consigliato: 3 ore (poi aggiusta se necessario) |
+| **Rapporto Sensibilità Fegato di Default** / **Impatto fegato massimo** | Lascia i valori predefiniti — sono parametri sperimentali |
 
-Questi parametri si trovano nella pagina **Valori di previsione raggiungimento livello basso**:
+Questi parametri si trovano nella pagina **Valori di previsione raggiungimento LIVELLO BASSO**:
 
 ![](images/xdrip-predizioni/image_007.png)
 
@@ -53,7 +53,7 @@ La durata dell'insulina (DIA) dipende dal tipo usato: gli analoghi rapidi (come 
 
 ## 3. Imposta il profilo per fasce orarie
 
-Torna nella pagina **xDrip+ Impostazioni di simulazione** e vai in **Carb Ratio** o **Insulin Sensitivity** (portano alla stessa schermata):
+Torna nella pagina **xDrip+ Impostazioni di simulazione predittiva** e vai in **Rapporto UI/CHO** o **Fattore di correzione** (portano alla stessa schermata):
 
 ![](images/xdrip-predizioni/image_009.png)
 

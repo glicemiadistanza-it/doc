@@ -57,7 +57,7 @@ Verifica che entrambe le voci risultino impostate su **Web Follower**:
 
 Se le credenziali del follower non funzionano, prova con quelle dell'app master del fornitore.
 
-> ⚠️ Se non ricevi dati dopo qualche minuto, imposta la sorgente su **Disable collection** per evitare il blocco dell'account a causa di troppi tentativi falliti. Riprova più tardi.
+> ⚠️ Se non ricevi dati dopo qualche minuto, imposta la sorgente su **Disabilita Collezione** per evitare il blocco dell'account a causa di troppi tentativi falliti. Riprova più tardi.
 
 ## 4. Verifica il funzionamento
 

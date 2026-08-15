@@ -68,10 +68,6 @@ Prima di configurare xDrip, occorre creare un account "Care Partner" su CareLink
 
 ![](images/carelink-con-xdrip/image_012.png)
 
-Conferma la scelta:
-
-![](images/carelink-con-xdrip/image_016.png)
-
 4. Seleziona il **Paese CareLink** (Italy):
 
 ![](images/carelink-con-xdrip/image_017.png)
@@ -101,7 +97,7 @@ Nella pagina **Stato del sistema**, verifica che la **Sorgente Dati** risulti im
 
 ![](images/carelink-con-xdrip/image_024.png)
 
-Poi apri la scheda **CareLink Follow** per controllare eventuali errori nei dettagli del collegamento (orario dell'ultimo tentativo, prossimo tentativo, codice di risposta):
+Poi apri la scheda **CareLink Follow** (compare dopo il primo accesso) per controllare eventuali errori nei dettagli del collegamento (orario dell'ultimo tentativo, prossimo tentativo, codice di risposta):
 
 ![](images/carelink-con-xdrip/image_022.png)
 

@@ -23,11 +23,7 @@ Segui la [guida base di installazione](./installare-xdrip-android) e installa l'
 
 ![](images/xdrip-compagno/image_003.png)
 
-2. Seleziona **Companion App**, poi il sistema che usi (ad esempio **G4, G5 & G6**):
-
-![](images/xdrip-compagno/image_002.png)
-
-La schermata **Impostazioni** confermerà **Dati Hardware di origine: Companion App**:
+2. Seleziona **Companion App** dall'elenco. La schermata **Impostazioni** confermerà **Dati Hardware di origine: Companion App**:
 
 ![](images/xdrip-compagno/image_004.png)
 
@@ -35,7 +31,7 @@ La schermata **Impostazioni** confermerà **Dati Hardware di origine: Companion 
 
 ![](images/xdrip-compagno/image_005.png)
 
-Nella schermata **Accesso alle notifiche**, trova **UiBasedCollector** (inizialmente disattivato) e toccalo:
+Nella schermata **Accesso alle notifiche** (su Android 12 e successivi si chiama **Notifiche app e dispositivi**), trova **xDrip** (nelle versioni Android più vecchie compare come **UiBasedCollector**), inizialmente disattivato, e toccalo:
 
 ![](images/xdrip-compagno/image_006.png)
 
@@ -49,7 +45,7 @@ Il toggle diventerà verde, a conferma che l'accesso è stato concesso:
 
 ## 3. Inizializza il sensore in xDrip (se richiesto)
 
-Anche in modalità Companion App, xDrip potrebbe chiederti di indicare quando il sensore è stato inserito, per calcolare correttamente la durata e mostrare gli avvisi di scadenza.
+Anche in modalità Companion App, xDrip potrebbe chiederti di indicare quando il sensore è stato inserito, per calcolare correttamente la durata e mostrare gli avvisi di scadenza. Nelle versioni recenti la voce **Inizializza Sensore** potrebbe non comparire nel menu con la sorgente Companion App: in questo caso salta questo passo.
 
 1. Dal menu di xDrip: **Inizializza Sensore**:
 

@@ -12,7 +12,7 @@ Apri il menù di xDrip e vai in **Impostazioni**:
 
 ![](images/disabilitare-risparmio-energetico-xdrip/image_014.png)
 
-Scorri in basso e apri **Impostazioni Meno Usate**, poi **Other misc options**:
+Scorri in basso e apri **Impostazioni Meno Usate**, poi in fondo alla pagina **Altre opzioni**:
 
 ![](images/disabilitare-risparmio-energetico-xdrip/image_013.png)
 
@@ -20,9 +20,10 @@ Scorri in basso e apri **Impostazioni Meno Usate**, poi **Other misc options**:
 
 Anche se le impostazioni sembrano già corrette, togli e rimetti ogni opzione per forzare l'aggiornamento:
 
-- **Esegui sempre in background** → deve essere **abilitato**
-- **Impedisci la sospensione** → deve essere **abilitato**
-- **Ottimizzazione batteria** → deve essere **disabilitata**
+- **Eseguire Collector in primo piano** → deve essere **abilitato** (xDrip mostra una notifica fissa e Android non lo chiude)
+- **Richiesta di Ottimizzazione della Batteria** → deve essere **disabilitata**, così xDrip continua a ricordarti di escluderlo dall'ottimizzazione della batteria
+- **Samsung Workaround** → deve essere **abilitato** sui telefoni Samsung
+- **Uso eccessivo Wakelocks** → abilitalo solo se il telefono continua a sospendere xDrip
 
 Se usi uno smartwatch Android Wear, verifica le stesse impostazioni anche per l'app sull'orologio.
 

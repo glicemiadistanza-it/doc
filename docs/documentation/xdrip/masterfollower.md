@@ -16,7 +16,7 @@ Sul telefono già configurato (master), apri il menu ☰ → **Impostazioni**:
 
 ![](images/Menu.png)
 
-Vai in **Configurazione automatica** e tocca **Condividi impostazioni tramite...**, poi scegli **COPIARE TUTTE LE IMPOSTAZIONI**:
+Scorri fino a **Impostazioni di copia** e tocca **Mostra impostazioni dei codici QR**, poi scegli **COPIARE TUTTE LE IMPOSTAZIONI**:
 
 ![](images/masterfollower/image_012.png)
 
@@ -24,13 +24,11 @@ Verrà mostrato un codice QR a schermo intero:
 
 ![](images/masterfollower/image_011.png)
 
-Sul secondo telefono, apri xDrip e concedi il permesso di usare la fotocamera quando richiesto:
+Sul secondo telefono, apri xDrip, vai in **Impostazioni → Configurazione automatica** e tocca **Camera**:
 
 ![](images/masterfollower/image_009.png)
 
-Inquadra il codice QR mostrato sul primo telefono per copiare le impostazioni:
-
-![](images/masterfollower/image_010.png)
+Concedi il permesso di usare la fotocamera quando richiesto, poi inquadra il codice QR mostrato sul primo telefono per copiare le impostazioni.
 
 Ora hai due telefoni con xDrip identici. Scegli quale sarà il **master** (collegato a MiaoMiao) e quale sarà il **follower** (che riceve le letture).
 
@@ -49,7 +47,7 @@ Vai in **Impostazioni** e scorri fino a **XDRIP+ IMPOSTAZIONI EXTRA**:
 
 ![](images/masterfollower/image_003.png)
 
-Apri **Impostazioni xDrip+ Sync** e attiva **Imposta come Telefono Principale** (nelle versioni recenti l'opzione si chiama **Be Master for Followers**):
+Apri **Impostazioni xDrip+ Sync** e attiva **Imposta come Telefono Principale**:
 
 ![](images/masterfollower/image_004.png)
 
@@ -57,7 +55,7 @@ Annota la **Chiave di sicurezza del Gruppo**: deve essere identica su entrambi i
 
 ![](images/masterfollower/image_005.png)
 
-Nella stessa schermata controlla l'opzione **Use xDrip Cloud**: è il nuovo sistema di trasporto dei dati e deve essere impostata **allo stesso modo (attiva o disattivata) su tutti i telefoni** del gruppo.
+Nella stessa schermata controlla l'opzione **Usa xDrip Cloud**: è il nuovo sistema di trasporto dei dati e deve essere impostata **allo stesso modo (attiva o disattivata) su tutti i telefoni** del gruppo.
 
 > ⚠️ Il nuovo telefono potrebbe richiedere una calibrazione all'avvio del sensore.
 
@@ -78,7 +76,7 @@ Nell'elenco delle sorgenti, seleziona **xDrip+ Sync Follower**:
 
 ![](images/masterfollower/image_006.png)
 
-Apri di nuovo **Impostazioni xDrip+ Sync** e verifica che **Imposta come Telefono Principale** sia **disattivato** su questo telefono e che **Use xDrip Cloud** sia impostata come sul master:
+Apri di nuovo **Impostazioni xDrip+ Sync** e verifica che **Imposta come Telefono Principale** sia **disattivato** su questo telefono e che **Usa xDrip Cloud** sia impostata come sul master:
 
 ![](images/masterfollower/image_008.png)
 

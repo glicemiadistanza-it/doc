@@ -216,7 +216,7 @@ All'interno trovi il file di testo con indirizzo MAC e chiave (nel nome del file
 
 ![](images/xdrip-e-watchdrip/image_041.png)
 
-Tocca **Caratteristiche Collegamenti Smartwatch**:
+Tocca **Caratteristiche Collegamenti Smart Watch**:
 
 ![](images/xdrip-e-watchdrip/image_042.png)
 
@@ -224,7 +224,7 @@ Tocca **MiBand** e **disabilita** l'opzione **Usa MiBand** (questa è la vecchia
 
 ![](images/xdrip-e-watchdrip/image_043.png)
 
-2. **Abilita l'API:** vai in **Menu → Impostazioni → Inter-app settings** e abilita **Servizio di trasmissione API** (in fondo alla pagina):
+2. **Abilita l'API:** vai in **Menu → Impostazioni → Impostazioni Inter-app** e abilita **Servizio di Trasmissione API** (in fondo alla pagina):
 
 ![](images/xdrip-e-watchdrip/image_044.png)
 

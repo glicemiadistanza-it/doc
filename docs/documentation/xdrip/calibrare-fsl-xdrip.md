@@ -89,7 +89,7 @@ Abilita invece le **tabelle di dati di calibrazione** (**Mostra Datatables**): s
 
 ![](images/calibrare-fsl-xdrip/image_016.png)
 
-Vedrai quindi due voci aggiuntive nel menu di xDrip: il grafico delle calibrazioni e la tabella dei dati.
+Vedrai quindi voci aggiuntive nel menu di xDrip: la tabella dei valori glicemici, la tabella dei dati di calibrazione e, dopo la prima calibrazione, il grafico delle calibrazioni.
 
 ![](images/calibrare-fsl-xdrip/image_017.png)
 

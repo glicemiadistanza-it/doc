@@ -158,11 +158,11 @@ export default defineConfig({
   lang: 'it',
   title: 'Glicemiadistanza',
   description: 'Documentazione italiana per il gruppo Facebook Glicemiadistanza',
-  base: '/doc/',
+  base: '/',
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/doc/images/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/images/favicon.svg', type: 'image/svg+xml' }],
   ],
 
   themeConfig: {

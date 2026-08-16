@@ -22,7 +22,7 @@ Segui la [guida base di installazione](../xdrip/installare-xdrip-android). **Non
 Assicurati di avere una versione di xDrip non precedente al 10 luglio 2022. Per aggiornare, vai su [`https://github.com/NightscoutFoundation/xDrip/releases`](https://github.com/NightscoutFoundation/xDrip/releases).
 
 Poi:
-1. Vai in **Menu → Caratteristiche → Smartwatch → MiBand** e **disabilita** l'opzione **Usa MiBand** (la vecchia integrazione diretta non funziona con i dispositivi Zepp OS).
+1. Vai in **Menu → Impostazioni → Caratteristiche Collegamenti Smart Watch → MiBand** e **disabilita** l'opzione **Usa MiBand** (la vecchia integrazione diretta non funziona con i dispositivi Zepp OS).
 
 ![](images/smartwatch-amazfit-zepp-os/image_001.png)
 
@@ -30,7 +30,7 @@ Poi:
 
 ![](images/smartwatch-amazfit-zepp-os/image_003.png)
 
-2. Vai in **Menu → Impostazioni → Inter-app settings** e abilita **Servizio di trasmissione API** (in fondo alla pagina).
+2. Vai in **Menu → Impostazioni → Impostazioni Inter-app** e abilita **Servizio di Trasmissione API** (in fondo alla pagina).
 
 ![](images/smartwatch-amazfit-zepp-os/image_004.png)
 

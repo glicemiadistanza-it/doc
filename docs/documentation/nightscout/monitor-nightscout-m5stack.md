@@ -439,11 +439,11 @@ In questa modalità l'M5Stack si presenta al telefono come un braccialetto Mi Ba
 
 ![](images/monitor-nightscout-m5stack/image_069.jpg)
 
-1. In xDrip, apri **Impostazioni** → **Data Sync** → **Auto configure** (configurazione tramite codice a barre):
+1. In xDrip, apri **Impostazioni** → **Configurazione automatica** (nella sezione **Sincronizzazione dati**) e tocca **Camera**:
 
 ![](images/monitor-nightscout-m5stack/image_070.png)
 
-2. Inquadra il codice QR sullo schermo dell'M5Stack e conferma l'importazione toccando **Yes**:
+2. Inquadra il codice QR sullo schermo dell'M5Stack e conferma l'importazione:
 
 ![](images/monitor-nightscout-m5stack/image_071.png)
 
@@ -451,19 +451,19 @@ Quando l'autenticazione riesce, l'icona Bluetooth diventa blu fissa e nella pagi
 
 > ℹ️ **Nota**: se il codice QR non è più visibile, lo ritrovi in qualsiasi momento dal menu del dispositivo: **Bluetooth** → **xDrip Setup QR**.
 
-**Prova subito il collegamento.** Per non aspettare il prossimo ciclo di 5 minuti, invia subito una lettura: in xDrip apri **Impostazioni** → **Smart Watch Features** → **Mi Band**, scorri fino a **Update BG manually** e alla domanda **Update BG data now?** tocca **Yes**:
+**Prova subito il collegamento.** Per non aspettare il prossimo ciclo di 5 minuti, invia subito una lettura: in xDrip apri **Impostazioni** → **Caratteristiche Collegamenti Smart Watch** → **MiBand**, scorri fino a **Aggiorna la glicemia manualmente** e alla domanda **Aggiornare la glicemia ora?** tocca **Si**:
 
 ![](images/monitor-nightscout-m5stack/image_072.jpg)
 
 Il valore comparirà subito sul quadrante; per vedere freccia di tendenza e delta servono alcune letture in più.
 
-**Se il QR non funziona — configurazione manuale.** In xDrip apri **Impostazioni** → **Smart Watch Features** → **Mi Band**:
+**Se il QR non funziona — configurazione manuale.** In xDrip apri **Impostazioni** → **Caratteristiche Collegamenti Smart Watch** → **MiBand**:
 
-1. Attiva **Use MiBand Band** e lascia **vuota** la chiave di autenticazione (la genera xDrip):
+1. Attiva **Usa MiBand** e lascia **vuota** la chiave di autenticazione (la genera xDrip):
 
 ![](images/monitor-nightscout-m5stack/image_073.jpg)
 
-2. Se il campo **Mac address** contiene un indirizzo di un abbinamento precedente, cancellalo completamente e tocca **OK** (vuoto = ricerca automatica), altrimenti xDrip continuerà a cercare il vecchio dispositivo:
+2. Se il campo **Indirizzo MAC** contiene un indirizzo di un abbinamento precedente, cancellalo completamente e tocca **OK** (vuoto = ricerca automatica), altrimenti xDrip continuerà a cercare il vecchio dispositivo:
 
 ![](images/monitor-nightscout-m5stack/image_074.jpg)
 
@@ -471,7 +471,7 @@ Il valore comparirà subito sul quadrante; per vedere freccia di tendenza e delt
 
 ![](images/monitor-nightscout-m5stack/image_075.jpg)
 
-Poi prova il collegamento con **Update BG manually** come descritto sopra.
+Poi prova il collegamento con **Aggiorna la glicemia manualmente** come descritto sopra.
 
 > ℹ️ **Nota sull'orologio**: xDrip per Android non sincronizza l'ora: impostala da **Menu** → **Set time**. Il Core2 la mantiene anche da spento; sui modelli Basic e Fire (senza orologio interno a batteria) dovrai reinserirla dopo ogni spegnimento completo.
 

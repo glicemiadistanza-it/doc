@@ -39,7 +39,7 @@ Apri il menù di xDrip e vai in **Impostazioni**:
 
 ![](images/glicemia-android-wear-xdrip/image_004.png)
 
-Apri **Caratteristiche Collegamenti Smartwatch**:
+Apri **Caratteristiche Collegamenti Smart Watch**:
 
 ![](images/glicemia-android-wear-xdrip/image_005.png)
 

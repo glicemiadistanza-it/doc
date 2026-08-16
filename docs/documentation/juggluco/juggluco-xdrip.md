@@ -175,11 +175,11 @@ Se non hai ancora xDrip, installalo seguendo la [guida base](../xdrip/installare
 
 Nell'app xDrip, scegli come sorgente dati **App Libre patchata** — questa è l'opzione che riceve i dati da Juggluco.
 
-Nell'elenco delle sorgenti dati di xDrip, seleziona **Libre2 Patched (App LLink patchata)**:
+Nella configurazione guidata di xDrip scegli **Libre**, poi **Libre2 App modificata** (nell'elenco completo delle sorgenti la stessa voce si chiama **Libre (patched App)**):
 
 ![](images/juggluco-xdrip/image_027.png)
 
-Se non ricevi le letture di Juggluco in xDrip, vai nel menù di xDrip e fai **Avvia nuovo sensore (non avviato oggi)**.
+Se non ricevi le letture di Juggluco in xDrip, vai nel menù di xDrip, tocca **Inizializza Sensore** → **INIZIALIZZA SENSORE** e rispondi **NON OGGI**.
 
 > ℹ️ Puoi applicare una correzione di calibrazione tra −40 e +20 mg/dL se il sensore non è ben allineato con la glicemia capillare. Esegui la calibrazione **solo a glicemia stabile, nel range 80–140 mg/dL**.
 

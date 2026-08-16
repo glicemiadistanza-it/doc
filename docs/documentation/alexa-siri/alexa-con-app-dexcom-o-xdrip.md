@@ -71,19 +71,7 @@ Sugarmate genera un indirizzo email da usare come follower: copialo e clicca **F
 
 ## 4. Aggiungi Sugarmate come follower Dexcom
 
-**Se usi xDrip:** vai in **Impostazioni → Cloud Upload → Dexcom Share Server → Gestire Follower**. Clicca **Invite a follower**, inserisci come nome `Sugarmate`, il tuo nome e l'email di Sugarmate copiata prima. Clicca **Send Invite**.
-
-Nelle impostazioni di **Upload in Dexcom Share Server**, tocca **Gestire Follower**:
-
-![](images/alexa-con-app-dexcom-o-xdrip/image_013.png)
-
-Tocca **INVITE A FOLLOWER**:
-
-![](images/alexa-con-app-dexcom-o-xdrip/image_012.png)
-
-Compila **Followers Name** (`Sugarmate`), **Your display name** e **Followers Email** (l'indirizzo copiato da Sugarmate), poi tocca **SEND INVITE**:
-
-![](images/alexa-con-app-dexcom-o-xdrip/image_011.png)
+**Se usi xDrip:** assicurati che xDrip carichi le letture sui server Dexcom (**Impostazioni → Caricamento nel Cloud → Upload in Dexcom Share Server**, con **Carica valori di glicemia in Dexcom Share** attivo e le credenziali del tuo account Dexcom). Le versioni recenti di xDrip non hanno più la voce **Gestire Follower**: per invitare Sugarmate come follower usa l'app Dexcom (o il tuo account Dexcom su un altro telefono) come descritto qui sotto, con lo stesso account su cui xDrip carica i dati.
 
 **Se usi l'app Dexcom ufficiale (G6, G7):** apri l'app, clicca sull'icona in alto a destra, poi sul pulsante di aggiunta follower. Inserisci l'email di Sugarmate e invia l'invito.
 

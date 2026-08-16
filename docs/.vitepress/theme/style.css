@@ -192,3 +192,103 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--flash-primary);
 }
+
+/* ============================================================
+   Print / Save as PDF: only the article content
+   ============================================================ */
+@media print {
+  /* Hide site chrome */
+  .VPNav,
+  .VPLocalNav,
+  .VPSidebar,
+  .VPDocAside,
+  .VPFooter,
+  .VPBackdrop,
+  .VPDocFooter .edit-info,
+  .VPDocFooter .prev-next,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Let the article use the whole page */
+  .Layout {
+    --vp-layout-max-width: none;
+  }
+
+  .VPContent,
+  .VPContent.has-sidebar,
+  .VPDoc,
+  .VPDoc .container,
+  .VPDoc .content,
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+  }
+
+  /* Force a light palette, even in dark mode */
+  html,
+  html.dark,
+  body {
+    background: #fff !important;
+    color-scheme: light;
+    --vp-c-bg: #fff;
+    --vp-c-bg-alt: #fff;
+    --vp-c-bg-soft: #f6f6f7;
+    --vp-c-text-1: #000;
+    --vp-c-text-2: #333;
+    --vp-c-text-3: #555;
+    --vp-c-divider: #ccc;
+    --vp-code-block-bg: #f6f6f7;
+  }
+
+  .vp-doc {
+    color: #000;
+  }
+
+  .vp-doc a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  /* Images: no viewport-based cap; avoid splitting across pages */
+  .vp-doc img {
+    max-height: none;
+    max-width: 100%;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .vp-doc h1,
+  .vp-doc h2,
+  .vp-doc h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .vp-doc pre,
+  .vp-doc table,
+  .vp-doc blockquote,
+  .vp-doc div[class*='language-'] {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Code blocks: no copy button / language badge, no horizontal scroll */
+  .vp-doc div[class*='language-'] .copy,
+  .vp-doc div[class*='language-'] .lang {
+    display: none !important;
+  }
+
+  .vp-doc div[class*='language-'] pre,
+  .vp-doc div[class*='language-'] code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  @page {
+    margin: 15mm;
+  }
+}

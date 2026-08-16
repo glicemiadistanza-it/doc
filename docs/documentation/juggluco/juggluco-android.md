@@ -8,6 +8,8 @@ Guida base passo passo per l'installazione di Juggluco su Android. Juggluco legg
 
 > ⚠️ Se vuoi installare Juggluco sul telefonino di un bambino, Play Protect va disabilitato temporaneamente.
 
+> ℹ️ **Nota**: le versioni recenti di Juggluco sono tradotte in italiano. Le schermate di questa guida sono state fatte con la versione `10.10.0` su Android 12: se hai una versione più vecchia, alcune voci potrebbero essere in inglese.
+
 Documentazione originale: [`https://www.juggluco.nl/Juggluco/index.html`](https://www.juggluco.nl/Juggluco/index.html)
 
 ![](images/juggluco-android/image_001.png)
@@ -43,19 +45,19 @@ Una volta installata, l'app compare così, con i pulsanti **Disinstalla** e **Ap
 
 ![](images/juggluco-android/image_003.png)
 
-Apri Juggluco. Autorizza il collegamento e l'accesso alla posizione:
+Apri Juggluco. L'app si apre subito in modalità orizzontale (non è possibile passare alla modalità verticale). Alla prima apertura ti chiede di poter restare in esecuzione in background senza essere ottimizzata dalla batteria: fai **Consenti**.
 
 ![](images/juggluco-android/image_004.png)
 
-Autorizza anche Juggluco a non essere ottimizzata dalla batteria, così può restare in esecuzione in background:
+Subito dopo Android chiede il permesso di trovare e connettersi ai dispositivi vicini (serve per il Bluetooth del sensore): fai **Consenti**. Su Android 13 o superiore ti verrà chiesto anche il permesso per le notifiche.
 
 ![](images/juggluco-android/image_005.png)
 
-Alla primissima apertura scegli **Apri** (il pulsante **Senza sensore** serve solo per la modalità follower, senza accesso diretto al sensore):
+Compare una pagina di introduzione in italiano che spiega come funziona l'app. Leggila e poi tocca **OK** in alto a destra (potrai rileggerla in qualsiasi momento da **Impostazione → Intro**):
 
 ![](images/juggluco-android/image_006.png)
 
-Si apre la schermata principale di Juggluco, in modalità orizzontale (non è possibile passare alla modalità verticale):
+Si apre la schermata principale di Juggluco con il grafico della glicemia, per ora vuoto:
 
 ![](images/juggluco-android/image_007.png)
 
@@ -103,9 +105,11 @@ Se il tuo telefono lo supporta, il valore appare anche nelle icone in alto a sin
 
 Con i sensori FSL3 serve un passaggio in più **prima** di scansionare il sensore: Juggluco deve conoscere l'**Account ID** del tuo account LView.
 
-1. Vai nel menu in alto a sinistra → **Settings → Exchange data → Libreview**.
-2. Inserisci email e password del tuo account LView e tocca **Get Account ID**, poi **From Libreview**.
+1. Tocca la parte sinistra del grafico per aprire il primo menu, poi **Impostazione → Scambio dati** e spunta la casella **LView**.
+2. Inserisci email e password del tuo account LView e tocca **Ottieni Account ID**. Attendi che al posto dello `0` compaia il tuo Account ID, poi tocca **OK**.
 3. Ora scansiona il sensore con l'NFC come per il FSL2.
+
+![](images/juggluco-android/image_027.png)
 
 Regole importanti:
 
@@ -116,25 +120,27 @@ Regole importanti:
 
 Juggluco supporta anche i Dexcom G7 e ONE+ (il G6 invece **non è supportato**). Non serve l'NFC:
 
-1. Vai nel menu in alto a sinistra → **Photo**.
+1. Tocca la parte sinistra del grafico per aprire il primo menu, poi **Foto**.
 2. Scansiona con la fotocamera il **codice data matrix stampato sull'applicatore** del sensore.
 3. Alla prima connessione comparirà la richiesta di **abbinamento Bluetooth** di Android: **tieni lo schermo acceso** e conferma subito. Il G7 e il ONE+ si collegano solo ogni 5 minuti: se perdi la richiesta, dovrai aspettare il tentativo successivo.
 
 ## 5. Configurare Juggluco
 
-Ci sono 4 menu, raggiungibili con un tocco in 4 diverse zone dello schermo (angoli in alto a sinistra, in alto a destra, in basso a sinistra e in basso a destra):
+Ci sono 4 menu, che si aprono toccando il grafico in 4 zone diverse dello schermo, da sinistra a destra (un tocco fuori dal menu lo richiude):
 
 ![](images/juggluco-android/image_015.png)
 
+> ⚠️ Non usare il tasto **Indietro** di Android per chiudere i menu: chiude tutta l'app. Tocca invece un punto qualsiasi del grafico.
+
 ### Menu 1
 
-**System UI:** attiva o disattiva la vista a schermo pieno.
+**UI di sistema:** mostra o nasconde la barra di stato e i tasti di Android (vista a schermo pieno).
 
-**Watch:**
+**Orologio:**
 
 ![](images/juggluco-android/image_016.png)
 
-- **WearOS** permette di configurare il quadrante Juggluco su uno smartwatch Android Wear. Nel menu **WearOS Config**, scegli il tuo dispositivo e fai **Init watch app** (non usare *Direct sensor-watch connection*). Lo smartwatch dovrebbe ricevere la glicemia dal telefono tramite Bluetooth.
+- **WearOS** permette di configurare il quadrante Juggluco su uno smartwatch Wear OS. Spunta **WearOS**, poi tocca **Configura**: nel menu a tendina scegli il tuo orologio e in **Inserisci valori su** seleziona **telefono** (non usare *Sensore diretto-orologio connessione*). Lo smartwatch dovrebbe ricevere la glicemia dal telefono tramite Bluetooth.
 
 ![](images/juggluco-android/image_017.png)
 
@@ -149,117 +155,130 @@ Ci sono 4 menu, raggiungibili con un tocco in 4 diverse zone dello schermo (ango
 ![](images/juggluco-android/image_020.png)
 
   - *Nota: questo metodo potrebbe non funzionare con tutti i dispositivi.*
-- **xDrip webserver** permette di collegare smartwatch Fitbit e Samsung usando xDrip come sorgente dati.
+- **Web server** permette di collegare smartwatch Fitbit e Samsung usando xDrip come sorgente dati.
 - **Kerfstok** è un quadrante per Garmin: [`https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260`](https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260)
+- **Watchdrip** e **GadgetBridge** servono per gli smartwatch gestiti da queste app (ad esempio Mi Band e Amazfit).
 
-**Sensor:** mostra informazioni sul sensore e lo stato del collegamento.
+**Sensore:** mostra lo stato del Bluetooth e, quando un sensore è collegato, le informazioni sul collegamento.
 
 ![](images/juggluco-android/image_021.png)
 
-- **Use Bluetooth** deve essere abilitato.
-- Se vuoi cambiare sensore, fai **Forget** prima.
-- Se hai perso il collegamento, prova **Reenable** e scansiona il sensore.
-- Nella colonna **Last success** dovresti vedere l'orario dell'ultima lettura.
-
-**Settings:** il menu di configurazione permette di impostare diversi parametri.
-
-- **Unità di misura** (mg/dL o mmol/L).
+- **Usa Bluetooth** deve essere abilitato.
+- Con un sensore collegato vedi anche una tabella con lo stato della connessione: nella colonna **Last success** dovresti vedere l'orario dell'ultima lettura. Se vuoi cambiare sensore, fai **Forget** prima; se hai perso il collegamento, prova **Reenable** e scansiona il sensore.
 
 ![](images/juggluco-android/image_022.png)
 
-- **Scala verticale**: manuale (seleziona **Glucose** e inserisci i valori in **Graph range**) o automatica. Puoi anche fissare la scala automatica a un intervallo di tempo (deseleziona **Time**).
+**Impostazione:** il menu di configurazione permette di impostare diversi parametri. Le impostazioni sono raggruppate in sottomenu:
 
 ![](images/juggluco-android/image_023.png)
 
-- **Range** target (visibile in bianco o nero sul grafico).
+- **Unità** di misura (mg/dL o mmol/L).
+- **Glucosio flottante**: mostra la glicemia in una piccola finestra sopra le altre app (vedi sotto).
+- **Calibrazione**: permette di correggere i valori del sensore con una misurazione capillare.
+- **Notifica del glucosio**: mostra la glicemia nella tendina delle notifiche.
+- **Scambio dati**: invio dei dati ad altre app (xDrip, LView, Nightscout, ecc.).
+- **Promemoria** e **Allarmi**: vedi i paragrafi dedicati qui sotto.
+- **Etichette numeriche**: l'elenco delle azioni (insulina, carboidrati, ecc.) usate per promemoria e registrazioni.
+- **Scansione Google**: usa lo scanner di Google per leggere i codici dei sensori Dexcom con la fotocamera.
+- **Display**: aspetto del grafico e colori.
+- **Intro**: rimostra la pagina di introduzione vista alla prima apertura.
+
+#### Display
 
 ![](images/juggluco-android/image_024.png)
 
-- Numeri della scala di glicemia a sinistra, e trasmissione delle letture a xDrip: per questa opzione, configura xDrip con sorgente dati "app Libre patchata".
+- **Range del grafico**: scala verticale del grafico. Con **Scala manuale** puoi scegliere se fissare l'asse del **Tempo** e/o del **Glucosio**; se non è fissata, la scala è automatica.
+- **Range target**: intervallo obiettivo, evidenziato sul grafico.
+- **Asse del glucosio a SINISTRA**: sposta i numeri della scala di glicemia da metà grafico al bordo sinistro.
+- **Ruota di 180°**: gira lo schermo, utile se preferisci avere i tasti del telefono dall'altra parte.
+- **12h**, **Lingua**, **Clamp ora**: formato dell'ora, lingua dell'app e blocco del grafico sull'ora attuale.
+- **Colori**: personalizza i colori del grafico.
+- **Theme**: scegli il tema chiaro o scuro e la forma dei pulsanti:
 
 ![](images/juggluco-android/image_025.png)
 
-- **Scanning starts app**: fa aprire Juggluco quando si scansiona il sensore; puoi abilitare anche un suono alla scansione NFC.
+#### Scambio dati
 
 ![](images/juggluco-android/image_026.png)
 
-- **Invert screen**: passa in modalità scura. Da questa stessa schermata si apre anche il menu **Reminders** (promemoria).
+- **Broadcast xDrip**: trasmette le letture a xDrip. In xDrip configura la sorgente dati "app FSL patchata".
+- **LView**: carica i dati su LView e serve per l'Account ID del FSL3 (vedi [Sensore FSL3](#sensore-fsl3)).
+- **Uploader** e **Web server**: invio dei dati a Nightscout e ad altre app tramite un server locale.
+- **Health Connect**, **Glucodata broadcast**, **FSL patchato**, **Broadcast EverSense**: altri metodi di condivisione con app di terze parti.
 
-![](images/juggluco-android/image_027.png)
+#### Glucosio flottante
 
-- **Sensor via Bluetooth**: obbligatorio per il collegamento diretto con il FSL2; opzionale se usi Juggluco solo per scansionare il sensore. Da qui si apre anche il menu **Alarms** (allarmi).
-
-![](images/juggluco-android/image_028.png)
-
-- Puoi personalizzare i colori del display (**Colors**), creare scorciatoie per dosi e quantità (**Shortcuts**) e modificare l'elenco delle azioni per i promemoria (**Number Labels**).
-
-![](images/juggluco-android/image_029.png)
-
-### Menu Reminders
-
-Puoi impostare dei promemoria per ricordarti di fare determinate azioni, con allarme se te ne dimentichi.
-
-![](images/juggluco-android/image_030.png)
-
-Con **New** puoi creare un nuovo promemoria:
-
-1. Scegli nella lista l'azione da ricordare.
-2. Inserisci un valore in `x` (unità, CHO, tempo, ecc.).
-3. In **1**: decidi da quando puoi eseguire l'azione.
-4. In **2**: decidi entro quando devi eseguirla.
-
-![](images/juggluco-android/image_031.png)
-
-Se non hai registrato l'azione in Juggluco entro l'orario indicato in **2**, l'app suonerà un allarme.
-
-Esempio: Levemir 15 unità (insulina lenta) dalle 21:00 alle 22:00.
-
-Tocca **Ringtone** su un promemoria per personalizzarne la suoneria:
-
-![](images/juggluco-android/image_032.png)
-
-- **Duration**: durata della suoneria.
-- Se rimuovi **Default**, puoi selezionare la suoneria che preferisci.
-- Se non è attivato **Sound**, l'app non suona.
-- **Flash**: fa lampeggiare il flash della fotocamera.
-
-### Menu Allarmi
-
-Tocca **Ringtone** su un allarme per configurarne la suoneria. Per l'allarme di glicemia bassa è disponibile anche **Minutes deactivated** (durata del silenziamento dopo che l'allarme è scattato):
-
-![](images/juggluco-android/image_033.png)
-
-Tipi di allarme disponibili:
-
-- Allarme glicemia bassa, con valore soglia:
-
-![](images/juggluco-android/image_034.png)
-
-- Allarme glicemia alta, con valore soglia:
-
-![](images/juggluco-android/image_035.png)
-
-- Allarme lettura assente dopo tot minuti:
-
-![](images/juggluco-android/image_036.png)
-
-- Allarme valori disponibili (avvisa quando i dati tornano dopo un'interruzione); da qui puoi anche mostrare la glicemia nella barra di stato Android:
+Mostra la glicemia in una finestra sempre in primo piano, sopra le altre app. Puoi scegliere il colore, la dimensione del carattere e se la finestra deve essere toccabile o trasparente:
 
 ![](images/juggluco-android/image_037.png)
 
-> ⚠️ **Off touch** disabilita l'allarme toccando il grafico: fai attenzione a non farlo per sbaglio.
+### Menu Promemoria
 
-![](images/juggluco-android/image_038.png)
+Da **Impostazione → Promemoria** puoi impostare dei promemoria per ricordarti di fare determinate azioni, con allarme se te ne dimentichi. Con **Nuovo** crei un nuovo promemoria:
+
+![](images/juggluco-android/image_028.png)
+
+1. Scegli nella lista a tendina l'azione da ricordare (le azioni si modificano da **Impostazione → Etichette numeriche**):
+
+![](images/juggluco-android/image_029.png)
+
+2. Inserisci un valore nella casella a destra (unità, CHO, tempo, ecc.).
+3. Con il primo orario decidi da quando puoi eseguire l'azione.
+4. Con il secondo orario decidi entro quando devi eseguirla.
+5. Fai **Salva**.
+
+![](images/juggluco-android/image_030.png)
+
+Se non hai registrato l'azione in Juggluco entro il secondo orario, l'app suonerà un allarme.
+
+Esempio: insulina lenta 15 unità dalle 21:00 alle 22:00. Il promemoria compare nell'elenco:
+
+![](images/juggluco-android/image_031.png)
+
+Tocca **Suoneria** su un promemoria per personalizzarne la suoneria:
+
+![](images/juggluco-android/image_032.png)
+
+- **Durata**: durata della suoneria in secondi.
+- Se rimuovi **Predefinito**, puoi selezionare la suoneria che preferisci.
+- Se non è attivato **Suono**, l'app non suona.
+- **Vibra**: fa vibrare il telefono; **Flash**: fa lampeggiare il flash della fotocamera.
+- **Disturba**: suona anche con la modalità *Non disturbare* attiva.
+
+Le azioni dei promemoria si personalizzano da **Impostazione → Etichette numeriche**:
+
+![](images/juggluco-android/image_036.png)
+
+### Menu Allarmi
+
+Da **Impostazione → Allarmi** puoi attivare e configurare gli allarmi di glicemia:
+
+![](images/juggluco-android/image_033.png)
+
+- **Allarme di glucosio basso**, con valore soglia.
+- **Allarme di glucosio alto**, con valore soglia.
+- **Allarme di perdita di segnale dopo** tot minuti senza dati dal sensore.
+- **Notifica di valore disponibile**: avvisa quando i dati tornano dopo un'interruzione.
+- **Alarm is**: scegli se gli allarmi devono usare il volume di *Alarm*, *Notification* o *Media* del telefono.
+- **Avanzate**: allarmi aggiuntivi per glicemia molto bassa/molto alta e allarmi predittivi (*se presto sotto* / *se presto sopra*), oltre alle **Pianificazioni** per attivare gli allarmi solo in certe fasce orarie.
+
+Tocca **Suoneria** su un allarme per configurarne la suoneria. Per l'allarme di glicemia bassa è disponibile anche **Minuti di disattivazione** (durata del silenziamento dopo che l'allarme è scattato):
+
+![](images/juggluco-android/image_034.png)
+
+Il menu **Avanzate**:
+
+![](images/juggluco-android/image_035.png)
+
+> ⚠️ Toccando il grafico mentre un allarme suona, l'allarme viene silenziato: fai attenzione a non farlo per sbaglio.
 
 ### Menu 2
 
-Il menu in alto a destra (vedi il diagramma a inizio sezione) include: **Notify**, **Export**, **Mirror**, **New Amount**, **List**, **Statistics**. La documentazione originale non descrive nel dettaglio queste voci; **New Amount** apre la stessa schermata di creazione promemoria vista sopra ([Menu Reminders](#menu-reminders)).
+Il secondo menu (vedi il diagramma a inizio sezione) include: **Esporta**, **Mirror**, **Nuovo valore**, **Lista**, **Statistiche**, **Pronuncia**, **Flottante**. **Nuovo valore** serve a registrare una dose di insulina, un pasto o un'altra azione; **Flottante** attiva la finestra del glucosio flottante; **Pronuncia** legge la glicemia a voce.
 
 ### Menu 3 e Menu 4
 
-Toccando gli angoli in basso a sinistra e in basso a destra si aprono altri due menu, visibili nel diagramma a inizio sezione:
+Il terzo e il quarto menu sono visibili nel diagramma a inizio sezione:
 
-- **In basso a sinistra:** Last Scan, Scans, Stream, History, Amounts, Meals, Dark mode.
-- **In basso a destra:** Search, Date, Day back, Day later, Week back, Week later.
-
-Anche questi non sono descritti nel dettaglio nella documentazione originale, ma i nomi sono abbastanza intuitivi: navigazione tra le date del grafico e riepiloghi delle scansioni/pasti registrati.
+- **Terzo menu:** Ultima scansione, Scansioni, Flusso, Cronologia, Valori, Pasti, Modalità scura — scegli cosa mostrare sul grafico e passa alla modalità scura.
+- **Quarto menu:** Cerca, Data, Giorno prima, Giorno dopo, Settimana prima, Settimana dopo — navigazione tra le date del grafico.

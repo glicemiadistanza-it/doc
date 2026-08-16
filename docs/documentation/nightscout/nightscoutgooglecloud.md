@@ -32,7 +32,7 @@ Il tuo sito avrà un indirizzo del tipo `mionightscout.dominio.com`, fornito dal
 ![](images/nightscoutgooglecloud/image_045.png)
 
 5. In **Subdomain**, scrivi il nome che vuoi dare al tuo sito (minuscole, senza caratteri speciali).
-6. In **Domain**, scegli un dominio dalla lista. I primi della lista sono i più stabili, ma alcuni (es. `mooo.com`) sono usati da centinaia di migliaia di siti e possono risultare **bloccati dalle reti di scuole e uffici**: se ti serve l'accesso da lì, scegli un dominio meno diffuso. Puoi creare fino a 5 sottodomini gratuiti.
+6. In **Domain**, scegli un dominio dalla lista. I primi 7 della lista (quelli del proprietario di FreeDNS) sono i più stabili, ma alcuni (es. `mooo.com`) sono usati da centinaia di migliaia di siti e possono risultare **bloccati dalle reti di scuole e uffici**: se ti serve l'accesso da lì, scegli un dominio meno diffuso. Puoi creare fino a 5 sottodomini gratuiti. Se in futuro il dominio scelto venisse disattivato, basta creare un nuovo sottodominio su un altro dominio e rieseguire la fase 2 dell'installazione (vedi sezione 4).
 7. Lascia gli altri campi come proposti, risolvi il captcha e clicca **Save**.
 
 ![](images/nightscoutgooglecloud/image_046.png)
@@ -125,9 +125,11 @@ La creazione del server è automatica, tramite un comando da copiare e incollare
    curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/create_vm.sh | bash
    ```
 
-3. Accetta il nome proposto per il server (o scrivine uno tuo) e conferma. Lo script crea da solo la macchina giusta per il piano gratuito (tipo `e2-micro`, regione USA gratuita, Ubuntu 24.04, disco entro i 30 GB, firewall HTTP/HTTPS).
+3. Accetta il nome proposto per il server (o scrivine uno tuo) e conferma. Lo script crea da solo la macchina giusta per il piano gratuito (tipo `e2-micro`, regione USA gratuita, Ubuntu 24.04 minimal, disco standard da 30 GB, livello di rete **Standard**, firewall HTTP/HTTPS).
 
 > ℹ️ **Nota**: se compare un errore di risorse non disponibili (es. `ZoneResourcePoolExhausted`), esegui semplicemente di nuovo il comando.
+
+> ⚠️ **Attenzione**: crea **un solo server**. Se per errore ne hai creati più di uno, elimina quelli in più (vedi Appendice A): il secondo server non è gratuito.
 
 Il tuo server comparirà nell'elenco **Istanze VM** con un pallino verde (attivo):
 
@@ -193,14 +195,14 @@ Quando la fase 1 termina, torna al menu → **Google Cloud setup** → **Install
 
 ![](images/nightscoutgooglecloud/image_056.png)
 
-Ti verranno chiesti, nell'ordine:
+Ti verranno chiesti (l'ordine può variare):
 
-1. La tua **API_SECRET**: è la password principale della tua pagina Nightscout. Minimo 12 caratteri; NON usare questi caratteri: `$` `"` `'` `\` spazio `@` `/` `%`
+1. La tua **API_SECRET**: è la password principale della tua pagina Nightscout. Minimo 12 caratteri; NON usare questi caratteri: `$` `"` `'` `\` spazio `@` `/` `%`. Se stai ripetendo la fase 2 e vuoi tenere quella già impostata, premi ESC (Cancel).
 
 ![](images/nightscoutgooglecloud/image_057.png)
 
-2. Il tuo **indirizzo email**: serve solo a Let's Encrypt (il certificato HTTPS, che si rinnova da solo) per eventuali avvisi.
-3. Il tuo **User ID e password FreeDNS** (lo User ID, non l'email!). Se hai più sottodomini, digita le prime lettere di quello da usare. Usa le frecce per spostarti tra i campi.
+2. Il tuo **User ID e password FreeDNS** (lo User ID, non l'email!). Se hai più sottodomini, digita le prime lettere di quello da usare. Usa le frecce per spostarti tra i campi.
+3. Il tuo **indirizzo email**: serve solo a Let's Encrypt (il certificato HTTPS, che si rinnova da solo) per eventuali avvisi.
 
 ![](images/nightscoutgooglecloud/image_058.png)
 
@@ -361,26 +363,46 @@ Puoi scegliere tra **Edit variables in a browser** (comodo: apre un link valido 
 
 ![](images/nightscoutgooglecloud/image_085.png)
 
+> ℹ️ **Nota**: se dopo una modifica Nightscout non funziona più, riapri il file e ripristina il valore precedente, oppure riesegui la fase 2 dell'installazione (**Google Cloud setup** → **Install Nightscout Phase 2**), che rigenera la configurazione.
+
 ---
 
 ## 7. Manutenzione (due volte l'anno)
 
-Il sistema si mantiene quasi da solo, ma due volte l'anno dedica 10 minuti a questi passaggi:
+Il sistema si mantiene quasi da solo, ma un problema di pagamento su Google Cloud può portare alla sospensione o cancellazione del progetto (con perdita definitiva dei dati), e un account FreeDNS dormiente manda offline il sito. Per questo, due volte l'anno dedica 10 minuti a questi passaggi (metti un promemoria ricorrente sul calendario):
 
 1. **Riavvia il server**: menu → **Reboot server** (il sito torna online entro 10 minuti).
 2. **Fai un backup**: menu → **Data** → **Backup MongoDB and variables**: crea un unico archivio compresso con database e variabili.
 3. **Scarica il backup** sul computer (pulsante **Download File** del terminale, inserendo il percorso completo del file) e conservalo su un cloud (es. Google Drive).
 4. **Fai login su FreeDNS** ([`https://freedns.afraid.org/`](https://freedns.afraid.org/)) per mantenere attivo l'account.
+5. **Controlla l'uploader**: imposta l'app che carica i dati (es. xDrip) in modo che conservi almeno **6 mesi** di storico sul telefono, così i dati recenti sono al sicuro anche nel peggiore dei casi.
 
-Per **aggiornare** Nightscout e il sistema: menu → **Google Cloud setup** → **Update platform**, poi riavvia il server. La versione installata è visibile nel menu del sito → **About**.
+Per **aggiornare** Nightscout e il sistema: menu → **Google Cloud setup** → **Update platform**, poi riavvia il server e aspetta un minuto. La versione installata è visibile nel menu del sito → **About**; l'ultima versione disponibile è indicata tra parentesi nella pagina iniziale della [documentazione ufficiale](https://google-cloud-nightscout.github.io/). Se dopo il riavvio e 5 minuti di attesa il sito non risponde ancora, esegui di nuovo **Google Cloud setup** → **Install Nightscout Phase 1** e riavvia.
 
-> ⚠️ **Attenzione ai costi**: da aprile 2025 Google crea automaticamente una **pianificazione di snapshot** del disco insieme alle nuove VM, che costa circa 0,25 $ al mese. Per restare a costo zero: **Compute Engine → Snapshot** → elimina la pianificazione e gli snapshot esistenti. Controlla gli addebiti in **Fatturazione → Tabella dei costi**.
+> ⚠️ **Attenzione**: se hai installato Nightscout **prima di febbraio 2025**, il tuo server usa Ubuntu 20, che non riceve più aggiornamenti. Per passare a Ubuntu 24 non basta **Update platform**: devi fare un backup, creare un nuovo server seguendo questa guida dalla sezione 3, ripristinare il backup (menu → **Data** → **Restore MongoDB and/or variables**) e infine eliminare il vecchio server (finché esistono entrambi paghi circa 0,01 $ al giorno). Istruzioni ufficiali: [`https://google-cloud-nightscout.github.io/docs/GCNS/UpgradeToUbuntu24.html`](https://google-cloud-nightscout.github.io/docs/GCNS/UpgradeToUbuntu24.html)
+
+> ⚠️ **Attenzione ai costi**: gli **snapshot** del disco non sono gratuiti (circa 0,25 $ al mese). Lo script di questa guida non ne crea, ma se hai creato il server manualmente dalla console Google potresti avere una **pianificazione di snapshot** automatica. Controlla in **Compute Engine → Snapshot** ed elimina pianificazione e snapshot esistenti. Puoi verificare gli addebiti in **Fatturazione → Tabella dei costi**.
+
+---
+
+## 8. Problemi comuni
+
+- **Il sito non risponde dopo un riavvio**: aspetta un minuto o due. Un errore **502 Bad Gateway** subito dopo il riavvio è normale; se persiste, controlla la pagina **Status** (se **Missing node_modules** è in rosso, riesegui **Install Nightscout Phase 1**).
+- **Connessione SSH non riuscita**: normale dopo un riavvio; aspetta 30 secondi e premi **Riprova**.
+- **La prova gratuita è finita e il server è spento**: in **Fatturazione** clicca **Esegui l'upgrade** → **Attiva**, poi in **Compute Engine → Istanze VM** riavvia il server dal menu a tre puntini (**Avvia**). Dopo uno stop l'indirizzo IP cambia: aspetta un paio di minuti perché il nome del sito punti al nuovo IP.
+- **Il server è fermo (quadratino grigio al posto del pallino verde)**: avvialo dal menu a tre puntini, come sopra.
+- **Il sito non si apre da un telefono con Android 7 o precedente**: i certificati Let's Encrypt non sono più supportati su Android ≤ 7. Serve un dispositivo con Android 8 o superiore.
+- **Nightscout è rotto e non sai perché**: puoi reinstallare senza perdere il database: riesegui il comando `bootstrap.sh` (sezione 4), poi **Install Nightscout Phase 1**, riavvia e, se serve, **Install Nightscout Phase 2** (premi ESC alle domande su API_SECRET e FreeDNS per mantenere i valori attuali).
+- **Ripristinare un backup**: nel terminale SSH clicca **Upload** (in alto), carica il file di backup, poi menu → **Data** → **Restore MongoDB and/or variables**, seleziona il file con la barra spaziatrice e conferma.
+- **Dallo smartphone**: puoi aprire il terminale con l'app **Google Cloud** (Play Store) → **Resources** → **VM instances** → il tuo server → menu a tre puntini → **Connect via SSH**.
 
 ---
 
 ## Appendice A — Eliminare il VPS
 
-Se hai cambiato idea o hai sbagliato la configurazione:
+> ⚠️ **Attenzione**: eliminando il server perdi **tutti i dati**, compreso il database MongoDB, senza possibilità di recupero. Se il sito è in uso, fai prima un backup e scaricalo (sezione 7). Eliminare il server dovrebbe essere l'ultima risorsa: quasi sempre basta reinstallare (sezione 8).
+
+Se hai appena creato il server e hai cambiato idea o hai sbagliato la configurazione:
 - Vai in [`https://console.cloud.google.com/compute/instances`](https://console.cloud.google.com/compute/instances).
 - Clicca i tre puntini a destra del tuo server → **Elimina** → conferma.
 

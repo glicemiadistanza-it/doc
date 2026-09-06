@@ -255,8 +255,10 @@ L'app chiede conferma prima di proseguire con la configurazione:
 
 Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 
+> ⚠️ **Attenzione**: Questo collegamento funziona solo con l'app modificata **G6**. L'app modificata G7 non può trasmettere direttamente a xDrip: con il G7 usa xDrip in modalità [compagno (Companion)](./xdrip-compagno) oppure come [follower Dexcom Share](./xdrip-follower-dexcom).
+
 1. Segui la [guida base di installazione di xDrip](./installare-xdrip-android).
-2. Come sorgente dati, scegli **640G / Eversense** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share. Puoi farlo dalla configurazione guidata, oppure dal menu di xDrip, **Impostazioni**
+2. Come sorgente dati, scegli **Inter-app broadcast** — questo fa ricevere i dati direttamente dall'app modificata senza passare dal server Dexcom Share. Puoi farlo dalla configurazione guidata, oppure dal menu di xDrip, **Impostazioni**
 
 ![](images/Menu-Impostazioni.png)
 
@@ -264,9 +266,11 @@ Se vuoi ricevere la glicemia anche in xDrip (ad esempio per un smartwatch):
 
 ![](images/Menu-Impostazioni-SorgenteDati.png)
 
-... **640G / Eversense**...
+... **Inter-app broadcast**...
 
 ![](images/dexcom-g6-g7-app-modificata/image_054.png)
+
+> ℹ️ **Nota**: Nelle versioni di xDrip precedenti alla `2026.09.04` questa sorgente si chiamava **640G / EverSense**, come nell'immagine qui sopra.
 
 3. Quando xDrip chiede di inizializzare il sensore...
 

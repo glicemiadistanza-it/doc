@@ -275,7 +275,9 @@ Una volta installato xDrip, devi indicare da dove arriveranno i valori di glicem
 | Follower Nightscout                              | **Altro - Nightscout Follower**                       |
 | Follower CareLink (Medtronic)                    | Vedi nella [lista](#non-wizard) **Carelink Follower** |
 | Compagno di CamAPS / app Dexcom ufficiale        | Vedi nella [lista](#non-wizard) **Companion App**     |
-| App Dexcom BYODA (solo G6) / Medtronic con glucometro | **Altro - 640G**                                 |
+| App Dexcom BYODA (solo G6) / Medtronic con glucometro | **Altro - Inter-app broadcast**                  |
+
+> ℹ️ **Nota**: Dalla versione `2026.09.09` la voce **640G** della configurazione guidata si chiama **Inter-app broadcast**, come nella lista completa delle sorgenti. Le immagini qui sotto mostrano ancora il vecchio nome.
 
 ![](images/installare-xdrip-android/image_035.png)
 

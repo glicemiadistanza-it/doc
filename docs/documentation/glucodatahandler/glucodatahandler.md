@@ -77,6 +77,8 @@ Poi, dentro l'app Juggluco: apri il **Menu 1 → Impostazione → Exchange data*
 
 ![](images/glucodatahandler/image_012.png)
 
+> ℹ️ **Nota**: se il tuo Dexcom G7 è collegato direttamente allo smartwatch tramite Juggluco per Wear OS, vedi [Dexcom G7 diretto su Galaxy Watch con Juggluco](../juggluco/juggluco-g7-wearos-diretto.md).
+
 #### xDrip
 
 Con xDrip hai due opzioni, puoi abilitarle entrambe: **1) API del servizio di trasmissione** (per ricevere anche l'IOB) e **2) Alternativa: trasmissione locale**:

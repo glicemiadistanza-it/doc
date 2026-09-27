@@ -118,6 +118,7 @@ const xiaomi = [
 const juggluco = [
   { text: 'Juggluco per Android (FSL 2/3, Dexcom G7)', link: '/documentation/juggluco/juggluco-android' },
   { text: 'Juggluco per Android con FSL 2 e xDrip', link: '/documentation/juggluco/juggluco-xdrip' },
+  { text: 'Dexcom G7 diretto su Galaxy Watch', link: '/documentation/juggluco/juggluco-g7-wearos-diretto' },
 ]
 
 const gluroo = [

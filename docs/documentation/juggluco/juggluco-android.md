@@ -155,6 +155,9 @@ Ci sono 4 menu, che si aprono toccando il grafico in 4 zone diverse dello scherm
 ![](images/juggluco-android/image_020.png)
 
   - *Nota: questo metodo potrebbe non funzionare con tutti i dispositivi.*
+
+> ℹ️ **Nota**: se usi un Dexcom G7 e vuoi che il sensore si colleghi direttamente all'orologio, anche senza telefono vicino, segui la guida [Dexcom G7 diretto su Galaxy Watch con Juggluco](juggluco-g7-wearos-diretto.md).
+
 - **Web server** permette di collegare smartwatch Fitbit e Samsung usando xDrip come sorgente dati.
 - **Kerfstok** è un quadrante per Garmin: [`https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260`](https://apps.garmin.com/en-UK/apps/b6348ccc-86d8-4780-8013-d9e19fed5260)
 - **Watchdrip** e **GadgetBridge** servono per gli smartwatch gestiti da queste app (ad esempio Mi Band e Amazfit).

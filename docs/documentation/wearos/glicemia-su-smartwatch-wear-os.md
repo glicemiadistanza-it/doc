@@ -21,7 +21,7 @@ In base a come ricevi la glicemia sul telefono, queste sono le soluzioni consigl
 - **Follower LLink (sensori FSL)**: GlucoDataHandler con i suoi quadranti, oppure WatchGlucose.
 - **xDrip sul telefono**: i quadranti di xDrip, oppure GlucoDataHandler.
 - **App Dexcom (ufficiale o modificata)**: il quadrante Dexcom CGM, oppure GlucoDataHandler.
-- **Juggluco o AAPS**: GlucoDataHandler.
+- **Juggluco o AAPS**: GlucoDataHandler. Con Juggluco e un Dexcom G7 puoi anche collegare il sensore direttamente all'orologio, senza telefono: vedi [Dexcom G7 diretto su Galaxy Watch con Juggluco](../juggluco/juggluco-g7-wearos-diretto.md).
 - **Nightscout**: NightWear (anche senza telefono), oppure GlucoDataHandler.
 - **Gluroo**: l'app Wear OS di Gluroo, senza installazioni aggiuntive.
 

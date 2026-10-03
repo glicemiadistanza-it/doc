@@ -54,7 +54,7 @@ Verifica che la voce risulti impostata correttamente:
 
 ![](images/xdrip-follower-dexcom/image_010.png)
 
-> ℹ️ **Nota**: Nella stessa schermata **Impostazioni** trovi anche **Caricamento nel Cloud**, che serve a un'altra cosa: far *inviare* a xDrip i suoi dati verso vari servizi (Nightscout, MongoDB, Dexcom Share, Tidepool...):
+> ℹ️ **Nota**: Nella stessa schermata **Impostazioni** trovi anche **Caricamento nel Cloud**, che serve a un'altra cosa: far *inviare* a xDrip i suoi dati verso vari servizi (Nightscout, Nocturne, MongoDB, Dexcom Share, Tidepool...):
 
 ![](images/xdrip-follower-dexcom/image_011.png)
 

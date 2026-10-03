@@ -11,7 +11,7 @@ Dispositivi compatibili (elenco completo e aggiornato su [`https://watchdrip.org
 
 > ℹ️ **Nota**: per i dispositivi con **Zepp OS 3.0 o superiore** esiste anche la nuova app **WatchDrip Service** (versione `2.1.0`): un servizio in background che riceve la glicemia in tempo reale appena prodotta, consuma meno batteria e si riavvia da solo se il sistema lo ferma. Trovi l'app, l'elenco dei dispositivi e le istruzioni qui: [`https://watchdrip.org/apps/watchdrip-service/`](https://watchdrip.org/apps/watchdrip-service/). **Importante**: anche usando il Service, non disinstallare la mini app WatchDrip: se il servizio si ferma, i quadranti tornano automaticamente al sistema precedente. I dispositivi con Zepp OS 1 e 2 (come GTR 3, GTS 3 e GTS 4 Mini) **non supportano il Service** e continuano a funzionare con il metodo descritto in questa guida.
 
-**Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
+**Requisiti:** telefono Android 8 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
 ---
 

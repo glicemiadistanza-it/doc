@@ -12,7 +12,7 @@ Dispositivi compatibili con questo metodo:
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
-**Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
+**Requisiti:** telefono Android 8 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
 ---
 

@@ -8,7 +8,7 @@ Questa guida spiega come usare **Juggluco** per leggere un sensore **FSL2** e in
 
 > ⚠️ Se installi Juggluco sul telefono di un bambino, disabilita temporaneamente **Play Protect** prima dell'installazione.
 
-**Requisiti:** telefono Android 5 o superiore, con Bluetooth 4.2 (BLE) e lettore NFC (Android 8 o superiore per la versione del Play Store).
+**Requisiti:** telefono Android 8 o superiore, con Bluetooth 4.2 (BLE) e lettore NFC.
 
 Documentazione originale: [`https://www.juggluco.nl/Juggluco/index.html`](https://www.juggluco.nl/Juggluco/index.html)
 

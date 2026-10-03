@@ -10,7 +10,7 @@ La soluzione si chiama **WatchDrip+**, sviluppata da Artem (@bigdigital su GitHu
 
 > ℹ️ **Nota**: questa guida riguarda i dispositivi **della generazione precedente** (senza Zepp OS). Per gli Amazfit con Zepp OS (GTR 3/4, GTS 3/4, Balance, Bip 5/6, T-Rex 2/3, Active, Cheetah, ecc.) e la Xiaomi Smart Band 7 segui invece la guida [Smartwatch Amazfit con Zepp OS](../amazfit/smartwatch-amazfit-zepp-os); l'elenco aggiornato dei dispositivi supportati è su [`https://watchdrip.org/apps/watchdrip-service/`](https://watchdrip.org/apps/watchdrip-service/).
 
-**Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Prima di iniziare, carica completamente lo smartband/smartwatch.
+**Requisiti:** telefono Android 8 o superiore con Bluetooth 4.2 (BLE). Prima di iniziare, carica completamente lo smartband/smartwatch.
 
 ## 1. Panoramica dei passaggi
 

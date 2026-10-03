@@ -8,7 +8,7 @@ xDrip può ricevere la glicemia da: xDrip Sync follower, Dexcom Share, Nightscou
 
 Progetto originale di Artem (GitHub: @bigdigital).
 
-**Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente la smartband prima di iniziare.
+**Requisiti:** telefono Android 8 o superiore con Bluetooth 4.2 (BLE). Carica completamente la smartband prima di iniziare.
 
 ---
 

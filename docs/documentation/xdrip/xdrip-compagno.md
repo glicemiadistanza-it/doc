@@ -3,11 +3,17 @@
 Questa guida spiega come usare xDrip insieme all'app ufficiale del tuo sensore CGM, senza interferire con il sensore né con il microinfusore. xDrip riceve le letture di glicemia intercettando le notifiche dell'app master e aggiunge funzioni che l'app ufficiale non ha: allarmi personalizzabili, smartwatch, widget e follower aggiuntivi.
 
 **App compatibili:**
-- Dexcom G6, G7, ONE
-- Medtronic Guardian / MiniMed
+- Dexcom G6, G7, ONE, ONE+ e Stelo
+- Medtronic Guardian / MiniMed / Simplera
 - CamAPS
+- Diabeloop DBLG2 (dalla versione `2026.10.02`)
+- Eversense
+- Microtech AiDEX, LinX Vista, Equil G, GlucoRx Vixxa
+- Ottai, CareSens, Sinocare iCan, Vitatok, Glucotech, SiSensing Eco
 
-**Requisiti:** telefono Android versione 6 o superiore. xDrip deve essere installato **sullo stesso telefono** dell'app master.
+Con le app Omnipod 5 e MiniMed Mobile xDrip legge dalla notifica anche l'insulina attiva (IoB), quando è disponibile.
+
+**Requisiti:** telefono Android versione 8 o superiore. xDrip deve essere installato **sullo stesso telefono** dell'app master.
 
 > ⚠️ Senza Google Play Store la funzione Sync Follower (senza Nightscout) non è disponibile.
 

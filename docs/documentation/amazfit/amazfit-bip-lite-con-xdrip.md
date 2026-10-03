@@ -6,7 +6,7 @@ Questa guida spiega come visualizzare la glicemia di xDrip su un **Amazfit Bip L
 
 Progetto originale di Artem (GitHub: @bigdigital). Documentazione: [`https://bigdigital.home.blog/2021/03/21/amazfit-bip-bip-lite-and-amazfit-gtr-integration/`](https://bigdigital.home.blog/2021/03/21/amazfit-bip-bip-lite-and-amazfit-gtr-integration/)
 
-**Requisiti:** telefono Android 5 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
+**Requisiti:** telefono Android 8 o superiore con Bluetooth 4.2 (BLE). Carica completamente il dispositivo prima di iniziare.
 
 > ⚠️ **Attenzione**: Se usi xDrip collegato direttamente al sensore, questa versione modificata potrebbe non essere compatibile con future versioni di Android. Prima di procedere, **esporta il database e salva le impostazioni** di xDrip (menù → Importa/Esporta → Esporta database, e copia il codice QR delle impostazioni).
 

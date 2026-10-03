@@ -20,10 +20,11 @@ Scorri in basso e apri **Impostazioni Meno Usate**, poi in fondo alla pagina **A
 
 Anche se le impostazioni sembrano già corrette, togli e rimetti ogni opzione per forzare l'aggiornamento:
 
-- **Eseguire Collector in primo piano** → deve essere **abilitato** (xDrip mostra una notifica fissa e Android non lo chiude)
 - **Richiesta di Ottimizzazione della Batteria** → deve essere **disabilitata**, così xDrip continua a ricordarti di escluderlo dall'ottimizzazione della batteria
 - **Samsung Workaround** → deve essere **abilitato** sui telefoni Samsung
 - **Uso eccessivo Wakelocks** → abilitalo solo se il telefono continua a sospendere xDrip
+
+> ℹ️ **Nota**: Dalla versione `2026.07.12` l'opzione **Eseguire Collector in primo piano** non esiste più: xDrip gira sempre in primo piano e mostra una notifica fissa, così Android non lo chiude. Se la vedi ancora, hai una versione più vecchia: lasciala **abilitata**.
 
 Se usi uno smartwatch Android Wear, verifica le stesse impostazioni anche per l'app sull'orologio.
 
